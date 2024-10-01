@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Crates from NCR __________-->
+
+    <!-- Food Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Food_Crate</defName>
+        <label>NCR Food Supply Crate</label>
+        <description>A crate of food from the New California Republic, standard issue.</description>
+        <graphicData>
+            <texPath>Things/Item/NCR_Crates/NCR_Food_Crate/FCP_NCR_Food_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.25</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>5</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Food_Blamco_Original_Flavor</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Blamco_Extra_Cheezy_Flavor</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Cram</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Cram_Low_Sodium</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Dandy_Boy_Apples</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Dandy_Boy_Caramel_Apples</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes_Buzzbite_Flavor</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Gum_Drops</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Gum_Drops_Anchorage_Arctic_Flavor</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Insta_Mash</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Insta_Mash_And_Bacon</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Pork_N_Beans</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Pork_N_Beans_Hot_N_Spicy_Flavor</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Potato_Crisps</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Potato_Crisps_Lightly_Salted</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Salisbury_Steak</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_BIG_BOY_Salisbury_Steak</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Yum_Yum_Deviled_Eggs</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Food_Yum_Yum_Deviled_Eggs_Sour_Cream_Flavor</thingDef>
+                        <countRange>0~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+        </comps>
+    </ThingDef>
+
+    <!--_____ Weapon Crates _____-->
+
+    <!-- Army Weapon Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Weapon_Army_Crate</defName>
+        <label>NCR Weapon Supply Crate</label>
+        <description>A crate of weapons from the New California Republic, standard issue.</description>
+        <graphicData>
+            <texPath>Things/Item/NCR_Crates/NCR_Weapon_Crate/FCP_NCR_Weapon_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.45</drawSize>
+        </graphicData>
+        <size>(2,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>5</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Gun_Service_Rifle</thingDef>
+                        <countRange>1~4</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Gun_NCR_Hunting_Rifle</thingDef>
+                        <countRange>0~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+        </comps>
+    </ThingDef>
+
+    <!-- Ranger Weapon Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Weapon_Ranger_Crate</defName>
+        <label>NCR Weapon Supply Crate</label>
+        <description>A crate of weapons from the New California Republic, standard issue.</description>
+        <graphicData>
+            <texPath>Things/Item/NCR_Crates/NCR_Weapon_Crate/FCP_NCR_Weapon_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.45</drawSize>
+        </graphicData>
+        <size>(2,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>3</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Gun_Ranger_Sequoia</thingDef>
+                        <countRange>1~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Gun_Anti_Material_Rifle</thingDef>
+                        <countRange>0~1</countRange>
+                        <weight>1</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+        </comps>
+    </ThingDef>
+
+    <!--_____ Uniform Crates _____-->
+
+    <!-- Army Uniform Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Uniform_Army_Crate</defName>
+        <label>NCR Uniform Supply Crate</label>
+        <description>A crate of uniforms from the New California Republic, standard issue.</description>
+        <graphicData>
+            <texPath>Things/Item/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <size>(2,2)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>6</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Trooper_Mantle_Armor</thingDef>
+                        <countRange>-1~1</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Trooper_Vest</thingDef>
+                        <countRange>-1~5</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</thingDef>
+                        <countRange>-1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Trooper_Armor</thingDef>
+                        <countRange>-1~3</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Beret</thingDef>
+                        <countRange>-1~1</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Face_Wrap_Goggles_Helmet</thingDef>
+                        <countRange>-1~1</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Face_Wrap_Helmet</thingDef>
+                        <countRange>-1~1</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Goggles_Helmet</thingDef>
+                        <countRange>-1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Trooper_Helmet</thingDef>
+                        <countRange>-1~4</countRange>
+                        <weight>1</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+        </comps>
+    </ThingDef>
+
+    <!-- Ranger Uniform Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Uniform_Ranger_Crate</defName>
+        <label>NCR Ranger Uniform Supply Crate</label>
+        <description>A crate of uniforms from the New California Republic, standard issue.</description>
+        <graphicData>
+            <texPath>Things/Item/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <size>(2,2)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>4</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Hat_Grey</thingDef>
+                        <countRange>-1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Hat_Brown</thingDef>
+                        <countRange>-1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Hat_Tan</thingDef>
+                        <countRange>-1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Casual</thingDef>
+                        <countRange>-1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Red_Scarf</thingDef>
+                        <countRange>-1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Vest</thingDef>
+                        <countRange>-1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+        </comps>
+    </ThingDef>
+
+    <!-- Ranger Patrol Armor Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Uniform_Ranger_Patrol_Armor_Crate</defName>
+        <label>NCR Patrol Armor Supply Crate</label>
+        <description>A crate of uniforms from the New California Republic, standard issue.</description>
+        <graphicData>
+            <texPath>Things/Item/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <size>(2,2)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>3</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Patrol_Armor</thingDef>
+                        <countRange>1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Hat_Patrol</thingDef>
+                        <countRange>1~2</countRange>
+                        <weight>1</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+        </comps>
+    </ThingDef>
+
+    <!-- Ranger Veteran Armor Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Uniform_Ranger_Veteran_Armor_Crate</defName>
+        <label>NCR Veteran Armor Supply Crate</label>
+        <description>A crate of uniforms from the New California Republic, standard issue.</description>
+        <graphicData>
+            <texPath>Things/Item/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <size>(2,2)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>2</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Veteran_Ranger_Helmet</thingDef>
+                        <countRange>1</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Veteran_Uniform</thingDef>
+                        <countRange>1</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Veteran_Armor</thingDef>
+                        <countRange>1</countRange>
+                        <weight>1</weight>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_NCR_Ranger_Veteran_Duster</thingDef>
+                        <countRange>-1~1</countRange>
+                        <weight>1</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+        </comps>
+    </ThingDef>
+
+</Defs>

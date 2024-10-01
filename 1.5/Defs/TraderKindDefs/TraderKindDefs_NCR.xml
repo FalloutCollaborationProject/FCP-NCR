@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Traders __________-->
+
+    <!--_____ NCR Traders _____-->
+
+    <!-- Brahmin Herder -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_Brahmin_Herder</defName>
+        <label>Brahmin Herder</label>
+        <stockGenerators>
+
+            <!-- Animals -->
+
+            <li Class="StockGenerator_Animals">
+                <tradeTagsSell>
+                    <li>FCP_Animal_Farm_Brahmin</li>
+                </tradeTagsSell>
+                <tradeTagsBuy>
+                    <li>AnimalUncommon</li>
+                    <li>AnimalExotic</li>
+                </tradeTagsBuy>
+                <countRange>1~7</countRange>
+                <createMatingPair>
+                    <li>FCP_Animal_Farm_Brahmin</li>
+                </createMatingPair>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>750~1200</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!-- NCRCF Prisoner Exchange -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_NCRCF_Prisoner_Exchange</defName>
+        <label>NCRCF Prisoner Exchange</label>
+        <category>Slaver</category>
+        <stockGenerators>
+
+            <!-- Slaves -->
+
+            <li Class="StockGenerator_Slaves">
+                <respectPopulationIntent>false</respectPopulationIntent>
+                <countRange>1~5</countRange>
+                <slaveKindDef>FCP_NCR_NCRCF_Inmate</slaveKindDef>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>750~1200</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!-- Pre-War Goods Trader -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_Pre_War_Goods_Trader</defName>
+        <label>Pre-War Goods Trader</label>
+        <stockGenerators>
+
+            <!--___ Pre-War Goods ___-->
+
+            <!-- Pre-War Meals -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Neutroamine</thingDef>
+                <countRange>70~160</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>750~1200</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>  

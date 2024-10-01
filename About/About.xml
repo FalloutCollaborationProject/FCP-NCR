@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>Rick.FCP.NCR</packageId>
+    <author>Rick</author>
+    <name>FCP - New California Republic</name>
+    <description>The Fallout Collaboration Project Presents: New California Republic, a Faction and Armory Mod.</description>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+		<li>
+			<packageId>Rick.FCP.Core.Tools</packageId>
+			<displayName>FCP - Tools</displayName>
+		</li>
+	</modDependencies>
+
+</ModMetaData>

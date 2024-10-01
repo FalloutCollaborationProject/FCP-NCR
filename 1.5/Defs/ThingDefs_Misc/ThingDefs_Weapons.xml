@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ NCR Faction Weapons __________-->
+
+    <!--_____ Assault Rifles _____-->
+
+    <!-- Service Rifle -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Service_Rifle</defName>
+        <label>Service Rifle</label>
+        <description>A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy.</description>
+        <graphicData>
+            <texPath>Weapons/Assault_Rifle/FCP_Service_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_NCR_Standard_Trooper_Corps</li>
+                <li>FCP_Tools_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>35000</WorkToMake>
+            <Mass>3.2</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.65</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.65</AccuracyLong>
+            <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_556mm</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>27.9</range>
+                <burstShotCount>2</burstShotCount>
+                <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!--_____ Revolvers _____-->
+
+    <!-- Ranger Sequoia -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Ranger_Sequoia</defName>
+        <label>Ranger Sequoia</label>
+        <description>A rare, large caliber double-action revolver gifted to NCR rangers after 20 years of service. It’s a beautifully made weapon and decorated with NCR symbols and quotes. However, it’s by no means just for show. In fact, it is one of the most powerful handguns in the whole wasteland and a testament for the skills of the Republic’s gun smiths.</description>
+        <graphicData>
+            <texPath>Weapons/Revolver/FCP_Ranger_Sequoia</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.4</uiIconScale>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_NCR_Ranger_Elite_Corps</li>
+                <li>FCP_Tools_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>3000</MarketValue>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>2.0</Mass>
+            <AccuracyTouch>0.70</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.80</AccuracyMedium>
+            <AccuracyLong>0.75</AccuracyLong>
+            <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_NCR_Ranger_Sequoia</li>
+        </weaponTags>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Ranger_Sequoia</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>30</range>
+                <soundCast>Shot_Revolver</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!--_____ Sniper Rifles _____-->
+
+    <!-- Anti-Material Rifle -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Anti_Material_Rifle</defName>
+        <label>Anti-Material Rifle</label>
+        <description>The anti-materiel rifle is a high-calibre bolt-action precision rifle, originally intended for the use against military equipment. Naturally, it can be, and is, used against living targets. There are relatively few anti-materiel rifles in circulation in the wasteland, most of them in the hands of elite forces of larger factions or high-end mercenaries. As a pure sniper rifle it is very unwieldy and cannot be used effectively in close combat. Over long distances, however, its accuracy and potency are unparalleled, making it a truly fearsome weapon when used by an experienced shooter.</description>
+        <graphicData>
+            <texPath>Weapons/Sniper_Rifle/FCP_Anti_Material_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2.0</drawSize>
+        </graphicData>
+        <equippedDistanceOffset >0.5</equippedDistanceOffset >
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Tools_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>6000</MarketValue>
+            <WorkToMake>150000</WorkToMake>
+            <Mass>8.5</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.65</AccuracyShort>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.95</AccuracyLong>
+            <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_NCR_Anti_Material_Rifle</li>
+        </weaponTags>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        <costList>
+            <Plasteel>75</Plasteel>
+            <ComponentSpacer>5</ComponentSpacer>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_AMR</defaultProjectile>
+                <warmupTime>2.8</warmupTime>
+                <range>58.9</range>
+                <soundCast>Shot_BoltActionRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- Hunting Rifle -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_NCR_Hunting_Rifle</defName>
+        <label>NCR Standard Hunting Rifle</label>
+        <description>A powerful bolt-action rifle with an attached iron sight intended for hunting big game. It is durable, accurate and easy to use and maintain weapon and thus a popular choice not only for hunters, but for many snipers in the NCR, Legion, and other groups. This particular design is boasted by the NCR recon snipers, deaturing the two headed bear insignia.</description>
+        <graphicData>
+            <texPath>Weapons/Sniper_Rifle/FCP_Hunting_Rifle_Scope</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <weaponClasses>
+            <li>LongShots</li>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Tools_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>55000</WorkToMake>
+            <Mass>4</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.86</AccuracyMedium>
+            <AccuracyLong>0.90</AccuracyLong>
+            <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_NCR_Hunting_Rifle</li>
+        </weaponTags>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_SniperRifle</defaultProjectile>
+                <warmupTime>3.5</warmupTime>
+                <range>47.9</range>
+                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>
