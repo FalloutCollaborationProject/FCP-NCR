@@ -312,6 +312,11 @@
             <li Class="FCP.Currencies.CurrencyReplacement">
                 <currency>FCP_Currency_NCR_Dollar</currency>
             </li>
+            <li Class="FCP.Factions.PermanentlyHostileToExtension">
+                <hostileFactionDefs>
+                    <li MayRequire="Rick.FCP.Legion">FCP_Caesars_Legion</li>
+                </hostileFactionDefs>
+            </li>
         </modExtensions>
     </FactionDef>
 
