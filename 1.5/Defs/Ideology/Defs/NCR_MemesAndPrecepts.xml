@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <MemeDef>
+        <defName>FCP_Meme_OldWorldBlues</defName>
+        <label>Old World Blues</label>
+        <description>TBD</description>
+        <iconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li><li>Cannibalism_Abhorrent</li></li>
+            <li><li>NutrientPasteEating_Disgusting</li></li>
+            <li><li>Corpses_Ugly</li></li>
+            <li><li>InsectMeatEating_Despised_Classic</li></li>
+            <li><li>Lovin_Free</li></li>
+            <li><li>MarriageName_UsuallyMans</li></li>
+            <li><li>SpouseCount_Male_MaxOne</li></li>
+            <li><li>SpouseCount_Female_MaxOne</li></li>
+            <li><li>Charity_Worthwhile</li></li>
+            <li><li>DrugUse_MedicalOrSocial</li></li>
+            <li><li>FungusEating_Despised</li></li>
+            <li><li>IdeoDiversity_Standard</li></li>
+            <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
+            <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
+            <li><li>OrganUse_HorribleSellOK</li></li>
+            <li><li>Execution_HorribleIfInnocent</li></li>
+            <li><li>Research_Normal</li></li>
+            <li><li>Skullspike_Disapproved</li></li>
+            <li><li>Slavery_Disapproved</li></li>
+            <li><li>Blinding_Horrible</li></li>
+            <li><li>Scarification_Horrible</li></li>
+        </requireOne>
+    </MemeDef>
+
+    <MemeDef>
+        <defName>FCP_Meme_Rangers</defName>
+        <label>Desert Rangers</label>
+        <description>TBD</description>
+        <iconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li><li>FCP_IdeoRole_Ranger</li></li>
+        </requireOne>
+    </MemeDef>
+
+  <PreceptDef ParentName="PreceptRoleMultiBase">
+    <defName>FCP_IdeoRole_Ranger</defName>
+    <label>Desert Ranger</label>
+    <description>A special ideoligious status focusing on ranged combat to the exclusion of all else. This specialized role gives increased accuracy and the ability to boost the shooting abilities of nearby allies. Holders of this role will refuse to do many kinds of non-shooting-related work.</description>
+    <iconPath>UI/Roles/SpecialistShooting</iconPath>
+    <nameMaker>NamerRoleShooter</nameMaker>
+    <roleRequirements>
+      <li Class="RoleRequirement_MinSkillAny">
+        <skills>
+          <Shooting>12</Shooting>
+        </skills>
+      </li>
+    </roleRequirements>
+    <roleRequiredWorkTags>
+      <li>Shooting</li>
+      <li>Violent</li>
+    </roleRequiredWorkTags>
+    <roleTags><li>ShootingSpecialist</li></roleTags>
+    <requiredMemes>
+      <li>FCP_Meme_Rangers</li>
+    </requiredMemes>
+    <roleEffects>
+      <!--<li Class="RoleEffect_NoMeleeWeapons" />-->
+      <li Class="RoleEffect_PawnStatOffset">
+        <statDef>ShootingAccuracyPawn</statDef>
+        <modifier>7</modifier>
+      </li>
+      <li Class="RoleEffect_PawnStatOffset">
+        <statDef>AimingDelayFactor</statDef>
+        <modifier>-0.5</modifier>
+      </li>
+    </roleEffects>
+    <grantedAbilities>
+      <li>MarksmanCommand</li>
+    </grantedAbilities>
+    <displayOrderInImpact>2</displayOrderInImpact>
+    <roleDisabledWorkTags>
+      <li>PlantWork</li>
+      <li>Mining</li>
+      <li>Cleaning</li>
+    </roleDisabledWorkTags>
+    <roleApparelRequirements>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>Apparel_Tailcap</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+    </roleApparelRequirements>
+  </PreceptDef>
+
+</Defs>

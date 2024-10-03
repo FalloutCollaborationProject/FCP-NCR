@@ -35,22 +35,24 @@
         <allowedCultures>
             <li>FCP_NCR_Californian</li>
         </allowedCultures>
-        <disallowedPrecepts>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-        </disallowedPrecepts>
-        <requiredMemes>
+
+        <!--__________ Ideology __________-->
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>NCR Republicanism</ideoName>
+        <ideoDescription>Founded on principles of freedom and liberty, the Republic has been putting these into practice over the years. The most important achievement was the banning of slavery in NCR territories, thanks to concerted efforts of influential politicians and the Rangers.</ideoDescription>
+        <styles>
+            <!--<li MayRequire="Ludeon.RimWorld.Ideology">Morbid</li>-->
+        </styles>
+        <forcedMemes>
+            <!-- Structure -->
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-        </requiredMemes>
-        <disallowedMemes>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-        </disallowedMemes>
+            <!-- Memes -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_OldWorldBlues</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Rangers</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+
         <xenotypeSet>
             <xenotypeChances>
                 <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
@@ -318,6 +320,31 @@
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.Legion">FCP_Caesars_Legion</li>
                 </hostileFactionDefs>
+            </li>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Ideology.FixedIdeoExtension">
+                <ideoIconDef>FCP_Icon_NCR</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>Citizen</memberName>
+                <adjective>NCR Republican</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>IdeoRole_Moralist</preceptDef>
+                        <newName>Representative</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_Ranger</preceptDef>
+                        <newName>Ranger Sharpshooter</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                </roleOverrides>
             </li>
         </modExtensions>
     </FactionDef>
