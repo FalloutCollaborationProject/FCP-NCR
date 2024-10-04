@@ -37,6 +37,7 @@
         </allowedCultures>
 
         <!--__________ Ideology __________-->
+
         <fixedIdeo>true</fixedIdeo>
         <ideoName>NCR Republicanism</ideoName>
         <ideoDescription>Founded on principles of freedom and liberty, the Republic has been putting these into practice over the years. The most important achievement was the banning of slavery in NCR territories, thanks to concerted efforts of influential politicians and the Rangers.</ideoDescription>
@@ -76,6 +77,7 @@
                     <li>FCP_NCRCF_Inmate</li>
                     <li>FCP_NCR_Recon_Trooper</li>
                     <li>FCP_NCR_Child</li>
+                    <li>FCP_Wastelander_Child</li>
                 </categories>
                 <commonality>1</commonality>
             </li>
@@ -269,7 +271,6 @@
                 </carriers>
                 <guards>
                     <FCP_NCR_Citizen>5</FCP_NCR_Citizen>
-                    <FCP_NCR_Ranger_Volunteer>1</FCP_NCR_Ranger_Volunteer>
                     <FCP_NCR_President>1</FCP_NCR_President>
                 </guards>
             </li>

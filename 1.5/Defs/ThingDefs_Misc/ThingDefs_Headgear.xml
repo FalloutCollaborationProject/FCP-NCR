@@ -5,6 +5,56 @@
 
     <!--_____ NCR Army _____-->
 
+    <!--___ NCRCF Guards ___-->
+
+    <!-- NCRCF Guard Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase" Name="FCP_NCR_Trooper_Helmet">
+        <defName>FCP_Apparel_NCRCF_Guard_Helmet</defName>
+        <label>NCRCF Guard Helmet</label>
+        <description>A riot helmet once worn by the guards of the NCRCF. Like many other parts of their gear, it has been apprehended by the Powder Gangers. It offers good protection, especially against blunt damage.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Helmet/FCP_NCRCF_Guard_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Cloth>25</Cloth>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Helmet/FCP_NCRCF_Guard_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_NCRCF_Guard</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
     <!--___ Troopers ___-->
 
     <!-- NCR Trooper Helmet -->
