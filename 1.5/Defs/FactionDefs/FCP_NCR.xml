@@ -112,11 +112,7 @@
                 <!-- Normal fights, standard troopers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
-                    <li>ImmediateAttackSmart</li>
-                    <li>ImmediateAttack</li>
-                    <li>StageThenAttack</li>
                     <li>EmergeFromWater</li>
-                    <li>Siege</li>
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Trooper>15</FCP_NCR_Trooper>
@@ -131,11 +127,7 @@
                 <!-- Distance fights, scout recon troopers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
-                    <li>ImmediateAttackSmart</li>
-                    <li>ImmediateAttack</li>
-                    <li>StageThenAttack</li>
                     <li>EmergeFromWater</li>
-                    <li>Siege</li>
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Scout_Recon>6</FCP_NCR_Scout_Recon>
@@ -150,11 +142,7 @@
                 <!-- Normal fights, heavy troopers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
-                    <li>ImmediateAttackSmart</li>
-                    <li>ImmediateAttack</li>
-                    <li>StageThenAttack</li>
                     <li>EmergeFromWater</li>
-                    <li>Siege</li>
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Trooper_Heavy>5</FCP_NCR_Trooper_Heavy>
@@ -168,11 +156,7 @@
                 <!-- Normal fights, light rangers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
-                    <li>ImmediateAttackSmart</li>
-                    <li>ImmediateAttack</li>
-                    <li>StageThenAttack</li>
                     <li>EmergeFromWater</li>
-                    <li>Siege</li>
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
@@ -187,11 +171,7 @@
                 <!-- Normal fights, patrol rangers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
-                    <li>ImmediateAttackSmart</li>
-                    <li>ImmediateAttack</li>
-                    <li>StageThenAttack</li>
                     <li>EmergeFromWater</li>
-                    <li>Siege</li>
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
@@ -206,11 +186,7 @@
                 <!-- Normal fights, veteran rangers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
-                    <li>ImmediateAttackSmart</li>
-                    <li>ImmediateAttack</li>
-                    <li>StageThenAttack</li>
                     <li>EmergeFromWater</li>
-                    <li>Siege</li>
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Trooper>2</FCP_NCR_Trooper>
@@ -320,6 +296,15 @@
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.Legion">FCP_Caesars_Legion</li>
                 </hostileFactionDefs>
+            </li>
+            <!-- Make them unable to use drop pods -->
+            <li Class="FCP.Factions.BannedArrivalModesExtension">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
             </li>
             <!-- Ideology stuff -->
             <li Class="FCP.Ideology.FixedIdeoExtension">
