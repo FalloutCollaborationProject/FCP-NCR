@@ -136,11 +136,12 @@
         <combatPower>35</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
-        <apparelMoney>400~600</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-        <apparelTags>
-            <li>FCP_NCRCF_Guard</li>
-        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_MP_Uniform</li>
+            <li>FCP_Apparel_NCRCF_Guard_Vest</li>
+            <li>FCP_Apparel_NCRCF_Guard_Helmet</li>
+        </apparelRequired>
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
             <li>Poor</li>
@@ -174,7 +175,6 @@
         <trader>true</trader>
         <combatPower>35</combatPower>
         <itemQuality>Poor</itemQuality>
-        <apparelMoney>400~600</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelRequired>
             <li>FCP_Apparel_NCR_Trooper_MP_Uniform</li>
@@ -196,20 +196,19 @@
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_NCR_Trooper</li>
-                    <li>FCP_NCR_Citizen</li>
-                    <li>FCP_Wastelander</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
+    <!-- Crimson Caravan Trader -->
+    
     <PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_NCR_Crimson_Caravan_Trader</defName>
         <label>NCR Crimson Caravan Trader</label>
         <trader>true</trader>
         <combatPower>30</combatPower>
-        <apparelMoney>400~600</apparelMoney>
         <apparelRequired>
             <li>FCP_Apparel_Caravaneer_Outfit</li>
         </apparelRequired>
@@ -223,6 +222,7 @@
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_NCR_Caravaneer</li>
+                    <li>FCP_Wasteland_Trader</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>

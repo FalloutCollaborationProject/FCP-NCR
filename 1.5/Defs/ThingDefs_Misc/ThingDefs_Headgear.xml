@@ -9,7 +9,7 @@
 
     <!-- NCRCF Guard Helmet -->
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase" Name="FCP_NCR_Trooper_Helmet">
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_NCRCF_Guard_Helmet</defName>
         <label>NCRCF Guard Helmet</label>
         <description>A riot helmet once worn by the guards of the NCRCF. Like many other parts of their gear, it has been apprehended by the Powder Gangers. It offers good protection, especially against blunt damage.</description>

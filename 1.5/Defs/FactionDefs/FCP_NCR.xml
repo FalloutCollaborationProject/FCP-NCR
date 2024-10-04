@@ -140,7 +140,7 @@
                     <li>Siege</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_NCR_Scout_Recon>6</FCP_NCR_Scout_Recon>
+                    <FCP_NCR_Scout_Recon>8</FCP_NCR_Scout_Recon>
                     <FCP_NCR_Officer>1</FCP_NCR_Officer>
                     <FCP_NCR_President>1</FCP_NCR_President>
                 </options>
@@ -159,7 +159,7 @@
                     <li>Siege</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_NCR_Trooper_Heavy>5</FCP_NCR_Trooper_Heavy>
+                    <FCP_NCR_Trooper_Heavy>10</FCP_NCR_Trooper_Heavy>
                     <FCP_NCR_President>1</FCP_NCR_President>
                 </options>
             </li>
@@ -178,7 +178,7 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
-                    <FCP_NCR_Ranger_Volunteer>3</FCP_NCR_Ranger_Volunteer>
+                    <FCP_NCR_Ranger_Volunteer>8</FCP_NCR_Ranger_Volunteer>
                     <FCP_NCR_President>1</FCP_NCR_President>
                 </options>
             </li>
@@ -197,7 +197,7 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
-                    <FCP_NCR_Ranger_Patrolman>5</FCP_NCR_Ranger_Patrolman>
+                    <FCP_NCR_Ranger_Patrolman>8</FCP_NCR_Ranger_Patrolman>
                     <FCP_NCR_President>1</FCP_NCR_President>
                 </options>
             </li>
@@ -216,7 +216,7 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_NCR_Trooper>2</FCP_NCR_Trooper>
-                    <FCP_NCR_Ranger_Veteran>3</FCP_NCR_Ranger_Veteran>
+                    <FCP_NCR_Ranger_Veteran>8</FCP_NCR_Ranger_Veteran>
                     <FCP_NCR_President>1</FCP_NCR_President>
                 </options>
             </li>
@@ -271,7 +271,6 @@
                 </carriers>
                 <guards>
                     <FCP_NCR_Citizen>5</FCP_NCR_Citizen>
-                    <FCP_NCR_President>1</FCP_NCR_President>
                 </guards>
             </li>
 
@@ -290,7 +289,6 @@
                 </carriers>
                 <guards>
                     <FCP_NCR_NCRCF_Guard>4</FCP_NCR_NCRCF_Guard>
-                    <FCP_NCR_President>1</FCP_NCR_President>
                 </guards>
             </li>
 

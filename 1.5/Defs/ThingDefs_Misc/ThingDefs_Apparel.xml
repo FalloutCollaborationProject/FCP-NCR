@@ -370,7 +370,6 @@
             <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_MP_Uniform/FCP_NCR_MP_Uniform</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
-                <li>Middle</li>
             </layers>
             <tags>
                 <li>FCP_NCR_MP</li>
