@@ -424,7 +424,7 @@
 
     <ThingDef ParentName="FCP_NCR_Beret">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Tan</defName>
-        <label>NCR Brown Ranger Hat</label>
+        <label>NCR Tan Ranger Hat</label>
         <description>A tan cowboy hat favoured by the desert rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
         <graphicData>
             <texPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Tan_Hat/FCP_NCR_Ranger_Tan_Hat</texPath>
@@ -479,11 +479,11 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>3000</WorkToMake>
+            <WorkToMake>3500</WorkToMake>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
-            <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.78</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
             <ArmorRating_Heat>0.42</ArmorRating_Heat>
             <Insulation_Heat>2</Insulation_Heat>
             <EquipDelay>1.5</EquipDelay>

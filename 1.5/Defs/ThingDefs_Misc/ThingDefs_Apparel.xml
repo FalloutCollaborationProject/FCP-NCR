@@ -808,9 +808,9 @@
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>8700</WorkToMake>
             <Mass>4.0</Mass>
-            <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
             <Insulation_Cold>10</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
@@ -868,9 +868,9 @@
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>8800</WorkToMake>
             <Mass>4.0</Mass>
-            <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
             <Insulation_Cold>10</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
@@ -986,9 +986,9 @@
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>8900</WorkToMake>
             <Mass>4.0</Mass>
-            <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
             <Insulation_Cold>10</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>            <!-- Better protection against the heat due to the mantle -->
             <EquipDelay>1.2</EquipDelay>
@@ -1044,10 +1044,10 @@
         </thingCategories>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>8700</WorkToMake>
+            <WorkToMake>8900</WorkToMake>
             <Mass>4.0</Mass>
-            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
             <ArmorRating_Heat>0.25</ArmorRating_Heat>
             <Insulation_Cold>12</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -1170,8 +1170,8 @@
             <MaxHitPoints>250</MaxHitPoints>
             <WorkToMake>9200</WorkToMake>
             <Mass>5.0</Mass>
-            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.44</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
             <ArmorRating_Heat>0.30</ArmorRating_Heat>
             <Insulation_Cold>5</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
@@ -1230,9 +1230,9 @@
             <MaxHitPoints>275</MaxHitPoints>
             <WorkToMake>9200</WorkToMake>
             <Mass>4.0</Mass>
-            <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.33</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
         <costList>
@@ -1284,8 +1284,8 @@
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>750</WorkToMake>
             <Mass>3.8</Mass>
-            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
             <ArmorRating_Heat>0.20</ArmorRating_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
