@@ -5,7 +5,7 @@
         <defName>FCP_CaravanArrivalTaxCollector_NCR</defName>
         <label>NCR tax collector caravan arrival</label>
         <letterLabel>NCR Tax Collectors</letterLabel>
-        <letterText>A tax collector from the NCR is approaching.\n\nThey will accept tax in gold, silver, and NCR dollars, you can also hand in prisoners and forgo any bounty in exchange. The one who gives over the tax will receive Service Points for doing their civic duty.\n\nYou can expect a tax collector to arrive roughly twice per year as long as you are not enemies with the NCR.\n\n&lt;color="#808080"&gt;"Pay Taxes"&lt;/color&gt; ~ President Kimball</letterText>
+        <letterText>A tax collector from the NCR is approaching.\n\nThey will accept tax in gold, silver, and NCR dollars, you can also hand in prisoners. The one who gives over the tax will receive Service Points for doing their civic duty.\n\nYou can expect a tax collector to arrive roughly twice per year as long as you are not enemies with the NCR.\n\n&lt;color="#808080"&gt;"Pay Taxes"&lt;/color&gt; ~ President Kimball</letterText>
         <modExtensions>
             <li Class="FCP.Factions.FactionTaxCollectorsExtension">
                 <factionDef>FCP_Faction_NCR</factionDef>
@@ -39,7 +39,7 @@
         <modExtensions>
             <!-- Just so NCR dollars show up -->
             <li Class="FCP.Currencies.CurrencyReplacement">
-                <currency>Wood</currency>
+                <currency>WoodLog</currency>
             </li>
         </modExtensions>
     </TraderKindDef>
