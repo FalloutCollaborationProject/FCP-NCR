@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <IncidentDef ParentName="FCP_CaravanArrivalTaxCollectorBase">
+        <defName>FCP_CaravanArrivalTaxCollector_NCR</defName>
+        <label>NCR tax collector caravan arrival</label>
+        <letterLabel>NCR Tax Collectors</letterLabel>
+        <letterText>A tax collector from the NCR is approaching.\n\nThey will accept tax in gold, silver, and NCR dollars, you can also hand in prisoners and forgo any bounty in exchange. The one who gives over the tax will receive Service Points for doing their civic duty.\n\nYou can expect a tax collector to arrive roughly twice per year as long as you are not enemies with the NCR.\n\n&lt;color="#808080"&gt;"Pay Taxes"&lt;/color&gt; ~ President Kimball</letterText>
+        <modExtensions>
+            <li Class="FCP.Factions.FactionTaxCollectorsExtension">
+                <factionDef>FCP_Faction_NCR</factionDef>
+                <traderKindDef>FCP_Trader_NCRTaxCollector</traderKindDef>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+    <TraderKindDef>
+        <defName>FCP_Trader_NCRTaxCollector</defName>
+        <label>NCR tax collector</label>
+        <requestable>False</requestable>
+        <commonality>1</commonality>
+        <category>TributeCollector</category>
+        <tradeCurrency>Favor</tradeCurrency>
+        <faction>FCP_Faction_NCR</faction>
+        <hideThingsNotWillingToTrade>False</hideThingsNotWillingToTrade>
+        <stockGenerators>
+            <!-- Buying -->
+            <li Class="StockGenerator_BuySlaves" />
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>Gold</thingDef>
+            </li>
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>Silver</thingDef>
+            </li>
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+            </li>
+        </stockGenerators>
+        <modExtensions>
+            <!-- Just so NCR dollars show up -->
+            <li Class="FCP.Currencies.CurrencyReplacement">
+                <currency>Wood</currency>
+            </li>
+        </modExtensions>
+    </TraderKindDef>
+
+</Defs>

@@ -268,6 +268,25 @@
                 </guards>
             </li>
 
+            <!-- Special: Tax Collector -->
+            <li>
+                <!-- Normal fights, heavy troopers -->
+                <kindDef>FCP_PawnGroupKind_TaxCollector</kindDef>
+                <traders>
+                    <FCP_NCR_Crimson_Caravan_Trader>1</FCP_NCR_Crimson_Caravan_Trader>
+                </traders>
+                <carriers>
+                    <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
+                </carriers>
+                <guards>
+                    <FCP_NCR_Trooper_Heavy>1</FCP_NCR_Trooper_Heavy>
+                    <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
+                    <FCP_NCR_Officer>1</FCP_NCR_Officer>
+                    <FCP_NCR_Ranger_Veteran>3</FCP_NCR_Ranger_Veteran>
+                    <FCP_NCR_Citizen>2</FCP_NCR_Citizen>
+                </guards>
+            </li>
+
             <!-- NCR Settlement -->
 
             <li>
