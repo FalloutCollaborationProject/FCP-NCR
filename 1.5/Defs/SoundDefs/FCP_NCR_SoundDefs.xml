@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ Ritual Sustainers __________-->
+    <SoundDef ParentName="RitualSustainerBase">
+        <defName>FCP_RitualSustainer_ILoveYouCalifornia</defName>
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Clip">
+                <clipPath>Ambience/RitualSustainers/Ritual_Sustainer_ILoveYouCalifornia</clipPath>
+              </li>
+            </grains>
+            <volumeRange>10</volumeRange>
+            <distRange>30~100</distRange>
+            <sustainAttack>5.0</sustainAttack>
+            <sustainSkipFirstAttack>False</sustainSkipFirstAttack>
+          </li>
+        </subSounds>
+      </SoundDef>
+
+</Defs>
