@@ -52,8 +52,6 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Rangers</li>
         </forcedMemes>
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
-
-
         <xenotypeSet>
             <xenotypeChances>
                 <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
@@ -269,21 +267,21 @@
             </li>
 
             <!-- Special: Tax Collector -->
+
             <li>
-                <!-- Normal fights, heavy troopers -->
+                <!-- Tax Collection -->
                 <kindDef>FCP_PawnGroupKind_TaxCollector</kindDef>
                 <traders>
-                    <FCP_NCR_Crimson_Caravan_Trader>1</FCP_NCR_Crimson_Caravan_Trader>
+                    <FCP_NCR_Ambassador>1</FCP_NCR_Ambassador>
                 </traders>
                 <carriers>
                     <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_NCR_Trooper_Heavy>1</FCP_NCR_Trooper_Heavy>
-                    <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
+                    <FCP_NCR_Trooper_Heavy>3</FCP_NCR_Trooper_Heavy>
+                    <FCP_NCR_Trooper>10</FCP_NCR_Trooper>
                     <FCP_NCR_Officer>1</FCP_NCR_Officer>
                     <FCP_NCR_Ranger_Veteran>3</FCP_NCR_Ranger_Veteran>
-                    <FCP_NCR_Citizen>2</FCP_NCR_Citizen>
                 </guards>
             </li>
 

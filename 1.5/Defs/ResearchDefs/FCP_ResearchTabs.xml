@@ -4,8 +4,8 @@
     <!--__________ FCP Research Tabs __________-->
 
     <ResearchTabDef>
-        <defName>FCP_Research</defName>
-        <label>FCP Research</label>
+        <defName>FCP_Faction_Research</defName>
+        <label>FCP Faction Research</label>
     </ResearchTabDef>
 
 </Defs>

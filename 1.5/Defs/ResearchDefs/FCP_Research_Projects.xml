@@ -18,7 +18,7 @@
         </prerequisites>
         <researchViewX>2.00</researchViewX>
         <researchViewY>0</researchViewY>
-        <tab>FCP_Research</tab>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!-- President Clothes -->
@@ -34,7 +34,7 @@
         </prerequisites>
         <researchViewX>2.00</researchViewX>
         <researchViewY>1</researchViewY>
-        <tab>FCP_Research</tab>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!--_____ NCR Army _____-->
@@ -52,7 +52,7 @@
         </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>0</researchViewY>
-        <tab>FCP_Research</tab>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!-- Trooper Variations -->
@@ -68,7 +68,7 @@
         </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>1</researchViewY>
-        <tab>FCP_Research</tab>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!-- Special Forces -->
@@ -84,7 +84,7 @@
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>1</researchViewY>
-        <tab>FCP_Research</tab>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!-- Heavy Trooper -->
@@ -100,7 +100,7 @@
         </prerequisites>
         <researchViewX>2</researchViewX>
         <researchViewY>2</researchViewY>
-        <tab>FCP_Research</tab>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!-- Ranger Corps -->
@@ -117,7 +117,7 @@
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>2</researchViewY>
-        <tab>FCP_Research</tab>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!-- Elite Ranger Corps -->
@@ -133,7 +133,7 @@
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>3</researchViewY>
-        <tab>FCP_Research</tab>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
 </Defs>
