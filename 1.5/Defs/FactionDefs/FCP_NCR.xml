@@ -42,6 +42,7 @@
         <ideoName>NCR Republicanism</ideoName>
         <ideoDescription>Founded on principles of freedom and liberty, the Republic has been putting these into practice over the years. The most important achievement was the banning of slavery in NCR territories, thanks to concerted efforts of influential politicians and the Rangers.</ideoDescription>
         <styles>
+            <li>FCP_Style_Californian</li>
             <!--<li MayRequire="Ludeon.RimWorld.Ideology">Morbid</li>-->
         </styles>
         <forcedMemes>

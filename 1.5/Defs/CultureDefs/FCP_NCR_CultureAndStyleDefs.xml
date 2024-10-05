@@ -55,4 +55,14 @@
         </styleItemTags>
     </CultureDef>
 
+    <StyleCategoryDef>
+        <defName>FCP_Style_Californian</defName>
+        <label>New Californian</label>
+        <iconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</iconPath>
+        <soundOngoingRitual>FCP_RitualSustainer_ILoveYouCalifornia</soundOngoingRitual>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles>
+        </thingDefStyles>
+      </StyleCategoryDef>
+
 </Defs>
