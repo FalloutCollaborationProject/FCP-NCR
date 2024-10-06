@@ -644,6 +644,7 @@
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
+			<li>FCP_NCR_MP_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>

@@ -324,8 +324,6 @@
                     <li>FCP_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Citizen</li>
-                    <li>FCP_Wastelander</li>
                     <li>FCP_NCR_Trooper</li>
                 </categoriesAdulthood>
             </li>
@@ -370,9 +368,7 @@
                     <li>FCP_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Citizen</li>
-                    <li>FCP_Wastelander</li>
-                    <li>FCP_NCR_Trooper</li>
+                    <li>FCP_NCR_MP_Trooper</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
