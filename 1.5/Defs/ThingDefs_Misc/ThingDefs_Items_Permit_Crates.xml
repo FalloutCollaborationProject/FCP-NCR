@@ -10,7 +10,7 @@
         <label>NCR Food Supply Crate</label>
         <description>A crate of food from the New California Republic, standard issue.</description>
         <graphicData>
-            <texPath>Things/Item/NCR_Crates/NCR_Food_Crate/FCP_NCR_Food_Crate</texPath>
+            <texPath>Things/Items/NCR_Crates/NCR_Food_Crate/FCP_NCR_Food_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.25</drawSize>
         </graphicData>
@@ -141,7 +141,7 @@
         <label>NCR Weapon Supply Crate</label>
         <description>A crate of weapons from the New California Republic, standard issue.</description>
         <graphicData>
-            <texPath>Things/Item/NCR_Crates/NCR_Weapon_Crate/FCP_NCR_Weapon_Crate</texPath>
+            <texPath>Things/Items/NCR_Crates/NCR_Weapon_Crate/FCP_NCR_Weapon_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.45</drawSize>
         </graphicData>
@@ -194,7 +194,7 @@
         <label>NCR Weapon Supply Crate</label>
         <description>A crate of weapons from the New California Republic, standard issue.</description>
         <graphicData>
-            <texPath>Things/Item/NCR_Crates/NCR_Weapon_Crate/FCP_NCR_Weapon_Crate</texPath>
+            <texPath>Things/Items/NCR_Crates/NCR_Weapon_Crate/FCP_NCR_Weapon_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.45</drawSize>
         </graphicData>
@@ -249,7 +249,7 @@
         <label>NCR Uniform Supply Crate</label>
         <description>A crate of uniforms from the New California Republic, standard issue.</description>
         <graphicData>
-            <texPath>Things/Item/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
+            <texPath>Things/Items/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
         </graphicData>
@@ -330,7 +330,7 @@
         <label>NCR Ranger Uniform Supply Crate</label>
         <description>A crate of uniforms from the New California Republic, standard issue.</description>
         <graphicData>
-            <texPath>Things/Item/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
+            <texPath>Things/Items/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
         </graphicData>
@@ -399,7 +399,7 @@
         <label>NCR Patrol Armor Supply Crate</label>
         <description>A crate of uniforms from the New California Republic, standard issue.</description>
         <graphicData>
-            <texPath>Things/Item/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
+            <texPath>Things/Items/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
         </graphicData>
@@ -452,7 +452,7 @@
         <label>NCR Veteran Armor Supply Crate</label>
         <description>A crate of uniforms from the New California Republic, standard issue.</description>
         <graphicData>
-            <texPath>Things/Item/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
+            <texPath>Things/Items/NCR_Crates/NCR_Uniform_Crate/FCP_NCR_Uniform_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
         </graphicData>
