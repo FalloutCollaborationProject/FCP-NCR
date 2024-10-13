@@ -4,9 +4,9 @@
     <CultureDef>
         <defName>FCP_NCR_Californian</defName>
         <label>New Californian</label>
-        <description>Description</description>
-        <pawnNameMaker>NamerPersonCorunan</pawnNameMaker>
-        <pawnNameMakerFemale>NamerPersonCorunan</pawnNameMakerFemale>
+        <description>Culture of those in the New California Republic.</description>
+        <pawnNameMaker>FCP_Western_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>FCP_Western_Namer_Female</pawnNameMakerFemale>
         <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
         <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
         <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>

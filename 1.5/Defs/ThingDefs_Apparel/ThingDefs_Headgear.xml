@@ -488,6 +488,9 @@
             <Insulation_Heat>2</Insulation_Heat>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
+        <equippedStatOffsets>
+            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.90</ToxicEnvironmentResistance>
+        </equippedStatOffsets>
         <costList>
             <Steel>50</Steel>
         </costList>
@@ -504,6 +507,50 @@
             </tags>
             <defaultOutfitTags>
                 <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!--_____ Uniques _____-->
+
+    <!-- Ranger Ricks' Helmet -->
+
+    <ThingDef ParentName="HatBase">
+        <defName>FCP_Apparel_Ranger_Ricks_Helmet</defName>
+        <label>Ranger Ricks' Helmet</label>
+        <description>An enclosed military helmet with built-in low light optics and a gas mask worn by NCR Rangers. It offers better protection in comparison to the Trooper helmet but is significantly rarer. This version seems to have the enhanced low vis optics added in as well as a paint job. Theres a name written on the standard NCR item tag "Rick" as well as the words "FORGIVE ME MASHED" painted on the front of the helmet. Makes you wonder what happend to this Mashed person...</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Apparel/Custom/Ranger_Rick/Helmet/FCP_Ranger_Rick_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2000</MarketValue>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1.0</Mass>
+            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1.0</ToxicEnvironmentResistance>
+        </equippedStatOffsets>
+        <smeltable>false</smeltable>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Custom/Ranger_Rick/Helmet/FCP_Ranger_Rick_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Ranger_Rick</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Ranger_Rick</li>
             </defaultOutfitTags>
         </apparel>
     </ThingDef>
