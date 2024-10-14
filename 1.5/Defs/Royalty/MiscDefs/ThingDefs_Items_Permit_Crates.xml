@@ -179,7 +179,7 @@
                     </li>
                     <li>
                         <thingDef>FCP_Gun_NCR_Hunting_Rifle</thingDef>
-                        <countRange>0~2</countRange>
+                        <countRange>1~2</countRange>
                     </li>
                 </weightedDrops>
             </li>

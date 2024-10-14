@@ -31,7 +31,7 @@
             <StyleDominance>50</StyleDominance>
         </statBases>
         <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-        <interactionCellOffset>(0,0, -2)</interactionCellOffset>
+        <interactionCellOffset>(0,0, -3)</interactionCellOffset>
         <costList>
             <BlocksMarble>800</BlocksMarble>
         </costList>

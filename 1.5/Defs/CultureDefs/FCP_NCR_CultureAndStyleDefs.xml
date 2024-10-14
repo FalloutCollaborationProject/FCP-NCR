@@ -2,7 +2,7 @@
 <Defs>
 
     <CultureDef>
-        <defName>FCP_NCR_Californian</defName>
+        <defName>FCP_Culture_NCR_Californian</defName>
         <label>New Californian</label>
         <description>Culture of those in the New California Republic.</description>
         <pawnNameMaker>FCP_Western_Namer_Male</pawnNameMaker>

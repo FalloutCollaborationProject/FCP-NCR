@@ -33,7 +33,7 @@
         <fixedName>New California Republic</fixedName>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <allowedCultures>
-            <li>FCP_NCR_Californian</li>
+            <li>FCP_Culture_NCR_Californian</li>
         </allowedCultures>
 
         <!--__________ Ideology __________-->
@@ -82,7 +82,7 @@
             </li>
         </backstoryFilters>
 
-        <!--__________ Kinds __________-->
+        <!--__________ Kind __________-->
 
         <caravanTraderKinds>
             <!-- <li>FCP_Caravan_Pre_War_Goods_Trader</li> -->
