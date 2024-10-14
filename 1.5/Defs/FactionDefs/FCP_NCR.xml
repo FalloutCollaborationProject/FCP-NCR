@@ -31,7 +31,7 @@
         <factionIconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</factionIconPath>
         <techLevel>Industrial</techLevel>
         <fixedName>New California Republic</fixedName>
-        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <settlementNameMaker>FCP_Namer_Settlement_NCR</settlementNameMaker>
         <allowedCultures>
             <li>FCP_Culture_NCR_Californian</li>
         </allowedCultures>

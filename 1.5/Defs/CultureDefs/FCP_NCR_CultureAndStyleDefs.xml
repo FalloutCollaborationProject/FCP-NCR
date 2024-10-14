@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!--__________ Cultures __________-->
+
+    <!--_____ NCR _____-->
+
     <CultureDef>
         <defName>FCP_Culture_NCR_Californian</defName>
         <label>New Californian</label>
