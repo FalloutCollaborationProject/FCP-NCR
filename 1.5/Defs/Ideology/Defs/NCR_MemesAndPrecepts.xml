@@ -37,6 +37,13 @@
                     <li><li>Blinding_Horrible</li></li>
                     <li><li>Scarification_Horrible</li></li>
         </requireOne>
+        <requiredRituals>
+            <li>
+                <precept>LeaderSpeech</precept>
+                <pattern>LeaderSpeech</pattern>
+                <building>FCP_NCR_Building_Boulder_City_Memorial</building>
+            </li>
+        </requiredRituals>
     </MemeDef>
 
     <!-- Desert Rangers -->

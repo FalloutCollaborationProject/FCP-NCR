@@ -81,6 +81,9 @@
                 <commonality>1</commonality>
             </li>
         </backstoryFilters>
+
+        <!--__________ Kinds __________-->
+
         <caravanTraderKinds>
             <!-- <li>FCP_Caravan_Pre_War_Goods_Trader</li> -->
             <!-- <li>FCP_Caravan_Gun_Runners</li> -->
