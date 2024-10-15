@@ -9,10 +9,13 @@
         <li>1.5</li>
     </supportedVersions>
     <modDependencies>
-		<li>
-			<packageId>Rick.FCP.Core.Tools</packageId>
-			<displayName>FCP - Tools</displayName>
-		</li>
-	</modDependencies>
+        <li>
+            <packageId>Rick.FCP.Core.Tools</packageId>
+            <displayName>FCP - Tools</displayName>
+        </li>
+    </modDependencies>
+    <LoadAfter>
+        <li>Rick.FCP.Core.Tools</li>
+    </LoadAfter>
 
 </ModMetaData>
