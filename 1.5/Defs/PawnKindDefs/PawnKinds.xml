@@ -105,7 +105,7 @@
             </li>
         </backstoryFiltersOverride>
         <modExtensions>
-            <li Class=" FCP.Core.PawnKindProperties">
+            <li Class=" FCP.Core.ModExtension_PawnKindProperties">
                 <purchasableFromTrader>True</purchasableFromTrader>
             </li>
         </modExtensions>

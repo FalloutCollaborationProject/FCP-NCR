@@ -327,7 +327,7 @@
                 </arrivalModes>
             </li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Ideology.FixedIdeoExtension">
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_NCR</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Citizen</memberName>
