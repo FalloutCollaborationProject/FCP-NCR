@@ -14,8 +14,8 @@
             <displayName>FCP - Tools</displayName>
         </li>
     </modDependencies>
-    <LoadAfter>
+    <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
-    </LoadAfter>
+    </loadAfter>
 
 </ModMetaData>
