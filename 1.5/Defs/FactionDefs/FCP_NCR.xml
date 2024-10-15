@@ -314,7 +314,7 @@
             <!-- Make them hostile to the legion -->
             <li Class="FCP.Factions.PermanentlyHostileToExtension">
                 <hostileFactionDefs>
-                    <li MayRequire="Rick.FCP.Legion">FCP_Caesars_Legion</li>
+                    <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
