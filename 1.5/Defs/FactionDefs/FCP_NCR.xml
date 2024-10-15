@@ -217,7 +217,7 @@
 
             <!-- Pre-War Goods Trader -->
 
-            <!-- <li Class="FCP.Factions.GroupMakerWithTraderKind">
+            <!-- <li Class="FCP.Core.GroupMakerWithTraderKind">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
                     <li>FCP_Caravan_Pre_War_Goods_Trader</li>
@@ -236,7 +236,7 @@
 
             <!-- Brahmin Herder -->
 
-            <li Class="FCP.Factions.GroupMakerWithTraderKind">
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
                     <li>FCP_Caravan_Brahmin_Herder</li>
@@ -254,7 +254,7 @@
 
             <!-- NCRCF Prisoner Caravan -->
 
-            <li Class="FCP.Factions.GroupMakerWithTraderKind">
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
                     <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
@@ -312,13 +312,13 @@
                 <currency>FCP_Currency_NCR_Dollar</currency>
             </li>
             <!-- Make them hostile to the legion -->
-            <li Class="FCP.Factions.PermanentlyHostileToExtension">
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Factions.BannedArrivalModesExtension">
+            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
                 <arrivalModes>
                     <li>EdgeDrop</li>
                     <li>EdgeDropGroups</li>
