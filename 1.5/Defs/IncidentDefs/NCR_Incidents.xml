@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
+    <!--__________ Incidents __________-->
+
+    <!-- California Grizzly Incident -->
+
     <IncidentDef>
         <defName>FCP_Incident_GrizzliesPass</defName>
         <label>grizzlies pass</label>
@@ -16,11 +21,12 @@
             <li Class="FCP.Core.ModExtension_AnimalPassesConfig">
                 <animalThing>Bear_Grizzly</animalThing> <!-- TODO Replace when grizzly def is done -->
                 <animalPawnKind>Bear_Grizzly</animalPawnKind> <!-- TODO Replace when grizzly def is done -->
-                <minCount>2</minCount>
+                <minCount>1</minCount>
                 <maxRangeInclusive>3~6</maxRangeInclusive>
                 <ignoreTemperature>false</ignoreTemperature>
                 <ignoreToxicFallout>true</ignoreToxicFallout>
             </li>
         </modExtensions>
     </IncidentDef>
+
 </Defs>

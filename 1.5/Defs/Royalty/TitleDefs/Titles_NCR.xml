@@ -21,7 +21,7 @@
         <label>NCR Army Private</label>
         <description>The lowest rank within the New California Republic's military. There isn't a lot of repect in this role, nor is the pay well.</description>
         <tags>
-            <li>FCP_NCR_Title</li>
+            <li>FCP_Title_NCR</li>
         </tags>
         <seniority>0</seniority>
         <favorCost>1</favorCost>
@@ -38,7 +38,7 @@
         <label>NCR Army Sergeant</label>
         <description>The first rank within the New California Republic's non commissioned officer corps. This is the first step in a professional military carrer with reaL power and responsibilities.</description>
         <tags>
-            <li>FCP_NCR_Title</li>
+            <li>FCP_Title_NCR</li>
         </tags>
         <seniority>100</seniority>
         <favorCost>6</favorCost>
@@ -56,7 +56,7 @@
         <label>NCR Army Lieutenant</label>
         <description>The first rank within the New California Republic's commissioned officer corps. This is the lowest command position with the ability to call in reinforcements and supplies much faster and with greater quality and quantity.</description>
         <tags>
-            <li>FCP_NCR_Title</li>
+            <li>FCP_Title_NCR</li>
         </tags>
         <seniority>300</seniority>
         <favorCost>10</favorCost>
@@ -85,7 +85,7 @@
         <label>NCR Army Colonel</label>
         <description>The highest rank that achievable in the New California Republic without a political ally. This is one of the highest command positions with the ability to call in reinforcements at the company level and higher including special forces.</description>
         <tags>
-            <li>FCP_NCR_Title</li>
+            <li>FCP_Title_NCR</li>
         </tags>
         <seniority>600</seniority>
         <favorCost>12</favorCost>
@@ -116,7 +116,7 @@
         <label>NCR Ranger Volunteer</label>
         <description>.</description>
         <tags>
-            <li>FCP_NCR_Title</li>
+            <li>FCP_Title_NCR</li>
         </tags>
         <seniority>650</seniority>
         <favorCost>7</favorCost>
@@ -153,7 +153,7 @@
         <label>NCR Ranger Patrolman</label>
         <description>.</description>
         <tags>
-            <li>FCP_NCR_Title</li>
+            <li>FCP_Title_NCR</li>
         </tags>
         <seniority>700</seniority>
         <favorCost>11</favorCost>
@@ -190,7 +190,7 @@
         <label>NCR Ranger Veteran</label>
         <description>.</description>
         <tags>
-            <li>FCP_NCR_Title</li>
+            <li>FCP_Title_NCR</li>
         </tags>
         <seniority>750</seniority>
         <favorCost>13</favorCost>

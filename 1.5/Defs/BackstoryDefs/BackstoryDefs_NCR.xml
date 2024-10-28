@@ -161,9 +161,8 @@
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Fat</bodyTypeGlobal>
-		<bodyTypeFemale>Fat</bodyTypeFemale>
-		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
         <possessions>
         </possessions>
 	</BackstoryDef>
@@ -212,9 +211,8 @@
 		<spawnCategories>
 			<li>FCP_NCR_Ambassador</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
         <possessions>
         </possessions>
 	</BackstoryDef>
@@ -400,9 +398,8 @@
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
         <possessions>
         </possessions>
 	</BackstoryDef>
@@ -427,9 +424,8 @@
 			<li>FCP_NCR_Citizen</li>
 			<li>FCP_Wastelander</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Fat</bodyTypeGlobal>
-		<bodyTypeFemale>Fat</bodyTypeFemale>
-		<bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
         <possessions>
         </possessions>
 	</BackstoryDef>
@@ -538,9 +534,8 @@
 			<li>FCP_NCR_Citizen</li>
 			<li>FCP_Wastelander</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
         <possessions>
         </possessions>
 	</BackstoryDef>
@@ -565,7 +560,7 @@
 			<li>FCP_NCR_Citizen</li>
 			<li>FCP_Wastelander</li>
 		</spawnCategories>
-		<bodyTypeFemale>Male</bodyTypeFemale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
         <possessions>
         </possessions>
@@ -589,8 +584,7 @@
 		<workDisables>Violent</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_NCR_Tax_Collector</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
@@ -618,9 +612,8 @@
 			<li>FCP_NCR_Citizen</li>
 			<li>FCP_Wastelander</li>
 		</spawnCategories>
-		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
-		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
         <possessions>
         </possessions>
 	</BackstoryDef>
