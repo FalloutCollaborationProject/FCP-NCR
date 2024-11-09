@@ -117,7 +117,7 @@
     <PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_NCR_NCRCF_Guard</defName>
         <label>NCRCF Guard</label>
-        <combatPower>60</combatPower>
+        <combatPower>80</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -157,7 +157,7 @@
         <defName>FCP_NCR_NCRCF_Warden</defName>
         <label>NCRCF Warden</label>
         <trader>true</trader>
-        <combatPower>65</combatPower>
+        <combatPower>90</combatPower>
         <itemQuality>Poor</itemQuality>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelRequired>

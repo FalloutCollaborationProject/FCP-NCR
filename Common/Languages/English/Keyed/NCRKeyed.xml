@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+	<!--__________ Incidents __________-->
+
 	<!-- California Grizzlies -->
-	<FCP_LetterLabel_GrizzliesPass>California grizzlies</FCP_LetterLabel_GrizzliesPass>
-	<FCP_Letter_GrizzliesPass>A large bear has come to your settlement. It has 2 large heads, massive paws and thick fur. This animal is a California grizzly bear, known from legend and extremly rare. It is the main symbol of the New California Republic. Depending on your thoughts or ideologies this is a great omen! Or a hint of death...</FCP_Letter_GrizzliesPass>
+
+	<FCP_LetterLabel_GrizzliesPass>California Grizzlies</FCP_LetterLabel_GrizzliesPass>
+	<FCP_Letter_GrizzliesPass>A large bear has come to your settlement. It has 2 heads, massive paws and thick fur. This animal is a California grizzly bear, known from legend and extremly rare. It is the main symbol of the New California Republic. Depending on your thoughts or ideologies this is a great omen! Or a hint of death...</FCP_Letter_GrizzliesPass>
+
 </LanguageData>
