@@ -8,7 +8,7 @@
     <MemeDef>
         <defName>FCP_Meme_OldWorldBlues</defName>
         <label>Old World Blues</label>
-        <description>TBD</description>
+        <description>The New California Republic (NCR) is a federal presidential republic founded in New California, comprised of five contiguous states and additional territorial holdings in Nevada and Baja California. The NCR emphasizes and strives to support a myriad of old world values, such as democracy, personal liberty, and the rule of law. It also aims to restore general order to the wasteland, the improvement and development of infrastructure and economic systems, and overarching peace between people. Similar to institutions of the old world it seeks to emulate, continued expansion has created challenges with territorial control, loyalty, and corruption that plague the Republic and serve to hinder its goals.</description>
         <iconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
@@ -46,13 +46,13 @@
         </requiredRituals>
     </MemeDef>
 
-    <!-- Desert Rangers -->
+    <!-- NCR Rangers -->
 
     <MemeDef>
         <defName>FCP_Meme_Rangers</defName>
-        <label>Desert Rangers</label>
+        <label>NCR Rangers</label>
         <description>TBD</description>
-        <iconPath>UI/Roles/FCP_Desert_Ranger</iconPath>
+        <iconPath>UI/Roles/FCP_NCR_Ranger</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -66,13 +66,13 @@
 
     <!--__________ Precepts __________-->
 
-    <!-- Desert Ranger -->
+    <!-- NCR Ranger -->
 
     <PreceptDef ParentName="PreceptRoleMultiBase">
         <defName>FCP_IdeoRole_Ranger</defName>
-        <label>Desert Ranger</label>
-        <description>.</description>
-        <iconPath>UI/Roles/FCP_Desert_Ranger</iconPath>
+        <label>NCR Ranger</label>
+        <description>The Rangers, especially the Veteran Rangers, have a fearsome reputation with friend and foe alike. In the Mojave, posters can be seen of them and some NCR troopers believe they "chew nails and spit napalm." Even men of Caesar's Legion speak of the Rangers with respect, calling them "the best the profligates have to offer."</description>
+        <iconPath>UI/Roles/FCP_NCR_Ranger</iconPath>
         <nameMaker>NamerRoleShooter</nameMaker>
         <roleRequirements>
             <li Class="RoleRequirement_MinSkillAny">

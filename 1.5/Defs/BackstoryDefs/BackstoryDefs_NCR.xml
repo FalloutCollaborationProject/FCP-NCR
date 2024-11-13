@@ -124,7 +124,7 @@
 		<identifier>FCP_NCR_Private</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Private</title>
-		<titleShort>Private</titleShort>
+		<titleShort>NCR Private</titleShort>
 		<description>Upon reaching adulthood, [PAWN_nameDef] joined the NCR armed forces and was awarded the rank of private. Despite lacking the combat experience of more senior soldiers, [PAWN_pronoun] is decent with a gun, knows how to build basic defensive structures, like barricades or sandbags and knows a thing or two about first aid.</description>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -135,6 +135,31 @@
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+	</BackstoryDef>
+
+	<!-- NCR Officer -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Officer</defName>
+		<identifier>FCP_NCR_Officer</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Officer </title>
+		<titleShort>NCR Officer</titleShort>
+		<description>Upon reaching adulthood, [PAWN_nameDef] joined the NCR armed forces and was awarded the rank of an officer due to the political appointments of his close relatives. Despite lacking the combat experience or tactical skills of more veteran and hardend officers, [PAWN_pronoun] is like by [PAWN_possessive] troops, knows how to talk to and persuade other officers and politicians, and is eager to learn.</description>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Social>6</Social>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<workDisables>Cleaning</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Officer</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
