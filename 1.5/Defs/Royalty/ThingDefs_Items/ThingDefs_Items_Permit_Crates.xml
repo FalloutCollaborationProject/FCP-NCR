@@ -6,7 +6,7 @@
     <!-- Food Crate -->
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Food_Crate</defName>
+        <defName>FCP_Item_NCR_Food_Crate</defName>
         <label>NCR Food Supply Crate</label>
         <description>A crate of food from the New California Republic, standard issue.</description>
         <graphicData>
@@ -137,7 +137,7 @@
     <!-- Army Weapon Crate -->
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Weapon_Army_Crate</defName>
+        <defName>FCP_Item_NCR_Standard_Weapon_Crate</defName>
         <label>NCR Weapon Supply Crate</label>
         <description>A crate of weapons from the New California Republic, standard issue.</description>
         <graphicData>
@@ -190,7 +190,7 @@
     <!-- Ranger Weapon Crate -->
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Weapon_Ranger_Crate</defName>
+        <defName>FCP_Item_NCR_Ranger_Weapon_Crate</defName>
         <label>NCR Weapon Supply Crate</label>
         <description>A crate of weapons from the New California Republic, standard issue.</description>
         <graphicData>
@@ -245,7 +245,7 @@
     <!-- Army Uniform Crate -->
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Uniform_Army_Crate</defName>
+        <defName>FCP_Item_NCR_Standard_Uniform_Crate</defName>
         <label>NCR Uniform Supply Crate</label>
         <description>A crate of uniforms from the New California Republic, standard issue.</description>
         <graphicData>
@@ -326,7 +326,7 @@
     <!-- Ranger Uniform Crate -->
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Uniform_Ranger_Crate</defName>
+        <defName>FCP_Item_NCR_Uniform_Ranger_Crate</defName>
         <label>NCR Ranger Uniform Supply Crate</label>
         <description>A crate of uniforms from the New California Republic, standard issue.</description>
         <graphicData>
@@ -395,7 +395,7 @@
     <!-- Ranger Patrol Armor Crate -->
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Uniform_Ranger_Patrol_Armor_Crate</defName>
+        <defName>FCP_Item_NCR_Uniform_Ranger_Patrol_Armor_Crate</defName>
         <label>NCR Patrol Armor Supply Crate</label>
         <description>A crate of uniforms from the New California Republic, standard issue.</description>
         <graphicData>
@@ -448,7 +448,7 @@
     <!-- Ranger Veteran Armor Crate -->
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Uniform_Ranger_Veteran_Armor_Crate</defName>
+        <defName>FCP_Item_NCR_Uniform_Ranger_Veteran_Armor_Crate</defName>
         <label>NCR Veteran Armor Supply Crate</label>
         <description>A crate of uniforms from the New California Republic, standard issue.</description>
         <graphicData>

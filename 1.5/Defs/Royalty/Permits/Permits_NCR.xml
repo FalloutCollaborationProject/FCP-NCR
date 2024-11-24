@@ -29,7 +29,7 @@
         <uiPosition>(0,0)</uiPosition>
         <royalAid>
             <itemsToDrop>
-                <FCP_Food_Crate>1</FCP_Food_Crate>
+                <FCP_Item_NCR_Food_Crate>1</FCP_Item_NCR_Food_Crate>
             </itemsToDrop>
             <favorCost>6</favorCost>
         </royalAid>
@@ -55,7 +55,7 @@
         <uiPosition>(0,1)</uiPosition>
         <royalAid>
             <itemsToDrop>
-                <FCP_Weapon_Army_Crate>1</FCP_Weapon_Army_Crate>
+                <FCP_Item_NCR_Standard_Weapon_Crate>1</FCP_Item_NCR_Standard_Weapon_Crate>
             </itemsToDrop>
             <favorCost>6</favorCost>
         </royalAid>
@@ -79,7 +79,7 @@
         <uiPosition>(1,1)</uiPosition>
         <royalAid>
             <itemsToDrop>
-                <FCP_Weapon_Ranger_Crate>1</FCP_Weapon_Ranger_Crate>
+                <FCP_Item_NCR_Ranger_Weapon_Crate>1</FCP_Item_NCR_Ranger_Weapon_Crate>
             </itemsToDrop>
             <favorCost>6</favorCost>
         </royalAid>
@@ -105,7 +105,7 @@
         <uiPosition>(0,2)</uiPosition>
         <royalAid>
             <itemsToDrop>
-                <FCP_Uniform_Army_Crate>1</FCP_Uniform_Army_Crate>
+                <FCP_Item_NCR_Standard_Uniform_Crate>1</FCP_Item_NCR_Standard_Uniform_Crate>
             </itemsToDrop>
             <favorCost>6</favorCost>
         </royalAid>
@@ -129,7 +129,7 @@
         <uiPosition>(1,2)</uiPosition>
         <royalAid>
             <itemsToDrop>
-                <FCP_Uniform_Ranger_Crate>1</FCP_Uniform_Ranger_Crate>
+                <FCP_Item_NCR_Uniform_Ranger_Crate>1</FCP_Item_NCR_Uniform_Ranger_Crate>
             </itemsToDrop>
             <favorCost>6</favorCost>
         </royalAid>
@@ -154,7 +154,7 @@
         <uiPosition>(2,2)</uiPosition>
         <royalAid>
             <itemsToDrop>
-                <FCP_Uniform_Ranger_Patrol_Armor_Crate>1</FCP_Uniform_Ranger_Patrol_Armor_Crate>
+                <FCP_Item_NCR_Uniform_Ranger_Patrol_Armor_Crate>1</FCP_Item_NCR_Uniform_Ranger_Patrol_Armor_Crate>
             </itemsToDrop>
             <favorCost>6</favorCost>
         </royalAid>
@@ -179,7 +179,7 @@
         <uiPosition>(3,2)</uiPosition>
         <royalAid>
             <itemsToDrop>
-                <FCP_Uniform_Ranger_Veteran_Armor_Crate>1</FCP_Uniform_Ranger_Veteran_Armor_Crate>
+                <FCP_Item_NCR_Uniform_Ranger_Veteran_Armor_Crate>1</FCP_Item_NCR_Uniform_Ranger_Veteran_Armor_Crate>
             </itemsToDrop>
             <favorCost>6</favorCost>
         </royalAid>

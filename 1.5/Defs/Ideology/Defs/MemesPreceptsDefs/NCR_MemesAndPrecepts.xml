@@ -52,7 +52,7 @@
         <defName>FCP_Meme_Rangers</defName>
         <label>NCR Rangers</label>
         <description>TBD</description>
-        <iconPath>UI/Roles/FCP_NCR_Ranger</iconPath>
+        <iconPath>Things/UI/Roles/FCP_NCR_Ranger</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -72,7 +72,7 @@
         <defName>FCP_IdeoRole_Ranger</defName>
         <label>NCR Ranger</label>
         <description>The Rangers, especially the Veteran Rangers, have a fearsome reputation with friend and foe alike. In the Mojave, posters can be seen of them and some NCR troopers believe they "chew nails and spit napalm." Even men of Caesar's Legion speak of the Rangers with respect, calling them "the best the profligates have to offer."</description>
-        <iconPath>UI/Roles/FCP_NCR_Ranger</iconPath>
+        <iconPath>Things/UI/Roles/FCP_NCR_Ranger</iconPath>
         <nameMaker>NamerRoleShooter</nameMaker>
         <roleRequirements>
             <li Class="RoleRequirement_MinSkillAny">

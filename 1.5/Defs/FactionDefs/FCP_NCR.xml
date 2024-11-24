@@ -95,7 +95,7 @@
             <li>Visitor_Outlander_Standard</li>
         </visitorTraderKinds>
         <baseTraderKinds>
-            <li>FCP_Base_NCR_Standard</li>
+            <li>Base_Outlander_Standard</li>
         </baseTraderKinds>
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
         <raidLootMaker>FCP_NCRRaidLootMaker</raidLootMaker>
@@ -358,6 +358,13 @@
                         <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
                     </li>
                 </roleOverrides>
+            </li>
+            <!-- Enlistment stuff -->
+            <li Class="FCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>FCP_Enlistment_NCR</li>
+                </enlistOptionsDefs>
+                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
         </modExtensions>
     </FactionDef>

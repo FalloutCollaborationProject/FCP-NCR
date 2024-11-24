@@ -151,7 +151,7 @@
 
     <!--___ Traders ___-->
 
-    <!-- NCRCF Guard -->
+    <!-- NCRCF Warden -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_NCR_NCRCF_Warden</defName>

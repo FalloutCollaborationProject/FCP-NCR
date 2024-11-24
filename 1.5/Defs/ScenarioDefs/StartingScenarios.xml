@@ -78,17 +78,17 @@
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Food_Crate</thingDef>
+                    <thingDef>FCP_Item_NCR_Food_Crate</thingDef>
                     <count>2</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Weapon_Army_Crate</thingDef>
+                    <thingDef>FCP_Item_NCR_Standard_Weapon_Crate</thingDef>
                     <count>1</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>FCP_Uniform_Army_Crate</thingDef>
+                    <thingDef>FCP_Item_NCR_Standard_Uniform_Crate</thingDef>
                     <count>1</count>
                 </li>
                 <!-- <li Class="ScenPart_StartingAnimal">

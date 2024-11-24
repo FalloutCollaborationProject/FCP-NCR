@@ -302,6 +302,12 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCPWeaponPositioner.CompProperties_PositionAttributes">
+                <!-- <DraftedDrawOffset>(0.5, 0)</DraftedDrawOffset> -->
+                <HeldDrawOffset>(0.5, -0.5)</HeldDrawOffset>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Hunting Rifle -->

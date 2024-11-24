@@ -7,7 +7,7 @@
 
     <IncidentDef>
         <defName>FCP_Incident_GrizzliesPass</defName>
-        <label>grizzlies pass</label>
+        <label>Grizzlies Pass</label>
         <category>Misc</category>
         <targetTags>
             <li>Map_PlayerHome</li>
@@ -19,8 +19,8 @@
         <minRefireDays>13</minRefireDays>
         <modExtensions>
             <li Class="FCP.Core.ModExtension_AnimalPassesConfig">
-                <animalThing>Bear_Grizzly</animalThing> <!-- TODO Replace when grizzly def is done -->
-                <animalPawnKind>Bear_Grizzly</animalPawnKind> <!-- TODO Replace when grizzly def is done -->
+                <animalThing>FCP_Animal_California_Grizzly</animalThing> <!-- TODO Replace when grizzly def is done -->
+                <animalPawnKind>FCP_Animal_California_Grizzly</animalPawnKind> <!-- TODO Replace when grizzly def is done -->
                 <minCount>1</minCount>
                 <maxRangeInclusive>3~6</maxRangeInclusive>
                 <ignoreTemperature>false</ignoreTemperature>
