@@ -51,7 +51,7 @@
     <MemeDef>
         <defName>FCP_Meme_Rangers</defName>
         <label>NCR Rangers</label>
-        <description>TBD</description>
+        <description>A volunteer special forces renowned as much for their expert reconnaissance capabilities as their bravery and combat prowess, the Rangers' primary purpose is dealing with threats the forces of the republic's standing Army cannot handle, as well as general peacekeeping around the borders of NCR territory, scouting out known and potential threats, and other special assignments. Their cutting-edge training, weaponry and assortment of both pre- and post-War technology often allows them to serve as lynchpins for victory in the republic's conflicts even when a situation may see them outnumbered and outgunned.</description>
         <iconPath>Things/UI/Roles/FCP_NCR_Ranger</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>

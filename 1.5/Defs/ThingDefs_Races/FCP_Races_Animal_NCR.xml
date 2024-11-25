@@ -86,7 +86,7 @@
     <ThingDef ParentName="BaseBear">
         <defName>FCP_Animal_California_Grizzly</defName>
         <label>California Grizzly</label>
-        <description>.</description>
+        <description>A large two headed bear from the mountains of California, this is the ideological and political symbol of the NCR and its military. This massive beast should be treated with respect and honor.</description>
         <race>
             <maxPreyBodySize Inherit="False">4</maxPreyBodySize>
             <body Inherit="False">FCP_Body_Quadruped_Animal_With_Paws_and_2_Heads</body>
