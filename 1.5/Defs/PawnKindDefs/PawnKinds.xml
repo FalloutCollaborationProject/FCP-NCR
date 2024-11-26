@@ -150,7 +150,45 @@
     </PawnKindDef>
 
     <!--___ Traders ___-->
+    
+    <!-- NCR Quartermaster -->
 
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Quartermaster</defName>
+        <label>NCR Quartermaster</label>
+        <trader>true</trader>        
+        <combatPower>65</combatPower>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                    <li>FCP_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Quartermaster</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+    
     <!-- NCRCF Warden -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
