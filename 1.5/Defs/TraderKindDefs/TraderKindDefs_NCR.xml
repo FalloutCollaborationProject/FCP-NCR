@@ -12,7 +12,7 @@
         <label>Brahmin Herder</label>
         <stockGenerators>
 
-            <!-- Animals -->
+            <!--__ Animals __-->
 
             <li Class="StockGenerator_Animals">
                 <tradeTagsSell>
@@ -28,7 +28,9 @@
                 </createMatingPair>
             </li>
 
-            <!-- Currency -->
+            <!--__ Currency __-->
+            
+            <!-- NCR Dollars -->
             
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
@@ -45,7 +47,7 @@
         <category>Slaver</category>
         <stockGenerators>
 
-            <!-- Slaves -->
+            <!--__ Slaves __-->
 
             <li Class="StockGenerator_Slaves">
                 <respectPopulationIntent>true</respectPopulationIntent>
@@ -53,7 +55,9 @@
                 <slaveKindDef>FCP_NCR_NCRCF_Inmate</slaveKindDef>
             </li>
             
-            <!-- Currency -->
+            <!--__ Currency __-->
+            
+            <!-- NCR Dollars -->
             
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
@@ -62,6 +66,108 @@
         </stockGenerators>
     </TraderKindDef>
 
+    <!--___ NCR Quartermaster ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_NCR_Quartermaster</defName>
+        <label>NCR Quartermaster</label>
+        <stockGenerators>
+
+            <!--__ Apparel __-->
+
+            <!-- Clothing -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Fatigues</thingDef>
+                <countRange>1~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_MP_Uniform</thingDef>
+                <countRange>1~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Generals_Uniform</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_General_Cap</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Beret</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Beret_1st_Recon</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            
+            <!-- Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Armor</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</thingDef>
+                <countRange>1~4</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Vest</thingDef>
+                <countRange>3~12</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Mantle_Armor</thingDef>
+                <countRange>1~4</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Scout_Recon_Armor</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Helmet</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Goggles_Helmet</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Face_Wrap_Helmet</thingDef>
+                <countRange>2~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Face_Wrap_Goggles_Helmet</thingDef>
+                <countRange>2~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Scout_Recon_Armor</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_MP_Helmet</thingDef>
+                <countRange>1~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Accessories_NCR_Bandoleer</thingDef>
+                <countRange>2~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Accessories_NCR_Mantle</thingDef>
+                <countRange>2~6</countRange>
+            </li>
+            
+            <!--__ Currency __-->
+            
+            <!-- NCR Dollars -->
+            
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>300~1250</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+    
     <!--___ Pre-War Goods Trader ___-->
 
     <TraderKindDef>
@@ -69,7 +175,7 @@
         <label>Pre-War Goods Trader</label>
         <stockGenerators>
 
-            <!--___ Pre-War Goods ___-->
+            <!--__ Pre-War Goods __-->
 
             <!-- Pre-War Meals -->
 
@@ -158,7 +264,9 @@
                 <countRange>2~10</countRange>
             </li>
             
-            <!-- Currency -->
+            <!--__ Currency __-->
+            
+            <!-- NCR Dollars -->
             
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
