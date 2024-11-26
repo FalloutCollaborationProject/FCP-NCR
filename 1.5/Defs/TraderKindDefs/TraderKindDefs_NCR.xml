@@ -5,7 +5,7 @@
 
     <!--_____ NCR Traders _____-->
 
-    <!-- Brahmin Herder -->
+    <!--___ Brahmin Herder ___-->
 
     <TraderKindDef>
         <defName>FCP_Caravan_Brahmin_Herder</defName>
@@ -27,6 +27,9 @@
                     <li>FCP_Animal_Farm_Brahmin</li>
                 </createMatingPair>
             </li>
+
+            <!-- Currency -->
+            
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                 <countRange>750~1200</countRange>
@@ -34,7 +37,7 @@
         </stockGenerators>
     </TraderKindDef>
 
-    <!-- NCRCF Prisoner Exchange -->
+    <!--___ NCRCF Prisoner Exchange ___-->
 
     <TraderKindDef>
         <defName>FCP_Caravan_NCRCF_Prisoner_Exchange</defName>
@@ -49,6 +52,9 @@
                 <countRange>2~5</countRange>
                 <slaveKindDef>FCP_NCR_NCRCF_Inmate</slaveKindDef>
             </li>
+            
+            <!-- Currency -->
+            
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                 <countRange>750~1200</countRange>
@@ -56,7 +62,7 @@
         </stockGenerators>
     </TraderKindDef>
 
-    <!-- Pre-War Goods Trader -->
+    <!--___ Pre-War Goods Trader ___-->
 
     <TraderKindDef>
         <defName>FCP_Caravan_Pre_War_Goods_Trader</defName>
@@ -68,13 +74,95 @@
             <!-- Pre-War Meals -->
 
             <li Class="StockGenerator_SingleDef">
-                <thingDef>Neutroamine</thingDef>
-                <countRange>70~160</countRange>
+                <thingDef>FCP_Food_Blamco_Original_Flavor</thingDef>
+                <countRange>2~10</countRange>
             </li>
-
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Blamco_Extra_Cheezy_Flavor</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Cram_Low_Sodium</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Dandy_Boy_Apples</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Dandy_Boy_Caramel_Apples</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes_Buzzbite_Flavor</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Gum_Drops</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Gum_Drops_Anchorage_Arctic_Flavor</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Insta_Mash</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Insta_Mash_And_Bacon</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Pork_N_Beans</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Pork_N_Beans_Hot_N_Spicy_Flavor</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Potato_Crisps</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Potato_Crisps_Lightly_Salted</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Salisbury_Steak</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_BIG_BOY_Salisbury_Steak</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Yum_Yum_Deviled_Eggs</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Food_Yum_Yum_Deviled_Eggs_Sour_Cream_Flavor</thingDef>
+                <countRange>2~10</countRange>
+            </li>
+            
+            <!-- Currency -->
+            
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
-                <countRange>750~1200</countRange>
+                <countRange>150~750</countRange>
             </li>
         </stockGenerators>
     </TraderKindDef>
