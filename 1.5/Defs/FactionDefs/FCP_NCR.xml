@@ -91,14 +91,20 @@
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <!-- <li>FCP_Caravan_Gun_Runners</li> -->
             <!-- <li>FCP_Caravan_Crimson_Caravan_Trader</li> -->
+            <li>FCP_Caravan_NCR_Quartermaster</li>
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
             <li>FCP_Caravan_Brahmin_Herder</li>
         </caravanTraderKinds>
         <visitorTraderKinds>
-            <li>Visitor_Outlander_Standard</li>
+            <li>FCP_Caravan_Pre_War_Goods_Trader</li>
+            <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
+            <li>FCP_Caravan_Brahmin_Herder</li>
         </visitorTraderKinds>
         <baseTraderKinds>
-            <li>Base_Outlander_Standard</li>
+            <li>FCP_Caravan_Pre_War_Goods_Trader</li>
+            <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
+            <li>FCP_Caravan_Brahmin_Herder</li>
+<!--             <li>Base_Outlander_Standard</li> -->
         </baseTraderKinds>
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
         <raidLootMaker>FCP_NCRRaidLootMaker</raidLootMaker>
@@ -225,6 +231,24 @@
 
             <!--__________ NCR Traders __________-->
 
+            <!-- NCR Quartermaster -->
+
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
+                <kindDef>Trader</kindDef>
+                <traderKinds>
+                    <li>FCP_Caravan_NCR_Quartermaster</li>
+                </traderKinds>
+                <traders>
+                    <FCP_NCR_Quartermaster>1</FCP_NCR_Quartermaster>
+                </traders>
+                <carriers>
+                    <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
+                </carriers>
+                <guards>
+                    <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
+                </guards>
+            </li>
+            
             <!-- Pre-War Goods Trader -->
 
             <li Class="FCP.Core.GroupMakerWithTraderKind">
