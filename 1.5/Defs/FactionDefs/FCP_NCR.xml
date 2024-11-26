@@ -88,7 +88,7 @@
         <!--__________ Kind __________-->
 
         <caravanTraderKinds>
-            <!-- <li>FCP_Caravan_Pre_War_Goods_Trader</li> -->
+            <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <!-- <li>FCP_Caravan_Gun_Runners</li> -->
             <!-- <li>FCP_Caravan_Crimson_Caravan_Trader</li> -->
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
@@ -227,7 +227,7 @@
 
             <!-- Pre-War Goods Trader -->
 
-            <!-- <li Class="FCP.Core.GroupMakerWithTraderKind">
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
                     <li>FCP_Caravan_Pre_War_Goods_Trader</li>
@@ -240,9 +240,8 @@
                 </carriers>
                 <guards>
                     <FCP_NCR_Caravan_Guard>5</FCP_NCR_Caravan_Guard>
-                    <FCP_NCR_President>1</FCP_NCR_President>
                 </guards>
-            </li> -->
+            </li>
 
             <!-- Brahmin Herder -->
 
