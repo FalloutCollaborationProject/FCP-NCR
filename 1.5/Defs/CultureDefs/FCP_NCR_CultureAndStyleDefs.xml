@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--__________ Cultures __________-->
+    <!--__________ Cultures and Styles __________-->
 
     <!--_____ NCR _____-->
 
+    <!-- Cultures -->
+    
     <CultureDef>
         <defName>FCP_Culture_NCR_Californian</defName>
         <label>New Californian</label>
@@ -59,6 +61,8 @@
         </styleItemTags>
     </CultureDef>
 
+    <!-- Styles -->
+    
     <StyleCategoryDef>
         <defName>FCP_Style_Californian</defName>
         <label>New Californian</label>
