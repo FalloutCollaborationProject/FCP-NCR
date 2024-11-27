@@ -67,6 +67,9 @@
                 <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
             </xenotypeChances>
         </xenotypeSet>
+
+        <!--__________ Backstories __________-->
+        
         <backstoryFilters>
             <li>
                 <categories>
@@ -85,8 +88,10 @@
             </li>
         </backstoryFilters>
 
-        <!--__________ Kind __________-->
+        <!--__________ Kinds __________-->
 
+        <!-- Caravan Trader Kinds -->
+        
         <caravanTraderKinds>
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <!-- <li>FCP_Caravan_Gun_Runners</li> -->
@@ -95,17 +100,26 @@
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
             <li>FCP_Caravan_Brahmin_Herder</li>
         </caravanTraderKinds>
+
+        <!-- Vistor Trader Kinds -->
+        
         <visitorTraderKinds>
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
             <li>FCP_Caravan_Brahmin_Herder</li>
         </visitorTraderKinds>
+
+        <!-- Base Trader Kinds -->
+        
         <baseTraderKinds>
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
             <li>FCP_Caravan_Brahmin_Herder</li>
 <!--             <li>Base_Outlander_Standard</li> -->
         </baseTraderKinds>
+
+        <!-- Trader Kind Arrival Options -->
+        
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
         <raidLootMaker>FCP_NCRRaidLootMaker</raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
@@ -117,6 +131,9 @@
                 <li>(100000, 10000)</li>
             </points>
         </maxPawnCostPerTotalPointsCurve>
+
+        <!--__________ Group Makers __________-->
+        
         <pawnGroupMakers>
 
             <!-- NCR Army Squad -->
