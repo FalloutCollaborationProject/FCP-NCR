@@ -366,7 +366,7 @@
             <li Class="FCP.Core.ModExtension_FactionUniqueLeader">
                 <characterDefs>
                     <li>FCP_Character_NCR_Kimball</li>
-                    <!--<li>FCP_Character_RangerRick</li>-->
+                    <!--<li>FCP_Character_Ranger_Rick</li>-->
                 </characterDefs>
             </li>
             <!-- Make them hostile to the legion -->
