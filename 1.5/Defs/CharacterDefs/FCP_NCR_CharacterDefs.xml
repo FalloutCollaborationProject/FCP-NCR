@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- PAY TAXES!-->
+    <!--__________ NCR __________-->
+    
+    <!-- President-->
+    
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Kimball</defName>
         <pawnKind>FCP_NCR_President</pawnKind>
@@ -15,7 +18,43 @@
                 <gender>Male</gender>
                 <age>48</age>
             </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(88, 60, 51)</hairColor>
+                <hairDef>FCP_Hair_Ranger_Rick</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(239, 189, 163)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
         </definitions>
     </FCP.Core.CharacterDef>
 
+    <!-- Ambassador-->
+    
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Crocker</defName>
+        <pawnKind>FCP_NCR_Ambassador</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Dennis</firstName>
+                <lastName>Crocker</lastName>
+                <nickname>Crocker</nickname>
+                <gender>Male</gender>
+                <age>52</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(33, 30, 28)</hairColor>
+<!--                 <hairDef></hairDef> -->
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(66, 41, 28)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+    
 </Defs>
