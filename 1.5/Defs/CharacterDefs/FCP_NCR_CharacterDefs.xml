@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- PAY TAXES!-->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Kimball</defName>
+        <pawnKind>FCP_NCR_President</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Aaron</firstName>
+                <lastName>Kimball</lastName>
+                <nickname>Kimball</nickname>
+                <gender>Male</gender>
+                <age>48</age>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>
