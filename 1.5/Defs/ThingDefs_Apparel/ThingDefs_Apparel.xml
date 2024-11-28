@@ -295,7 +295,7 @@
             <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
             <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Cold>3</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
@@ -353,7 +353,7 @@
             <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
             <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Cold>3</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
@@ -428,7 +428,6 @@
             </bodyPartGroups>
             <wornGraphicPath>Apparel/NCR_Officers/NCR_General/NCR_Generals_Uniform/FCP_NCR_Generals_Uniform</wornGraphicPath>
             <layers>
-                <li>Middle</li>
                 <li>OnSkin</li>
             </layers>
             <tags>
@@ -811,7 +810,7 @@
             <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
             <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Cold>3</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
@@ -871,7 +870,7 @@
             <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
             <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Cold>3</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
@@ -932,8 +931,8 @@
             <WorkToMake>1200</WorkToMake>
             <Mass>2.0</Mass>
             <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.27</ArmorRating_Heat>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
         <costList>
@@ -989,7 +988,7 @@
             <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
             <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Cold>3</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>            <!-- Better protection against the heat due to the mantle -->
             <EquipDelay>1.2</EquipDelay>
         </statBases>
@@ -1103,15 +1102,15 @@
             <li>ApparelArmor</li>
         </thingCategories>
         <statBases>
-            <MaxHitPoints>250</MaxHitPoints>
+            <MaxHitPoints>400</MaxHitPoints>
             <WorkToMake>10200</WorkToMake>
-            <Mass>6.0</Mass>
-            <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.88</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.40</ArmorRating_Heat>
+            <Mass>6.5</Mass>
+            <ArmorRating_Sharp>1.85</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.50</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.65</ArmorRating_Heat>
             <Insulation_Cold>3</Insulation_Cold>
             <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
+            <EquipDelay>3.2</EquipDelay>
         </statBases>
         <costList>
             <Steel>170</Steel>
