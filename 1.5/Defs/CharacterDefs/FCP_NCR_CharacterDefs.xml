@@ -48,7 +48,6 @@
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(33, 30, 28)</hairColor>
-<!--                 <hairDef></hairDef> -->
                 <beardDef>NoBeard</beardDef>
                 <skinColorOverride>(66, 41, 28)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
