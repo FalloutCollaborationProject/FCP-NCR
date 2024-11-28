@@ -19,7 +19,7 @@
         <enlistRequrementsNotSatisfiedKey>FCP_NCR_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
         <enlistedToHostileFactionKey>FCP_NCR_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
         <enlistButtonIconTexPath>Things/UI/Enlisted/FCP_NCR_Enlist</enlistButtonIconTexPath>
-        <enlistedSoundDef>FCP_Sound_Enlisted_NCR</enlistedSoundDef>
+        <enlistedSoundDef>FCP_Card_Use</enlistedSoundDef>
         <enlistedWithKey>FCP_NCR_Enlisted_With_Key</enlistedWithKey>
 
         <!-- Mission Options -->
@@ -29,7 +29,7 @@
         <missionsDescKey>FCP_NCR_Missions_Desc</missionsDescKey>
         <missionsButtonIconTexPath>Things/UI/Enlisted/FCP_NCR_Missions</missionsButtonIconTexPath>
         <missionsBackgroundMenuTexPath>Things/UI/Enlisted/FCP_NCR_Missions</missionsBackgroundMenuTexPath>
-        <missionsMenuAmbientSoundDef>FCP_Sound_NCR_Mission_Menu_Ambient</missionsMenuAmbientSoundDef>
+        <missionsMenuAmbientSoundDef>FCP_RitualSustainer_ILoveYouCalifornia</missionsMenuAmbientSoundDef>
         <missionsMenuDescriptionKey>FCP_NCR_Menu_Missions_Desc</missionsMenuDescriptionKey>
         <missionsMenuSelectQuestKey>FCP_NCR_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
         <missionsMenuStartQuestKey>FCP_NCR_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
