@@ -5,6 +5,535 @@
 
     <!--_____ NCR Pawnkinds _____-->
 
+    <!--___ Characters ___-->
+
+    <!-- President Kimball -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_President_Kimball</defName>
+        <label>President</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>100</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Presidents_Suit</li>
+        </apparelRequired>
+        <!-- <weaponMoney>1000~1001</weaponMoney> -->
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                    <li>FCP_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_President_Kimball</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Ambassador Crocker -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Ambassador_Crocker</defName>
+        <label>Ambassador</label>
+        <trader>true</trader>
+        <combatPower>30</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_NCR_Ambassador</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ambassador_Crocker</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- General Olvier -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_General_Olvier</defName>
+        <label>General</label>
+        <combatPower>190</combatPower>
+        <apparelMoney>9999</apparelMoney>
+        <apparelTags>
+            <li>FCP_NCR_General</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Ranger_Sequoia</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_General_Oliver</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Colonel Hsu -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Colonel_Hsu</defName>
+        <label>Colonel</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Colonel_Hsu</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Colonel Moore -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Colonel_Moore</defName>
+        <label>Colonel</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Colonel_Moore</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Major Dhatri -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Major_Dhatri</defName>
+        <label>Major</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Major_Dhatri</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Major Knight -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Major_Knight</defName>
+        <label>Major</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Gay</li>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Major_Knight</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Major Kieran -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Major_Kieran</defName>
+        <label>Major</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Major_Kieran</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Major Polatli -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Major_Polatli</defName>
+        <label>Major</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Major_Polatli</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Captain Parker -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Captain_Parker</defName>
+        <label>Captain</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Captain_Parker</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Captain Gilles -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Captain_Gilles</defName>
+        <label>Captain</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Captain_Gilles</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Lieutenant Gorobets -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Lieutenant_Gorobets</defName>
+        <label>Lieutenant</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Lieutenant_Gorobets</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Lieutenant Hayes -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Lieutenant_Hayes</defName>
+        <label>Lieutenant</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Lieutenant_Hayes</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+    
     <!--___ Civilians ___-->
 
     <!-- Engineer -->
