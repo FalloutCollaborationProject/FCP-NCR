@@ -9,7 +9,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Kimball</defName>
-        <pawnKind>FCP_NCR_President</pawnKind>
+        <pawnKind>FCP_NCR_President_Kimball</pawnKind>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -36,7 +36,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Crocker</defName>
-        <pawnKind>FCP_NCR_Ambassador</pawnKind>
+        <pawnKind>FCP_NCR_Ambassador_Crocker</pawnKind>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
