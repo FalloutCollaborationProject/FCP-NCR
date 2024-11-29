@@ -2,7 +2,6 @@
 
 ## Acknowledgements
 - RickGrymes / Ranger Rick - Project Lead / XML
-- Canonov - C# Work
 - DanDman, IcingWithCheesecake, RickGrymes / Ranger Rick - Art
 - Aludis - XML
 
