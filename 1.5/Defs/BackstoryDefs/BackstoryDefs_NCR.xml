@@ -7,6 +7,32 @@
 
 	<!--___ NCR ___-->
 
+    	<!--__ Characters __-->
+
+	<!-- President Kimball -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_President_Kimball</defName>
+		<identifier>FCP_NCR_President_Kimball</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR President</title>
+		<titleShort>President</titleShort>
+		<description>.</description>
+		<skillGains>
+			<Social>4</Social>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+		<workDisables>None</workDisables>
+		<requiredWorkTags>Social</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_President_Kimball</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+	</BackstoryDef>
+	
 	<!--__ Adults __-->
 
 	<!-- NCR Pioneer -->
