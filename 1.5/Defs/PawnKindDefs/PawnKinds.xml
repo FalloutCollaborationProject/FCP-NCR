@@ -244,11 +244,13 @@
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
         </weaponTags>
+        <forcedTraits>
+            <li>Gay</li>
+        </forcedTraits>
         <disallowedTraits>
             <li>Brawler</li>
         </disallowedTraits>
         <requiredWorkTags>
-            <li>Gay</li>
             <li>Violent</li>
         </requiredWorkTags>
         <techHediffsMoney>50~50</techHediffsMoney>
