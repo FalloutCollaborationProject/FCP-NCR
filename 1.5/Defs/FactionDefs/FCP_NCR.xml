@@ -362,13 +362,6 @@
             <li Class="FCP.Currencies.CurrencyReplacement">
                 <currency>FCP_Currency_NCR_Dollar</currency>
             </li>
-            <!-- Unique Leadership -->
-            <li Class="FCP.Core.ModExtension_FactionUniqueLeader">
-                <characterDefs>
-                    <li>FCP_Character_NCR_Kimball</li>
-                    <!--<li>FCP_Character_Ranger_Rick</li>-->
-                </characterDefs>
-            </li>
             <!-- Make them hostile to the legion -->
             <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>

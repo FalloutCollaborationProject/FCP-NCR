@@ -10,7 +10,13 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Kimball</defName>
         <pawnKind>FCP_NCR_President_Kimball</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
         <definitions>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
@@ -37,7 +43,13 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Crocker</defName>
         <pawnKind>FCP_NCR_Ambassador_Crocker</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>900</seniority>
+            </li>
+        </roles>
         <definitions>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
@@ -65,6 +77,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Oliver</defName>
         <pawnKind>FCP_NCR_General_Oliver</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -92,6 +105,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Hsu</defName>
         <pawnKind>FCP_NCR_Colonel_Hsu</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -119,6 +133,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Moore</defName>
         <pawnKind>FCP_NCR_Colonel_Moore</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -146,6 +161,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Dhatri</defName>
         <pawnKind>FCP_NCR_Major_Dhatri</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -173,6 +189,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Knight</defName>
         <pawnKind>FCP_NCR_Major_Knight</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -200,6 +217,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Polatli</defName>
         <pawnKind>FCP_NCR_Major_Polatli</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -227,6 +245,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Kieran</defName>
         <pawnKind>FCP_NCR_Major_Kieran</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -254,6 +273,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Parker</defName>
         <pawnKind>FCP_NCR_Captain_Parker</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -281,6 +301,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Gilles</defName>
         <pawnKind>FCP_NCR_Captain_Gilles</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -308,6 +329,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Gorobets</defName>
         <pawnKind>FCP_NCR_Lieutenant_Gorobets</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -335,6 +357,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Hayes</defName>
         <pawnKind>FCP_NCR_Lieutenant_Hayes</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
