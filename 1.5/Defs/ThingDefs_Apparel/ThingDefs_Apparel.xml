@@ -1137,6 +1137,12 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+		<modExtensions>
+			<li Class="FalloutCore.ApparelExtension">
+				<shouldHideBody>True</shouldHideBody>
+				<displayBodyType>Hulk</displayBodyType>
+			</li>
+		</modExtensions>
     </ThingDef>
 
     <!--___ NCR Rangers ___-->
