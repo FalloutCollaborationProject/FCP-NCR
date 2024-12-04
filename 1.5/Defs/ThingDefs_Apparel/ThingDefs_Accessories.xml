@@ -52,8 +52,10 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
-
 
     <!-- Trooper Mantle -->
 
@@ -84,7 +86,7 @@
             <WorkToMake>1000</WorkToMake>
             <Mass>4.0</Mass>
             <EquipDelay>1.2</EquipDelay>
-            <Insulation_Heat>7</Insulation_Heat> 
+            <Insulation_Heat>7</Insulation_Heat>
         </statBases>
         <costList>
             <Cloth>35</Cloth>
@@ -104,6 +106,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
 </Defs>

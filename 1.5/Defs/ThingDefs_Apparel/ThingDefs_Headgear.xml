@@ -53,6 +53,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--___ Troopers ___-->
@@ -103,6 +106,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- NCR Goggles Trooper Helmet -->
@@ -239,6 +245,7 @@
             <Cloth>25</Cloth>
         </costList>
         <apparel>
+            <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
             <bodyPartGroups>
                 <li>UpperHead</li>
             </bodyPartGroups>
@@ -253,6 +260,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- NCR 1st Recon Beret -->
@@ -327,6 +337,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--___ Misc -->
@@ -404,6 +417,9 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Ranger Hat Brown -->
@@ -490,6 +506,7 @@
         </statBases>
         <equippedStatOffsets>
             <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.90</ToxicEnvironmentResistance>
+            <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>            <!-- +1 Perception -->
         </equippedStatOffsets>
         <costList>
             <Steel>50</Steel>
@@ -509,6 +526,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
 </Defs>

@@ -115,7 +115,7 @@
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
             <li>FCP_Caravan_Brahmin_Herder</li>
-<!--             <li>Base_Outlander_Standard</li> -->
+            <!-- <li>Base_Outlander_Standard</li> -->
         </baseTraderKinds>
 
         <!-- Trader Kind Arrival Options -->
@@ -280,7 +280,7 @@
                     <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_NCR_Caravan_Guard>5</FCP_NCR_Caravan_Guard>
+                    <FCP_Armored_Wastelander_Combat_Armor>5</FCP_Armored_Wastelander_Combat_Armor>
                 </guards>
             </li>
 
