@@ -1259,6 +1259,11 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
