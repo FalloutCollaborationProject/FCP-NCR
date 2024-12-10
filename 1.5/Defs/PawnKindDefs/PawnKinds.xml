@@ -310,7 +310,8 @@
             <li>FCP_NCR_Trooper</li>
         </apparelTags>
         <apparelRequired>
-            <li>FCP_Apparel_NCR_Beret</li>
+            <li>FCP_Apparel_NCR_Trooper_Mantle_Armor</li>
+            <li>FCP_Apparel_NCR_Beret_1st_Recon</li>
         </apparelRequired>
         <weaponTags>
             <li>FCP_NCR_Hunting_Rifle</li>
@@ -346,6 +347,521 @@
             <li>
                 <categoriesAdulthood>
                     <li>FCP_NCR_Lieutenant_Hayes</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Lieutenant Boyd -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Lieutenant_Boyd</defName>
+        <label>Lieutenant</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_MP_Uniform</li>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Lieutenant_Boyd</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Sergeant Bitter-Root -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Sergeant_Bitter_Root</defName>
+        <label>Sergeant</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</li>
+            <li>FCP_Apparel_NCR_Beret_1st_Recon</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Hunting_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Sergeant_Bitter_Root</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Corporal Betsy -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Corporal_Betsy</defName>
+        <label>Corporal</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</li>
+            <li>FCP_Apparel_NCR_Beret_1st_Recon</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Hunting_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Corporal_Betsy</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Corporal Sterling -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Corporal_Sterling</defName>
+        <label>Corporal</label>
+        <combatPower>110</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Hat_Patrol</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_La_Lounge_Carbine</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Corporal_Sterling</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Private Brooks (10 of Spades) -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Private_10_of_Spades</defName>
+        <label>Private</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret_1st_Recon</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Hunting_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Private_10_of_Spades</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Corporal Mags -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Corporal_Mags</defName>
+        <label>Corporal</label>
+        <combatPower>95</combatPower>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Corporal_Mags</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Private O'Hanrahan -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Private_O_Hanrahan</defName>
+        <label>Private</label>
+        <combatPower>95</combatPower>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Private_O_Hanrahan</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Private Poindexter -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Private_Poindexter</defName>
+        <label>Private</label>
+        <combatPower>95</combatPower>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Private_Poindexter</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Private Razz -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Private_Razz</defName>
+        <label>Private</label>
+        <combatPower>95</combatPower>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Private_Razz</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Private Halford -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Private_Halford</defName>
+        <label>Private</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_MP_Uniform</li>
+            <li>FCP_Apparel_NCR_MP_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Private_Halford</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Private Seamer -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Private_Seamer</defName>
+        <label>Private</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_MP_Uniform</li>
+            <li>FCP_Apparel_NCR_MP_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Private_Seamer</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Corporal Walter Hornsby -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Corporal_Hornsby</defName>
+        <label>Corporal</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_MP_Uniform</li>
+            <li>FCP_Apparel_NCR_MP_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Corporal_Hornsby</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Comm Officer Castillo -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Ranger_Castillo</defName>
+        <label>Ranger Comm Officer</label>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Vest</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ranger_Castillo</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Ghost -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Ranger_Ghost</defName>
+        <label>Ranger</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Hat_Grey</li>
+            <li>FCP_Apparel_NCR_Ranger_Vest</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ranger_Ghost</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Comm Officer Green -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Ranger_Green</defName>
+        <label>Ranger Comm Officer Green</label>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Red_Scarf</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ranger_Green</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Jackson (Mojave Outpost) -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Ranger_A_Jackson</defName>
+        <label>Ranger</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Hat_Brown</li>
+            <li>FCP_Apparel_NCR_Ranger_Red_Scarf</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ranger_A_Jackson</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Comm Officer Lenk -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Ranger_Lenk</defName>
+        <label>Ranger Comm Officer</label>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Vest</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ranger_Lenk</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Comm Officer Scheffer -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Ranger_Scheffer</defName>
+        <label>Ranger Comm Officer</label>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Vest</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ranger_Scheffer</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Comm Officer Stepinac -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Ranger_Stepinac</defName>
+        <label>Ranger Comm Officer</label>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Red_Scarf</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ranger_Stepinac</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Comm Officer Tilden -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Ranger_Tilden</defName>
+        <label>Ranger Comm Officer</label>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Red_Scarf</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Ranger_Tilden</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Patrol Ranger Bryce Anders -->
+
+    <PawnKindDef ParentName="FCP_CharacterkindBase">
+        <defName>FCP_NCR_Patrol_Ranger_Anders</defName>
+        <label>Patrol Ranger</label>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Casual</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Hat_Patrol</li>
+            <li>FCP_Apparel_NCR_Ranger_Patrol_Armor</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_NCR_Patrol_Ranger_Anders</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>

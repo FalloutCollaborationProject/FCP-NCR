@@ -376,7 +376,7 @@
     <ThingDef ParentName="HatMakeableBase" Name="FCP_NCR_Ranger_Hat">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Grey</defName>
         <label>NCR Grey Ranger Hat</label>
-        <description>A grey cowboy hat favoured by the desert rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
+        <description>A grey cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
@@ -427,7 +427,7 @@
     <ThingDef ParentName="FCP_NCR_Beret">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Brown</defName>
         <label>NCR Brown Ranger Hat</label>
-        <description>A brown cowboy hat favoured by the desert rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
+        <description>A brown cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
         <graphicData>
             <texPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Brown_Hat/FCP_NCR_Ranger_Brown_Hat</texPath>
         </graphicData>
@@ -441,7 +441,7 @@
     <ThingDef ParentName="FCP_NCR_Beret">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Tan</defName>
         <label>NCR Tan Ranger Hat</label>
-        <description>A tan cowboy hat favoured by the desert rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
+        <description>A tan cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
         <graphicData>
             <texPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Tan_Hat/FCP_NCR_Ranger_Tan_Hat</texPath>
         </graphicData>
