@@ -269,6 +269,11 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -455,6 +460,11 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -616,6 +626,11 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -676,6 +691,11 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -1123,6 +1143,11 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -1194,6 +1219,11 @@
                 <displayBodyType>Hulk</displayBodyType>
             </li>
         </modExtensions>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -1321,6 +1351,11 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>

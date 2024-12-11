@@ -933,6 +933,7 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- NCRCF Inmate -->
