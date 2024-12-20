@@ -17,7 +17,7 @@
 		<slot>Adulthood</slot>
 		<title>NCR President</title>
 		<titleShort>President</titleShort>
-		<description>.</description>
+		<description>President Kimball is the leader of the New California Republic, known for his strong leadership and dedication to the values of democracy and personal liberty. He has a keen intellect and excels in social interactions, making him a respected figure among his people.</description>
 		<skillGains>
 			<Social>4</Social>
 			<Intellectual>8</Intellectual>
@@ -29,8 +29,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 	
 	<!--__ Adults __-->
@@ -50,7 +49,7 @@
 			<Plants>4</Plants>
 			<Animals>2</Animals>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -59,8 +58,7 @@
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<bodyTypeMale>Thin</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Ranger -->
@@ -78,15 +76,14 @@
 			<Cooking>2</Cooking>
 			<Crafting>4</Crafting>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Ranger</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Rancher -->
@@ -105,7 +102,7 @@
 			<Social>-4</Social>
 			<Intellectual>-2</Intellectual>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -113,8 +110,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Citizen -->
@@ -131,7 +127,7 @@
 			<Plants>2</Plants>
 			<Animals>2</Animals>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -139,8 +135,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Private -->
@@ -157,15 +152,14 @@
 			<Construction>2</Construction>
 			<Medicine>2</Medicine>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Officer -->
@@ -189,8 +183,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Quartermaster -->
@@ -207,15 +200,14 @@
 			<Social>4</Social>
 			<Intellectual>2</Intellectual>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Quartermaster</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Quarry worker -->
@@ -231,7 +223,7 @@
 			<Mining>5</Mining>
 			<Crafting>1</Crafting>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -239,8 +231,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Ambassador -->
@@ -264,8 +255,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Farmhand -->
@@ -290,8 +280,7 @@
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<bodyTypeMale>Thin</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Crimson Caravan Worker -->
@@ -317,8 +306,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Former Congressmember -->
@@ -344,8 +332,7 @@
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<bodyTypeMale>Fat</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Squatter -->
@@ -371,8 +358,7 @@
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<bodyTypeMale>Thin</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCRCF Inmate -->
@@ -399,8 +385,7 @@
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<bodyTypeMale>Hulk</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Recon Trooper -->
@@ -424,8 +409,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Field Medic -->
@@ -451,8 +435,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Brahmin Baron -->
@@ -477,8 +460,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Gun Runner Artisan -->
@@ -504,8 +486,7 @@
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<bodyTypeMale>Thin</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Van Graff Thug -->
@@ -531,8 +512,7 @@
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<bodyTypeMale>Hulk</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Navarro Survivor -->
@@ -560,8 +540,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Disgruntled Veteran -->
@@ -587,8 +566,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Sheriff -->
@@ -613,8 +591,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Tax Collector -->
@@ -640,8 +617,7 @@
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<bodyTypeMale>Fat</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Road Worker -->
@@ -665,8 +641,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- NCR Military Police Trooper -->
@@ -692,8 +667,7 @@
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!--__ Children __-->
@@ -720,8 +694,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Republic Migrant -->
@@ -745,8 +718,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Settled Tribal -->
@@ -770,8 +742,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Officer Offspring -->
@@ -795,8 +766,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Barracks Baby -->
@@ -820,8 +790,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Migrant Worker’s Child -->
@@ -844,8 +813,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Plantation Child -->
@@ -871,8 +839,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Raised by Followers -->
@@ -896,8 +863,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Ne'er do well -->
@@ -919,8 +885,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Ranger’s Child -->
@@ -947,8 +912,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Manufacturer’s Apprentice -->
@@ -972,8 +936,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Academic’s Child -->
@@ -999,8 +962,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Enthusiastic Recruit -->
@@ -1024,8 +986,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Khan Survivor -->
@@ -1050,8 +1011,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 	<!-- Re-educated Raider Kid -->
@@ -1076,8 +1036,7 @@
 		<spawnCategories>
 			<li>FCP_NCR_Child</li>
 		</spawnCategories>
-        <possessions>
-        </possessions>
+        <possessions />
 	</BackstoryDef>
 
 </Defs>
