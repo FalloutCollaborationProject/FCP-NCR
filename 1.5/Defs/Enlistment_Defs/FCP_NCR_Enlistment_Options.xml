@@ -75,7 +75,7 @@
                         <amountRange>2</amountRange>
                     </li>
                 </provisions>
-                <provisionsRestockInDays>30.00</provisionsRestockInDays>
+                <provisionsRestockInDays>30</provisionsRestockInDays>
             </li>
         </provisionOptions>
 
@@ -131,11 +131,11 @@
                 <workDescKey>FCP_NCR_Survival_Training_Desc</workDescKey>
                 <workButtonIconTexPath>Things/UI/Enlisted/FCP_NCR_Survival_Training</workButtonIconTexPath>
                 <experienceGainsPerHour>
-                    <Crafting>500</Crafting>
-                    <Plants>450</Plants>
-                    <Cooking>350</Cooking>
                     <Animals>450</Animals>
                     <Construction>350</Construction>
+                    <Cooking>350</Cooking>
+                    <Crafting>500</Crafting>
+                    <Plants>450</Plants>
                 </experienceGainsPerHour>
                 <additionalRestFall>0.5</additionalRestFall>
             </li>

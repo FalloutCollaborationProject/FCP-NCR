@@ -60,7 +60,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Trooper_Variations</defName>
         <label>Trooper Variations</label>
-        <description>The various other tooper armors.</description>
+        <description>The various other trooper armors.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -76,7 +76,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Special_Forces</defName>
         <label>Special Operations Forces</label>
-        <description>Special Forces Armor.</description>
+        <description>Research and develop advanced armor for the NCR Special Operations Forces, providing enhanced protection and capabilities for elite soldiers.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -92,7 +92,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Heavy_Trooper_Corps</defName>
         <label>Heavy Trooper Regiment</label>
-        <description>Learn to make salvaged power armor.</description>
+        <description>This research project allows you to learn the techniques required to salvage and repurpose power armor, providing your troops with enhanced protection and combat capabilities.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
