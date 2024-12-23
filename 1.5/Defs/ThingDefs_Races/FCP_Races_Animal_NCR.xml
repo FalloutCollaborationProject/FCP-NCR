@@ -11,7 +11,7 @@
 
     <!-- NCR Guard Dog -->
 
-    <ThingDef MayRequire="Rick.FCP.Core.Tools" ParentName="FCP_Animal_Vicious_Dog_Base">
+    <ThingDef MayRequire="Rick.FCP.Animals" ParentName="FCP_Animal_Vicious_Dog_Base">
         <defName>FCP_Animal_NCR_Guard_Dog</defName>
         <label>NCR Guard Dog</label>
         <description>Some dogs have been domesticated, even charged with guarding its owner and all thier property this animal will do so to the best of its ability. While others have been specially bred to be a true battle buddy for the NCR. Tasked with defending troops from harm in the form of dangerous chems, explosives and enemy combatants themselves.</description>
@@ -27,7 +27,7 @@
 
     <!-- NCR Guard Dog -->
 
-    <PawnKindDef MayRequire="Rick.FCP.Core.Tools" ParentName="AnimalKindBase">
+    <PawnKindDef MayRequire="Rick.FCP.Animals" ParentName="AnimalKindBase">
         <defName>FCP_Animal_NCR_Guard_Dog</defName>
         <label>NCR Guard Dog</label>
         <race>FCP_Animal_NCR_Guard_Dog</race>
@@ -38,7 +38,7 @@
                 <label>puppy</label>
                 <labelPlural>puppies</labelPlural>
                 <bodyGraphicData>
-                    <texPath>Things/Pawn/Animal/Vicious_Dog/FCP_Dessicated_Vicious_Dog</texPath>
+                    <texPath>Things/Pawn/Animal/Vicious_Dog/FCP_Vicious_Dog</texPath>
                     <drawSize>0.95</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>

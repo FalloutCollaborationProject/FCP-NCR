@@ -18,6 +18,7 @@
     </modDependencies>
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
+        <li>Rick.FCP.Animals</li>
     </loadAfter>
 
 </ModMetaData>

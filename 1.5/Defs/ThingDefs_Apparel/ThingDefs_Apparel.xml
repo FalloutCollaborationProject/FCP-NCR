@@ -46,6 +46,7 @@
         <equippedStatOffsets>
             <ConstructionSpeed>0.33</ConstructionSpeed>            <!-- Repair +5 -->
             <GeneralLaborSpeed>0.10</GeneralLaborSpeed>            <!-- Repair +5 -->
+            <MoveSpeed>0.20</MoveSpeed>                            <!-- AP +20 -->
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -79,7 +80,7 @@
         <defName>FCP_Apparel_NCR_Ambassador_Dress</defName>
         <label>NCR Ambassador Dress</label>
         <description>A stylish dress often worn by the ambassadors of the New California Republic. While it provides little to no actual
-            protection, it boosts it's wearer confidence during negotiation.</description>
+            protection, it boosts its wearer's confidence during negotiation.</description>
         <recipeMaker>
             <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
@@ -145,8 +146,8 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>FCP_Apparel_NCR_Ambassador_Suit</defName>
-        <label>NCR Ambassador Suit</label>
-        <description>A stylish suit often worn by the ambassadors of the New California Republic. While it provides little to no actual protection, it boosts it's wearer confidence during negotiation.</description>
+        <label>NCR Ambassador's Suit</label>
+        <description>A stylish suit often worn by the ambassadors of the New California Republic. While it provides little to no actual protection, it boosts its wearer's confidence during negotiation.</description>
         <recipeMaker>
             <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
@@ -439,7 +440,7 @@
             <Insulation_Heat>2.3</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
         </statBases>
-        <equippedStatOffsets>            <!-- Unsure how to represent the AP +20, maybe move speed? -->
+        <equippedStatOffsets>
             <SocialImpact>0.5</SocialImpact>            <!-- Charisma +2 -->
         </equippedStatOffsets>
         <apparel>
@@ -560,8 +561,7 @@
     <ThingDef ParentName="FCP_NCR_Ranger_Outfit">
         <defName>FCP_Apparel_NCR_Ranger_Vest</defName>
         <label>NCR Ranger Vest Outfit</label>
-        <!-- CHANGE DESCRIPTION -->
-        <description>Rugged clothes worn by the desert rangers. This particular outfit comes with a red scarf. Like most ranger clothes, it insulates well against the heat.</description>
+        <description>A rugged vest worn by NCR Rangers. It provides good protection against the elements and is ideal for long patrols and reconnaissance missions in harsh environments.</description>
         <graphicData>
             <texPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</texPath>
         </graphicData>

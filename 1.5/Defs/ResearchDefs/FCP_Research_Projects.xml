@@ -10,7 +10,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Civilian_Outfitters</defName>
         <label>Civilian Outfitters</label>
-        <description>The clothes used by the various civilians working for the NCR.</description>
+        <description>Research and develop the clothes used by the various civilians working for the NCR, ensuring they are suitable for different civilian roles and activities.</description>
         <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -26,7 +26,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Presidential_Suite</defName>
         <label>Presidential Suite</label>
-        <description>Clothes fit for the president of the NCR.</description>
+        <description>Research and develop the clothes fit for the president of the NCR, ensuring they are suitable for various formal and diplomatic occasions.</description>
         <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -44,7 +44,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Standard_Trooper_Corps</defName>
         <label>Standard Trooper Outfitting</label>
-        <description>Basic equipment used by the NCR.</description>
+        <description>Research and develop the basic equipment and uniforms used by the NCR standard troopers, ensuring they are well-prepared for various combat scenarios.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -60,7 +60,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Trooper_Variations</defName>
         <label>Trooper Variations</label>
-        <description>The various other trooper armors.</description>
+        <description>Research and develop variations of the standard trooper equipment, providing specialized gear for different combat scenarios.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -92,7 +92,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Heavy_Trooper_Corps</defName>
         <label>Heavy Trooper Regiment</label>
-        <description>This research project allows you to learn the techniques required to salvage and repurpose power armor, providing your troops with enhanced protection and combat capabilities.</description>
+        <description>Research and develop techniques to salvage and repurpose power armor for enhanced protection.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -108,7 +108,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Ranger_Corps</defName>
         <label>Ranger Corps</label>
-        <description>Ranger Armor.</description>
+        <description>Research and develop the advanced armor and equipment used by the NCR Ranger Corps, ensuring they are well-prepared for various reconnaissance and combat missions.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -125,7 +125,7 @@
     <ResearchProjectDef>
         <defName>FCP_NCR_Ranger_Elite_Corps</defName>
         <label>Elite Ranger Corps</label>
-        <description>Elite Ranger Armor.</description>
+        <description>Research and develop the elite armor and equipment used by the NCR Elite Ranger Corps, ensuring they are equipped with the best possible gear for high-risk reconnaissance and combat missions.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>

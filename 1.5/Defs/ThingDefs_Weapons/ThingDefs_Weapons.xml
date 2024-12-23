@@ -252,7 +252,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_NCR_Hunting_Rifle</defName>
         <label>NCR Standard Hunting Rifle</label>
-        <description>A powerful bolt-action rifle with an attached iron sight intended for hunting big game. It is durable, accurate and easy to use and maintain weapon and thus a popular choice not only for hunters, but for many snipers in the NCR, Legion, and other groups. This particular design is boasted by the NCR recon snipers, deaturing the two headed bear insignia.</description>
+        <description>A powerful bolt-action rifle with an attached iron sight intended for hunting big game. It is durable, accurate and easy to use and maintain weapon and thus a popular choice not only for hunters, but for many snipers in the NCR, Legion, and other groups. This particular design is boasted by the NCR recon snipers, featuring the two headed bear insignia.</description>
         <graphicData>
             <texPath>Weapons/Sniper_Rifle/FCP_Hunting_Rifle_Scope</texPath>
             <graphicClass>Graphic_Single</graphicClass>
