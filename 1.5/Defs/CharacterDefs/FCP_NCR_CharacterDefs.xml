@@ -568,19 +568,19 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Private O'Hanrahan -->
+    <!-- Private O'Hanahan -->
     
     <FCP.Core.CharacterDef>
-        <defName>FCP_Character_NCR_O_Hanrahan</defName>
-        <pawnKind>FCP_NCR_Private_O_Hanrahan</pawnKind>
+        <defName>FCP_Character_NCR_O_Hanahan</defName>
+        <pawnKind>FCP_NCR_Private_O_Hanahan</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Burch</firstName>
-                <lastName>O'Hanrahan</lastName>
-                <nickname>PVT. O'Hanrahan</nickname>
+                <lastName>O'Hanahan</lastName>
+                <nickname>PVT. O'Hanahan</nickname>
                 <gender>Male</gender>
                 <age>19</age>
             </li>
