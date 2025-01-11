@@ -409,6 +409,10 @@
                 </enlistOptionsDefs>
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
+			<li Class="FCP_Shuttles.FactionModExtension">
+				<transportShipDef>FCP_Vertibird</transportShipDef>
+			</li>
+			
         </modExtensions>
     </FactionDef>
 
