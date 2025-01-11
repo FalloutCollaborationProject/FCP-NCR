@@ -115,7 +115,7 @@
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
             <li>FCP_Caravan_Brahmin_Herder</li>
-<!--             <li>Base_Outlander_Standard</li> -->
+            <!-- <li>Base_Outlander_Standard</li> -->
         </baseTraderKinds>
 
         <!-- Trader Kind Arrival Options -->
@@ -145,7 +145,7 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Animal_NCR_Guard_Dog>8</FCP_Animal_NCR_Guard_Dog>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper>15</FCP_NCR_Trooper>
                     <FCP_NCR_Officer>2</FCP_NCR_Officer>
                     <FCP_NCR_President>1</FCP_NCR_President>
@@ -161,7 +161,7 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Animal_NCR_Guard_Dog>4</FCP_Animal_NCR_Guard_Dog>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">4</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Scout_Recon>8</FCP_NCR_Scout_Recon>
                     <FCP_NCR_Officer>1</FCP_NCR_Officer>
                     <FCP_NCR_President>1</FCP_NCR_President>
@@ -177,7 +177,7 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Animal_NCR_Guard_Dog>4</FCP_Animal_NCR_Guard_Dog>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">4</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper_Heavy>10</FCP_NCR_Trooper_Heavy>
                     <FCP_NCR_President>1</FCP_NCR_President>
                 </options>
@@ -192,7 +192,7 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Animal_NCR_Guard_Dog>3</FCP_Animal_NCR_Guard_Dog>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
                     <FCP_NCR_Ranger_Volunteer>8</FCP_NCR_Ranger_Volunteer>
                     <FCP_NCR_President>1</FCP_NCR_President>
@@ -208,7 +208,7 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Animal_NCR_Guard_Dog>3</FCP_Animal_NCR_Guard_Dog>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
                     <FCP_NCR_Ranger_Patrolman>8</FCP_NCR_Ranger_Patrolman>
                     <FCP_NCR_President>1</FCP_NCR_President>
@@ -224,7 +224,7 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Animal_NCR_Guard_Dog>3</FCP_Animal_NCR_Guard_Dog>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper>2</FCP_NCR_Trooper>
                     <FCP_NCR_Ranger_Veteran>8</FCP_NCR_Ranger_Veteran>
                     <FCP_NCR_President>1</FCP_NCR_President>
@@ -236,7 +236,7 @@
             <li>
                 <kindDef>Peaceful</kindDef>
                 <options>
-                    <FCP_Animal_NCR_Guard_Dog>8</FCP_Animal_NCR_Guard_Dog>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Citizen>14</FCP_NCR_Citizen>
                     <FCP_NCR_Trooper>9</FCP_NCR_Trooper>
                     <FCP_NCR_Officer>1</FCP_NCR_Officer>
@@ -280,7 +280,7 @@
                     <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_NCR_Caravan_Guard>5</FCP_NCR_Caravan_Guard>
+                    <FCP_Armored_Wastelander_Combat_Armor>5</FCP_Armored_Wastelander_Combat_Armor>
                 </guards>
             </li>
 
@@ -317,7 +317,7 @@
                 </carriers>
                 <guards>
                     <FCP_NCR_NCRCF_Guard>4</FCP_NCR_NCRCF_Guard>
-                    <FCP_Animal_NCR_Guard_Dog>1</FCP_Animal_NCR_Guard_Dog>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">1</FCP_Animal_NCR_Guard_Dog>
                 </guards>
             </li>
 

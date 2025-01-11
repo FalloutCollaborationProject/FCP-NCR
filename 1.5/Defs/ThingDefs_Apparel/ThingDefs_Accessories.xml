@@ -5,7 +5,7 @@
 
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Accessories_NCR_Bandoleer</defName>
-        <description>A bandoleer often worn by NCR troopers. It’s used to store ammunition as well as personal trinkets or talismans.</description>
+        <description>A bandoleer often worn by NCR troopers. It's used to store ammunition as well as personal trinkets or talismans.</description>
         <techLevel>Industrial</techLevel>
         <label>Trooper Bandoleer</label>
         <recipeMaker>
@@ -52,14 +52,16 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
-
 
     <!-- Trooper Mantle -->
 
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Accessories_NCR_Mantle</defName>
-        <description>A simple mantle made from heavy fabrics. NCR officers often strap these to their shoulder. It doesn’t offer much protection but insulates fairly well.</description>
+        <description>A simple mantle made from heavy fabrics. NCR officers often strap these to their shoulder. It doesn't offer much protection but insulates fairly well.</description>
         <techLevel>Industrial</techLevel>
         <label>Trooper Mantle</label>
         <recipeMaker>
@@ -84,7 +86,7 @@
             <WorkToMake>1000</WorkToMake>
             <Mass>4.0</Mass>
             <EquipDelay>1.2</EquipDelay>
-            <Insulation_Heat>7</Insulation_Heat> 
+            <Insulation_Heat>7</Insulation_Heat>
         </statBases>
         <costList>
             <Cloth>35</Cloth>
@@ -104,6 +106,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
 </Defs>

@@ -29,9 +29,9 @@
             </li>
 
             <!--__ Currency __-->
-            
+
             <!-- NCR Dollars -->
-            
+
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                 <countRange>750~1200</countRange>
@@ -49,16 +49,17 @@
 
             <!--__ Slaves __-->
 
-            <li Class="StockGenerator_Slaves">
-                <respectPopulationIntent>true</respectPopulationIntent>
+            <li Class="FCP.Core.StockGenerator_PawnsWithXenotype">
+                <ignoreIdeoRequirements>true</ignoreIdeoRequirements>
+                <respectPopulationIntent>false</respectPopulationIntent>
                 <countRange>2~5</countRange>
                 <slaveKindDef>FCP_NCR_NCRCF_Inmate</slaveKindDef>
             </li>
-            
+
             <!--__ Currency __-->
-            
+
             <!-- NCR Dollars -->
-            
+
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                 <countRange>750~1200</countRange>
@@ -73,7 +74,9 @@
         <label>NCR Quartermaster</label>
         <stockGenerators>
 
-            <!--__ Apparel __-->
+            <!--__ Selling __-->
+
+            <!--_ Apparel _-->
 
             <!-- Clothing -->
 
@@ -101,7 +104,7 @@
                 <thingDef>FCP_Apparel_NCR_Beret_1st_Recon</thingDef>
                 <countRange>0~1</countRange>
             </li>
-            
+
             <!-- Armor -->
 
             <li Class="StockGenerator_SingleDef">
@@ -156,18 +159,22 @@
                 <thingDef>FCP_Accessories_NCR_Mantle</thingDef>
                 <countRange>2~6</countRange>
             </li>
-            
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+
             <!--__ Currency __-->
-            
+
             <!-- NCR Dollars -->
-            
+
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                 <countRange>300~1250</countRange>
             </li>
         </stockGenerators>
     </TraderKindDef>
-    
+
     <!--___ Pre-War Goods Trader ___-->
 
     <TraderKindDef>
@@ -263,11 +270,11 @@
                 <thingDef>FCP_Food_Yum_Yum_Deviled_Eggs_Sour_Cream_Flavor</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            
+
             <!--__ Currency __-->
-            
+
             <!-- NCR Dollars -->
-            
+
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                 <countRange>150~750</countRange>

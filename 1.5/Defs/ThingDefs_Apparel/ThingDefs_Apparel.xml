@@ -46,6 +46,7 @@
         <equippedStatOffsets>
             <ConstructionSpeed>0.33</ConstructionSpeed>            <!-- Repair +5 -->
             <GeneralLaborSpeed>0.10</GeneralLaborSpeed>            <!-- Repair +5 -->
+            <MoveSpeed>0.20</MoveSpeed>                            <!-- AP +20 -->
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -66,6 +67,9 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--___ Politicians ___-->
@@ -76,7 +80,7 @@
         <defName>FCP_Apparel_NCR_Ambassador_Dress</defName>
         <label>NCR Ambassador Dress</label>
         <description>A stylish dress often worn by the ambassadors of the New California Republic. While it provides little to no actual
-            protection, it boosts it's wearer confidence during negotiation.</description>
+            protection, it boosts its wearer's confidence during negotiation.</description>
         <recipeMaker>
             <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
@@ -133,14 +137,17 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- NCR Ambassador Suit -->
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>FCP_Apparel_NCR_Ambassador_Suit</defName>
-        <label>NCR Ambassador Suit</label>
-        <description>A stylish suit often worn by the ambassadors of the New California Republic. While it provides little to no actual protection, it boosts it's wearer confidence during negotiation.</description>
+        <label>NCR Ambassador's Suit</label>
+        <description>A stylish suit often worn by the ambassadors of the New California Republic. While it provides little to no actual protection, it boosts its wearer's confidence during negotiation.</description>
         <recipeMaker>
             <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
@@ -197,6 +204,9 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- NCR Presidents Suit -->
@@ -260,6 +270,14 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--___ NCR Army ___-->
@@ -320,6 +338,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Trooper MP -->
@@ -378,6 +399,9 @@
                 <li>FCP_NCR_Trooper</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- NCR General Uniform-->
@@ -416,7 +440,7 @@
             <Insulation_Heat>2.3</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
         </statBases>
-        <equippedStatOffsets>            <!-- Unsure how to represent the AP +20, maybe move speed? -->
+        <equippedStatOffsets>
             <SocialImpact>0.5</SocialImpact>            <!-- Charisma +2 -->
         </equippedStatOffsets>
         <apparel>
@@ -437,6 +461,14 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--___ NCR Rangers ___-->
@@ -491,6 +523,9 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- NCR Ranger Casual Outfit -->
@@ -526,8 +561,7 @@
     <ThingDef ParentName="FCP_NCR_Ranger_Outfit">
         <defName>FCP_Apparel_NCR_Ranger_Vest</defName>
         <label>NCR Ranger Vest Outfit</label>
-        <!-- CHANGE DESCRIPTION -->
-        <description>Rugged clothes worn by the desert rangers. This particular outfit comes with a red scarf. Like most ranger clothes, it insulates well against the heat.</description>
+        <description>A rugged vest worn by NCR Rangers. It provides good protection against the elements and is ideal for long patrols and reconnaissance missions in harsh environments.</description>
         <graphicData>
             <texPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</texPath>
         </graphicData>
@@ -592,6 +626,14 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Veteran Ranger Duster -->
@@ -649,6 +691,14 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--___ NCRCF ___-->
@@ -713,6 +763,9 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- NCRCF Jacket -->
@@ -773,6 +826,9 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--_____ NCR Armors _____-->
@@ -837,6 +893,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Trooper Bandoleer Armor -->
@@ -900,6 +959,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Trooper Vest -->
@@ -955,6 +1017,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Trooper Mantle Armor -->
@@ -1015,6 +1080,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Scout Recon -->
@@ -1075,6 +1143,14 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Power Armor -->
@@ -1137,12 +1213,20 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
-		<modExtensions>
-			<li Class="FalloutCore.ApparelExtension">
-				<shouldHideBody>True</shouldHideBody>
-				<displayBodyType>Hulk</displayBodyType>
-			</li>
-		</modExtensions>
+        <modExtensions>
+            <li Class="FalloutCore.ApparelExtension">
+                <shouldHideBody>True</shouldHideBody>
+                <displayBodyType>Hulk</displayBodyType>
+            </li>
+        </modExtensions>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--___ NCR Rangers ___-->
@@ -1205,6 +1289,14 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Veteran Ranger Armor -->
@@ -1259,6 +1351,14 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--___ NCRCF ___-->
@@ -1320,6 +1420,9 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
 </Defs>
