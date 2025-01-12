@@ -411,6 +411,8 @@
             </li>
 			<li Class="FCP_Shuttles.FactionModExtension">
 				<transportShipDef>FCP_Vertibird</transportShipDef>
+				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+				<maxPawnCountInOneShuttle>8</maxPawnCountInOneShuttle>
 			</li>
 			
         </modExtensions>
