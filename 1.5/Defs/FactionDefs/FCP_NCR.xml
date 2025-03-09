@@ -7,7 +7,7 @@
 
     <FactionDef ParentName="FactionBase">
         <defName>FCP_Faction_NCR</defName>
-        <label>Old-World Republic</label>
+        <label>New California Republic</label>
         <description>The New California Republic is a faction based out of Shady Sands in the former state of California. It is a federal parliamentary republic, similar to the pre-war USA before it descended into authoritarianism. They represent the old world and its values. Roads, taxes, prisons, elections, and other phenomena long forgotten made a comeback with the NCR’s rise to power. It is seen by its citizens to be the sole haven of civilisation, democracy, and freedom in the wasteland. While there certainly is truth to that notion, the NCR also suffers from widespread corruption and oligarchic tendencies, for much power is held by exceedingly rich ranchers and farm owners. Furthermore, it uses its vast military, well supplied by their industrial centres, to aggressively expand their territory and claim the resources of neighbouring regions to sate the ever-growing hunger of its population.</description>
         <royalTitleTags>
             <li>FCP_Title_NCR</li>
@@ -414,7 +414,14 @@
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>8</maxPawnCountInOneShuttle>
 			</li>
-			
+            <!-- territory stuff -->
+            <li Class="FCP.Core.ModExtension_FactionTerritory">
+                <territoryColor>(222, 49, 41)</territoryColor>
+                <territoryBorderColor>(116, 22, 42)</territoryBorderColor>
+                <factionLabelColor>(0.9, 0.9, 0.8, 1.0)</factionLabelColor>
+                <initialTerritoryRadius>10</initialTerritoryRadius>
+                <renderTerritoryOverWater>false</renderTerritoryOverWater>
+            </li>
         </modExtensions>
     </FactionDef>
 
