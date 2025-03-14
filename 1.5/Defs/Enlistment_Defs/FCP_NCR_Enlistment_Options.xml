@@ -19,7 +19,7 @@
         <enlistRequrementsNotSatisfiedKey>FCP_NCR_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
         <enlistedToHostileFactionKey>FCP_NCR_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
         <enlistButtonIconTexPath>Things/UI/Enlisted/FCP_NCR_Enlist</enlistButtonIconTexPath>
-        <enlistedSoundDef>FCP_Card_Use</enlistedSoundDef>
+        <enlistedSoundDef>FCP_Sound_Card_Use</enlistedSoundDef>
         <enlistedWithKey>FCP_NCR_Enlisted_With_Key</enlistedWithKey>
 
         <!-- Mission Options -->

@@ -534,7 +534,6 @@
 			<li>FCP_NCR_Private_Halford</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-			<li>FCP_NCR_Private_Halford</li>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>

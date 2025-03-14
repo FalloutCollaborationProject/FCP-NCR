@@ -9,7 +9,7 @@
 
     <!-- Character Military Base -->
 
-    <PawnKindDef Name="FCP_CharacterkindBase" ParentName="FCP_NCRkindBase" Abstract="true">
+    <PawnKindDef Name="FCP_NCR_CharacterkindBase" ParentName="FCP_NCRkindBase" Abstract="true">
         <apparelMoney>9999</apparelMoney>
         <gearHealthRange>10</gearHealthRange>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -86,7 +86,7 @@
 
     <!-- General Olvier -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_General_Oliver</defName>
         <label>General</label>
         <combatPower>190</combatPower>
@@ -107,7 +107,7 @@
 
     <!-- Colonel Hsu -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Colonel_Hsu</defName>
         <label>Colonel</label>
         <combatPower>95</combatPower>
@@ -131,7 +131,7 @@
 
     <!-- Colonel Moore -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Colonel_Moore</defName>
         <label>Colonel</label>
         <combatPower>95</combatPower>
@@ -155,7 +155,7 @@
 
     <!-- Major Dhatri -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Major_Dhatri</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
@@ -179,7 +179,7 @@
 
     <!-- Major Knight -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Major_Knight</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
@@ -206,7 +206,7 @@
 
     <!-- Major Kieran -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Major_Kieran</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
@@ -230,7 +230,7 @@
 
     <!-- Major Polatli -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Major_Polatli</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
@@ -254,7 +254,7 @@
 
     <!-- Captain Parker -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Captain_Parker</defName>
         <label>Captain</label>
         <combatPower>95</combatPower>
@@ -278,7 +278,7 @@
 
     <!-- Captain Gilles -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Captain_Gilles</defName>
         <label>Captain</label>
         <combatPower>95</combatPower>
@@ -302,7 +302,7 @@
 
     <!-- Lieutenant Gorobets -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Lieutenant_Gorobets</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
@@ -330,7 +330,7 @@
 
     <!-- Lieutenant Hayes -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Lieutenant_Hayes</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
@@ -354,7 +354,7 @@
 
     <!-- Lieutenant Boyd -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Lieutenant_Boyd</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
@@ -379,7 +379,7 @@
 
     <!-- Sergeant Bitter-Root -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Sergeant_Bitter_Root</defName>
         <label>Sergeant</label>
         <combatPower>95</combatPower>
@@ -404,7 +404,7 @@
 
     <!-- Corporal Betsy -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Corporal_Betsy</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
@@ -429,7 +429,7 @@
 
     <!-- Corporal Sterling -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Corporal_Sterling</defName>
         <label>Corporal</label>
         <combatPower>110</combatPower>
@@ -453,7 +453,7 @@
 
     <!-- Private Brooks (10 of Spades) -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Private_10_of_Spades</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -477,7 +477,7 @@
 
     <!-- Corporal Mags -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Corporal_Mags</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
@@ -500,10 +500,10 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
-    <!-- Private O'Hanrahan -->
+    <!-- Private O'Hanahan -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
-        <defName>FCP_NCR_Private_O_Hanrahan</defName>
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+        <defName>FCP_NCR_Private_O_Hanahan</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -516,7 +516,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Private_O_Hanrahan</li>
+                    <li>FCP_NCR_Private_O_Hanahan</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -524,7 +524,7 @@
 
     <!-- Private Poindexter -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Private_Poindexter</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -546,7 +546,7 @@
 
     <!-- Private Razz -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Private_Razz</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -568,7 +568,7 @@
 
     <!-- Private Halford -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Private_Halford</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -593,7 +593,7 @@
 
     <!-- Private Seamer -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Private_Seamer</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -618,7 +618,7 @@
 
     <!-- Corporal Walter Hornsby -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Corporal_Hornsby</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
@@ -643,7 +643,7 @@
 
     <!-- Ranger Comm Officer Castillo -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Ranger_Castillo</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -668,7 +668,7 @@
 
     <!-- Ranger Ghost -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Ranger_Ghost</defName>
         <label>Ranger</label>
         <combatPower>95</combatPower>
@@ -693,7 +693,7 @@
 
     <!-- Ranger Comm Officer Green -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Ranger_Green</defName>
         <label>Ranger Comm Officer Green</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -718,7 +718,7 @@
 
     <!-- Ranger Jackson (Mojave Outpost) -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Ranger_A_Jackson</defName>
         <label>Ranger</label>
         <combatPower>95</combatPower>
@@ -743,7 +743,7 @@
 
     <!-- Ranger Comm Officer Lenk -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Ranger_Lenk</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -768,7 +768,7 @@
 
     <!-- Ranger Comm Officer Scheffer -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Ranger_Scheffer</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -793,7 +793,7 @@
 
     <!-- Ranger Comm Officer Stepinac -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Ranger_Stepinac</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -818,7 +818,7 @@
 
     <!-- Ranger Comm Officer Tilden -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Ranger_Tilden</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -843,7 +843,7 @@
 
     <!-- Patrol Ranger Bryce Anders -->
 
-    <PawnKindDef ParentName="FCP_CharacterkindBase">
+    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_NCR_Patrol_Ranger_Anders</defName>
         <label>Patrol Ranger</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>

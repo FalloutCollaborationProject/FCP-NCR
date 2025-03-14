@@ -19,7 +19,7 @@
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_NCR_Standard_Trooper_Corps</li>
-                <li>FCP_Tools_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -99,7 +99,7 @@
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_NCR_Ranger_Elite_Corps</li>
-                <li>FCP_Tools_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -178,7 +178,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Tools_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -264,7 +264,7 @@
         </weaponClasses>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Tools_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
