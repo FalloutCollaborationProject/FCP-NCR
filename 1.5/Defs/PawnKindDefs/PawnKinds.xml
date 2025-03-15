@@ -153,6 +153,28 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
+    <!-- Chief Hanlon -->
+    
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_NCR_Chief_Hanlon</defName>
+        <label>Chief Hanlon</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>120</combatPower>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Ranger_Red_Scarf</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Ranger_Sequoia</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~30</initialResistanceRange>
+    </PawnKindDef>
+
     <!-- Major Dhatri -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
