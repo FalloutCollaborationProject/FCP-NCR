@@ -410,9 +410,9 @@
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
 			<li Class="FCP_Shuttles.FactionModExtension">
-				<transportShipDef>FCP_Vertibird</transportShipDef>
+				<transportShipDef>FCP_NCR_Vertibird</transportShipDef>
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
-				<maxPawnCountInOneShuttle>8</maxPawnCountInOneShuttle>
+				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
             <!-- territory stuff -->
             <li Class="FCP.Core.ModExtension_FactionTerritory">
