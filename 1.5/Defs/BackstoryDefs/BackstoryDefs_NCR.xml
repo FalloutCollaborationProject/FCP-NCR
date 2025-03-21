@@ -1337,6 +1337,616 @@
         <possessions />
 	</BackstoryDef>
 
+	<!--_ NCR Generic Troopers _-->
+
+	<!-- NCR Trooper a -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Trooper_a</defName>
+		<identifier>FCP_NCR_Trooper_a</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Trooper</title>
+		<titleShort>Trooper</titleShort>
+		<description>When [PAWN_nameDef] enlisted in the NCR Army, [PAWN_pronoun] truly believed in its mission: order, democracy, and justice for the wasteland. But years on the frontlines have tested that faith. Corrupt officers, supply shortages, and brutal guerilla warfare against the Legion have made [PAWN_pronoun] question if the Republic can really bring peace to the wasteland. Still, [PAWN_possessive] duty isn’t done yet. If the NCR is flawed, then [PAWN_nameDef] will fight to make it better.</description>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Social>2</Social>
+			<Medicine>-3</Medicine>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Trooper b -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Trooper_b</defName>
+		<identifier>FCP_NCR_Trooper_b</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Trooper</title>
+		<titleShort>Trooper</titleShort>
+		<description>[PAWN_nameDef] barely made it through training, and everyone knew it. Out of shape, undisciplined, and barely able to follow orders, [PAWN_pronoun] should have been kicked out. But the NCR needed bodies, and so [PAWN_pronoun] was given a rifle and sent to the front. Now, [PAWN_pronoun] spends more time avoiding patrols than fighting, hoping to live long enough to get a discharge preferably with all [PAWN_possessive] limbs intact.</description>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>-1</Melee>
+			<Construction>-3</Construction>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Trooper c -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Trooper_c</defName>
+		<identifier>FCP_NCR_Trooper_c</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Trooper</title>
+		<titleShort>Trooper</titleShort>
+		<description>[PAWN_nameDef] didn’t join for patriotism. [PAWN_pronoun] joined because it was a paycheck. The NCR Army provides food, gear, and a chance to loot whatever’s left on the battlefield. Sure, the work is dangerous, but [PAWN_pronoun] knows that war isn’t about ideals, it’s about survival. And if the Republic ever stops paying, well… there’s always someone else willing to hire a soldier with experience.</description>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Melee>2</Melee>
+			<Construction>-7</Construction>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Trooper d -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Trooper_d</defName>
+		<identifier>FCP_NCR_Trooper_d</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Trooper</title>
+		<titleShort>Trooper</titleShort>
+		<description>Before the NCR, [PAWN_nameDef] lived by raider code, take what you want, kill who you need, and never look back. But raider gangs don’t last forever, and when [PAWN_possessive] crew was wiped out by an NCR patrol, [PAWN_pronoun] had two choices: a bullet or a uniform. The army’s discipline was suffocating at first, but over time, [PAWN_pronoun] found [PAWN_possessive] skills had a place here. Killing was killing, after all, did it really matter who?</description>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Crafting>4</Crafting>
+			<Intellectual>-6</Intellectual>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Trooper e -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Trooper_e</defName>
+		<identifier>FCP_NCR_Trooper_e</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Trooper</title>
+		<titleShort>Trooper</titleShort>
+		<description>The first time [PAWN_nameDef] saw an NCR soldier, [PAWN_pronoun] thought [PAWN_pronoun] was about to die. Instead, they cut [PAWN_pronoun] free. Born into Legion slavery, [PAWN_possessive] entire life had been toil and punishment. The idea of freedom was as foreign as the land beyond [PAWN_possessive] camp. When the NCR offered a new life in the army, [PAWN_pronoun] accepted—partly out of gratitude, partly because [PAWN_pronoun] didn’t know how to live any other way.</description>
+		<skillGains>
+			<Melee>4</Melee>
+			<Construction>5</Construction>
+			<Medicine>-6</Medicine>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Trooper f -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Trooper_f</defName>
+		<identifier>FCP_NCR_Trooper_f</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Trooper</title>
+		<titleShort>Trooper</titleShort>
+		<description>[PAWN_nameDef] joined the NCR not as a fighter, but as an engineer, working to maintain vehicles, fortifications, and energy grids. But when battles started turning against the Republic, every warm body was given a rifle including [PAWN_pronoun]. Now, [PAWN_pronoun] fights alongside the same soldiers [PAWN_pronoun] used to support, struggling to balance the cold logic of engineering with the chaotic brutality of war.</description>
+		<skillGains>
+			<Construction>5</Construction>
+			<Crafting>5</Crafting>
+			<Melee>-4</Melee>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!--_ NCR Generic Heavy Troopers _-->
+
+	<!-- NCR Heavy Trooper a -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Heavy_Trooper_a</defName>
+		<identifier>FCP_NCR_Heavy_Trooper_a</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Heavy Trooper</title>
+		<titleShort>Heavy Trooper</titleShort>
+		<description>[PAWN_nameDef] never wanted to be a soldier, but [PAWN_pronoun] always wanted to protect people. In the Heavy Trooper corps, [PAWN_pronoun] found a way to do both. [PAWN_pronoun] has learned to use [PAWN_possessive] salvaged armor as a shield for [PAWN_possessive] squadmates, standing firm under fire so others can fight another day. The Republic may not be perfect, but as long as [PAWN_pronoun] is standing, [PAWN_pronoun] will keep it safe.</description>
+		<skillGains>
+			<Shooting>7</Shooting>
+			<Construction>3</Construction>
+			<Social>-5</Social>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Heavy_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Heavy Trooper b -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Heavy_Trooper_b</defName>
+		<identifier>FCP_NCR_Heavy_Trooper_b</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Heavy Trooper</title>
+		<titleShort>Heavy Trooper</titleShort>
+		<description>Heavy Troopers were trained to hold the line, but [PAWN_nameDef] had a different idea, break the enemy’s line. Given salvaged power armor, [PAWN_possessive] first instinct was to charge, bringing close-range devastation to anyone too slow to run. [PAWN_pronoun] relishes the feeling of wading into a battlefield, taking shots that would kill normal troopers and coming out with nothing but dents. Some call [PAWN_pronoun] reckless. [PAWN_possessive] superiors just call [PAWN_pronoun] effective.</description>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>5</Melee>
+			<Animals>-4</Animals>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Heavy_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Heavy Trooper c -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Heavy_Trooper_c</defName>
+		<identifier>FCP_NCR_Heavy_Trooper_c</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Heavy Trooper</title>
+		<titleShort>Heavy Trooper</titleShort>
+		<description>[PAWN_nameDef] wasn’t supposed to last. Heavy Trooper training is brutal, and most wash out. But through sheer stubbornness, [PAWN_pronoun] endured, refusing to quit no matter how many times [PAWN_possessive] body failed. Years later, [PAWN_possessive] original trainers are either dead or retired, and [PAWN_pronoun] is still here, still standing. The NCR may be flawed, but it’s given [PAWN_pronoun] a purpose, and [PAWN_pronoun] won’t let it go.</description>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Construction>3</Construction>
+			<Crafting>-5</Crafting>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Heavy_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Heavy Trooper d -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Heavy_Trooper_d</defName>
+		<identifier>FCP_NCR_Heavy_Trooper_d</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Heavy Trooper</title>
+		<titleShort>Heavy Trooper</titleShort>
+		<description>[PAWN_nameDef] should be dead by now. The NCR has sent [PAWN_pronoun] into some of the worst hellholes on the frontlines, and yet [PAWN_pronoun] keeps coming back. Some say it’s the armor. Some say it’s sheer luck. Whatever it is, [PAWN_possessive] reputation as an unkillable soldier has made [PAWN_pronoun] both feared and respected. No matter how many battles come, [PAWN_pronoun] will fight until there’s nothing left.</description>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Medicine>3</Medicine>
+			<Construction>-4</Construction>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Heavy_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Heavy Trooper e -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Heavy_Trooper_e</defName>
+		<identifier>FCP_NCR_Heavy_Trooper_e</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Heavy Trooper</title>
+		<titleShort>Heavy Trooper</titleShort>
+		<description>Heavy Troopers don’t just fight the Legion, they also enforce NCR rule in the frontier. When diplomacy fails, heavies move in. [PAWN_nameDef] has crushed uprisings, disarmed dissidents, and put down anyone who thought they could defy the Republic. Some NCR officers hesitate to use force. [PAWN_pronoun] does not. The Republic’s laws are meaningless if people don’t fear breaking them.</description>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Melee>3</Melee>
+			<Social>-10</Social>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Heavy_Trooper</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!--_ NCR Generic Officers _-->
+
+	<!-- NCR Officer a -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Officer_a</defName>
+		<identifier>FCP_NCR_Officer_a</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Officer</title>
+		<titleShort>Officer</titleShort>
+		<description>[PAWN_nameDef] never wanted to be an officer. In the early days of [PAWN_possessive] enlistment, [PAWN_pronoun] was just another grunt in the trenches, dodging bullets and barely surviving Legion ambushes. But when [PAWN_possessive] commanding officer fell, [PAWN_pronoun] took charge out of necessity. The Republic rewarded [PAWN_pronoun] with a battlefield commission, and ever since, [PAWN_pronoun] has been leading from the front—whether [PAWN_pronoun] likes it or not.</description>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Social>4</Social>
+			<Artistic>-6</Artistic>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Officer</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Officer b -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Officer_b</defName>
+		<identifier>FCP_NCR_Officer_b</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Officer</title>
+		<titleShort>Officer</titleShort>
+		<description>Diplomacy is for politicians, officers exist to win wars. [PAWN_nameDef] has no patience for soft-spoken negotiators or bureaucrats who slow the Republic’s expansion. The NCR is meant to conquer, to bring order to lawless wastes. Every battle is an opportunity to expand the Republic’s reach, and [PAWN_pronoun] will not let weak-willed fools stand in the way.</description>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Social>5</Social>
+			<Medicine>-3</Medicine>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Officer</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Officer c -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Officer_c</defName>
+		<identifier>FCP_NCR_Officer_c</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Officer</title>
+		<titleShort>Officer</titleShort>
+		<description>The NCR preaches justice and democracy, but out here in the wasteland, real power comes from who you know and what you control. [PAWN_nameDef] learned early on that the best way to thrive in the Republic wasn’t through valor but through favors, bribes, and well-placed threats. The rank of officer was just another step toward controlling the Republic’s real power structure.</description>
+		<skillGains>
+			<Medicine>3</Medicine>
+			<Social>6</Social>
+			<Construction>-4</Construction>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Officer</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Officer d -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Officer_d</defName>
+		<identifier>FCP_NCR_Officer_d</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Officer</title>
+		<titleShort>Officer</titleShort>
+		<description>[PAWN_nameDef] didn’t join the NCR to fight, [PAWN_pronoun] joined to rise. Every battle, every victory, every strategic decision is just a stepping stone toward something greater. War is just another game of politics, and [PAWN_pronoun] intends to win.</description>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>4</Social>
+			<Medicine>-4</Medicine>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Officer</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Officer e -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Officer_e</defName>
+		<identifier>FCP_NCR_Officer_e</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Officer</title>
+		<titleShort>Officer</titleShort>
+		<description>The Brotherhood doesn’t take prisoners. When [PAWN_nameDef] led a patrol into contested NCR territory, the mission was supposed to be a simple scouting operation. Instead, it turned into a massacre. [PAWN_pronoun] barely escaped, while [PAWN_possessive] entire unit was wiped out by a single squad of Brotherhood Knights. The NCR may have won the war against them, but [PAWN_pronoun] knows better, the Brotherhood isn’t gone, just hiding, waiting to strike again. And [PAWN_pronoun] will be waiting too.</description>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Medicine>4</Medicine>
+			<Social>-5</Social>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Officer</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!--_ NCR Generic Doctors _-->
+
+	<!-- NCR Doctor a -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Doctor_a</defName>
+		<identifier>FCP_NCR_Doctor_a</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<description>[PAWN_nameDef] didn’t expect medicine to be this messy. When [PAWN_pronoun] signed up with the NCR, [PAWN_possessive] dreams were of clean clinics, careful surgeries, and patients who had a real chance at survival. Instead, [PAWN_pronoun] spent [PAWN_possessive] career digging bullets out of screaming soldiers, using whatever tools were on hand to keep them alive for just one more fight. The Republic’s wars never end, and neither does [PAWN_possessive] work.</description>
+		<skillGains>
+			<Melee>2</Melee>
+			<Medicine>6</Medicine>
+			<Artistic>-5</Artistic>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Doctor</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Doctor b -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Doctor_b</defName>
+		<identifier>FCP_NCR_Doctor_b</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<description>To [PAWN_nameDef], the Republic isn’t about war, it’s about saving lives. [PAWN_pronoun] treats NCR soldiers, wastelanders, even captured enemies, because life is too precious to waste on petty politics. Many of [PAWN_possessive] fellow officers call [PAWN_pronoun] soft, but [PAWN_pronoun] believes that if the Republic truly stands for something, it should be compassion.</description>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Medicine>7</Medicine>
+			<Shooting>-5</Shooting>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Doctor</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Doctor c -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Doctor_c</defName>
+		<identifier>FCP_NCR_Doctor_c</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<description>Before the NCR, [PAWN_nameDef] was a Scribe of the Brotherhood of Steel, trained in medical science. But [PAWN_pronoun] saw firsthand how the Brotherhood hoarded technology, refusing to use it to help the wasteland. That wasn’t good enough. [PAWN_pronoun] fled to the NCR, offering [PAWN_possessive] expertise to a faction that actually helped people. Some troopers still don’t trust [PAWN_pronoun], but [PAWN_possessive] skills have kept them alive too many times to ignore.</description>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Medicine>5</Medicine>
+			<Social>-6</Social>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Doctor</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Doctor d -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Doctor_d</defName>
+		<identifier>FCP_NCR_Doctor_d</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<description>Before the NCR, before the Republic’s war machine, [PAWN_nameDef] was just another wasteland doctor, moving from settlement to settlement, patching up whoever could pay. Eventually, the NCR made [PAWN_pronoun] an offer, regular supplies, security, and a real place to work. It wasn’t a hard choice. But even now, [PAWN_pronoun] sometimes wonders if the Republic is really any different from the warlords [PAWN_pronoun] used to avoid.</description>
+		<skillGains>
+			<Animals>4</Animals>
+			<Medicine>6</Medicine>
+			<Construction>-5</Construction>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Doctor</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!--_ NCR Generic Scientists _-->
+
+	<!-- NCR Scientist a -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Scientist_a</defName>
+		<identifier>FCP_NCR_Scientist_a</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Scientist</title>
+		<titleShort>Scientist</titleShort>
+		<description>[PAWN_nameDef] was once a scientist for the Enclave, part of a classified research division dedicated to advancing pre-war technology. But the deeper [PAWN_pronoun] dug, the clearer it became, the Enclave wasn’t saving America. It was dooming it all over again. When the NCR pushed into Enclave held territory, [PAWN_pronoun] saw a chance to escape and took it. Now, [PAWN_pronoun] uses [PAWN_possessive] knowledge to help the Republic, though some still don’t trust a former Enclave scientist.</description>
+		<skillGains>
+			<Intellectual>10</Intellectual>
+			<Medicine>5</Medicine>
+			<Social>-6</Social>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Scientist</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Scientist b -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Scientist_b</defName>
+		<identifier>FCP_NCR_Scientist_b</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Scientist</title>
+		<titleShort>Scientist</titleShort>
+		<description>The NCR doesn’t win wars just by outnumbering the enemy, it wins with firepower. That’s where [PAWN_nameDef] comes in. [PAWN_pronoun] has spent [PAWN_possessive] entire career developing better guns, better explosives, and deadlier ways to ensure the Republic’s dominance. Some people call [PAWN_pronoun] work ruthless, but they don’t complain when NCR Heavy Troopers melt through enemy lines with plasma weaponry.</description>
+		<skillGains>
+			<Intellectual>5</Intellectual>
+			<Crafting>6</Crafting>
+			<Cooking>-5</Cooking>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Scientist</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Scientist c -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Scientist_c</defName>
+		<identifier>FCP_NCR_Scientist_c</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Scientist</title>
+		<titleShort>Scientist</titleShort>
+		<description>The wasteland is a hostile, mutating place, and [PAWN_nameDef] has spent [PAWN_possessive] life studying it. From FEV strains to aggressive radscorpions, [PAWN_pronoun] sees the world as a testbed for scientific progress. The Republic frowns on [PAWN_possessive] experiments, but [PAWN_pronoun] knows the strongest survive, and science must be free to push boundaries.</description>
+		<skillGains>
+			<Intellectual>5</Intellectual>
+			<Animals>6</Animals>
+			<Artistic>-4</Artistic>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Scientist</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Scientist d -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Scientist_d</defName>
+		<identifier>FCP_NCR_Scientist_d</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Scientist</title>
+		<titleShort>Scientist</titleShort>
+		<description>The Brotherhood of Steel sees technology as a treasure to be hoarded. [PAWN_nameDef] saw it as a tool for progress. When the NCR went to war with the Brotherhood, [PAWN_pronoun] made a choice, defect and share [PAWN_possessive] knowledge with the Republic. Now, [PAWN_pronoun] works in NCR research labs, studying power armor, energy weapons, and other Brotherhood secrets.</description>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Crafting>5</Crafting>
+			<Social>-3</Social>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Scientist</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
+	<!-- NCR Scientist e -->
+
+	<BackstoryDef>
+		<defName>FCP_NCR_Scientist_e</defName>
+		<identifier>FCP_NCR_Scientist_e</identifier>
+		<slot>Adulthood</slot>
+		<title>NCR Scientist</title>
+		<titleShort>Scientist</titleShort>
+		<description>[PAWN_nameDef] was born in a vault, one of the few still operating when the NCR came knocking. The Republic took control, offering [PAWN_pronoun] a chance to put [PAWN_possessive] skills to use for something greater. [PAWN_pronoun] accepted, eager to study the wasteland firsthand. The surface world is dangerous, unpredictable, and full of scientific wonders.</description>
+		<skillGains>
+			<Intellectual>5</Intellectual>
+			<Construction>4</Construction>
+			<Melee>-5</Melee>
+		</skillGains>
+		<workDisables></workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<spawnCategories>
+			<li>FCP_NCR_Scientist</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+	</BackstoryDef>
+
 	<!--__ Children __-->
 
 	<!-- Republic Born -->
