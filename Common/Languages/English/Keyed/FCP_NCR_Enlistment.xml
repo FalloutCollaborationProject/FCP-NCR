@@ -33,7 +33,7 @@
 	<!-- Provision Options -->
 
 	<FCP_NCR_Provisions_Label>Provisions</FCP_NCR_Provisions_Label>
-	<FCP_NCR_Provisions_Desc>Provisions will give your caravan inventory the following every 10 days:\n\n- 6 NCR Food Crate \n- ×1 NCR Field Medic Crate</FCP_NCR_Provisions_Desc>
+	<FCP_NCR_Provisions_Desc>Provisions will given your caravan inventory the following every 10 days:\n\n- 6 NCR Food Crate \n- ×1 NCR Field Medic Crate</FCP_NCR_Provisions_Desc>
 
 	<FCP_NCR_Provisions_Label_Standard_Issue>Standard Issue</FCP_NCR_Provisions_Label_Standard_Issue>
 	<FCP_NCR_Provisions_Desc_Standard_Issue>NCR standard Issue gear will arrive via your caravan inventory every 30 days:\n\n- ×2 NCR Army Weapon Crate \n- ×2 NCR Army Uniform Crate</FCP_NCR_Provisions_Desc_Standard_Issue>
