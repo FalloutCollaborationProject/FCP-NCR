@@ -148,7 +148,7 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper>15</FCP_NCR_Trooper>
                     <FCP_NCR_Officer>2</FCP_NCR_Officer>
-                    <FCP_NCR_President>1</FCP_NCR_President>
+                    <FCP_NCR_General>1</FCP_NCR_General>
                 </options>
             </li>
 
@@ -164,7 +164,7 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">4</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Scout_Recon>8</FCP_NCR_Scout_Recon>
                     <FCP_NCR_Officer>1</FCP_NCR_Officer>
-                    <FCP_NCR_President>1</FCP_NCR_President>
+                    <FCP_NCR_General>1</FCP_NCR_General>
                 </options>
             </li>
 
@@ -179,7 +179,7 @@
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">4</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper_Heavy>10</FCP_NCR_Trooper_Heavy>
-                    <FCP_NCR_President>1</FCP_NCR_President>
+                    <FCP_NCR_General>1</FCP_NCR_General>
                 </options>
             </li>
 
@@ -195,7 +195,7 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
                     <FCP_NCR_Ranger_Volunteer>8</FCP_NCR_Ranger_Volunteer>
-                    <FCP_NCR_President>1</FCP_NCR_President>
+                    <FCP_NCR_General>1</FCP_NCR_General>
                 </options>
             </li>
 
@@ -211,7 +211,7 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
                     <FCP_NCR_Ranger_Patrolman>8</FCP_NCR_Ranger_Patrolman>
-                    <FCP_NCR_President>1</FCP_NCR_President>
+                    <FCP_NCR_General>1</FCP_NCR_General>
                 </options>
             </li>
 
@@ -227,7 +227,7 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
                     <FCP_NCR_Trooper>2</FCP_NCR_Trooper>
                     <FCP_NCR_Ranger_Veteran>8</FCP_NCR_Ranger_Veteran>
-                    <FCP_NCR_President>1</FCP_NCR_President>
+                    <FCP_NCR_General>1</FCP_NCR_General>
                 </options>
             </li>
 
@@ -242,7 +242,6 @@
                     <FCP_NCR_Officer>1</FCP_NCR_Officer>
                     <FCP_NCR_Ranger_Veteran>3</FCP_NCR_Ranger_Veteran>
                     <FCP_NCR_General>1</FCP_NCR_General>
-                    <FCP_NCR_President>1</FCP_NCR_President>
                 </options>
             </li>
 
@@ -352,7 +351,7 @@
                     <FCP_NCR_Ranger_Volunteer>5</FCP_NCR_Ranger_Volunteer>
                     <FCP_NCR_MP>12</FCP_NCR_MP>
                     <FCP_NCR_Ambassador>2</FCP_NCR_Ambassador>
-                    <FCP_NCR_President>1</FCP_NCR_President>
+                    <FCP_NCR_President_Kimball>1</FCP_NCR_President_Kimball>
                 </options>
             </li>
         </pawnGroupMakers>

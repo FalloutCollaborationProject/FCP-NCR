@@ -156,7 +156,7 @@
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
                         <positionOffset>(1, 0, -2.5)</positionOffset>
-                        <spinRate>5</spinRate>
+                        <spinRate>15</spinRate>
                     </li>
                     <li>
                         <bladeGraphic>
@@ -165,7 +165,7 @@
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
                         <positionOffset>(1, 0, 3.7)</positionOffset>
-                        <spinRate>5</spinRate>
+                        <spinRate>15</spinRate>
                     </li>
                 </bladeGraphicsData>
             </li>

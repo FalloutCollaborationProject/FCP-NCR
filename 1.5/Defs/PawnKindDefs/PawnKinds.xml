@@ -158,7 +158,6 @@
     <PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_NCR_Chief_Hanlon</defName>
         <label>Chief Hanlon</label>
-        <factionLeader>true</factionLeader>
         <combatPower>120</combatPower>
         <apparelMoney>0</apparelMoney>
         <apparelRequired>
@@ -1194,7 +1193,7 @@
 
     <!-- President -->
 
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    <!-- <PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_NCR_President</defName>
         <label>NCR President</label>
         <factionLeader>true</factionLeader>
@@ -1202,7 +1201,7 @@
         <apparelRequired>
             <li>FCP_Apparel_NCR_Presidents_Suit</li>
         </apparelRequired>
-        <!-- <weaponMoney>1000~1001</weaponMoney> -->
+        <weaponMoney>1000~1001</weaponMoney>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>19~30</initialResistanceRange>
         <backstoryFiltersOverride>
@@ -1217,7 +1216,7 @@
             </li>
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
-    </PawnKindDef>
+    </PawnKindDef> -->
 
     <!--___ Military ___-->
 
@@ -1389,7 +1388,7 @@
                     <li>FCP_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Trooper</li>
+                    <li>FCP_NCR_Heavy_Trooper</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1452,6 +1451,7 @@
         <label>NCR General</label>
         <combatPower>190</combatPower>
         <apparelMoney>9999</apparelMoney>
+        <factionLeader>true</factionLeader>
         <apparelTags>
             <li>FCP_NCR_General</li>
         </apparelTags>
