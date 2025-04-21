@@ -938,7 +938,7 @@
 			<Mining>5</Mining>
 			<Crafting>1</Crafting>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -964,7 +964,7 @@
 			<Animals>2</Animals>
 			<Social>4</Social>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Caravaneer</li>
@@ -991,7 +991,7 @@
 			<Social>3</Social>
 			<Intellectual>3</Intellectual>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -1016,7 +1016,7 @@
 			<Plants>3</Plants>
 			<Animals>1</Animals>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -1095,7 +1095,7 @@
 			<Medicine>5</Medicine>
 			<Intellectual>3</Intellectual>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>Caring</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
@@ -1199,7 +1199,7 @@
 			<Crafting>2</Crafting>
 			<Medicine>2</Medicine>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -1225,7 +1225,7 @@
 			<Cooking>3</Cooking>
 			<Crafting>2</Crafting>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -1250,7 +1250,7 @@
 			<Medicine>2</Medicine>
 			<Social>2</Social>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Citizen</li>
@@ -1326,7 +1326,7 @@
 			<Artistic>-3</Artistic>
 			<Intellectual>-2</Intellectual>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
@@ -1353,7 +1353,7 @@
 			<Social>2</Social>
 			<Medicine>-3</Medicine>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
@@ -1377,7 +1377,7 @@
 			<Melee>-1</Melee>
 			<Construction>-3</Construction>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
@@ -1401,7 +1401,7 @@
 			<Melee>2</Melee>
 			<Construction>-7</Construction>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
@@ -1425,7 +1425,7 @@
 			<Crafting>4</Crafting>
 			<Intellectual>-6</Intellectual>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
@@ -1449,7 +1449,7 @@
 			<Construction>5</Construction>
 			<Medicine>-6</Medicine>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
@@ -1473,7 +1473,7 @@
 			<Crafting>5</Crafting>
 			<Melee>-4</Melee>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Trooper</li>
@@ -1499,7 +1499,7 @@
 			<Construction>3</Construction>
 			<Social>-5</Social>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Heavy_Trooper</li>
@@ -1523,7 +1523,7 @@
 			<Melee>5</Melee>
 			<Animals>-4</Animals>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Heavy_Trooper</li>
@@ -1547,7 +1547,7 @@
 			<Construction>3</Construction>
 			<Crafting>-5</Crafting>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Heavy_Trooper</li>
@@ -1571,7 +1571,7 @@
 			<Medicine>3</Medicine>
 			<Construction>-4</Construction>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Heavy_Trooper</li>
@@ -1595,7 +1595,7 @@
 			<Melee>3</Melee>
 			<Social>-10</Social>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Heavy_Trooper</li>
@@ -1621,7 +1621,7 @@
 			<Social>4</Social>
 			<Artistic>-6</Artistic>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Officer</li>
@@ -1645,7 +1645,7 @@
 			<Social>5</Social>
 			<Medicine>-3</Medicine>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Officer</li>
@@ -1669,7 +1669,7 @@
 			<Social>6</Social>
 			<Construction>-4</Construction>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Officer</li>
@@ -1693,7 +1693,7 @@
 			<Social>4</Social>
 			<Medicine>-4</Medicine>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Officer</li>
@@ -1717,7 +1717,7 @@
 			<Medicine>4</Medicine>
 			<Social>-5</Social>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Officer</li>
@@ -1743,7 +1743,7 @@
 			<Medicine>6</Medicine>
 			<Artistic>-5</Artistic>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Doctor</li>
@@ -1767,7 +1767,7 @@
 			<Medicine>7</Medicine>
 			<Shooting>-5</Shooting>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Doctor</li>
@@ -1791,7 +1791,7 @@
 			<Medicine>5</Medicine>
 			<Social>-6</Social>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Doctor</li>
@@ -1815,7 +1815,7 @@
 			<Medicine>6</Medicine>
 			<Construction>-5</Construction>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Doctor</li>
@@ -1841,7 +1841,7 @@
 			<Medicine>5</Medicine>
 			<Social>-6</Social>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Scientist</li>
@@ -1865,7 +1865,7 @@
 			<Crafting>6</Crafting>
 			<Cooking>-5</Cooking>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Scientist</li>
@@ -1889,7 +1889,7 @@
 			<Animals>6</Animals>
 			<Artistic>-4</Artistic>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Scientist</li>
@@ -1913,7 +1913,7 @@
 			<Crafting>5</Crafting>
 			<Social>-3</Social>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Scientist</li>
@@ -1937,7 +1937,7 @@
 			<Construction>4</Construction>
 			<Melee>-5</Melee>
 		</skillGains>
-		<workDisables></workDisables>
+		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
 			<li>FCP_NCR_Scientist</li>
