@@ -25,7 +25,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
                 </categoriesChildhood>
             </li>
         </backstoryFiltersOverride>
@@ -35,7 +35,7 @@
     <!-- President Kimball -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_President_Kimball</defName>
+        <defName>FCP_Pawnkind_NCR_President_Kimball</defName>
         <label>President</label>
         <factionLeader>true</factionLeader>
         <combatPower>100</combatPower>
@@ -48,10 +48,10 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_President_Kimball</li>
+                    <li>FCP_Backstory_NCR_President_Kimball</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -61,7 +61,7 @@
     <!-- Ambassador Crocker -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Ambassador_Crocker</defName>
+        <defName>FCP_Pawnkind_NCR_Ambassador_Crocker</defName>
         <label>Ambassador</label>
         <trader>true</trader>
         <combatPower>30</combatPower>
@@ -74,10 +74,10 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ambassador_Crocker</li>
+                    <li>FCP_Backstory_NCR_Ambassador_Crocker</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -87,7 +87,7 @@
     <!-- General Olvier -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_General_Oliver</defName>
+        <defName>FCP_Pawnkind_NCR_General_Oliver</defName>
         <label>General</label>
         <combatPower>190</combatPower>
         <apparelTags>
@@ -99,7 +99,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_General_Oliver</li>
+                    <li>FCP_Backstory_NCR_General_Oliver</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -108,7 +108,7 @@
     <!-- Colonel Hsu -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Colonel_Hsu</defName>
+        <defName>FCP_Pawnkind_NCR_Colonel_Hsu</defName>
         <label>Colonel</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -123,7 +123,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Colonel_Hsu</li>
+                    <li>FCP_Backstory_NCR_Colonel_Hsu</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -132,7 +132,7 @@
     <!-- Colonel Moore -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Colonel_Moore</defName>
+        <defName>FCP_Pawnkind_NCR_Colonel_Moore</defName>
         <label>Colonel</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -147,7 +147,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Colonel_Moore</li>
+                    <li>FCP_Backstory_NCR_Colonel_Moore</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -156,7 +156,7 @@
     <!-- Chief Hanlon -->
     
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Chief_Hanlon</defName>
+        <defName>FCP_Pawnkind_NCR_Chief_Hanlon</defName>
         <label>Chief Hanlon</label>
         <combatPower>120</combatPower>
         <apparelMoney>0</apparelMoney>
@@ -177,7 +177,7 @@
     <!-- Major Dhatri -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Major_Dhatri</defName>
+        <defName>FCP_Pawnkind_NCR_Major_Dhatri</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -192,7 +192,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Major_Dhatri</li>
+                    <li>FCP_Backstory_NCR_Major_Dhatri</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -201,7 +201,7 @@
     <!-- Major Knight -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Major_Knight</defName>
+        <defName>FCP_Pawnkind_NCR_Major_Knight</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -219,7 +219,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Major_Knight</li>
+                    <li>FCP_Backstory_NCR_Major_Knight</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -228,7 +228,7 @@
     <!-- Major Kieran -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Major_Kieran</defName>
+        <defName>FCP_Pawnkind_NCR_Major_Kieran</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -243,7 +243,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Major_Kieran</li>
+                    <li>FCP_Backstory_NCR_Major_Kieran</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -252,7 +252,7 @@
     <!-- Major Polatli -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Major_Polatli</defName>
+        <defName>FCP_Pawnkind_NCR_Major_Polatli</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -267,7 +267,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Major_Polatli</li>
+                    <li>FCP_Backstory_NCR_Major_Polatli</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -276,7 +276,7 @@
     <!-- Captain Parker -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Captain_Parker</defName>
+        <defName>FCP_Pawnkind_NCR_Captain_Parker</defName>
         <label>Captain</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -291,7 +291,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Captain_Parker</li>
+                    <li>FCP_Backstory_NCR_Captain_Parker</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -300,7 +300,7 @@
     <!-- Captain Gilles -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Captain_Gilles</defName>
+        <defName>FCP_Pawnkind_NCR_Captain_Gilles</defName>
         <label>Captain</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -315,7 +315,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Captain_Gilles</li>
+                    <li>FCP_Backstory_NCR_Captain_Gilles</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -324,7 +324,7 @@
     <!-- Lieutenant Gorobets -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Lieutenant_Gorobets</defName>
+        <defName>FCP_Pawnkind_NCR_Lieutenant_Gorobets</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -343,7 +343,7 @@
                     <li>FCP_NCR_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Lieutenant_Gorobets</li>
+                    <li>FCP_Backstory_NCR_Lieutenant_Gorobets</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -352,7 +352,7 @@
     <!-- Lieutenant Hayes -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Lieutenant_Hayes</defName>
+        <defName>FCP_Pawnkind_NCR_Lieutenant_Hayes</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -367,7 +367,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Lieutenant_Hayes</li>
+                    <li>FCP_Backstory_NCR_Lieutenant_Hayes</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -376,7 +376,7 @@
     <!-- Lieutenant Boyd -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Lieutenant_Boyd</defName>
+        <defName>FCP_Pawnkind_NCR_Lieutenant_Boyd</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -392,7 +392,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Lieutenant_Boyd</li>
+                    <li>FCP_Backstory_NCR_Lieutenant_Boyd</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -401,7 +401,7 @@
     <!-- Sergeant Bitter-Root -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Sergeant_Bitter_Root</defName>
+        <defName>FCP_Pawnkind_NCR_Sergeant_Bitter_Root</defName>
         <label>Sergeant</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -417,7 +417,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Sergeant_Bitter_Root</li>
+                    <li>FCP_Backstory_NCR_Sergeant_Bitter_Root</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -426,7 +426,7 @@
     <!-- Corporal Betsy -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Corporal_Betsy</defName>
+        <defName>FCP_Pawnkind_NCR_Corporal_Betsy</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -442,7 +442,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Corporal_Betsy</li>
+                    <li>FCP_Backstory_NCR_Corporal_Betsy</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -451,7 +451,7 @@
     <!-- Corporal Sterling -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Corporal_Sterling</defName>
+        <defName>FCP_Pawnkind_NCR_Corporal_Sterling</defName>
         <label>Corporal</label>
         <combatPower>110</combatPower>
         <apparelTags>
@@ -466,7 +466,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Corporal_Sterling</li>
+                    <li>FCP_Backstory_NCR_Corporal_Sterling</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -475,7 +475,7 @@
     <!-- Private Brooks (10 of Spades) -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Private_10_of_Spades</defName>
+        <defName>FCP_Pawnkind_NCR_Private_10_of_Spades</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -490,7 +490,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Private_10_of_Spades</li>
+                    <li>FCP_Backstory_NCR_Private_10_of_Spades</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -499,7 +499,7 @@
     <!-- Corporal Mags -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Corporal_Mags</defName>
+        <defName>FCP_Pawnkind_NCR_Corporal_Mags</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -515,7 +515,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Corporal_Mags</li>
+                    <li>FCP_Backstory_NCR_Corporal_Mags</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -524,7 +524,7 @@
     <!-- Private O'Hanahan -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Private_O_Hanahan</defName>
+        <defName>FCP_Pawnkind_NCR_Private_O_Hanahan</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -537,7 +537,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Private_O_Hanahan</li>
+                    <li>FCP_Backstory_NCR_Private_O_Hanahan</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -546,7 +546,7 @@
     <!-- Private Poindexter -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Private_Poindexter</defName>
+        <defName>FCP_Pawnkind_NCR_Private_Poindexter</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -559,7 +559,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Private_Poindexter</li>
+                    <li>FCP_Backstory_NCR_Private_Poindexter</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -568,7 +568,7 @@
     <!-- Private Razz -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Private_Razz</defName>
+        <defName>FCP_Pawnkind_NCR_Private_Razz</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -581,7 +581,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Private_Razz</li>
+                    <li>FCP_Backstory_NCR_Private_Razz</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -590,7 +590,7 @@
     <!-- Private Halford -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Private_Halford</defName>
+        <defName>FCP_Pawnkind_NCR_Private_Halford</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -606,7 +606,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Private_Halford</li>
+                    <li>FCP_Backstory_NCR_Private_Halford</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -615,7 +615,7 @@
     <!-- Private Seamer -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Private_Seamer</defName>
+        <defName>FCP_Pawnkind_NCR_Private_Seamer</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -631,7 +631,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Private_Seamer</li>
+                    <li>FCP_Backstory_NCR_Private_Seamer</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -640,7 +640,7 @@
     <!-- Corporal Walter Hornsby -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Corporal_Hornsby</defName>
+        <defName>FCP_Pawnkind_NCR_Corporal_Hornsby</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -656,7 +656,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Corporal_Hornsby</li>
+                    <li>FCP_Backstory_NCR_Corporal_Hornsby</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -665,7 +665,7 @@
     <!-- Ranger Comm Officer Castillo -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Ranger_Castillo</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Castillo</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <combatPower>95</combatPower>
@@ -681,7 +681,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger_Castillo</li>
+                    <li>FCP_Backstory_NCR_Ranger_Castillo</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -690,7 +690,7 @@
     <!-- Ranger Ghost -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Ranger_Ghost</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Ghost</defName>
         <label>Ranger</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -706,7 +706,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger_Ghost</li>
+                    <li>FCP_Backstory_NCR_Ranger_Ghost</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -715,7 +715,7 @@
     <!-- Ranger Comm Officer Green -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Ranger_Green</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Green</defName>
         <label>Ranger Comm Officer Green</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <combatPower>95</combatPower>
@@ -731,7 +731,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger_Green</li>
+                    <li>FCP_Backstory_NCR_Ranger_Green</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -740,7 +740,7 @@
     <!-- Ranger Jackson (Mojave Outpost) -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Ranger_A_Jackson</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_A_Jackson</defName>
         <label>Ranger</label>
         <combatPower>95</combatPower>
         <apparelTags>
@@ -756,7 +756,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger_A_Jackson</li>
+                    <li>FCP_Backstory_NCR_Ranger_A_Jackson</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -765,7 +765,7 @@
     <!-- Ranger Comm Officer Lenk -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Ranger_Lenk</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Lenk</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <combatPower>95</combatPower>
@@ -781,7 +781,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger_Lenk</li>
+                    <li>FCP_Backstory_NCR_Ranger_Lenk</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -790,7 +790,7 @@
     <!-- Ranger Comm Officer Scheffer -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Ranger_Scheffer</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Scheffer</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <combatPower>95</combatPower>
@@ -806,7 +806,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger_Scheffer</li>
+                    <li>FCP_Backstory_NCR_Ranger_Scheffer</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -815,7 +815,7 @@
     <!-- Ranger Comm Officer Stepinac -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Ranger_Stepinac</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Stepinac</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <combatPower>95</combatPower>
@@ -831,7 +831,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger_Stepinac</li>
+                    <li>FCP_Backstory_NCR_Ranger_Stepinac</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -840,7 +840,7 @@
     <!-- Ranger Comm Officer Tilden -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Ranger_Tilden</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Tilden</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <combatPower>95</combatPower>
@@ -856,7 +856,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger_Tilden</li>
+                    <li>FCP_Backstory_NCR_Ranger_Tilden</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -865,7 +865,7 @@
     <!-- Patrol Ranger Bryce Anders -->
 
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
-        <defName>FCP_NCR_Patrol_Ranger_Anders</defName>
+        <defName>FCP_Pawnkind_NCR_Patrol_Ranger_Anders</defName>
         <label>Patrol Ranger</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <combatPower>95</combatPower>
@@ -882,7 +882,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Patrol_Ranger_Anders</li>
+                    <li>FCP_Backstory_NCR_Patrol_Ranger_Anders</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -893,7 +893,7 @@
     <!-- Engineer -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Engineer</defName>
+        <defName>FCP_Pawnkind_NCR_Engineer</defName>
         <label>NCR engineer</label>
         <combatPower>25</combatPower>
         <itemQuality>Poor</itemQuality>
@@ -911,12 +911,12 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Citizen</li>
-                    <li>FCP_Wastelander</li>
+                    <li>FCP_Backstory_NCR_Citizen</li>
+                    <li>FCP_Backstory_Wastelander</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -926,7 +926,7 @@
     <!-- NCR Citizen -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Citizen</defName>
+        <defName>FCP_Pawnkind_NCR_Citizen</defName>
         <label>NCR Citizen</label>
         <combatPower>55</combatPower>
         <itemQuality>Poor</itemQuality>
@@ -945,12 +945,12 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Citizen</li>
-                    <li>FCP_Wastelander</li>
+                    <li>FCP_Backstory_NCR_Citizen</li>
+                    <li>FCP_Backstory_Wastelander</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -960,7 +960,7 @@
     <!-- NCRCF Inmate -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_NCRCF_Inmate</defName>
+        <defName>FCP_Pawnkind_NCR_NCRCF_Inmate</defName>
         <label>NCRCF Inmate</label>
         <combatPower>25</combatPower>
         <itemQuality>Poor</itemQuality>
@@ -979,12 +979,12 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCRCF_Inmate</li>
-                    <li>FCP_Wastelander</li>
+                    <li>FCP_Backstory_NCRCF_Inmate</li>
+                    <li>FCP_Backstory_Wastelander</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -999,7 +999,7 @@
     <!-- NCRCF Guard -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_NCRCF_Guard</defName>
+        <defName>FCP_Pawnkind_NCR_NCRCF_Guard</defName>
         <label>NCRCF Guard</label>
         <combatPower>80</combatPower>
         <itemQuality>Poor</itemQuality>
@@ -1020,13 +1020,13 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Trooper</li>
-                    <li>FCP_NCR_Citizen</li>
-                    <li>FCP_Wastelander</li>
+                    <li>FCP_Backstory_NCR_Trooper</li>
+                    <li>FCP_Backstory_NCR_Citizen</li>
+                    <li>FCP_Backstory_Wastelander</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1038,7 +1038,7 @@
     <!-- NCR Quartermaster -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Quartermaster</defName>
+        <defName>FCP_Pawnkind_NCR_Quartermaster</defName>
         <label>NCR Quartermaster</label>
         <trader>true</trader>
         <combatPower>65</combatPower>
@@ -1062,11 +1062,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Quartermaster</li>
+                    <li>FCP_Backstory_NCR_Quartermaster</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1076,7 +1076,7 @@
     <!-- NCRCF Warden -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_NCRCF_Warden</defName>
+        <defName>FCP_Pawnkind_NCR_NCRCF_Warden</defName>
         <label>NCRCF Warden</label>
         <trader>true</trader>
         <combatPower>90</combatPower>
@@ -1097,11 +1097,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Trooper</li>
+                    <li>FCP_Backstory_NCR_Trooper</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1111,7 +1111,7 @@
     <!-- Crimson Caravan Trader -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Crimson_Caravan_Trader</defName>
+        <defName>FCP_Pawnkind_NCR_Crimson_Caravan_Trader</defName>
         <label>NCR Crimson Caravan Trader</label>
         <trader>true</trader>
         <combatPower>30</combatPower>
@@ -1123,12 +1123,12 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Caravaneer</li>
-                    <li>FCP_Wasteland_Trader</li>
+                    <li>FCP_Backstory_NCR_Caravaneer</li>
+                    <li>FCP_Backstory_Wasteland_Trader</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1140,7 +1140,7 @@
     <!-- Tax Collector -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Tax_Collector</defName>
+        <defName>FCP_Pawnkind_NCR_Tax_Collector</defName>
         <label>NCR Tax Collector</label>
         <trader>true</trader>
         <combatPower>30</combatPower>
@@ -1153,11 +1153,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Tax_Collector</li>
+                    <li>FCP_Backstory_NCR_Tax_Collector</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1167,7 +1167,7 @@
     <!-- Ambassador -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Ambassador</defName>
+        <defName>FCP_Pawnkind_NCR_Ambassador</defName>
         <label>NCR Ambassador</label>
         <trader>true</trader>
         <combatPower>30</combatPower>
@@ -1180,11 +1180,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ambassador</li>
+                    <li>FCP_Backstory_NCR_Ambassador</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1223,7 +1223,7 @@
     <!-- NCR Trooper -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Trooper</defName>
+        <defName>FCP_Pawnkind_NCR_Trooper</defName>
         <label>NCR trooper</label>
         <combatPower>65</combatPower>
         <itemQuality>Poor</itemQuality>
@@ -1253,11 +1253,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Trooper</li>
+                    <li>FCP_Backstory_NCR_Trooper</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1267,7 +1267,7 @@
     <!-- NCR MP -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_MP</defName>
+        <defName>FCP_Pawnkind_NCR_MP</defName>
         <label>NCR Military Police</label>
         <combatPower>60</combatPower>
         <itemQuality>Poor</itemQuality>
@@ -1297,11 +1297,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_MP_Trooper</li>
+                    <li>FCP_Backstory_NCR_MP_Trooper</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1311,7 +1311,7 @@
     <!-- NCR Scout Recon -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Scout_Recon</defName>
+        <defName>FCP_Pawnkind_NCR_Scout_Recon</defName>
         <label>NCR 1st Recon Scout</label>
         <combatPower>75</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
@@ -1341,11 +1341,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Recon_Trooper</li>
+                    <li>FCP_Backstory_NCR_Recon_Trooper</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1355,7 +1355,7 @@
     <!-- NCR Heavy Trooper -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Trooper_Heavy</defName>
+        <defName>FCP_Pawnkind_NCR_Trooper_Heavy</defName>
         <label>NCR Heavy Trooper</label>
         <combatPower>90</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
@@ -1384,11 +1384,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Heavy_Trooper</li>
+                    <li>FCP_Backstory_NCR_Heavy_Trooper</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1401,7 +1401,7 @@
     <!-- NCR Officer -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Officer</defName>
+        <defName>FCP_Pawnkind_NCR_Officer</defName>
         <label>NCR Officer</label>
         <combatPower>95</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
@@ -1433,11 +1433,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Officer</li>
+                    <li>FCP_Backstory_NCR_Officer</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1447,7 +1447,7 @@
     <!-- General -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_General</defName>
+        <defName>FCP_Pawnkind_NCR_General</defName>
         <label>NCR General</label>
         <combatPower>190</combatPower>
         <apparelMoney>9999</apparelMoney>
@@ -1468,11 +1468,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Trooper</li>
+                    <li>FCP_Backstory_NCR_Trooper</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1482,8 +1482,8 @@
     <!-- Ranger Volunteer -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Ranger_Volunteer</defName>
-        <label>NCR ranger</label>
+        <defName>FCP_Pawnkind_NCR_Ranger_Volunteer</defName>
+        <label>NCR Ranger</label>
         <combatPower>75</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelTags>
@@ -1500,11 +1500,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger</li>
+                    <li>FCP_Backstory_NCR_Ranger</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1514,7 +1514,7 @@
     <!-- NCR Ranger Patrol -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Ranger_Patrolman</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Patrolman</defName>
         <label>NCR Ranger</label>
         <combatPower>80</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
@@ -1543,11 +1543,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger</li>
+                    <li>FCP_Backstory_NCR_Ranger</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1557,7 +1557,7 @@
     <!-- NCR Veteran Ranger -->
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
-        <defName>FCP_NCR_Ranger_Veteran</defName>
+        <defName>FCP_Pawnkind_NCR_Ranger_Veteran</defName>
         <label>NCR Veteran Ranger</label>
         <combatPower>85</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
@@ -1590,11 +1590,11 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ranger</li>
+                    <li>FCP_Backstory_NCR_Ranger</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
