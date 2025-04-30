@@ -73,16 +73,16 @@
         <backstoryFilters>
             <li>
                 <categories>
-                    <li>FCP_NCR_Citizen</li>
-                    <li>FCP_Wastelander</li>
-                    <li>FCP_NCR_Ranger</li>
-                    <li>FCP_NCR_Trooper</li>
-                    <li>FCP_NCR_Ambassador</li>
-                    <li>FCP_NCR_Caravaneer</li>
-                    <li>FCP_NCRCF_Inmate</li>
-                    <li>FCP_NCR_Recon_Trooper</li>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Citizen</li>
+                    <li>FCP_Backstory_Wastelander</li>
+                    <li>FCP_Backstory_NCR_Ranger</li>
+                    <li>FCP_Backstory_NCR_Trooper</li>
+                    <li>FCP_Backstory_NCR_Ambassador</li>
+                    <li>FCP_Backstory_NCR_Caravaneer</li>
+                    <li>FCP_Backstory_NCRCF_Inmate</li>
+                    <li>FCP_Backstory_NCR_Recon_Trooper</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categories>
                 <commonality>1</commonality>
             </li>
@@ -146,9 +146,9 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
-                    <FCP_NCR_Trooper>15</FCP_NCR_Trooper>
-                    <FCP_NCR_Officer>2</FCP_NCR_Officer>
-                    <FCP_NCR_General>1</FCP_NCR_General>
+                    <FCP_Pawnkind_NCR_Trooper>15</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Officer>2</FCP_Pawnkind_NCR_Officer>
+                    <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
 
@@ -162,9 +162,9 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">4</FCP_Animal_NCR_Guard_Dog>
-                    <FCP_NCR_Scout_Recon>8</FCP_NCR_Scout_Recon>
-                    <FCP_NCR_Officer>1</FCP_NCR_Officer>
-                    <FCP_NCR_General>1</FCP_NCR_General>
+                    <FCP_Pawnkind_NCR_Scout_Recon>8</FCP_Pawnkind_NCR_Scout_Recon>
+                    <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
+                    <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
 
@@ -178,8 +178,8 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">4</FCP_Animal_NCR_Guard_Dog>
-                    <FCP_NCR_Trooper_Heavy>10</FCP_NCR_Trooper_Heavy>
-                    <FCP_NCR_General>1</FCP_NCR_General>
+                    <FCP_Pawnkind_NCR_Trooper_Heavy>10</FCP_Pawnkind_NCR_Trooper_Heavy>
+                    <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
 
@@ -193,9 +193,9 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
-                    <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
-                    <FCP_NCR_Ranger_Volunteer>8</FCP_NCR_Ranger_Volunteer>
-                    <FCP_NCR_General>1</FCP_NCR_General>
+                    <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Ranger_Volunteer>8</FCP_Pawnkind_NCR_Ranger_Volunteer>
+                    <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
 
@@ -209,9 +209,9 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
-                    <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
-                    <FCP_NCR_Ranger_Patrolman>8</FCP_NCR_Ranger_Patrolman>
-                    <FCP_NCR_General>1</FCP_NCR_General>
+                    <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Ranger_Patrolman>8</FCP_Pawnkind_NCR_Ranger_Patrolman>
+                    <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
 
@@ -225,9 +225,9 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_NCR_Guard_Dog>
-                    <FCP_NCR_Trooper>2</FCP_NCR_Trooper>
-                    <FCP_NCR_Ranger_Veteran>8</FCP_NCR_Ranger_Veteran>
-                    <FCP_NCR_General>1</FCP_NCR_General>
+                    <FCP_Pawnkind_NCR_Trooper>2</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Ranger_Veteran>8</FCP_Pawnkind_NCR_Ranger_Veteran>
+                    <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
 
@@ -237,11 +237,11 @@
                 <kindDef>Peaceful</kindDef>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
-                    <FCP_NCR_Citizen>14</FCP_NCR_Citizen>
-                    <FCP_NCR_Trooper>9</FCP_NCR_Trooper>
-                    <FCP_NCR_Officer>1</FCP_NCR_Officer>
-                    <FCP_NCR_Ranger_Veteran>3</FCP_NCR_Ranger_Veteran>
-                    <FCP_NCR_General>1</FCP_NCR_General>
+                    <FCP_Pawnkind_NCR_Citizen>14</FCP_Pawnkind_NCR_Citizen>
+                    <FCP_Pawnkind_NCR_Trooper>9</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
+                    <FCP_Pawnkind_NCR_Ranger_Veteran>3</FCP_Pawnkind_NCR_Ranger_Veteran>
+                    <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
 
@@ -255,13 +255,13 @@
                     <li>FCP_Caravan_NCR_Quartermaster</li>
                 </traderKinds>
                 <traders>
-                    <FCP_NCR_Quartermaster>1</FCP_NCR_Quartermaster>
+                    <FCP_Pawnkind_NCR_Quartermaster>1</FCP_Pawnkind_NCR_Quartermaster>
                 </traders>
                 <carriers>
                     <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_NCR_Trooper>5</FCP_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
                 </guards>
             </li>
             
@@ -273,13 +273,13 @@
                     <li>FCP_Caravan_Pre_War_Goods_Trader</li>
                 </traderKinds>
                 <traders>
-                    <FCP_NCR_Crimson_Caravan_Trader>1</FCP_NCR_Crimson_Caravan_Trader>
+                    <FCP_Pawnkind_NCR_Crimson_Caravan_Trader>1</FCP_Pawnkind_NCR_Crimson_Caravan_Trader>
                 </traders>
                 <carriers>
                     <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_Armored_Wastelander_Combat_Armor>5</FCP_Armored_Wastelander_Combat_Armor>
+                    <FCP_Pawnkind_Armored_Wastelander_Combat_Armor>5</FCP_Pawnkind_Armored_Wastelander_Combat_Armor>
                 </guards>
             </li>
 
@@ -291,13 +291,13 @@
                     <li>FCP_Caravan_Brahmin_Herder</li>
                 </traderKinds>
                 <traders>
-                    <FCP_NCR_Crimson_Caravan_Trader>1</FCP_NCR_Crimson_Caravan_Trader>
+                    <FCP_Pawnkind_NCR_Crimson_Caravan_Trader>1</FCP_Pawnkind_NCR_Crimson_Caravan_Trader>
                 </traders>
                 <carriers>
                     <FCP_Animal_Brahmin>6</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_NCR_Citizen>5</FCP_NCR_Citizen>
+                    <FCP_Pawnkind_NCR_Citizen>5</FCP_Pawnkind_NCR_Citizen>
                 </guards>
             </li>
 
@@ -309,13 +309,13 @@
                     <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
                 </traderKinds>
                 <traders>
-                    <FCP_NCR_NCRCF_Warden>1</FCP_NCR_NCRCF_Warden>
+                    <FCP_Pawnkind_NCR_NCRCF_Warden>1</FCP_Pawnkind_NCR_NCRCF_Warden>
                 </traders>
                 <carriers>
                     <FCP_Animal_Brahmin>1</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_NCR_NCRCF_Guard>4</FCP_NCR_NCRCF_Guard>
+                    <FCP_Pawnkind_NCR_NCRCF_Guard>4</FCP_Pawnkind_NCR_NCRCF_Guard>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">1</FCP_Animal_NCR_Guard_Dog>
                 </guards>
             </li>
@@ -326,16 +326,16 @@
                 <!-- Tax Collection -->
                 <kindDef>FCP_PawnGroupKind_TaxCollector</kindDef>
                 <traders>
-                    <FCP_NCR_Tax_Collector>1</FCP_NCR_Tax_Collector>
+                    <FCP_Pawnkind_NCR_Tax_Collector>1</FCP_Pawnkind_NCR_Tax_Collector>
                 </traders>
                 <carriers>
                     <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_NCR_Trooper_Heavy>3</FCP_NCR_Trooper_Heavy>
-                    <FCP_NCR_Trooper>10</FCP_NCR_Trooper>
-                    <FCP_NCR_Officer>1</FCP_NCR_Officer>
-                    <FCP_NCR_Ranger_Veteran>3</FCP_NCR_Ranger_Veteran>
+                    <FCP_Pawnkind_NCR_Trooper_Heavy>3</FCP_Pawnkind_NCR_Trooper_Heavy>
+                    <FCP_Pawnkind_NCR_Trooper>10</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
+                    <FCP_Pawnkind_NCR_Ranger_Veteran>3</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </guards>
             </li>
 
@@ -344,14 +344,14 @@
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
-                    <FCP_NCR_Citizen>30</FCP_NCR_Citizen>
-                    <FCP_NCR_Crimson_Caravan_Trader>3</FCP_NCR_Crimson_Caravan_Trader>
-                    <FCP_NCR_Engineer>15</FCP_NCR_Engineer>
-                    <FCP_NCR_Trooper>4</FCP_NCR_Trooper>
-                    <FCP_NCR_Ranger_Volunteer>5</FCP_NCR_Ranger_Volunteer>
-                    <FCP_NCR_MP>12</FCP_NCR_MP>
-                    <FCP_NCR_Ambassador>2</FCP_NCR_Ambassador>
-                    <FCP_NCR_President_Kimball>1</FCP_NCR_President_Kimball>
+                    <FCP_Pawnkind_NCR_Citizen>30</FCP_Pawnkind_NCR_Citizen>
+                    <FCP_Pawnkind_NCR_Crimson_Caravan_Trader>3</FCP_Pawnkind_NCR_Crimson_Caravan_Trader>
+                    <FCP_Pawnkind_NCR_Engineer>15</FCP_Pawnkind_NCR_Engineer>
+                    <FCP_Pawnkind_NCR_Trooper>4</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Ranger_Volunteer>5</FCP_Pawnkind_NCR_Ranger_Volunteer>
+                    <FCP_Pawnkind_NCR_MP>12</FCP_Pawnkind_NCR_MP>
+                    <FCP_Pawnkind_NCR_Ambassador>2</FCP_Pawnkind_NCR_Ambassador>
+                    <FCP_Pawnkind_NCR_President_Kimball>1</FCP_Pawnkind_NCR_President_Kimball>
                 </options>
             </li>
         </pawnGroupMakers>
