@@ -12,8 +12,8 @@
 	<!-- President Kimball -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_President_Kimball</defName>
-		<identifier>FCP_NCR_President_Kimball</identifier>
+		<defName>FCP_Backstory_NCR_President_Kimball</defName>
+		<identifier>FCP_Backstory_NCR_President_Kimball</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR President</title>
 		<titleShort>President</titleShort>
@@ -25,7 +25,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Social</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_President_Kimball</li>
+			<li>FCP_Backstory_NCR_President_Kimball</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -35,8 +35,8 @@
     <!-- Ambassador Crocker -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Ambassador_Crocker</defName>
-		<identifier>FCP_NCR_Ambassador_Crocker</identifier>
+		<defName>FCP_Backstory_NCR_Ambassador_Crocker</defName>
+		<identifier>FCP_Backstory_NCR_Ambassador_Crocker</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Ambassador</title>
 		<titleShort>Ambassador</titleShort>
@@ -48,7 +48,7 @@
 		<workDisables>Violent</workDisables>
 		<requiredWorkTags>Social</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Ambassador_Crocker</li>
+			<li>FCP_Backstory_NCR_Ambassador_Crocker</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -58,8 +58,8 @@
 	<!-- General Oliver -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_General_Oliver</defName>
-		<identifier>FCP_NCR_General_Oliver</identifier>
+		<defName>FCP_Backstory_NCR_General_Oliver</defName>
+		<identifier>FCP_Backstory_NCR_General_Oliver</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR General</title>
 		<titleShort>General</titleShort>
@@ -71,7 +71,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_General_Oliver</li>
+			<li>FCP_Backstory_NCR_General_Oliver</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -81,8 +81,8 @@
     <!-- Colonel Hsu -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Colonel_Hsu</defName>
-		<identifier>FCP_NCR_Colonel_Hsu</identifier>
+		<defName>FCP_Backstory_NCR_Colonel_Hsu</defName>
+		<identifier>FCP_Backstory_NCR_Colonel_Hsu</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Colonel</title>
 		<titleShort>Colonel</titleShort>
@@ -94,7 +94,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Colonel_Hsu</li>
+			<li>FCP_Backstory_NCR_Colonel_Hsu</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -104,8 +104,8 @@
     <!-- Colonel Moore -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Colonel_Moore</defName>
-		<identifier>FCP_NCR_Colonel_Moore</identifier>
+		<defName>FCP_Backstory_NCR_Colonel_Moore</defName>
+		<identifier>FCP_Backstory_NCR_Colonel_Moore</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Colonel</title>
 		<titleShort>Colonel</titleShort>
@@ -117,7 +117,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Colonel_Moore</li>
+			<li>FCP_Backstory_NCR_Colonel_Moore</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -127,8 +127,8 @@
     <!-- Major Dhatri -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Major_Dhatri</defName>
-		<identifier>FCP_NCR_Major_Dhatri</identifier>
+		<defName>FCP_Backstory_NCR_Major_Dhatri</defName>
+		<identifier>FCP_Backstory_NCR_Major_Dhatri</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Major Dhatri</title>
 		<titleShort>Major Knight</titleShort>
@@ -140,7 +140,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Major_Dhatri</li>
+			<li>FCP_Backstory_NCR_Major_Dhatri</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -150,8 +150,8 @@
     <!-- Major Knight -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Major_Knight</defName>
-		<identifier>FCP_NCR_Major_Knight</identifier>
+		<defName>FCP_Backstory_NCR_Major_Knight</defName>
+		<identifier>FCP_Backstory_NCR_Major_Knight</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Major</title>
 		<titleShort>Major Dhatri</titleShort>
@@ -163,7 +163,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Major</li>
+			<li>FCP_Backstory_NCR_Major</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -173,8 +173,8 @@
     <!-- Major Polatli -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Major_Polatli</defName>
-		<identifier>FCP_NCR_Major_Polatli</identifier>
+		<defName>FCP_Backstory_NCR_Major_Polatli</defName>
+		<identifier>FCP_Backstory_NCR_Major_Polatli</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Major</title>
 		<titleShort>Major</titleShort>
@@ -186,7 +186,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Major_Polatli</li>
+			<li>FCP_Backstory_NCR_Major_Polatli</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -196,8 +196,8 @@
     <!-- Major Kieran -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Major_Kieran</defName>
-		<identifier>FCP_NCR_Major_Kieran</identifier>
+		<defName>FCP_Backstory_NCR_Major_Kieran</defName>
+		<identifier>FCP_Backstory_NCR_Major_Kieran</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Major</title>
 		<titleShort>Major</titleShort>
@@ -209,7 +209,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Major</li>
+			<li>FCP_Backstory_NCR_Major</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -219,8 +219,8 @@
     <!-- Captain Parker -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Captain_Parker</defName>
-		<identifier>FCP_NCR_Captain_Parker</identifier>
+		<defName>FCP_Backstory_NCR_Captain_Parker</defName>
+		<identifier>FCP_Backstory_NCR_Captain_Parker</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Captain</title>
 		<titleShort>Captain</titleShort>
@@ -232,7 +232,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Captain_Parker</li>
+			<li>FCP_Backstory_NCR_Captain_Parker</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -242,8 +242,8 @@
     <!-- Captain Gilles -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Captain_Gilles</defName>
-		<identifier>FCP_NCR_Captain_Gilles</identifier>
+		<defName>FCP_Backstory_NCR_Captain_Gilles</defName>
+		<identifier>FCP_Backstory_NCR_Captain_Gilles</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Captain</title>
 		<titleShort>Captain</titleShort>
@@ -255,7 +255,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Captain_Gilles</li>
+			<li>FCP_Backstory_NCR_Captain_Gilles</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -265,8 +265,8 @@
     <!-- Lieutenant Hayes -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Lieutenant_Hayes</defName>
-		<identifier>FCP_NCR_Lieutenant_Hayes</identifier>
+		<defName>FCP_Backstory_NCR_Lieutenant_Hayes</defName>
+		<identifier>FCP_Backstory_NCR_Lieutenant_Hayes</identifier>
 		<slot>Adulthood</slot>
 		<title>Lieutenant</title>
 		<titleShort>Lieutenant Gorobets</titleShort>
@@ -278,7 +278,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Lieutenant_Hayes</li>
+			<li>FCP_Backstory_NCR_Lieutenant_Hayes</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -288,8 +288,8 @@
     <!-- Lieutenant Gorobets -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Lieutenant_Gorobets</defName>
-		<identifier>FCP_NCR_Lieutenant_Gorobets</identifier>
+		<defName>FCP_Backstory_NCR_Lieutenant_Gorobets</defName>
+		<identifier>FCP_Backstory_NCR_Lieutenant_Gorobets</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Lieutenant</title>
 		<titleShort>Lieutenant</titleShort>
@@ -301,7 +301,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Lieutenant_Gorobets</li>
+			<li>FCP_Backstory_NCR_Lieutenant_Gorobets</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -311,8 +311,8 @@
     <!-- Lieutenant Boyd -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Lieutenant_Boyd</defName>
-		<identifier>FCP_NCR_Lieutenant_Boyd</identifier>
+		<defName>FCP_Backstory_NCR_Lieutenant_Boyd</defName>
+		<identifier>FCP_Backstory_NCR_Lieutenant_Boyd</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Lieutenant</title>
 		<titleShort>Lieutenant</titleShort>
@@ -324,7 +324,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Lieutenant_Boyd</li>
+			<li>FCP_Backstory_NCR_Lieutenant_Boyd</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -334,8 +334,8 @@
     <!-- Sergeant Bitter-Root -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Sergeant_Bitter_Root</defName>
-		<identifier>FCP_NCR_Sergeant_Bitter_Root</identifier>
+		<defName>FCP_Backstory_NCR_Sergeant_Bitter_Root</defName>
+		<identifier>FCP_Backstory_NCR_Sergeant_Bitter_Root</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Sergeant</title>
 		<titleShort>Sergeant</titleShort>
@@ -347,7 +347,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_NCR_Sergeant_Bitter_Root</li>
+            <li>FCP_Backstory_NCR_Sergeant_Bitter_Root</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -357,8 +357,8 @@
     <!-- Corporal Betsy -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Corporal_Betsy</defName>
-		<identifier>FCP_NCR_Corporal_Betsy</identifier>
+		<defName>FCP_Backstory_NCR_Corporal_Betsy</defName>
+		<identifier>FCP_Backstory_NCR_Corporal_Betsy</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Corporal</title>
 		<titleShort>Corporal</titleShort>
@@ -370,7 +370,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_NCR_Corporal_Betsy</li>
+            <li>FCP_Backstory_NCR_Corporal_Betsy</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -380,8 +380,8 @@
     <!-- Corporal Sterling -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Corporal_Sterling</defName>
-		<identifier>FCP_NCR_Corporal_Sterling</identifier>
+		<defName>FCP_Backstory_NCR_Corporal_Sterling</defName>
+		<identifier>FCP_Backstory_NCR_Corporal_Sterling</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Corporal</title>
 		<titleShort>Corporal</titleShort>
@@ -393,7 +393,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_NCR_Corporal_Sterling</li>
+            <li>FCP_Backstory_NCR_Corporal_Sterling</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -403,8 +403,8 @@
     <!-- Private Brooks (10 of Spades) -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Private_Brooks</defName>
-		<identifier>FCP_NCR_Private_Brooks</identifier>
+		<defName>FCP_Backstory_NCR_Private_Brooks</defName>
+		<identifier>FCP_Backstory_NCR_Private_Brooks</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Private</title>
 		<titleShort>Private</titleShort>
@@ -416,7 +416,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_NCR_Private_Brooks</li>
+            <li>FCP_Backstory_NCR_Private_Brooks</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -426,8 +426,8 @@
     <!-- Corporal Mags -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Corporal_Mags</defName>
-		<identifier>FCP_NCR_Corporal_Mags</identifier>
+		<defName>FCP_Backstory_NCR_Corporal_Mags</defName>
+		<identifier>FCP_Backstory_NCR_Corporal_Mags</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Corporal</title>
 		<titleShort>Corporal</titleShort>
@@ -439,7 +439,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-			<li>FCP_NCR_Corporal_Mags</li>
+			<li>FCP_Backstory_NCR_Corporal_Mags</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -449,8 +449,8 @@
     <!-- Private O'Hanahan -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Private_O_Hanahan</defName>
-		<identifier>FCP_NCR_Private_O_Hanahan</identifier>
+		<defName>FCP_Backstory_NCR_Private_O_Hanahan</defName>
+		<identifier>FCP_Backstory_NCR_Private_O_Hanahan</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Private</title>
 		<titleShort>Private</titleShort>
@@ -462,7 +462,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-			<li>FCP_NCR_Private_O_Hanahan</li>
+			<li>FCP_Backstory_NCR_Private_O_Hanahan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -472,8 +472,8 @@
     <!-- Private Poindexter -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Private_Poindexter</defName>
-		<identifier>FCP_NCR_Private_Poindexter</identifier>
+		<defName>FCP_Backstory_NCR_Private_Poindexter</defName>
+		<identifier>FCP_Backstory_NCR_Private_Poindexter</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Private</title>
 		<titleShort>Private</titleShort>
@@ -485,7 +485,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-			<li>FCP_NCR_Private_Poindexter</li>
+			<li>FCP_Backstory_NCR_Private_Poindexter</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -495,8 +495,8 @@
     <!-- Private Razz -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Private_Razz</defName>
-		<identifier>FCP_NCR_Private_Razz</identifier>
+		<defName>FCP_Backstory_NCR_Private_Razz</defName>
+		<identifier>FCP_Backstory_NCR_Private_Razz</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Private</title>
 		<titleShort>Private</titleShort>
@@ -508,7 +508,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-			<li>FCP_NCR_Private_Razz</li>
+			<li>FCP_Backstory_NCR_Private_Razz</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -518,8 +518,8 @@
     <!-- Private Halford -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Private_Halford</defName>
-		<identifier>FCP_NCR_Private_Halford</identifier>
+		<defName>FCP_Backstory_NCR_Private_Halford</defName>
+		<identifier>FCP_Backstory_NCR_Private_Halford</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Private</title>
 		<titleShort>Private</titleShort>
@@ -531,7 +531,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-			<li>FCP_NCR_Private_Halford</li>
+			<li>FCP_Backstory_NCR_Private_Halford</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -541,8 +541,8 @@
     <!-- Private Seamer -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Private_Seamer</defName>
-		<identifier>FCP_NCR_Private_Seamer</identifier>
+		<defName>FCP_Backstory_NCR_Private_Seamer</defName>
+		<identifier>FCP_Backstory_NCR_Private_Seamer</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Private</title>
 		<titleShort>Private</titleShort>
@@ -554,7 +554,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_NCR_Private_Seamer</li>
+            <li>FCP_Backstory_NCR_Private_Seamer</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -564,8 +564,8 @@
     <!-- Corporal Walter Hornsby -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Corporal_Walter_Hornsby</defName>
-		<identifier>FCP_NCR_Corporal_Walter_Hornsby</identifier>
+		<defName>FCP_Backstory_NCR_Corporal_Walter_Hornsby</defName>
+		<identifier>FCP_Backstory_NCR_Corporal_Walter_Hornsby</identifier>
         <slot>Adulthood</slot>
 		<title>NCR Corporal</title>
 		<titleShort>Corporal</titleShort>
@@ -577,7 +577,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-			<li>FCP_NCR_Corporal_Walter_Hornsby</li>
+			<li>FCP_Backstory_NCR_Corporal_Walter_Hornsby</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -587,8 +587,8 @@
     <!-- Chief Hanlon -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Chief_Hanlon</defName>
-		<identifier>FCP_NCR_Chief_Hanlon</identifier>
+		<defName>FCP_Backstory_NCR_Chief_Hanlon</defName>
+		<identifier>FCP_Backstory_NCR_Chief_Hanlon</identifier>
         <slot>Adulthood</slot>
 		<title>Ranger Chief</title>
 		<titleShort>Chief</titleShort>
@@ -600,7 +600,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-			<li>FCP_NCR_Chief_Hanlon</li>
+			<li>FCP_Backstory_NCR_Chief_Hanlon</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -610,8 +610,8 @@
     <!-- Ranger Comm Officer Castillo -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Ranger_Comm_Officer_Castillo</defName>
-		<identifier>FCP_NCR_Ranger_Comm_Officer_Castillo</identifier>
+		<defName>FCP_Backstory_NCR_Ranger_Comm_Officer_Castillo</defName>
+		<identifier>FCP_Backstory_NCR_Ranger_Comm_Officer_Castillo</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Ranger Comm Officer</title>
 		<titleShort>Ranger Comm Officer</titleShort>
@@ -623,7 +623,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Ranger_Comm_Officer_Castillo</li>
+			<li>FCP_Backstory_NCR_Ranger_Comm_Officer_Castillo</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -633,7 +633,7 @@
     <!-- Ranger Ghost -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Ranger_Ghost</defName>
+		<defName>FCP_Backstory_NCR_Ranger_Ghost</defName>
         <identifier></identifier>
         <slot>Adulthood</slot>
         <title>NCR Ranger</title>
@@ -646,7 +646,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_NCR_Ranger_Ghost</li>
+            <li>FCP_Backstory_NCR_Ranger_Ghost</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -656,8 +656,8 @@
     <!-- Ranger Comm Officer Green -->
 
    	<BackstoryDef>
-		<defName>FCP_NCR_Ranger_Comm_Officer_Green</defName>
-		<identifier>FCP_NCR_Ranger_Comm_Officer_Green</identifier>
+		<defName>FCP_Backstory_NCR_Ranger_Comm_Officer_Green</defName>
+		<identifier>FCP_Backstory_NCR_Ranger_Comm_Officer_Green</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Ranger Comm Officer</title>
 		<titleShort>Ranger Comm Officer</titleShort>
@@ -669,7 +669,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Ranger_Comm_Officer_Green</li>
+			<li>FCP_Backstory_NCR_Ranger_Comm_Officer_Green</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -679,8 +679,8 @@
     <!-- Ranger Jackson (Mojave Outpost) -->
 
    	<BackstoryDef>
-        <defName>FCP_NCR_Ranger_A_Jackson</defName>
-        <identifier>FCP_NCR_Ranger_A_Jackson</identifier>
+        <defName>FCP_Backstory_NCR_Ranger_A_Jackson</defName>
+        <identifier>FCP_Backstory_NCR_Ranger_A_Jackson</identifier>
         <slot>Adulthood</slot>
         <title>NCR Ranger</title>
         <titleShort>Ranger</titleShort>
@@ -692,7 +692,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_NCR_Ranger_A_Jackson</li>
+            <li>FCP_Backstory_NCR_Ranger_A_Jackson</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -704,8 +704,8 @@
 	<!-- NCR Pioneer -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Pioneer</defName>
-		<identifier>FCP_NCR_Pioneer</identifier>
+		<defName>FCP_Backstory_NCR_Pioneer</defName>
+		<identifier>FCP_Backstory_NCR_Pioneer</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Pioneer</title>
 		<titleShort>Pioneer</titleShort>
@@ -719,8 +719,8 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
@@ -731,8 +731,8 @@
 	<!-- NCR Ranger -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Ranger</defName>
-		<identifier>FCP_NCR_Ranger</identifier>
+		<defName>FCP_Backstory_NCR_Ranger</defName>
+		<identifier>FCP_Backstory_NCR_Ranger</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Ranger</title>
 		<titleShort>Ranger</titleShort>
@@ -746,7 +746,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Ranger</li>
+			<li>FCP_Backstory_NCR_Ranger</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -756,8 +756,8 @@
 	<!-- NCR Rancher -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Rancher</defName>
-		<identifier>FCP_NCR_Rancher</identifier>
+		<defName>FCP_Backstory_NCR_Rancher</defName>
+		<identifier>FCP_Backstory_NCR_Rancher</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Rancher</title>
 		<titleShort>Rancher</titleShort>
@@ -772,8 +772,8 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -783,8 +783,8 @@
 	<!-- NCR Citizen -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Citizen</defName>
-		<identifier>FCP_NCR_Citizen</identifier>
+		<defName>FCP_Backstory_NCR_Citizen</defName>
+		<identifier>FCP_Backstory_NCR_Citizen</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Citizen</title>
 		<titleShort>Citizen</titleShort>
@@ -797,8 +797,8 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -808,8 +808,8 @@
 	<!-- NCR Private -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Private</defName>
-		<identifier>FCP_NCR_Private</identifier>
+		<defName>FCP_Backstory_NCR_Private</defName>
+		<identifier>FCP_Backstory_NCR_Private</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Private</title>
 		<titleShort>NCR Private</titleShort>
@@ -822,7 +822,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -832,8 +832,8 @@
 	<!-- NCR Officer -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Officer</defName>
-		<identifier>FCP_NCR_Officer</identifier>
+		<defName>FCP_Backstory_NCR_Officer</defName>
+		<identifier>FCP_Backstory_NCR_Officer</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Officer </title>
 		<titleShort>NCR Officer</titleShort>
@@ -846,7 +846,7 @@
 		<workDisables>Cleaning</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Officer</li>
+			<li>FCP_Backstory_NCR_Officer</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -856,8 +856,8 @@
 	<!-- NCR Quartermaster -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Quartermaster</defName>
-		<identifier>FCP_NCR_Quartermaster</identifier>
+		<defName>FCP_Backstory_NCR_Quartermaster</defName>
+		<identifier>FCP_Backstory_NCR_Quartermaster</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Quartermaster</title>
 		<titleShort>Quartermaster</titleShort>
@@ -870,7 +870,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Quartermaster</li>
+			<li>FCP_Backstory_NCR_Quartermaster</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -880,8 +880,8 @@
 	<!-- NCR Quarry worker -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Quarry_worker</defName>
-		<identifier>FCP_NCR_Quarry_worker</identifier>
+		<defName>FCP_Backstory_NCR_Quarry_worker</defName>
+		<identifier>FCP_Backstory_NCR_Quarry_worker</identifier>
 		<slot>Adulthood</slot>
 		<title>Quarry worker</title>
 		<titleShort>Quarry worker</titleShort>
@@ -893,8 +893,8 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -904,8 +904,8 @@
 	<!-- NCR Ambassador -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Ambassador</defName>
-		<identifier>FCP_NCR_Ambassador</identifier>
+		<defName>FCP_Backstory_NCR_Ambassador</defName>
+		<identifier>FCP_Backstory_NCR_Ambassador</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Ambassador</title>
 		<titleShort>Ambassador</titleShort>
@@ -918,7 +918,7 @@
 		<workDisables>Violent</workDisables>
 		<requiredWorkTags>Social</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Ambassador</li>
+			<li>FCP_Backstory_NCR_Ambassador</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -928,8 +928,8 @@
 	<!-- NCR Farmhand -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Farmhand</defName>
-		<identifier>FCP_NCR_Farmhand</identifier>
+		<defName>FCP_Backstory_NCR_Farmhand</defName>
+		<identifier>FCP_Backstory_NCR_Farmhand</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Farmhand</title>
 		<titleShort>Farmhand</titleShort>
@@ -941,8 +941,8 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
@@ -953,8 +953,8 @@
 	<!-- NCR Crimson Caravan Worker -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Crimson_Caravan_Worker</defName>
-		<identifier>FCP_NCR_Crimson_Caravan_Worker</identifier>
+		<defName>FCP_Backstory_NCR_Crimson_Caravan_Worker</defName>
+		<identifier>FCP_Backstory_NCR_Crimson_Caravan_Worker</identifier>
 		<slot>Adulthood</slot>
 		<title>Crimson Caravan Worker</title>
 		<titleShort>Crimson Caravan Worker</titleShort>
@@ -967,9 +967,9 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Caravaneer</li>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Caravaneer</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -979,8 +979,8 @@
 	<!-- NCR Former Congressmember -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Former_Congressmember</defName>
-		<identifier>FCP_NCR_Former_Congressmember</identifier>
+		<defName>FCP_Backstory_NCR_Former_Congressmember</defName>
+		<identifier>FCP_Backstory_NCR_Former_Congressmember</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Former Congressmember</title>
 		<titleShort>Former Congressmember</titleShort>
@@ -994,7 +994,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
@@ -1005,8 +1005,8 @@
 	<!-- NCR Squatter -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Squatter</defName>
-		<identifier>FCP_NCR_Squatter</identifier>
+		<defName>FCP_Backstory_NCR_Squatter</defName>
+		<identifier>FCP_Backstory_NCR_Squatter</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Squatter</title>
 		<titleShort>Squatter</titleShort>
@@ -1019,8 +1019,8 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
@@ -1031,8 +1031,8 @@
 	<!-- NCRCF Inmate -->
 
 	<BackstoryDef>
-		<defName>FCP_NCRCF_Inmate</defName>
-		<identifier>FCP_NCRCF_Inmate</identifier>
+		<defName>FCP_Backstory_NCRCF_Inmate</defName>
+		<identifier>FCP_Backstory_NCRCF_Inmate</identifier>
 		<slot>Adulthood</slot>
 		<title>NCRCF Inmate</title>
 		<titleShort>Inmate</titleShort>
@@ -1046,8 +1046,8 @@
 		<workDisables>Intellectual, Social</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCRCF_Inmate</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCRCF_Inmate</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -1058,8 +1058,8 @@
 	<!-- NCR Recon Trooper -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Recon_Trooper</defName>
-		<identifier>FCP_NCR_Recon_Trooper</identifier>
+		<defName>FCP_Backstory_NCR_Recon_Trooper</defName>
+		<identifier>FCP_Backstory_NCR_Recon_Trooper</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Recon Trooper</title>
 		<titleShort>Recon Trooper</titleShort>
@@ -1072,7 +1072,7 @@
 		<workDisables>Intellectual</workDisables>
 		<requiredWorkTags>Violent</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Recon_Trooper</li>
+			<li>FCP_Backstory_NCR_Recon_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1082,8 +1082,8 @@
 	<!-- NCR Field Medic -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Field_Medic</defName>
-		<identifier>FCP_NCR_Field_Medic</identifier>
+		<defName>FCP_Backstory_NCR_Field_Medic</defName>
+		<identifier>FCP_Backstory_NCR_Field_Medic</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Field Medic</title>
 		<titleShort>Field Medic</titleShort>
@@ -1098,7 +1098,7 @@
 		<workDisables />
 		<requiredWorkTags>Caring</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1108,8 +1108,8 @@
 	<!-- Brahmin Baron -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Brahmin_Baron</defName>
-		<identifier>FCP_NCR_Brahmin_Baron</identifier>
+		<defName>FCP_Backstory_NCR_Brahmin_Baron</defName>
+		<identifier>FCP_Backstory_NCR_Brahmin_Baron</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Brahmin Baron</title>
 		<titleShort>Brahmin Baron</titleShort>
@@ -1122,8 +1122,8 @@
 		<workDisables>ManualDumb</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1133,8 +1133,8 @@
 	<!-- Gun Runner Artisan -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Gun_Runner_Artisan</defName>
-		<identifier>FCP_NCR_Gun_Runner_Artisan</identifier>
+		<defName>FCP_Backstory_NCR_Gun_Runner_Artisan</defName>
+		<identifier>FCP_Backstory_NCR_Gun_Runner_Artisan</identifier>
 		<slot>Adulthood</slot>
 		<title>Gun Runner Artisan</title>
 		<titleShort>Gun Runner Artisan</titleShort>
@@ -1147,8 +1147,8 @@
 		<workDisables>Caring</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
@@ -1159,8 +1159,8 @@
 	<!-- Van Graff Thug -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Van_Graff_Thug</defName>
-		<identifier>FCP_NCR_Van_Graff_Thug</identifier>
+		<defName>FCP_Backstory_NCR_Van_Graff_Thug</defName>
+		<identifier>FCP_Backstory_NCR_Van_Graff_Thug</identifier>
 		<slot>Adulthood</slot>
 		<title>Van Graff Thug</title>
 		<titleShort>Van Graff Thug</titleShort>
@@ -1173,8 +1173,8 @@
 		<workDisables>Caring, Social, Intellectual</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -1185,8 +1185,8 @@
 	<!-- Navarro Survivor -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Navarro_Survivor</defName>
-		<identifier>FCP_NCR_Navarro_Survivor</identifier>
+		<defName>FCP_Backstory_NCR_Navarro_Survivor</defName>
+		<identifier>FCP_Backstory_NCR_Navarro_Survivor</identifier>
 		<slot>Adulthood</slot>
 		<title>Navarro Survivor</title>
 		<titleShort>Navarro Survivor</titleShort>
@@ -1202,8 +1202,8 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1213,8 +1213,8 @@
 	<!-- Disgruntled Veteran -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Disgruntled_Veteran</defName>
-		<identifier>FCP_NCR_Disgruntled_Veteran</identifier>
+		<defName>FCP_Backstory_NCR_Disgruntled_Veteran</defName>
+		<identifier>FCP_Backstory_NCR_Disgruntled_Veteran</identifier>
 		<slot>Adulthood</slot>
 		<title>Disgruntled Veteran</title>
 		<titleShort>Disgruntled Veteran</titleShort>
@@ -1228,8 +1228,8 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1239,8 +1239,8 @@
 	<!-- NCR Sheriff -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Sheriff</defName>
-		<identifier>FCP_NCR_Sheriff</identifier>
+		<defName>FCP_Backstory_NCR_Sheriff</defName>
+		<identifier>FCP_Backstory_NCR_Sheriff</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Sheriff</title>
 		<titleShort>NCR Sheriff</titleShort>
@@ -1253,8 +1253,8 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1264,8 +1264,8 @@
 	<!-- NCR Tax Collector -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Tax_Collector</defName>
-		<identifier>FCP_NCR_Tax_Collector</identifier>
+		<defName>FCP_Backstory_NCR_Tax_Collector</defName>
+		<identifier>FCP_Backstory_NCR_Tax_Collector</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Tax Collector</title>
 		<titleShort>NCR Tax Collector</titleShort>
@@ -1279,7 +1279,7 @@
 		<workDisables>Violent</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Tax_Collector</li>
+			<li>FCP_Backstory_NCR_Tax_Collector</li>
 		</spawnCategories>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
@@ -1290,8 +1290,8 @@
 	<!-- NCR Road Worker -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Road_Worker</defName>
-		<identifier>FCP_NCR_Road_Worker</identifier>
+		<defName>FCP_Backstory_NCR_Road_Worker</defName>
+		<identifier>FCP_Backstory_NCR_Road_Worker</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Road Worker</title>
 		<titleShort>NCR Road Worker</titleShort>
@@ -1303,8 +1303,8 @@
 		<workDisables>Artistic, Intellectual</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Citizen</li>
-			<li>FCP_Wastelander</li>
+			<li>FCP_Backstory_NCR_Citizen</li>
+			<li>FCP_Backstory_Wastelander</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1314,8 +1314,8 @@
 	<!-- NCR Military Police Trooper -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Military_Police_Trooper</defName>
-		<identifier>FCP_NCR_Military_Police_Trooper</identifier>
+		<defName>FCP_Backstory_NCR_Military_Police_Trooper</defName>
+		<identifier>FCP_Backstory_NCR_Military_Police_Trooper</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Military Police Trooper</title>
 		<titleShort>NCR Military Police</titleShort>
@@ -1329,8 +1329,8 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
-			<li>FCP_NCR_MP_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_MP_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1342,8 +1342,8 @@
 	<!-- NCR Trooper a -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Trooper_a</defName>
-		<identifier>FCP_NCR_Trooper_a</identifier>
+		<defName>FCP_Backstory_NCR_Trooper_a</defName>
+		<identifier>FCP_Backstory_NCR_Trooper_a</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Trooper</title>
 		<titleShort>Trooper</titleShort>
@@ -1356,7 +1356,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1366,8 +1366,8 @@
 	<!-- NCR Trooper b -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Trooper_b</defName>
-		<identifier>FCP_NCR_Trooper_b</identifier>
+		<defName>FCP_Backstory_NCR_Trooper_b</defName>
+		<identifier>FCP_Backstory_NCR_Trooper_b</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Trooper</title>
 		<titleShort>Trooper</titleShort>
@@ -1380,7 +1380,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1390,8 +1390,8 @@
 	<!-- NCR Trooper c -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Trooper_c</defName>
-		<identifier>FCP_NCR_Trooper_c</identifier>
+		<defName>FCP_Backstory_NCR_Trooper_c</defName>
+		<identifier>FCP_Backstory_NCR_Trooper_c</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Trooper</title>
 		<titleShort>Trooper</titleShort>
@@ -1404,7 +1404,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1414,8 +1414,8 @@
 	<!-- NCR Trooper d -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Trooper_d</defName>
-		<identifier>FCP_NCR_Trooper_d</identifier>
+		<defName>FCP_Backstory_NCR_Trooper_d</defName>
+		<identifier>FCP_Backstory_NCR_Trooper_d</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Trooper</title>
 		<titleShort>Trooper</titleShort>
@@ -1428,7 +1428,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1438,8 +1438,8 @@
 	<!-- NCR Trooper e -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Trooper_e</defName>
-		<identifier>FCP_NCR_Trooper_e</identifier>
+		<defName>FCP_Backstory_NCR_Trooper_e</defName>
+		<identifier>FCP_Backstory_NCR_Trooper_e</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Trooper</title>
 		<titleShort>Trooper</titleShort>
@@ -1452,7 +1452,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1462,8 +1462,8 @@
 	<!-- NCR Trooper f -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Trooper_f</defName>
-		<identifier>FCP_NCR_Trooper_f</identifier>
+		<defName>FCP_Backstory_NCR_Trooper_f</defName>
+		<identifier>FCP_Backstory_NCR_Trooper_f</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Trooper</title>
 		<titleShort>Trooper</titleShort>
@@ -1476,7 +1476,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Trooper</li>
+			<li>FCP_Backstory_NCR_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1488,8 +1488,8 @@
 	<!-- NCR Heavy Trooper a -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Heavy_Trooper_a</defName>
-		<identifier>FCP_NCR_Heavy_Trooper_a</identifier>
+		<defName>FCP_Backstory_NCR_Heavy_Trooper_a</defName>
+		<identifier>FCP_Backstory_NCR_Heavy_Trooper_a</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Heavy Trooper</title>
 		<titleShort>Heavy Trooper</titleShort>
@@ -1502,7 +1502,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Heavy_Trooper</li>
+			<li>FCP_Backstory_NCR_Heavy_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1512,8 +1512,8 @@
 	<!-- NCR Heavy Trooper b -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Heavy_Trooper_b</defName>
-		<identifier>FCP_NCR_Heavy_Trooper_b</identifier>
+		<defName>FCP_Backstory_NCR_Heavy_Trooper_b</defName>
+		<identifier>FCP_Backstory_NCR_Heavy_Trooper_b</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Heavy Trooper</title>
 		<titleShort>Heavy Trooper</titleShort>
@@ -1526,7 +1526,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Heavy_Trooper</li>
+			<li>FCP_Backstory_NCR_Heavy_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1536,8 +1536,8 @@
 	<!-- NCR Heavy Trooper c -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Heavy_Trooper_c</defName>
-		<identifier>FCP_NCR_Heavy_Trooper_c</identifier>
+		<defName>FCP_Backstory_NCR_Heavy_Trooper_c</defName>
+		<identifier>FCP_Backstory_NCR_Heavy_Trooper_c</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Heavy Trooper</title>
 		<titleShort>Heavy Trooper</titleShort>
@@ -1550,7 +1550,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Heavy_Trooper</li>
+			<li>FCP_Backstory_NCR_Heavy_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1560,8 +1560,8 @@
 	<!-- NCR Heavy Trooper d -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Heavy_Trooper_d</defName>
-		<identifier>FCP_NCR_Heavy_Trooper_d</identifier>
+		<defName>FCP_Backstory_NCR_Heavy_Trooper_d</defName>
+		<identifier>FCP_Backstory_NCR_Heavy_Trooper_d</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Heavy Trooper</title>
 		<titleShort>Heavy Trooper</titleShort>
@@ -1574,7 +1574,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Heavy_Trooper</li>
+			<li>FCP_Backstory_NCR_Heavy_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1584,8 +1584,8 @@
 	<!-- NCR Heavy Trooper e -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Heavy_Trooper_e</defName>
-		<identifier>FCP_NCR_Heavy_Trooper_e</identifier>
+		<defName>FCP_Backstory_NCR_Heavy_Trooper_e</defName>
+		<identifier>FCP_Backstory_NCR_Heavy_Trooper_e</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Heavy Trooper</title>
 		<titleShort>Heavy Trooper</titleShort>
@@ -1598,7 +1598,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Heavy_Trooper</li>
+			<li>FCP_Backstory_NCR_Heavy_Trooper</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1610,8 +1610,8 @@
 	<!-- NCR Officer a -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Officer_a</defName>
-		<identifier>FCP_NCR_Officer_a</identifier>
+		<defName>FCP_Backstory_NCR_Officer_a</defName>
+		<identifier>FCP_Backstory_NCR_Officer_a</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Officer</title>
 		<titleShort>Officer</titleShort>
@@ -1624,7 +1624,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Officer</li>
+			<li>FCP_Backstory_NCR_Officer</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1634,8 +1634,8 @@
 	<!-- NCR Officer b -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Officer_b</defName>
-		<identifier>FCP_NCR_Officer_b</identifier>
+		<defName>FCP_Backstory_NCR_Officer_b</defName>
+		<identifier>FCP_Backstory_NCR_Officer_b</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Officer</title>
 		<titleShort>Officer</titleShort>
@@ -1648,7 +1648,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Officer</li>
+			<li>FCP_Backstory_NCR_Officer</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1658,8 +1658,8 @@
 	<!-- NCR Officer c -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Officer_c</defName>
-		<identifier>FCP_NCR_Officer_c</identifier>
+		<defName>FCP_Backstory_NCR_Officer_c</defName>
+		<identifier>FCP_Backstory_NCR_Officer_c</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Officer</title>
 		<titleShort>Officer</titleShort>
@@ -1672,7 +1672,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Officer</li>
+			<li>FCP_Backstory_NCR_Officer</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1682,8 +1682,8 @@
 	<!-- NCR Officer d -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Officer_d</defName>
-		<identifier>FCP_NCR_Officer_d</identifier>
+		<defName>FCP_Backstory_NCR_Officer_d</defName>
+		<identifier>FCP_Backstory_NCR_Officer_d</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Officer</title>
 		<titleShort>Officer</titleShort>
@@ -1696,7 +1696,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Officer</li>
+			<li>FCP_Backstory_NCR_Officer</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1706,8 +1706,8 @@
 	<!-- NCR Officer e -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Officer_e</defName>
-		<identifier>FCP_NCR_Officer_e</identifier>
+		<defName>FCP_Backstory_NCR_Officer_e</defName>
+		<identifier>FCP_Backstory_NCR_Officer_e</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Officer</title>
 		<titleShort>Officer</titleShort>
@@ -1720,7 +1720,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Officer</li>
+			<li>FCP_Backstory_NCR_Officer</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1732,8 +1732,8 @@
 	<!-- NCR Doctor a -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Doctor_a</defName>
-		<identifier>FCP_NCR_Doctor_a</identifier>
+		<defName>FCP_Backstory_NCR_Doctor_a</defName>
+		<identifier>FCP_Backstory_NCR_Doctor_a</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Doctor</title>
 		<titleShort>Doctor</titleShort>
@@ -1746,7 +1746,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Doctor</li>
+			<li>FCP_Backstory_NCR_Doctor</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1756,8 +1756,8 @@
 	<!-- NCR Doctor b -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Doctor_b</defName>
-		<identifier>FCP_NCR_Doctor_b</identifier>
+		<defName>FCP_Backstory_NCR_Doctor_b</defName>
+		<identifier>FCP_Backstory_NCR_Doctor_b</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Doctor</title>
 		<titleShort>Doctor</titleShort>
@@ -1770,7 +1770,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Doctor</li>
+			<li>FCP_Backstory_NCR_Doctor</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1780,8 +1780,8 @@
 	<!-- NCR Doctor c -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Doctor_c</defName>
-		<identifier>FCP_NCR_Doctor_c</identifier>
+		<defName>FCP_Backstory_NCR_Doctor_c</defName>
+		<identifier>FCP_Backstory_NCR_Doctor_c</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Doctor</title>
 		<titleShort>Doctor</titleShort>
@@ -1794,7 +1794,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Doctor</li>
+			<li>FCP_Backstory_NCR_Doctor</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1804,8 +1804,8 @@
 	<!-- NCR Doctor d -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Doctor_d</defName>
-		<identifier>FCP_NCR_Doctor_d</identifier>
+		<defName>FCP_Backstory_NCR_Doctor_d</defName>
+		<identifier>FCP_Backstory_NCR_Doctor_d</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Doctor</title>
 		<titleShort>Doctor</titleShort>
@@ -1818,7 +1818,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Doctor</li>
+			<li>FCP_Backstory_NCR_Doctor</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1830,8 +1830,8 @@
 	<!-- NCR Scientist a -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Scientist_a</defName>
-		<identifier>FCP_NCR_Scientist_a</identifier>
+		<defName>FCP_Backstory_NCR_Scientist_a</defName>
+		<identifier>FCP_Backstory_NCR_Scientist_a</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Scientist</title>
 		<titleShort>Scientist</titleShort>
@@ -1844,7 +1844,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Scientist</li>
+			<li>FCP_Backstory_NCR_Scientist</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1854,8 +1854,8 @@
 	<!-- NCR Scientist b -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Scientist_b</defName>
-		<identifier>FCP_NCR_Scientist_b</identifier>
+		<defName>FCP_Backstory_NCR_Scientist_b</defName>
+		<identifier>FCP_Backstory_NCR_Scientist_b</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Scientist</title>
 		<titleShort>Scientist</titleShort>
@@ -1868,7 +1868,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Scientist</li>
+			<li>FCP_Backstory_NCR_Scientist</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1878,8 +1878,8 @@
 	<!-- NCR Scientist c -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Scientist_c</defName>
-		<identifier>FCP_NCR_Scientist_c</identifier>
+		<defName>FCP_Backstory_NCR_Scientist_c</defName>
+		<identifier>FCP_Backstory_NCR_Scientist_c</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Scientist</title>
 		<titleShort>Scientist</titleShort>
@@ -1892,7 +1892,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Scientist</li>
+			<li>FCP_Backstory_NCR_Scientist</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1902,8 +1902,8 @@
 	<!-- NCR Scientist d -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Scientist_d</defName>
-		<identifier>FCP_NCR_Scientist_d</identifier>
+		<defName>FCP_Backstory_NCR_Scientist_d</defName>
+		<identifier>FCP_Backstory_NCR_Scientist_d</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Scientist</title>
 		<titleShort>Scientist</titleShort>
@@ -1916,7 +1916,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Scientist</li>
+			<li>FCP_Backstory_NCR_Scientist</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1926,8 +1926,8 @@
 	<!-- NCR Scientist e -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Scientist_e</defName>
-		<identifier>FCP_NCR_Scientist_e</identifier>
+		<defName>FCP_Backstory_NCR_Scientist_e</defName>
+		<identifier>FCP_Backstory_NCR_Scientist_e</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Scientist</title>
 		<titleShort>Scientist</titleShort>
@@ -1940,7 +1940,7 @@
 		<workDisables />
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Scientist</li>
+			<li>FCP_Backstory_NCR_Scientist</li>
 		</spawnCategories>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Male</bodyTypeMale>
@@ -1952,7 +1952,7 @@
 	<!-- Republic Born -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Republic_Born</defName>
+		<defName>FCP_Backstory_NCR_Republic_Born</defName>
 		<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
 		<identifier>NCR_Republic_Born</identifier>
 		<slot>Childhood</slot>
@@ -1969,7 +1969,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -1977,7 +1977,7 @@
 	<!-- Republic Migrant -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Republic_Migrant</defName>
+		<defName>FCP_Backstory_NCR_Republic_Migrant</defName>
 		<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
 		<identifier>NCR_Republic_Migrant</identifier>
 		<slot>Childhood</slot>
@@ -1993,7 +1993,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2001,7 +2001,7 @@
 	<!-- Settled Tribal -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Settled_Tribal</defName>
+		<defName>FCP_Backstory_NCR_Settled_Tribal</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
 		<identifier>NCR_Settled_Tribal</identifier>
 		<slot>Childhood</slot>
@@ -2017,7 +2017,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2025,7 +2025,7 @@
 	<!-- Officer Offspring -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Officer_Offspring</defName>
+		<defName>FCP_Backstory_NCR_Officer_Offspring</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
 		<identifier>NCR_Officer_Offspring</identifier>
 		<slot>Childhood</slot>
@@ -2041,7 +2041,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2049,7 +2049,7 @@
 	<!-- Barracks Baby -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Barracks_Baby</defName>
+		<defName>FCP_Backstory_NCR_Barracks_Baby</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
 		<identifier>NCR_Barracks_Baby</identifier>
 		<slot>Childhood</slot>
@@ -2065,7 +2065,7 @@
 		<workDisables>Artistic</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2073,7 +2073,7 @@
 	<!-- Migrant Worker’s Child -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Migrant_Workers_Child</defName>
+		<defName>FCP_Backstory_NCR_Migrant_Workers_Child</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
 		<identifier>NCR_Migrant_Workers_Child</identifier>
 		<slot>Childhood</slot>
@@ -2088,7 +2088,7 @@
 		<workDisables>Intellectual</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2096,7 +2096,7 @@
 	<!-- Plantation Child -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Plantation_Child</defName>
+		<defName>FCP_Backstory_NCR_Plantation_Child</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
 		<identifier>NCR_Plantation_Child</identifier>
 		<slot>Childhood</slot>
@@ -2114,7 +2114,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2122,9 +2122,9 @@
 	<!-- Raised by Followers -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Raised_by_Followers</defName>
+		<defName>FCP_Backstory_NCR_Raised_by_Followers</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
-		<identifier>FCP_NCR_Raised_by_Followers</identifier>
+		<identifier>FCP_Backstory_NCR_Raised_by_Followers</identifier>
 		<slot>Childhood</slot>
 		<title>Raised by Followers</title>
 		<titleShort>Raised by Followers</titleShort>
@@ -2138,7 +2138,7 @@
 		<workDisables>Violent</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2146,9 +2146,9 @@
 	<!-- Ne'er do well -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Ne_er_do_well</defName>
+		<defName>FCP_Backstory_NCR_Ne_er_do_well</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
-		<identifier>FCP_NCR_Ne_er_do_well</identifier>
+		<identifier>FCP_Backstory_NCR_Ne_er_do_well</identifier>
 		<slot>Childhood</slot>
 		<title>Ne'er do well</title>
 		<titleShort>Ne'er do well</titleShort>
@@ -2160,7 +2160,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2168,9 +2168,9 @@
 	<!-- Ranger’s Child -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Rangers_Child</defName>
+		<defName>FCP_Backstory_NCR_Rangers_Child</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
-		<identifier>FCP_NCR_Rangers_Child</identifier>
+		<identifier>FCP_Backstory_NCR_Rangers_Child</identifier>
 		<slot>Childhood</slot>
 		<title>Ranger’s Child</title>
 		<titleShort>Ranger’s Child</titleShort>
@@ -2187,7 +2187,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2195,9 +2195,9 @@
 	<!-- Manufacturer’s Apprentice -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Manufacturers_Apprentice</defName>
+		<defName>FCP_Backstory_NCR_Manufacturers_Apprentice</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
-		<identifier>FCP_NCR_Manufacturers_Apprentice</identifier>
+		<identifier>FCP_Backstory_NCR_Manufacturers_Apprentice</identifier>
 		<slot>Childhood</slot>
 		<title>Manufacturer’s Apprentice</title>
 		<titleShort>Manufacturer’s Apprentice</titleShort>
@@ -2211,7 +2211,7 @@
 		<workDisables>Cleaning</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2219,9 +2219,9 @@
 	<!-- Academic’s Child -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Academics_Child</defName>
+		<defName>FCP_Backstory_NCR_Academics_Child</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
-		<identifier>FCP_NCR_Academics_Child</identifier>
+		<identifier>FCP_Backstory_NCR_Academics_Child</identifier>
 		<slot>Childhood</slot>
 		<title>Academic’s Child</title>
 		<titleShort>Academic’s Child</titleShort>
@@ -2237,7 +2237,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2245,9 +2245,9 @@
 	<!-- Enthusiastic Recruit -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Enthusiastic_Recruit</defName>
+		<defName>FCP_Backstory_NCR_Enthusiastic_Recruit</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
-		<identifier>FCP_NCR_Enthusiastic_Recruit</identifier>
+		<identifier>FCP_Backstory_NCR_Enthusiastic_Recruit</identifier>
 		<slot>Childhood</slot>
 		<title>Enthusiastic Recruit</title>
 		<titleShort>Enthusiastic Recruit</titleShort>
@@ -2261,7 +2261,7 @@
 		<workDisables>Intellectual</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2269,9 +2269,9 @@
 	<!-- Khan Survivor -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Khan_Survivor</defName>
+		<defName>FCP_Backstory_NCR_Khan_Survivor</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
-		<identifier>FCP_NCR_Khan_Survivor</identifier>
+		<identifier>FCP_Backstory_NCR_Khan_Survivor</identifier>
 		<slot>Childhood</slot>
 		<title>Khan Survivor</title>
 		<titleShort>Khan Survivor</titleShort>
@@ -2286,7 +2286,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
@@ -2294,9 +2294,9 @@
 	<!-- Re-educated Raider Kid -->
 
 	<BackstoryDef>
-		<defName>FCP_NCR_Re_educated_Raider_Kid</defName>
+		<defName>FCP_Backstory_NCR_Re_educated_Raider_Kid</defName>
     	<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
-		<identifier>FCP_NCR_Re_educated_Raider_Kid</identifier>
+		<identifier>FCP_Backstory_NCR_Re_educated_Raider_Kid</identifier>
 		<slot>Childhood</slot>
 		<title>Re-educated Raider Kid</title>
 		<titleShort>Re-educated Raider Kid</titleShort>
@@ -2311,7 +2311,7 @@
 		<workDisables>None</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
 		<spawnCategories>
-			<li>FCP_NCR_Child</li>
+			<li>FCP_Backstory_NCR_Child</li>
 		</spawnCategories>
         <possessions />
 	</BackstoryDef>
