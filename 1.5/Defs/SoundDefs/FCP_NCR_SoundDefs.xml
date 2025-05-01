@@ -4,7 +4,7 @@
     <!--__________ Ritual Sustainers __________-->
 
     <SoundDef ParentName="RitualSustainerBase">
-        <defName>FCP_RitualSustainer_ILoveYouCalifornia</defName>
+        <defName>FCP_Sound_RitualSustainer_ILoveYouCalifornia</defName>
         <subSounds>
             <li>
                 <grains>
