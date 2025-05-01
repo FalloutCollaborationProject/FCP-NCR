@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+    <!--__________ New California Republic __________-->
+
+    <!--_____ NCR Clothing _____-->
+
+    <!--___ NCR Army ___-->
+    
     <!-- Trooper Bandoleer -->
 
     <ThingDef ParentName="ArmorMachineableBase">
