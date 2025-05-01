@@ -9,7 +9,7 @@
         <techLevel>Industrial</techLevel>
         <label>Trooper Bandoleer</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -65,7 +65,7 @@
         <techLevel>Industrial</techLevel>
         <label>Trooper Mantle</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
