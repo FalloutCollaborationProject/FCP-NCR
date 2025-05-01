@@ -14,7 +14,7 @@
         <label>NCR Engineer Jumpsuit</label>
         <description>A khaki jumpsuit with many pockets and pouches attached. It’s commonly worn by engineers and other technical personnel associated with the NCR. It’s useful for carrying around a few spare tools but provides little protection in a firefight.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -82,7 +82,7 @@
         <description>A stylish dress often worn by the ambassadors of the New California Republic. While it provides little to no actual
             protection, it boosts its wearer's confidence during negotiation.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -149,7 +149,7 @@
         <label>NCR Ambassador's Suit</label>
         <description>A stylish suit often worn by the ambassadors of the New California Republic. While it provides little to no actual protection, it boosts its wearer's confidence during negotiation.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -216,7 +216,7 @@
         <label>NCR President Suit</label>
         <description>A stylish suit often worn by the president of the New California Republic and similar high-ranking government officials. While it provides little to no actual protection, it gives its wearer an air of authority.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Presidential_Suite</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Presidential_Suite</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -290,7 +290,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Trooper Fatigues</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Standard_Trooper_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -351,7 +351,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR MP Uniform</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -411,7 +411,7 @@
         <label>NCR General Uniform</label>
         <description>A uniform reserved for the highest-ranking officers of the republic’s army, the generals. It’s heavily decorated with motifs commonly associated with the NCR, such as the two-headed bear. It doesn’t offer much protection, however, since the generals of the army rarely serve on the frontlines.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -477,7 +477,7 @@
 
     <ThingDef ParentName="ApparelMakeableBase" Name="FCP_NCR_Ranger_Outfit" Abstract="True">
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -578,7 +578,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Veteran Ranger Uniform</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Ranger_Elite_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -644,7 +644,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Veteran Ranger Duster</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Ranger_Elite_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -710,7 +710,7 @@
         <description>A simple blue shirt with pants issued to the inmates of the NCRCF. These are simple clothes cheaply mass-produced in the NCR. As such they offer little to no protection in a fight but isolate quite well against the heat, since the NCR likes to use the inmates as roadworkers.</description>
         <label>NCRCF Inmate Uniform</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -775,7 +775,7 @@
         <description>A simple overshirt worn by inmates of the NCRCF. It’s meant to identify the inmates as such and doesn’t offer much protection against any kind of threat. Despite this, the Powder Gangers still wear these, probably because of the lack of alternative garments.</description>
         <label>NCRCF Over Shirt</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -843,7 +843,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Trooper Armor</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Standard_Trooper_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -906,7 +906,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Trooper Bandoleer Armor</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -972,7 +972,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Trooper Vest</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Standard_Trooper_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -1030,7 +1030,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Trooper Mantle Armor</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -1093,7 +1093,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Recon Assault Armor</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Special_Forces</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Special_Forces</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -1161,7 +1161,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Salvaged Power Armor</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Heavy_Trooper_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Heavy_Trooper_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -1239,7 +1239,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Ranger Patrol Armor</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Ranger_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Ranger_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -1307,7 +1307,7 @@
         <techLevel>Industrial</techLevel>
         <label>NCR Veteran Ranger Armor</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Ranger_Elite_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -1371,7 +1371,7 @@
         <description>A padded vest often worn by the guards of the NCRCF. While less protective than full-blown armour, it guards its wearer quite well against small firearms.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
