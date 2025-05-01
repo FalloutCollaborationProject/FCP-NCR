@@ -3,7 +3,9 @@
 
     <!--__________ Pawnkinds __________-->
 
+
     <!--_____ NCR Pawnkinds _____-->
+
 
     <!--___ Characters ___-->
 
@@ -172,6 +174,16 @@
         </weaponTags>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>18~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Chief_Hanlon</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
     </PawnKindDef>
 
     <!-- Major Dhatri -->
@@ -340,7 +352,7 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_NCR_Lieutenant_Gorobets</li>
@@ -888,6 +900,7 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
+
     <!--___ Civilians ___-->
 
     <!-- Engineer -->
@@ -1033,7 +1046,9 @@
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
+
     <!--___ Traders ___-->
+
 
     <!-- NCR Quartermaster -->
 
@@ -1135,7 +1150,9 @@
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
+
     <!--___ Politicians ___-->
+
 
     <!-- Tax Collector -->
 
@@ -1207,18 +1224,20 @@
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
-                    <li>FCP_NCR_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_NCR_Ambassador</li>
+                    <li>FCP_Backstory_NCR_Ambassador</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef> -->
 
+
     <!--___ Military ___-->
+
 
     <!-- NCR Trooper -->
 
@@ -1483,7 +1502,7 @@
 
     <PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Volunteer</defName>
-        <label>NCR Ranger</label>
+        <label>NCR ranger</label>
         <combatPower>75</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelTags>

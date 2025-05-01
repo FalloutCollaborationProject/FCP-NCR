@@ -9,7 +9,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Kimball</defName>
-        <pawnKind>FCP_NCR_President_Kimball</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_President_Kimball</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <roles>
@@ -42,7 +42,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Crocker</defName>
-        <pawnKind>FCP_NCR_Ambassador_Crocker</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ambassador_Crocker</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <roles>
@@ -78,7 +78,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Oliver</defName>
-        <pawnKind>FCP_NCR_General_Oliver</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_General_Oliver</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -106,7 +106,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Hsu</defName>
-        <pawnKind>FCP_NCR_Colonel_Hsu</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Colonel_Hsu</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -134,7 +134,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Moore</defName>
-        <pawnKind>FCP_NCR_Colonel_Moore</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Colonel_Moore</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -162,7 +162,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Dhatri</defName>
-        <pawnKind>FCP_NCR_Major_Dhatri</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Major_Dhatri</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -190,7 +190,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Knight</defName>
-        <pawnKind>FCP_NCR_Major_Knight</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Major_Knight</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -218,7 +218,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Polatli</defName>
-        <pawnKind>FCP_NCR_Major_Polatli</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Major_Polatli</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -246,7 +246,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Kieran</defName>
-        <pawnKind>FCP_NCR_Major_Kieran</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Major_Kieran</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -274,7 +274,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Parker</defName>
-        <pawnKind>FCP_NCR_Captain_Parker</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Captain_Parker</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -302,7 +302,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Gilles</defName>
-        <pawnKind>FCP_NCR_Captain_Gilles</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Captain_Gilles</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -334,7 +334,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Hayes</defName>
-        <pawnKind>FCP_NCR_Lieutenant_Hayes</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Lieutenant_Hayes</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -364,7 +364,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Gorobets</defName>
-        <pawnKind>FCP_NCR_Lieutenant_Gorobets</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Lieutenant_Gorobets</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -394,7 +394,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Boyd</defName>
-        <pawnKind>FCP_NCR_Lieutenant_Boyd</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Lieutenant_Boyd</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -428,7 +428,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Bitter_Root</defName>
-        <pawnKind>FCP_NCR_Sergeant_Bitter_Root</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Sergeant_Bitter_Root</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -456,7 +456,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Betsy</defName>
-        <pawnKind>FCP_NCR_Corporal_Betsy</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Corporal_Betsy</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -484,7 +484,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Sterling</defName>
-        <pawnKind>FCP_NCR_Corporal_Sterling</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Corporal_Sterling</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -512,7 +512,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_10_of_Spades</defName>
-        <pawnKind>FCP_NCR_Private_10_of_Spades</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Private_10_of_Spades</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -544,7 +544,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Mags</defName>
-        <pawnKind>FCP_NCR_Corporal_Mags</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Corporal_Mags</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -572,7 +572,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_O_Hanahan</defName>
-        <pawnKind>FCP_NCR_Private_O_Hanahan</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Private_O_Hanahan</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -600,7 +600,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Poindexter</defName>
-        <pawnKind>FCP_NCR_Private_Poindexter</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Private_Poindexter</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -628,7 +628,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Razz</defName>
-        <pawnKind>FCP_NCR_Private_Razz</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Private_Razz</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -658,7 +658,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Halford</defName>
-        <pawnKind>FCP_NCR_Private_Halford</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Private_Halford</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -686,7 +686,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Seamer</defName>
-        <pawnKind>FCP_NCR_Private_Seamer</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Private_Seamer</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -714,7 +714,7 @@
     
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Hornsby</defName>
-        <pawnKind>FCP_NCR_Corporal_Hornsby</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Corporal_Hornsby</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -746,7 +746,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Hanlon</defName>
-        <pawnKind>FCP_NCR_Chief_Hanlon</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Chief_Hanlon</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -776,7 +776,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Castillo</defName>
-        <pawnKind>FCP_NCR_Ranger_Castillo</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ranger_Castillo</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -804,7 +804,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Ghost</defName>
-        <pawnKind>FCP_NCR_Ranger_Ghost</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ranger_Ghost</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -832,7 +832,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Green</defName>
-        <pawnKind>FCP_NCR_Ranger_Green</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ranger_Green</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -860,7 +860,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_A_Jackson</defName>
-        <pawnKind>FCP_NCR_Ranger_A_Jackson</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ranger_A_Jackson</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -888,7 +888,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Lenk</defName>
-        <pawnKind>FCP_NCR_Ranger_Lenk</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ranger_Lenk</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -916,7 +916,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Scheffer</defName>
-        <pawnKind>FCP_NCR_Ranger_Scheffer</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ranger_Scheffer</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -944,7 +944,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Stepinac</defName>
-        <pawnKind>FCP_NCR_Ranger_Stepinac</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ranger_Stepinac</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -972,7 +972,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Tilden</defName>
-        <pawnKind>FCP_NCR_Ranger_Tilden</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Ranger_Tilden</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
@@ -1002,7 +1002,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Anders</defName>
-        <pawnKind>FCP_NCR_Patrol_Ranger_Anders</pawnKind>
+        <pawnKind>FCP_Pawnkind_NCR_Patrol_Ranger_Anders</pawnKind>
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>

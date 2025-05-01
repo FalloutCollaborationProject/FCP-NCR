@@ -21,20 +21,20 @@
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>8</pawnChoiceCount>
-                    <leftBehindPawnKind>FCP_NCR_Trooper</leftBehindPawnKind>
+                    <leftBehindPawnKind>FCP_Pawnkind_NCR_Trooper</leftBehindPawnKind>
                     <kindCounts>
                         <li>
-                            <kindDef>FCP_NCR_Officer</kindDef>
+                            <kindDef>FCP_Pawnkind_NCR_Officer</kindDef>
                             <count>1</count>
                             <requiredAtStart>true</requiredAtStart>
                         </li>
                         <li>
-                            <kindDef>FCP_NCR_Trooper</kindDef>
+                            <kindDef>FCP_Pawnkind_NCR_Trooper</kindDef>
                             <count>3</count>
                             <requiredAtStart>false</requiredAtStart>
                         </li>
                         <li>
-                            <kindDef>FCP_NCR_Scout_Recon</kindDef>
+                            <kindDef>FCP_Pawnkind_NCR_Scout_Recon</kindDef>
                             <count>1</count>
                             <requiredAtStart>false</requiredAtStart>
                         </li>
@@ -100,7 +100,7 @@
                 <li Class="ScenPart_GameStartDialog">
                     <def>GameStartDialog</def>
                     <text>The enemy relentless. They came in the night, silent with blades and spears. They cut through the outpost, slashing and killing troopers as if they were killing for fun.\n\nOnly you and your squad escaped, having been sent to gather reinfrocements.\n\nAfter wandering the wastes going in what appears to be circles you find your next spot to make camp. Do you rest for the night, or stay and create a new home for yourselves?</text>
-                    <closeSound>FCP_War_Never_Changes</closeSound>
+                    <closeSound>FCP_Sound_War_Never_Changes</closeSound>
                 </li>
 
             </parts>

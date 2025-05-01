@@ -55,7 +55,7 @@
                 <li Class="FCP_RadiantQuests.QuestNode_GetPawnKind">
                     <!--Dont change storeAs its hardcoded in C#-->
                     <storeAs>prisonerPawnKind</storeAs>
-                    <pawnKindDef>FCP_NCR_Citizen</pawnKindDef>
+                    <pawnKindDef>FCP_Pawnkind_NCR_Citizen</pawnKindDef>
                 </li>
                 <li Class="QuestNode_GetRandomInRangeFloat">
                     <storeAs>chanceToJoinVal</storeAs>
@@ -204,7 +204,7 @@
                 <li Class="FCP_RadiantQuests.QuestNode_GetPawnKind">
                     <!--Dont change storeAs its hardcoded in C#-->
                     <storeAs>prisonerPawnKind</storeAs>
-                    <pawnKindDef>FCP_NCR_Trooper</pawnKindDef>
+                    <pawnKindDef>FCP_Pawnkind_NCR_Trooper</pawnKindDef>
                 </li>
                 <li Class="QuestNode_GetRandomInRangeFloat">
                     <storeAs>chanceToJoinVal</storeAs>

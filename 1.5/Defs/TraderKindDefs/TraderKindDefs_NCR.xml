@@ -53,7 +53,7 @@
                 <ignoreIdeoRequirements>true</ignoreIdeoRequirements>
                 <respectPopulationIntent>false</respectPopulationIntent>
                 <countRange>2~5</countRange>
-                <slaveKindDef>FCP_NCR_NCRCF_Inmate</slaveKindDef>
+                <slaveKindDef>FCP_Pawnkind_NCR_NCRCF_Inmate</slaveKindDef>
             </li>
 
             <!--__ Currency __-->
