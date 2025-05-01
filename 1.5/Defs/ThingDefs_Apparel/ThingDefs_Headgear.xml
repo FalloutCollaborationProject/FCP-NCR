@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <!--__________ NCR Headgear __________-->
+    <!--__________ New California Republic __________-->
+    
+    <!--_____ NCR Headgear _____-->
 
-    <!--_____ NCR Army _____-->
+    <!--___ NCR Army ___-->
 
-    <!--___ NCRCF Guards ___-->
+    <!--__ NCRCF Guards __-->
 
     <!-- NCRCF Guard Helmet -->
 
@@ -15,7 +17,7 @@
         <description>A riot helmet once worn by the guards of the NCRCF. Like many other parts of their gear, it has been apprehended by the Powder Gangers. It offers good protection, especially against blunt damage.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -58,7 +60,7 @@
         </tradeTags>
     </ThingDef>
 
-    <!--___ Troopers ___-->
+    <!--__ Troopers __-->
 
     <!-- NCR Trooper Helmet -->
 
@@ -68,7 +70,7 @@
         <description>The standard helmet of the NCR armed forces. It is mass-produced in the NCR and easy to make and maintain but offers only marginal protection.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Standard_Trooper_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -118,7 +120,7 @@
         <label>Goggles Trooper Helmet</label>
         <description>A cheap, mass-produced helmet worn by the NCR’s soldiers. This version comes with a pair of goggles attached which provide additional, albeit modest, protection for the wearer’s eyes.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Goggles_Helmet/FCP_NCR_Goggles_Helmet</texPath>
@@ -138,7 +140,7 @@
         <label>Face Wrap Trooper Helmet</label>
         <description>A trooper helmet with goggles and a piece of fabric attached to it. The fabric can be wrapped around the face to protect the wearer against the dust storms that are common in parts of the Mojave.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Insulation_Cold>3</Insulation_Cold>
@@ -168,7 +170,7 @@
         <label>Face Wrap Goggles Trooper Helmet</label>
         <description>A trooper helmet with goggles and a piece of fabric attached to it. The fabric can be wrapped around the face to protect the wearer against the dust storms that are common in parts of the Mojave.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Insulation_Cold>3</Insulation_Cold>
@@ -199,7 +201,7 @@
         <label>MP Trooper Helmet</label>
         <description>A helmet with goggles usually worn by the members of the NCR military police. Like the uniform itself, it gives it’s wearer an aura of authority.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_MP_Helmet/FCP_NCR_MP_Helmet</texPath>
@@ -212,7 +214,7 @@
         </apparel>
     </ThingDef>
 
-    <!--___ Berets ___-->
+    <!--__ Berets __-->
 
     <!-- NCR Beret -->
 
@@ -222,7 +224,7 @@
         <description>A simple green beret usually worn by officers of the NCR army. It mainly serves as an insignia of rank but offers a fair bit of protection against the weather.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Trooper_Variations</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -272,7 +274,7 @@
         <label>NCR First Recon Beret</label>
         <description>A red beret worn by the members of the famed 1st recon battalion. They are renowned as some of the best snipers the republic can muster. Fittingly, their motto is: “the last thing you never see.”</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Special_Forces</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Special_Forces</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_1st_Recon_Beret/FCP_NCR_1st_Recon_Beret</texPath>
@@ -293,7 +295,7 @@
         </comps>
     </ThingDef>
 
-    <!--___ Power Armor ___-->
+    <!--__ Power Armor __-->
 
     <!-- NCR Salvaged Power Armor Helmet -->
 
@@ -303,7 +305,7 @@
         <description>A T-45 power armor helmet usually worn paired with the NCR’s salvaged power armors. Despite its salvaged nature, it offers excellent protection and, in contrast to the armor itself, has no major drawbacks compared to a regular power armor.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Heavy_Trooper_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Heavy_Trooper_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -352,7 +354,7 @@
         </tradeTags>
     </ThingDef>
 
-    <!--___ Misc -->
+    <!--__ Misc __-->
 
     <!-- NCR General Cap -->
 
@@ -361,7 +363,7 @@
         <label>NCR General Cap</label>
         <description>A cap adorned with the two-headed bear, the heraldic animal of the New California Republic. It serves as a symbol of rank for the republic’s generals and is usually reserved for them.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Special_Forces</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Officers/NCR_General/NCR_Generals_Cap/FCP_NCR_Generals_Cap</texPath>
@@ -377,9 +379,9 @@
         </apparel>
     </ThingDef>
 
-    <!--_____ NCR Rangers _____-->
+    <!--__ NCR Rangers __-->
 
-    <!--___ Hats ___-->
+    <!--_ Hats _-->
 
     <!-- Ranger Hat Grey -->
 
@@ -389,7 +391,7 @@
         <description>A grey cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Civilian_Outfitters</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -467,7 +469,7 @@
         <label>NCR Patrol Ranger Hat</label>
         <description>A simple cowboy hat favoured by the desert rangers, especially those patrolling the Mojave. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
         <recipeMaker Inherit="False">
-            <researchPrerequisite>FCP_NCR_Ranger_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Ranger_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -489,7 +491,7 @@
         </comps>
     </ThingDef>
 
-    <!--___ Helmets ___-->
+    <!--_ Helmets _-->
 
     <!-- NCR Veteran Ranger Helmet -->
 
@@ -499,7 +501,7 @@
         <description>An enclosed military helmet with built-in low light optics and a gas mask worn by NCR Rangers. It offers better protection in comparison to the Trooper helmet but is significantly rarer.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
-            <researchPrerequisite>FCP_NCR_Ranger_Elite_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
