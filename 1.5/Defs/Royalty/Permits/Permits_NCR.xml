@@ -18,7 +18,7 @@
 
 	<!-- Food Drop -->
 
-	<RoyalTitlePermitDef ParentName="FCP_NCR_DropResourcesBase">
+	<RoyalTitlePermitDef ParentName="FCP_Permit_NCR_DropResourcesBase">
 		<defName>FCP_Permit_NCR_Supply_Drop_Food</defName>
 		<label>NCR Food Drop</label>
 		<faction>FCP_Faction_NCR</faction>
@@ -44,7 +44,7 @@
 
 	<!-- Army Weapon Drop -->
 
-	<RoyalTitlePermitDef ParentName="FCP_NCR_DropResourcesBase">
+	<RoyalTitlePermitDef ParentName="FCP_Permit_NCR_DropResourcesBase">
 		<defName>FCP_Permit_NCR_Army_Supply_Drop_Weapons</defName>
 		<label>NCR Army Weapon Drop</label>
 		<faction>FCP_Faction_NCR</faction>
@@ -68,7 +68,7 @@
 
 	<!-- Ranger Weapon Drop -->
 
-	<RoyalTitlePermitDef ParentName="FCP_NCR_DropResourcesBase">
+	<RoyalTitlePermitDef ParentName="FCP_Permit_NCR_DropResourcesBase">
 		<defName>FCP_Permit_NCR_Ranger_Supply_Drop_Weapons</defName>
 		<label>NCR Ranger Weapon Drop</label>
 		<faction>FCP_Faction_NCR</faction>
@@ -94,7 +94,7 @@
 
 	<!-- Army Uniform Drop -->
 
-	<RoyalTitlePermitDef ParentName="FCP_NCR_DropResourcesBase">
+	<RoyalTitlePermitDef ParentName="FCP_Permit_NCR_DropResourcesBase">
 		<defName>FCP_Permit_NCR_Army_Supply_Drop_Uniforms</defName>
 		<label>NCR Army Uniform Drop</label>
 		<faction>FCP_Faction_NCR</faction>
@@ -118,7 +118,7 @@
 
 	<!-- Ranger Uniform Drop -->
 
-	<RoyalTitlePermitDef ParentName="FCP_NCR_DropResourcesBase">
+	<RoyalTitlePermitDef ParentName="FCP_Permit_NCR_DropResourcesBase">
 		<defName>FCP_Permit_NCR_Ranger_Supply_Drop_Uniforms</defName>
 		<label>NCR Ranger Uniform Drop</label>
 		<faction>FCP_Faction_NCR</faction>
@@ -142,7 +142,7 @@
 
 	<!-- Ranger Patrol Armor Drop -->
 
-	<RoyalTitlePermitDef ParentName="FCP_NCR_DropResourcesBase">
+	<RoyalTitlePermitDef ParentName="FCP_Permit_NCR_DropResourcesBase">
 		<defName>FCP_Permit_NCR_Ranger_Supply_Drop_Patrol_Armor</defName>
 		<label>NCR Ranger Uniform Drop</label>
 		<faction>FCP_Faction_NCR</faction>
@@ -167,7 +167,7 @@
 
 	<!-- Ranger Veteran Armor Drop -->
 
-	<RoyalTitlePermitDef ParentName="FCP_NCR_DropResourcesBase">
+	<RoyalTitlePermitDef ParentName="FCP_Permit_NCR_DropResourcesBase">
 		<defName>FCP_Permit_NCR_Ranger_Supply_Drop_Veteran_Armor</defName>
 		<label>NCR Ranger Veteran Armor Drop</label>
 		<faction>FCP_Faction_NCR</faction>
@@ -175,7 +175,7 @@
 		<permitPointCost>1</permitPointCost>
 		<prerequisite>FCP_Permit_NCR_Ranger_Supply_Drop_Patrol_Armor</prerequisite>
 		<cooldownDays>30</cooldownDays>
-		<minTitle>FCP_NCR_Ranger_Veteran</minTitle>
+		<minTitle>FCP_Title_NCR_Ranger_Veteran</minTitle>
 		<uiPosition>(3,2)</uiPosition>
 		<royalAid>
 			<itemsToDrop>

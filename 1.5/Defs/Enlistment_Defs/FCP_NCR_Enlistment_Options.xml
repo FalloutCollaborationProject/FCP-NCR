@@ -29,7 +29,7 @@
         <missionsDescKey>FCP_NCR_Missions_Desc</missionsDescKey>
         <missionsButtonIconTexPath>Things/UI/Enlisted/FCP_NCR_Missions</missionsButtonIconTexPath>
         <missionsBackgroundMenuTexPath>Things/UI/Enlisted/FCP_NCR_Missions</missionsBackgroundMenuTexPath>
-        <missionsMenuAmbientSoundDef>FCP_RitualSustainer_ILoveYouCalifornia</missionsMenuAmbientSoundDef>
+        <missionsMenuAmbientSoundDef>FCP_Sound_RitualSustainer_ILoveYouCalifornia</missionsMenuAmbientSoundDef>
         <missionsMenuDescriptionKey>FCP_NCR_Menu_Missions_Desc</missionsMenuDescriptionKey>
         <missionsMenuSelectQuestKey>FCP_NCR_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
         <missionsMenuStartQuestKey>FCP_NCR_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
