@@ -7,6 +7,7 @@
     <author>Rick</author>
     <name>FCP - New California Republic</name>
     <description>The Fallout Collaboration Project Presents: New California Republic, a Faction and Armory Mod.</description>
+    <url>https://github.com/FalloutCollaborationProject/FCP-NCR</url>
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
@@ -14,6 +15,7 @@
         <li>
             <packageId>Rick.FCP.Core.Tools</packageId>
             <displayName>FCP - Tools</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Tools</downloadUrl>
         </li>
     </modDependencies>
     <loadAfter>
