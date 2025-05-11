@@ -421,7 +421,7 @@
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
 			<li Class="FCP_Shuttles.FactionModExtension">
-				<transportShipDef>FCP_NCR_Vertibird</transportShipDef>
+				<transportShipDef>FCP_Shuttle_NCR_Vertibird</transportShipDef>
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>

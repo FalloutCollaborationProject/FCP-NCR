@@ -8,12 +8,12 @@
     <!-- NCR Standard Vertibird -->
 
     <TransportShipDef>
-        <defName>FCP_NCR_Vertibird</defName>
+        <defName>FCP_Shuttle_NCR_Vertibird</defName>
         <label>NCR vertibird</label>
-        <shipThing>FCP_NCR_Vertibird</shipThing>
-        <arrivingSkyfaller>FCP_NCR_VertibirdIncoming</arrivingSkyfaller>
-        <leavingSkyfaller>FCP_NCR_VertibirdLeaving</leavingSkyfaller>
-        <worldObject>FCP_NCR_TravelingVertibird</worldObject>
+        <shipThing>FCP_Shuttle_NCR_Vertibird</shipThing>
+        <arrivingSkyfaller>FCP_Shuttle_NCR_VertibirdIncoming</arrivingSkyfaller>
+        <leavingSkyfaller>FCP_Shuttle_NCR_VertibirdLeaving</leavingSkyfaller>
+        <worldObject>FCP_Shuttle_NCR_TravelingVertibird</worldObject>
         <maxLaunchDistance>70</maxLaunchDistance>
     </TransportShipDef>
 
@@ -22,7 +22,7 @@
     <!-- NCR Standard Vertibird -->
 
     <ThingDef ParentName="BuildingBase">
-        <defName>FCP_NCR_Vertibird</defName>
+        <defName>FCP_Shuttle_NCR_Vertibird</defName>
         <label>NCR vertibird</label>
         <description>Vertibird is a designation for a series of vertical take-off and landing (VTOL) aircraft. These multipurpose tiltrotor aircraft were developed by the United States military and rapidly became a primary gunship and transport aircraft. This one is now in use by the New California Republic.</description>
         <altitudeLayer>Building</altitudeLayer>
@@ -85,20 +85,20 @@
                 <bladeGraphicsData>
                     <li>
                         <bladeGraphic>
-                            <texPath>Things/Vehicles/FCP_Vertibird_Light_Propeller</texPath>
+                            <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_a</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
-                        <positionOffset>(1, 0, -2.5)</positionOffset>
+                        <positionOffset>(1.4, 0, -1.5)</positionOffset>
                         <spinRate>1.5</spinRate>
                     </li>
                     <li>
                         <bladeGraphic>
-                            <texPath>Things/Vehicles/FCP_Vertibird_Light_Propeller</texPath>
+                            <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_b</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
-                        <positionOffset>(1, 0, 3.7)</positionOffset>
+                        <positionOffset>(1.4, 0, 3.6)</positionOffset>
                         <spinRate>1.5</spinRate>
                     </li>
                 </bladeGraphicsData>
@@ -111,8 +111,8 @@
     <!-- NCR Standard Vertibird -->
 
     <WorldObjectDef>
-        <defName>FCP_NCR_TravelingVertibird</defName>
-        <label>NCR vertibird</label>
+        <defName>FCP_Shuttle_NCR_TravelingVertibird</defName>
+        <label>NCR Vertibird</label>
         <description>A NCR vertibird in flight.</description>
         <worldObjectClass>TravelingTransportPods</worldObjectClass>
         <texture>World/WorldObjects/Caravan</texture>
@@ -132,7 +132,7 @@
 
     <!-- NCR Standard Vertibird -->
 
-    <ThingDef Name="FCP_NCR_VertibirdSkyfallerBase" ParentName="SkyfallerBase" Abstract="True">
+    <ThingDef Name="FCP_Shuttle_NCR_VertibirdSkyfallerBase" ParentName="SkyfallerBase" Abstract="True">
         <size>(10,8)</size>
         <graphicData>
             <texPath>Things/Vehicles/FCP_NCR_Light_Vertibird_east</texPath>
@@ -151,20 +151,20 @@
                 <bladeGraphicsData>
                     <li>
                         <bladeGraphic>
-                            <texPath>Things/Vehicles/FCP_Vertibird_Light_Propeller</texPath>
+                            <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_a</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
-                        <positionOffset>(1, 0, -2.5)</positionOffset>
+                        <positionOffset>(1.4, 0, -1.5)</positionOffset>
                         <spinRate>15</spinRate>
                     </li>
                     <li>
                         <bladeGraphic>
-                            <texPath>Things/Vehicles/FCP_Vertibird_Light_Propeller</texPath>
+                            <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_b</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
-                        <positionOffset>(1, 0, 3.7)</positionOffset>
+                        <positionOffset>(1.4, 0, 3.6)</positionOffset>
                         <spinRate>15</spinRate>
                     </li>
                 </bladeGraphicsData>
@@ -178,8 +178,8 @@
 
     <!-- NCR Standard Vertibird Incoming -->
 
-    <ThingDef ParentName="FCP_NCR_VertibirdSkyfallerBase">
-        <defName>FCP_NCR_VertibirdIncoming</defName>
+    <ThingDef ParentName="FCP_Shuttle_NCR_VertibirdSkyfallerBase">
+        <defName>FCP_Shuttle_NCR_VertibirdIncoming</defName>
         <label>NCR vertibird (incoming)</label>
         <thingClass>ShuttleIncoming</thingClass>
         <skyfaller>
@@ -219,8 +219,8 @@
 
     <!-- NCR Standard Vertibird Leaving -->
 
-    <ThingDef ParentName="FCP_NCR_VertibirdSkyfallerBase">
-        <defName>FCP_NCR_VertibirdLeaving</defName>
+    <ThingDef ParentName="FCP_Shuttle_NCR_VertibirdSkyfallerBase">
+        <defName>FCP_Shuttle_NCR_VertibirdLeaving</defName>
         <label>NCR vertibird (leaving)</label>
         <thingClass>FlyShipLeaving</thingClass>
         <skyfaller>
