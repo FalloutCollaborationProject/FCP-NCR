@@ -263,6 +263,9 @@
                 <guards>
                     <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
                 </guards>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Crocker</li>
+                </characterDefs>
             </li>
             
             <!-- Pre-War Goods Trader -->
@@ -281,6 +284,9 @@
                 <guards>
                     <FCP_Pawnkind_Armored_Wastelander_Combat_Armor>5</FCP_Pawnkind_Armored_Wastelander_Combat_Armor>
                 </guards>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Crocker</li>
+                </characterDefs>
             </li>
 
             <!-- Brahmin Herder -->
@@ -299,6 +305,9 @@
                 <guards>
                     <FCP_Pawnkind_NCR_Citizen>5</FCP_Pawnkind_NCR_Citizen>
                 </guards>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Crocker</li>
+                </characterDefs>
             </li>
 
             <!-- NCRCF Prisoner Caravan -->
@@ -318,6 +327,9 @@
                     <FCP_Pawnkind_NCR_NCRCF_Guard>4</FCP_Pawnkind_NCR_NCRCF_Guard>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">1</FCP_Animal_NCR_Guard_Dog>
                 </guards>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Crocker</li>
+                </characterDefs>
             </li>
 
             <!-- Special: Tax Collector -->
