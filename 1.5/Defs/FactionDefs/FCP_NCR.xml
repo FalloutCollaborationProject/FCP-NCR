@@ -420,12 +420,13 @@
                 </enlistOptionsDefs>
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
+            <!-- Shuttles -->
 			<li Class="FCP_Shuttles.FactionModExtension">
 				<transportShipDef>FCP_Shuttle_NCR_Vertibird</transportShipDef>
 				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
 				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
 			</li>
-            <!-- territory stuff -->
+            <!-- Territory stuff -->
             <li Class="FCP.Core.ModExtension_FactionTerritory">
                 <territoryColor>(222, 49, 41)</territoryColor>
                 <territoryBorderColor>(116, 22, 42)</territoryBorderColor>
