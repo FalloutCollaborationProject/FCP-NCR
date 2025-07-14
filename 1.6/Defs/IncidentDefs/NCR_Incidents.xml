@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ Incidents __________-->
+
+    <!-- California Grizzly Incident -->
+
+    <IncidentDef>
+        <defName>FCP_Incident_GrizzliesPass</defName>
+        <label>Grizzlies Pass</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <letterLabel>FCP_LetterLabel_GrizzliesPass</letterLabel>
+        <letterText>FCP_Letter_GrizzliesPass</letterText>
+        <workerClass>FCP.Core.IncidentWorker_AnimalPasses</workerClass>
+        <baseChance>0.7</baseChance>
+        <minRefireDays>13</minRefireDays>
+        <modExtensions>
+            <li Class="FCP.Core.ModExtension_AnimalPassesConfig">
+                <animalThing>FCP_Animal_California_Grizzly</animalThing>
+                <animalPawnKind>FCP_Animal_California_Grizzly</animalPawnKind>
+                <minCount>1</minCount>
+                <maxRangeInclusive>3~6</maxRangeInclusive>
+                <ignoreTemperature>false</ignoreTemperature>
+                <ignoreToxicFallout>true</ignoreToxicFallout>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+</Defs>

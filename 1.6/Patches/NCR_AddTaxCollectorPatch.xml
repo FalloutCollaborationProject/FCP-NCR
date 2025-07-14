@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!--__________ Patches __________-->
+
+	<!-- Tax Collector Patch -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/StorytellerDef[@Name = "BaseStoryteller"]/comps</xpath>
+		<value>
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>FCP_CaravanArrivalTaxCollector_NCR</incident>
+				<minDaysPassed>20</minDaysPassed>
+				<baseIncidentsPerYear>2</baseIncidentsPerYear>
+				<minSpacingDays>30</minSpacingDays>
+				<minWealth>15000</minWealth>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</enableIfAnyModActive>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

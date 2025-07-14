@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Ideology Buildings __________-->
+
+    <!--_____ NCR _____-->
+
+    <!--___ Altars ___-->
+
+    <!-- Grand Altar -->
+
+    <ThingDef ParentName="AltarBase">
+        <defName>FCP_NCR_Building_Boulder_City_Memorial</defName>
+        <label>Boulder City Memorial</label>
+        <description>Circa 2277, the New California Republic, in a decisive attack against Caesar's Legion during the First Battle of Hoover Dam, lured the bulk of the enemy into Boulder City, most of which was filled with high explosives, and detonated them, destroying the Legion's assault at the cost of many troopers who could not escape in time. Following the battle, the New California Republic built the memorial to honor the 107 Rangers and service members who lost their lives that day.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/Misc/Ideo/FCP_NCR_Boulder_City_Memorial</texPath>
+            <drawSize>(3,3)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shadowData>
+                <volume>(2.4, 1, 2.4)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(3,3)</size>
+        <castEdgeShadows>true</castEdgeShadows>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToBuild>30000</WorkToBuild>
+            <Beauty>50</Beauty>
+            <StyleDominance>50</StyleDominance>
+        </statBases>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <interactionCellOffset>(0,0, -3)</interactionCellOffset>
+        <costList>
+            <BlocksMarble>800</BlocksMarble>
+        </costList>
+        <defaultStuff>BlocksMarble</defaultStuff>
+        <building>
+            <allowAutoroof>false</allowAutoroof>
+            <buildingTags>
+                <li>RitualFocus</li>
+            </buildingTags>
+            <relatedBuildCommands Inherit="False" />
+            <paintable>false</paintable>
+        </building>
+    </ThingDef>
+
+</Defs>

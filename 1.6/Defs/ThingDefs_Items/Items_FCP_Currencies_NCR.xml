@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Currencies __________-->
+
+	<!-- NCR Dollars -->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>FCP_Currency_NCR_Dollar</defName>
+		<label>NCR Dollar</label>
+		<description>Paper money made and distributed by the New California Republic government as a means to replace caps. While not worth as much as the cap it is still a means of currency and should be valued as such.</description>
+		<graphicData>
+			<texPath>Things/Items/Currencies/FCP_NCR_Dollar_Currency</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<statBases>
+			<RoyalFavorValue>0.002</RoyalFavorValue>
+			<MarketValue>0.75</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<thingCategories>
+			<li>FCP_Currencies_NCR</li>
+		</thingCategories>
+		<stackLimit>1000</stackLimit>
+		<smallVolume>true</smallVolume>
+		<allowedArchonexusCount>1000</allowedArchonexusCount>
+		<possessionCount>40</possessionCount>
+	</ThingDef>
+
+</Defs>

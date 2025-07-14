@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Rule Strings for Leaders -->
+
+    <RulePackDef>
+        <defName>FCP_LeaderTitleMaker_NCR</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->president</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

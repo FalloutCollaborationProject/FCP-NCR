@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ FCP NCR Animals __________-->
+
+    <!--_____ Dogs _____-->
+
+    <!--___ Vicious Dog ___-->
+
+    <!--__ ThingDefs __-->
+
+    <!-- NCR Guard Dog -->
+
+    <ThingDef MayRequire="Rick.FCP.Animals" ParentName="FCP_Animal_Vicious_Dog_Base">
+        <defName>FCP_Animal_NCR_Guard_Dog</defName>
+        <label>NCR Guard Dog</label>
+        <description>Some dogs have been domesticated, even charged with guarding its owner and all thier property this animal will do so to the best of its ability. While others have been specially bred to be a true battle buddy for the NCR. Tasked with defending troops from harm in the form of dangerous chems, explosives and enemy combatants themselves.</description>
+        <race>
+            <wildBiomes Inherit="False" />
+        </race>
+        <tradeTags>
+            <li>FCP_Animal_NCR_Guard_Dog</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--__ PawnKinds __-->
+
+    <!-- NCR Guard Dog -->
+
+    <PawnKindDef MayRequire="Rick.FCP.Animals" ParentName="AnimalKindBase">
+        <defName>FCP_Animal_NCR_Guard_Dog</defName>
+        <label>NCR Guard Dog</label>
+        <race>FCP_Animal_NCR_Guard_Dog</race>
+        <combatPower>45</combatPower>
+        <ecoSystemWeight>1</ecoSystemWeight>
+        <lifeStages>
+            <li>
+                <label>puppy</label>
+                <labelPlural>puppies</labelPlural>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/Animal/Vicious_Dog/FCP_Vicious_Dog</texPath>
+                    <drawSize>0.95</drawSize>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawn/Animal/Vicious_Dog/FCP_Dessicated_Vicious_Dog</texPath>
+                    <drawSize>0.95</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/Animal/Vicious_Dog/FCP_Vicious_Dog</texPath>
+                    <drawSize>1.35</drawSize>
+                    <shadowData>
+                        <volume>(0.25, 0.3, 0.25)</volume>
+                        <offset>(0,0,-0.15)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawn/Animal/Vicious_Dog/FCP_Dessicated_Vicious_Dog</texPath>
+                    <drawSize>1.35</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/Animal/Vicious_Dog/FCP_Vicious_Dog</texPath>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.3, 0.4, 0.3)</volume>
+                        <offset>(0,0,-0.15)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawn/Animal/Vicious_Dog/FCP_Dessicated_Vicious_Dog</texPath>
+                    <drawSize>1.6</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <!--_____ Bears _____-->
+
+    <!--___ California Grizzly ___-->
+
+    <!--__ ThingDefs __-->
+
+    <ThingDef ParentName="BaseBear">
+        <defName>FCP_Animal_California_Grizzly</defName>
+        <label>California Grizzly</label>
+        <description>A large two headed bear from the mountains of California, this is the ideological and political symbol of the NCR and its military. This massive beast should be treated with respect and honor.</description>
+        <race>
+            <maxPreyBodySize Inherit="False">4</maxPreyBodySize>
+            <body Inherit="False">FCP_Body_Quadruped_Animal_With_Paws_and_2_Heads</body>
+            <wildness Inherit="False">0.90</wildness>
+            <manhunterOnTameFailChance Inherit="False">0.80</manhunterOnTameFailChance>
+            <manhunterOnDamageChance Inherit="False">0.80</manhunterOnDamageChance>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+            <meatLabel>bear meat</meatLabel>
+        </race>
+    </ThingDef>
+
+    <!--__ PawnKinds __-->
+
+    <!-- California Grizzly -->
+
+    <PawnKindDef ParentName="BearBase">
+        <defName>FCP_Animal_California_Grizzly</defName>
+        <label>California Grizzly</label>
+        <race>FCP_Animal_California_Grizzly</race>
+        <combatPower>45</combatPower>
+        <ecoSystemWeight>1</ecoSystemWeight>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/Animal/California_Grizzly/FCP_California_Grizzly</texPath>
+                    <drawSize>1.8</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawn/Animal/California_Grizzly/FCP_Dessicated_California_Grizzly</texPath>
+                    <drawSize>1.8</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/Animal/California_Grizzly/FCP_California_Grizzly</texPath>
+                    <drawSize>2.4</drawSize>
+                    <shadowData>
+                        <volume>(0.6, 0.45, 0.45)</volume>
+                        <offset>(0,0,-0.25)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawn/Animal/California_Grizzly/FCP_Dessicated_California_Grizzly</texPath>
+                    <drawSize>2.4</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/Animal/California_Grizzly/FCP_California_Grizzly</texPath>
+                    <drawSize>3.1</drawSize>
+                    <shadowData>
+                        <volume>(0.8, 0.6, 0.6)</volume>
+                        <offset>(0,0,-0.3)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawn/Animal/California_Grizzly/FCP_Dessicated_California_Grizzly</texPath>
+                    <drawSize>3.1</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+</Defs>

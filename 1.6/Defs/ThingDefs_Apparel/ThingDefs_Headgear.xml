@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ New California Republic __________-->
+    
+    <!--_____ NCR Headgear _____-->
+
+    <!--___ NCR Army ___-->
+
+    <!--__ NCRCF Guards __-->
+
+    <!-- NCRCF Guard Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_NCRCF_Guard_Helmet</defName>
+        <label>NCRCF Guard Helmet</label>
+        <description>A riot helmet once worn by the guards of the NCRCF. Like many other parts of their gear, it has been apprehended by the Powder Gangers. It offers good protection, especially against blunt damage.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Helmet/FCP_NCRCF_Guard_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Cloth>25</Cloth>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Helmet/FCP_NCRCF_Guard_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_NCRCF_Guard</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--__ Troopers __-->
+
+    <!-- NCR Trooper Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase" Name="FCP_NCR_Trooper_Helmet">
+        <defName>FCP_Apparel_NCR_Trooper_Helmet</defName>
+        <label>Salvaged Power Armor Helmet</label>
+        <description>The standard helmet of the NCR armed forces. It is mass-produced in the NCR and easy to make and maintain but offers only marginal protection.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Trooper_Helmet/FCP_NCR_Trooper_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Cloth>25</Cloth>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Trooper_Helmet/FCP_NCR_Trooper_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_NCR_Trooper</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- NCR Goggles Trooper Helmet -->
+
+    <ThingDef ParentName="FCP_NCR_Trooper_Helmet">
+        <defName>FCP_Apparel_NCR_Goggles_Helmet</defName>
+        <label>Goggles Trooper Helmet</label>
+        <description>A cheap, mass-produced helmet worn by the NCR’s soldiers. This version comes with a pair of goggles attached which provide additional, albeit modest, protection for the wearer’s eyes.</description>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Goggles_Helmet/FCP_NCR_Goggles_Helmet</texPath>
+        </graphicData>
+        <apparel>
+            <bodyPartGroups>
+                <li>Eyes</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Goggles_Helmet/FCP_NCR_Goggles_Helmet</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <!-- NCR Wrap Trooper Helmet -->
+
+    <ThingDef ParentName="FCP_NCR_Trooper_Helmet">
+        <defName>FCP_Apparel_NCR_Face_Wrap_Helmet</defName>
+        <label>Face Wrap Trooper Helmet</label>
+        <description>A trooper helmet with goggles and a piece of fabric attached to it. The fabric can be wrapped around the face to protect the wearer against the dust storms that are common in parts of the Mojave.</description>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+            <Insulation_Cold>3</Insulation_Cold>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+        </equippedStatOffsets>
+        <costList>
+            <Cloth>35</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Face_Wrap_Helmet/FCP_NCR_Face_Wrap_Helmet</texPath>
+        </graphicData>
+        <apparel>
+            <bodyPartGroups>
+                <li>Mouth</li>
+                <li>Neck</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Face_Wrap_Helmet/FCP_NCR_Face_Wrap_Helmet</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <!-- NCR Wrap and Goggles Trooper Helmet -->
+
+    <ThingDef ParentName="FCP_NCR_Trooper_Helmet">
+        <defName>FCP_Apparel_NCR_Face_Wrap_Goggles_Helmet</defName>
+        <label>Face Wrap Goggles Trooper Helmet</label>
+        <description>A trooper helmet with goggles and a piece of fabric attached to it. The fabric can be wrapped around the face to protect the wearer against the dust storms that are common in parts of the Mojave.</description>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+            <Insulation_Cold>3</Insulation_Cold>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+        </equippedStatOffsets>
+        <costList>
+            <Cloth>35</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Face_Wrap_Goggles_Helmet/FCP_NCR_Face_Wrap_Goggles_Helmet</texPath>
+        </graphicData>
+        <apparel>
+            <bodyPartGroups>
+                <li>Eyes</li>
+                <li>Mouth</li>
+                <li>Neck</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Face_Wrap_Goggles_Helmet/FCP_NCR_Face_Wrap_Goggles_Helmet</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <!-- NCR MP Helmet -->
+
+    <ThingDef ParentName="FCP_NCR_Trooper_Helmet">
+        <defName>FCP_Apparel_NCR_MP_Helmet</defName>
+        <label>MP Trooper Helmet</label>
+        <description>A helmet with goggles usually worn by the members of the NCR military police. Like the uniform itself, it gives it’s wearer an aura of authority.</description>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_MP_Helmet/FCP_NCR_MP_Helmet</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_MP_Helmet/FCP_NCR_MP_Helmet</wornGraphicPath>
+            <tags Inherit="False">
+                <li>FCP_NCR_MP</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!--__ Berets __-->
+
+    <!-- NCR Beret -->
+
+    <ThingDef ParentName="HatMakeableBase" Name="FCP_NCR_Beret">
+        <defName>FCP_Apparel_NCR_Beret</defName>
+        <label>NCR Beret</label>
+        <description>A simple green beret usually worn by officers of the NCR army. It mainly serves as an insignia of rank but offers a fair bit of protection against the weather.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_Beret/FCP_NCR_Beret</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>2500</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.2</Mass>
+            <ArmorRating_Sharp>0</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Cloth>25</Cloth>
+        </costList>
+        <apparel>
+            <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_Beret/FCP_NCR_Beret</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_NCR_Trooper_Officer</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- NCR 1st Recon Beret -->
+
+    <ThingDef ParentName="FCP_NCR_Beret">
+        <defName>FCP_Apparel_NCR_Beret_1st_Recon</defName>
+        <label>NCR First Recon Beret</label>
+        <description>A red beret worn by the members of the famed 1st recon battalion. They are renowned as some of the best snipers the republic can muster. Fittingly, their motto is: “the last thing you never see.”</description>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Special_Forces</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_1st_Recon_Beret/FCP_NCR_1st_Recon_Beret</texPath>
+        </graphicData>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>            <!-- +1 Perception -->
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_1st_Recon_Beret/FCP_NCR_1st_Recon_Beret</wornGraphicPath>
+            <tags>
+                <li>FCP_NCR_Trooper_Recon</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--__ Power Armor __-->
+
+    <!-- NCR Salvaged Power Armor Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet</defName>
+        <label>Trooper Helmet</label>
+        <description>A T-45 power armor helmet usually worn paired with the NCR’s salvaged power armors. Despite its salvaged nature, it offers excellent protection and, in contrast to the armor itself, has no major drawbacks compared to a regular power armor.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Heavy_Trooper_Corps</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Power_Armor/NCR_Salvaged_Power_Armor/NCR_Power_Armor_Helmets/FCP_NCR_Salvaged_Power_Armor_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>1</Mass>
+            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.42</ArmorRating_Heat>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Cloth>25</Cloth>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Power_Armor/NCR_Salvaged_Power_Armor/NCR_Power_Armor_Helmets/FCP_NCR_Salvaged_Power_Armor_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_NCR_Trooper_Heavy</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--__ Misc __-->
+
+    <!-- NCR General Cap -->
+
+    <ThingDef ParentName="FCP_NCR_Beret">
+        <defName>FCP_Apparel_NCR_General_Cap</defName>
+        <label>NCR General Cap</label>
+        <description>A cap adorned with the two-headed bear, the heraldic animal of the New California Republic. It serves as a symbol of rank for the republic’s generals and is usually reserved for them.</description>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Special_Forces</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Officers/NCR_General/NCR_Generals_Cap/FCP_NCR_Generals_Cap</texPath>
+        </graphicData>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>            <!-- +1 Perception -->
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/NCR_Officers/NCR_General/NCR_Generals_Cap/FCP_NCR_Generals_Cap</wornGraphicPath>
+            <tags>
+                <li>FCP_NCR_General</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!--__ NCR Rangers __-->
+
+    <!--_ Hats _-->
+
+    <!-- Ranger Hat Grey -->
+
+    <ThingDef ParentName="HatMakeableBase" Name="FCP_NCR_Ranger_Hat">
+        <defName>FCP_Apparel_NCR_Ranger_Hat_Grey</defName>
+        <label>NCR Grey Ranger Hat</label>
+        <description>A grey cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Hat/FCP_NCR_Ranger_Hat</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>2500</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.2</Mass>
+            <ArmorRating_Sharp>0</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <Insulation_Heat>8</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Cloth>25</Cloth>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Hat/FCP_NCR_Ranger_Hat</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_NCR_Ranger_Casual</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- Ranger Hat Brown -->
+
+    <ThingDef ParentName="FCP_NCR_Beret">
+        <defName>FCP_Apparel_NCR_Ranger_Hat_Brown</defName>
+        <label>NCR Brown Ranger Hat</label>
+        <description>A brown cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
+        <graphicData>
+            <texPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Brown_Hat/FCP_NCR_Ranger_Brown_Hat</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Brown_Hat/FCP_NCR_Ranger_Brown_Hat</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <!-- Ranger Hat Tan -->
+
+    <ThingDef ParentName="FCP_NCR_Beret">
+        <defName>FCP_Apparel_NCR_Ranger_Hat_Tan</defName>
+        <label>NCR Tan Ranger Hat</label>
+        <description>A tan cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
+        <graphicData>
+            <texPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Tan_Hat/FCP_NCR_Ranger_Tan_Hat</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Tan_Hat/FCP_NCR_Ranger_Tan_Hat</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <!-- Ranger Hat Patrol -->
+
+    <ThingDef ParentName="FCP_NCR_Beret">
+        <defName>FCP_Apparel_NCR_Ranger_Hat_Patrol</defName>
+        <label>NCR Patrol Ranger Hat</label>
+        <description>A simple cowboy hat favoured by the desert rangers, especially those patrolling the Mojave. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
+        <recipeMaker Inherit="False">
+            <researchPrerequisite>FCP_Research_NCR_Ranger_Corps</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Rangers/NCR_Patrol_Rangers/NCR_Ranger_Patrol_Hat/FCP_NCR_Ranger_Patrol_Hat</texPath>
+        </graphicData>
+        <apparel>
+            <tags Inherit="False">
+                <li>FCP_NCR_Ranger_Patrol</li>
+            </tags>
+            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Patrol_Rangers/NCR_Ranger_Patrol_Hat/FCP_NCR_Ranger_Patrol_Hat</wornGraphicPath>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--_ Helmets _-->
+
+    <!-- NCR Veteran Ranger Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_NCR_Veteran_Ranger_Helmet</defName>
+        <label>Veteran Ranger Helmet</label>
+        <description>An enclosed military helmet with built-in low light optics and a gas mask worn by NCR Rangers. It offers better protection in comparison to the Trooper helmet but is significantly rarer.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Helmet/FCP_NCR_Ranger_Combat_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3500</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.78</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.42</ArmorRating_Heat>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.90</ToxicEnvironmentResistance>
+            <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>            <!-- +1 Perception -->
+        </equippedStatOffsets>
+        <costList>
+            <Steel>50</Steel>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Helmet/FCP_NCR_Ranger_Combat_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_NCR_Ranger_Veteran</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_NCR_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+</Defs>
