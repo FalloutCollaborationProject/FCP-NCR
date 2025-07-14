@@ -54,6 +54,9 @@
                 <rarity>Unique</rarity>
             </li>
         </comps>
+		<modExtensions>
+			<li Class="FCP.Core.UniqueThingExtension"></li>
+		</modExtensions>
     </ThingDef>
 
     <!-- Ranger Ricks' Armor -->
@@ -101,6 +104,9 @@
                 <rarity>Unique</rarity>
             </li>
         </comps>
+		<modExtensions>
+			<li Class="FCP.Core.UniqueThingExtension"></li>
+		</modExtensions>
     </ThingDef>
 
     <!-- Ranger Ricks' Duster -->
@@ -152,6 +158,9 @@
                 <rarity>Unique</rarity>
             </li>
         </comps>
+		<modExtensions>
+			<li Class="FCP.Core.UniqueThingExtension"></li>
+		</modExtensions>
     </ThingDef>
 
     <!-- Ranger Ricks' Helmet -->
@@ -199,6 +208,9 @@
                 <rarity>Unique</rarity>
             </li>
         </comps>
+		<modExtensions>
+			<li Class="FCP.Core.UniqueThingExtension"></li>
+		</modExtensions>
     </ThingDef>
 
 </Defs>
