@@ -35,6 +35,10 @@
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
+            <!-- Unique Apparels -->
+            <li Class="FCP.Core.CharacterUniqueItemDefinition">
+                <uniqueItem>FCP_Apparel_NCR_Presidents_Suit</uniqueItem>
+            </li>
         </definitions>
     </FCP.Core.CharacterDef>
 

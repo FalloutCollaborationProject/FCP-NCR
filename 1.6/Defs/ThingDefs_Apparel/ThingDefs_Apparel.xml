@@ -263,12 +263,6 @@
                 <li>Middle</li>
                 <li>OnSkin</li>
             </layers>
-            <tags>
-                <li>Industrial</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>Worker</li>
-            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -334,9 +328,6 @@
             <tags>
                 <li>FCP_NCR_Trooper</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
@@ -622,9 +613,6 @@
             <tags>
                 <li>FCP_NCR_Ranger_Veteran</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -687,9 +675,6 @@
             <tags>
                 <li>FCP_NCR_Ranger_Veteran</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -889,9 +874,6 @@
             <tags>
                 <li>FCP_NCR_Trooper</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
@@ -955,9 +937,6 @@
             <tags>
                 <li>FCP_NCR_Trooper</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
@@ -1013,9 +992,6 @@
             <tags>
                 <li>FCP_NCR_Trooper</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
@@ -1076,9 +1052,6 @@
             <tags>
                 <li>FCP_NCR_Trooper</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
@@ -1139,9 +1112,6 @@
             <tags>
                 <li>FCP_NCR_Trooper_Recon</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -1209,9 +1179,6 @@
             <tags>
                 <li>FCP_NCR_Trooper_Heavy</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <modExtensions>
             <li Class="FalloutCore.ApparelExtension">
@@ -1285,9 +1252,6 @@
             <tags>
                 <li>FCP_NCR_Ranger_Patrol</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -1347,9 +1311,6 @@
             <tags>
                 <li>FCP_NCR_Ranger_Veteran</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -1416,9 +1377,6 @@
             <tags>
                 <li>FCP_NCRCF_Guard</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
