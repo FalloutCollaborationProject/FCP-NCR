@@ -5,7 +5,7 @@
 
     <!--_____ NCR _____-->
 
-    <ScenarioDef>
+    <ScenarioDef ParentName="ScenarioBase">
         <defName MayRequire="Rick.FCP.NCR">FCP_Scenario_Lost_Squad</defName>
         <label>Lost Squad</label>
         <description>Your outpost was attacked by unknown enemies. Your squad was sent off in the dead of night to get reinforcements, but you have now become lost. Will you work your way back to the NCR? Or will you stay where you are and survive as new citizens of this desolate wasteland?</description>

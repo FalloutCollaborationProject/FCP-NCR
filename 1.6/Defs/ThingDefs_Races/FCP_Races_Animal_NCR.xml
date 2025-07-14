@@ -90,7 +90,6 @@
         <race>
             <maxPreyBodySize Inherit="False">4</maxPreyBodySize>
             <body Inherit="False">FCP_Body_Quadruped_Animal_With_Paws_and_2_Heads</body>
-            <wildness Inherit="False">0.90</wildness>
             <manhunterOnTameFailChance Inherit="False">0.80</manhunterOnTameFailChance>
             <manhunterOnDamageChance Inherit="False">0.80</manhunterOnDamageChance>
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -98,6 +97,9 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
             <meatLabel>bear meat</meatLabel>
         </race>
+        <statBases>
+            <Wildness>0.90</Wildness>
+        </statBases>
     </ThingDef>
 
     <!--__ PawnKinds __-->

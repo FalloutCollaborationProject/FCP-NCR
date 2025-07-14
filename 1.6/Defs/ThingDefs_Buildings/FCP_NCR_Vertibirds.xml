@@ -65,7 +65,6 @@
         <uiIconScale>1.4</uiIconScale>
         <building>
             <claimable>false</claimable>
-            <soundAmbient>ShuttleIdle_Ambience</soundAmbient>
             <destroySound>BuildingDestroyed_Metal_Big</destroySound>
         </building>
         <inspectorTabs>
@@ -103,6 +102,9 @@
                     </li>
                 </bladeGraphicsData>
             </li>
+          <li Class="CompProperties_AmbientSound">
+            <sound>ShuttleIdle_Ambience</sound>
+          </li>
         </comps>
     </ThingDef>
 
@@ -114,7 +116,7 @@
         <defName>FCP_Shuttle_NCR_TravelingVertibird</defName>
         <label>NCR Vertibird</label>
         <description>A NCR vertibird in flight.</description>
-        <worldObjectClass>TravelingTransportPods</worldObjectClass>
+        <worldObjectClass>TravellingTransporters</worldObjectClass>
         <texture>World/WorldObjects/Caravan</texture>
         <useDynamicDrawer>true</useDynamicDrawer>
         <expandingIcon>true</expandingIcon>
