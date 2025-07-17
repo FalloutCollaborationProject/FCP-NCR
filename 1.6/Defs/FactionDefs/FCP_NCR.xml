@@ -236,105 +236,120 @@
 
             <!-- NCR Misfits Squad -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <!-- 9th Platoon "The Misfits" - special misfit squad -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Pawnkind_NCR_Corporal_Mags>1</FCP_Pawnkind_NCR_Corporal_Mags>
-                    <FCP_Pawnkind_NCR_Private_O_Hanahan>1</FCP_Pawnkind_NCR_Private_O_Hanahan>
-                    <FCP_Pawnkind_NCR_Private_Poindexter>1</FCP_Pawnkind_NCR_Private_Poindexter>
-                    <FCP_Pawnkind_NCR_Private_Razz>1</FCP_Pawnkind_NCR_Private_Razz>
                     <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Corporal_Mags</li>
+                    <li>FCP_Character_NCR_Private_O_Hanahan</li>
+                    <li>FCP_Character_NCR_Private_Poindexter</li>
+                    <li>FCP_Character_NCR_Private_Razz</li>
+                </characterDefs>
+                <characterChance>0.95</characterChance>
             </li>
 
             <!-- NCR 1st Recon Squad -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <!-- 1st Recon Alpha Squad - elite sniper unit -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Pawnkind_NCR_Lieutenant_Gorobets>1</FCP_Pawnkind_NCR_Lieutenant_Gorobets>
-                    <FCP_Pawnkind_NCR_Sergeant_Bitter_Root>1</FCP_Pawnkind_NCR_Sergeant_Bitter_Root>
-                    <FCP_Pawnkind_NCR_Corporal_Betsy>1</FCP_Pawnkind_NCR_Corporal_Betsy>
-                    <FCP_Pawnkind_NCR_Corporal_Sterling>1</FCP_Pawnkind_NCR_Corporal_Sterling>
-                    <FCP_Pawnkind_NCR_Private_10_of_Spades>1</FCP_Pawnkind_NCR_Private_10_of_Spades>
                     <FCP_Pawnkind_NCR_Scout_Recon>3</FCP_Pawnkind_NCR_Scout_Recon>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Lieutenant_Gorobets</li>
+                    <li>FCP_Character_NCR_Sergeant_Bitter_Root</li>
+                    <li>FCP_Character_NCR_Corporal_Betsy</li>
+                    <li>FCP_Character_NCR_Corporal_Sterling</li>
+                    <li>FCP_Character_NCR_Private_10_of_Spades</li>
+                </characterDefs>
+                <characterChance>0.55</characterChance>
             </li>
 
             <!-- NCR High Command -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <!-- High-ranking officers and command staff -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Pawnkind_NCR_General_Oliver>1</FCP_Pawnkind_NCR_General_Oliver>
-                    <FCP_Pawnkind_NCR_Colonel_Hsu>1</FCP_Pawnkind_NCR_Colonel_Hsu>
-                    <FCP_Pawnkind_NCR_Colonel_Moore>1</FCP_Pawnkind_NCR_Colonel_Moore>
-                    <FCP_Pawnkind_NCR_Major_Dhatri>1</FCP_Pawnkind_NCR_Major_Dhatri>
-                    <FCP_Pawnkind_NCR_Major_Knight>1</FCP_Pawnkind_NCR_Major_Knight>
-                    <FCP_Pawnkind_NCR_Major_Polatli>1</FCP_Pawnkind_NCR_Major_Polatli>
-                    <FCP_Pawnkind_NCR_Major_Kieran>1</FCP_Pawnkind_NCR_Major_Kieran>
                     <FCP_Pawnkind_NCR_Trooper_Heavy>8</FCP_Pawnkind_NCR_Trooper_Heavy>
                     <FCP_Pawnkind_NCR_Ranger_Veteran>4</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_General_Oliver</li>
+                    <li>FCP_Character_NCR_Colonel_Hsu</li>
+                    <li>FCP_Character_NCR_Colonel_Moore</li>
+                    <li>FCP_Character_NCR_Major_Dhatri</li>
+                    <li>FCP_Character_NCR_Major_Knight</li>
+                    <li>FCP_Character_NCR_Major_Polatli</li>
+                    <li>FCP_Character_NCR_Major_Kieran</li>
+                </characterDefs>
+                <characterChance>0.25</characterChance>
             </li>
 
             <!-- NCR Military Police -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <!-- Military Police unit with Lieutenant Boyd -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Pawnkind_NCR_Lieutenant_Boyd>1</FCP_Pawnkind_NCR_Lieutenant_Boyd>
-                    <FCP_Pawnkind_NCR_Private_Halford>1</FCP_Pawnkind_NCR_Private_Halford>
-                    <FCP_Pawnkind_NCR_Private_Seamer>1</FCP_Pawnkind_NCR_Private_Seamer>
-                    <FCP_Pawnkind_NCR_Corporal_Hornsby>1</FCP_Pawnkind_NCR_Corporal_Hornsby>
                     <FCP_Pawnkind_NCR_MP>6</FCP_Pawnkind_NCR_MP>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">2</FCP_Animal_NCR_Guard_Dog>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Lieutenant_Boyd</li>
+                    <li>FCP_Character_NCR_Private_Halford</li>
+                    <li>FCP_Character_NCR_Private_Seamer</li>
+                    <li>FCP_Character_NCR_Corporal_Hornsby</li>
+                </characterDefs>
+                <characterChance>0.45</characterChance>
             </li>
 
             <!-- NCR Ranger Command -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <!-- Ranger leadership and communication officers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Pawnkind_NCR_Chief_Hanlon>1</FCP_Pawnkind_NCR_Chief_Hanlon>
-                    <FCP_Pawnkind_NCR_Ranger_Castillo>1</FCP_Pawnkind_NCR_Ranger_Castillo>
-                    <FCP_Pawnkind_NCR_Ranger_Ghost>1</FCP_Pawnkind_NCR_Ranger_Ghost>
-                    <FCP_Pawnkind_NCR_Ranger_Green>1</FCP_Pawnkind_NCR_Ranger_Green>
-                    <FCP_Pawnkind_NCR_Ranger_A_Jackson>1</FCP_Pawnkind_NCR_Ranger_A_Jackson>
-                    <FCP_Pawnkind_NCR_Ranger_Lenk>1</FCP_Pawnkind_NCR_Ranger_Lenk>
-                    <FCP_Pawnkind_NCR_Ranger_Scheffer>1</FCP_Pawnkind_NCR_Ranger_Scheffer>
-                    <FCP_Pawnkind_NCR_Ranger_Stepinac>1</FCP_Pawnkind_NCR_Ranger_Stepinac>
-                    <FCP_Pawnkind_NCR_Ranger_Tilden>1</FCP_Pawnkind_NCR_Ranger_Tilden>
                     <FCP_Pawnkind_NCR_Patrol_Ranger_Anders>1</FCP_Pawnkind_NCR_Patrol_Ranger_Anders>
                     <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Chief_Hanlon</li>
+                    <li>FCP_Character_NCR_Ranger_Castillo</li>
+                    <li>FCP_Character_NCR_Ranger_Ghost</li>
+                    <li>FCP_Character_NCR_Ranger_Green</li>
+                    <li>FCP_Character_NCR_Ranger_A_Jackson</li>
+                    <li>FCP_Character_NCR_Ranger_Lenk</li>
+                    <li>FCP_Character_NCR_Ranger_Scheffer</li>
+                    <li>FCP_Character_NCR_Ranger_Stepinac</li>
+                    <li>FCP_Character_NCR_Ranger_Tilden</li>
+                </characterDefs>
+                <characterChance>0.35</characterChance>
             </li>
 
             <!-- NCR Peaceful -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Peaceful</kindDef>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
@@ -344,13 +359,17 @@
                     <FCP_Pawnkind_NCR_Ranger_Veteran>3</FCP_Pawnkind_NCR_Ranger_Veteran>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Crocker</li>
+                </characterDefs>
+                <characterChance>0.35</characterChance>
             </li>
 
             <!--__________ NCR Traders __________-->
 
             <!-- NCR Quartermaster -->
 
-            <li Class="FCP.Core.GroupMakerWithTraderKind">
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
                     <li>FCP_Caravan_NCR_Quartermaster</li>
@@ -364,14 +383,15 @@
                 <guards>
                     <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
                 </guards>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Crocker</li>
+                <!-- <characterDefs>
+                    <li></li>
                 </characterDefs>
+                <characterChance>0.25</characterChance> -->
             </li>
             
             <!-- Pre-War Goods Trader -->
 
-            <li Class="FCP.Core.GroupMakerWithTraderKind">
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
                     <li>FCP_Caravan_Pre_War_Goods_Trader</li>
@@ -385,9 +405,10 @@
                 <guards>
                     <FCP_Pawnkind_Armored_Wastelander_Combat_Armor>5</FCP_Pawnkind_Armored_Wastelander_Combat_Armor>
                 </guards>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Crocker</li>
+                <!-- <characterDefs>
+                    <li></li>
                 </characterDefs>
+                <characterChance>0.25</characterChance> -->
             </li>
 
             <!-- Brahmin Herder -->
@@ -406,9 +427,9 @@
                 <guards>
                     <FCP_Pawnkind_NCR_Citizen>5</FCP_Pawnkind_NCR_Citizen>
                 </guards>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Crocker</li>
-                </characterDefs>
+                <!-- <characterDefs>
+                    <li></li>
+                </characterDefs> -->
             </li>
 
             <!-- NCRCF Prisoner Caravan -->
@@ -428,9 +449,9 @@
                     <FCP_Pawnkind_NCR_NCRCF_Guard>4</FCP_Pawnkind_NCR_NCRCF_Guard>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">1</FCP_Animal_NCR_Guard_Dog>
                 </guards>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Crocker</li>
-                </characterDefs>
+                <!-- <characterDefs>
+                    <li></li>
+                </characterDefs> -->
             </li>
 
             <!-- Special: Tax Collector -->
@@ -522,13 +543,13 @@
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
             <!-- Shuttles -->
-			<li Class="FCP_Shuttles.FactionModExtension">
-				<transportShipDef>FCP_Shuttle_NCR_Vertibird</transportShipDef>
-				<minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
-				<maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
-			</li>
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_Shuttle_NCR_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
             <!-- Territory stuff -->
-            <li Class="FCP.Core.ModExtension_FactionTerritory">
+            <li class="FCP.Core.ModExtension_FactionTerritory">
                 <territoryColor>(222, 49, 41)</territoryColor>
                 <territoryBorderColor>(116, 22, 42)</territoryBorderColor>
                 <factionLabelColor>(0.9, 0.9, 0.8, 1.0)</factionLabelColor>
