@@ -55,6 +55,11 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -108,6 +113,11 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -131,6 +141,11 @@
             </bodyPartGroups>
             <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Goggles_Helmet/FCP_NCR_Goggles_Helmet</wornGraphicPath>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- NCR Wrap Trooper Helmet -->
@@ -161,6 +176,11 @@
             </bodyPartGroups>
             <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Face_Wrap_Helmet/FCP_NCR_Face_Wrap_Helmet</wornGraphicPath>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- NCR Wrap and Goggles Trooper Helmet -->
@@ -192,6 +212,11 @@
             </bodyPartGroups>
             <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Face_Wrap_Goggles_Helmet/FCP_NCR_Face_Wrap_Goggles_Helmet</wornGraphicPath>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- NCR MP Helmet -->
@@ -212,6 +237,11 @@
                 <li>FCP_NCR_MP</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--__ Berets __-->
@@ -262,6 +292,11 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -377,6 +412,11 @@
                 <li>FCP_NCR_General</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--__ NCR Rangers __-->
@@ -429,6 +469,11 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -446,6 +491,11 @@
         <apparel>
             <wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Brown_Hat/FCP_NCR_Ranger_Brown_Hat</wornGraphicPath>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Ranger Hat Tan -->
@@ -460,6 +510,11 @@
         <apparel>
             <wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Tan_Hat/FCP_NCR_Ranger_Tan_Hat</wornGraphicPath>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Ranger Hat Patrol -->

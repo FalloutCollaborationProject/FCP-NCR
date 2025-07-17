@@ -61,6 +61,11 @@
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Trooper Mantle -->
@@ -115,6 +120,11 @@
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
 </Defs>

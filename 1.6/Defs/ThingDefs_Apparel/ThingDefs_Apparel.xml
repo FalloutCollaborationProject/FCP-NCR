@@ -70,6 +70,11 @@
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--___ Politicians ___-->
@@ -140,6 +145,11 @@
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- NCR Ambassador Suit -->
@@ -207,6 +217,11 @@
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- NCR Presidents Suit -->
@@ -335,6 +350,11 @@
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Trooper MP -->
@@ -396,6 +416,11 @@
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- NCR General Uniform-->
@@ -520,6 +545,11 @@
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- NCR Ranger Casual Outfit -->
@@ -878,6 +908,11 @@
                 <li>FCP_NCR_Trooper</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -941,6 +976,11 @@
                 <li>FCP_NCR_Trooper</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -996,6 +1036,11 @@
                 <li>FCP_NCR_Trooper</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -1056,6 +1101,11 @@
                 <li>FCP_NCR_Trooper</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
@@ -1381,6 +1431,11 @@
                 <li>FCP_NCRCF_Guard</li>
             </tags>
         </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
