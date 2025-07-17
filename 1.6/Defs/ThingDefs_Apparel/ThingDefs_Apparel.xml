@@ -269,6 +269,9 @@
                 <rarity>Unique</rarity>
             </li>
         </comps>
+		<modExtensions>
+			<li Class="FCP.Core.UniqueThingExtension"></li>
+		</modExtensions>
         <tradeTags>
             <li>FCP_Trade_Tag_NCR_Apparel</li>
         </tradeTags>
