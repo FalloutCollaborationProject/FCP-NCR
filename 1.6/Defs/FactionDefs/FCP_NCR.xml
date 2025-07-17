@@ -148,6 +148,8 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
                     <FCP_Pawnkind_NCR_Trooper>15</FCP_Pawnkind_NCR_Trooper>
                     <FCP_Pawnkind_NCR_Officer>2</FCP_Pawnkind_NCR_Officer>
+                    <FCP_Pawnkind_NCR_Captain_Parker>1</FCP_Pawnkind_NCR_Captain_Parker>
+                    <FCP_Pawnkind_NCR_Lieutenant_Hayes>1</FCP_Pawnkind_NCR_Lieutenant_Hayes>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
@@ -164,6 +166,7 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">4</FCP_Animal_NCR_Guard_Dog>
                     <FCP_Pawnkind_NCR_Scout_Recon>8</FCP_Pawnkind_NCR_Scout_Recon>
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
+                    <FCP_Pawnkind_NCR_Captain_Gilles>1</FCP_Pawnkind_NCR_Captain_Gilles>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
@@ -228,6 +231,104 @@
                     <FCP_Pawnkind_NCR_Trooper>2</FCP_Pawnkind_NCR_Trooper>
                     <FCP_Pawnkind_NCR_Ranger_Veteran>8</FCP_Pawnkind_NCR_Ranger_Veteran>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
+                </options>
+            </li>
+
+            <!-- NCR Misfits Squad -->
+
+            <li>
+                <!-- 9th Platoon "The Misfits" - special misfit squad -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_NCR_Corporal_Mags>1</FCP_Pawnkind_NCR_Corporal_Mags>
+                    <FCP_Pawnkind_NCR_Private_O_Hanahan>1</FCP_Pawnkind_NCR_Private_O_Hanahan>
+                    <FCP_Pawnkind_NCR_Private_Poindexter>1</FCP_Pawnkind_NCR_Private_Poindexter>
+                    <FCP_Pawnkind_NCR_Private_Razz>1</FCP_Pawnkind_NCR_Private_Razz>
+                    <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
+                </options>
+            </li>
+
+            <!-- NCR 1st Recon Squad -->
+
+            <li>
+                <!-- 1st Recon Alpha Squad - elite sniper unit -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_NCR_Lieutenant_Gorobets>1</FCP_Pawnkind_NCR_Lieutenant_Gorobets>
+                    <FCP_Pawnkind_NCR_Sergeant_Bitter_Root>1</FCP_Pawnkind_NCR_Sergeant_Bitter_Root>
+                    <FCP_Pawnkind_NCR_Corporal_Betsy>1</FCP_Pawnkind_NCR_Corporal_Betsy>
+                    <FCP_Pawnkind_NCR_Corporal_Sterling>1</FCP_Pawnkind_NCR_Corporal_Sterling>
+                    <FCP_Pawnkind_NCR_Private_10_of_Spades>1</FCP_Pawnkind_NCR_Private_10_of_Spades>
+                    <FCP_Pawnkind_NCR_Scout_Recon>3</FCP_Pawnkind_NCR_Scout_Recon>
+                </options>
+            </li>
+
+            <!-- NCR High Command -->
+
+            <li>
+                <!-- High-ranking officers and command staff -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_NCR_General_Oliver>1</FCP_Pawnkind_NCR_General_Oliver>
+                    <FCP_Pawnkind_NCR_Colonel_Hsu>1</FCP_Pawnkind_NCR_Colonel_Hsu>
+                    <FCP_Pawnkind_NCR_Colonel_Moore>1</FCP_Pawnkind_NCR_Colonel_Moore>
+                    <FCP_Pawnkind_NCR_Major_Dhatri>1</FCP_Pawnkind_NCR_Major_Dhatri>
+                    <FCP_Pawnkind_NCR_Major_Knight>1</FCP_Pawnkind_NCR_Major_Knight>
+                    <FCP_Pawnkind_NCR_Major_Polatli>1</FCP_Pawnkind_NCR_Major_Polatli>
+                    <FCP_Pawnkind_NCR_Major_Kieran>1</FCP_Pawnkind_NCR_Major_Kieran>
+                    <FCP_Pawnkind_NCR_Trooper_Heavy>8</FCP_Pawnkind_NCR_Trooper_Heavy>
+                    <FCP_Pawnkind_NCR_Ranger_Veteran>4</FCP_Pawnkind_NCR_Ranger_Veteran>
+                </options>
+            </li>
+
+            <!-- NCR Military Police -->
+
+            <li>
+                <!-- Military Police unit with Lieutenant Boyd -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_NCR_Lieutenant_Boyd>1</FCP_Pawnkind_NCR_Lieutenant_Boyd>
+                    <FCP_Pawnkind_NCR_Private_Halford>1</FCP_Pawnkind_NCR_Private_Halford>
+                    <FCP_Pawnkind_NCR_Private_Seamer>1</FCP_Pawnkind_NCR_Private_Seamer>
+                    <FCP_Pawnkind_NCR_Corporal_Hornsby>1</FCP_Pawnkind_NCR_Corporal_Hornsby>
+                    <FCP_Pawnkind_NCR_MP>6</FCP_Pawnkind_NCR_MP>
+                    <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">2</FCP_Animal_NCR_Guard_Dog>
+                </options>
+            </li>
+
+            <!-- NCR Ranger Command -->
+
+            <li>
+                <!-- Ranger leadership and communication officers -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_NCR_Chief_Hanlon>1</FCP_Pawnkind_NCR_Chief_Hanlon>
+                    <FCP_Pawnkind_NCR_Ranger_Castillo>1</FCP_Pawnkind_NCR_Ranger_Castillo>
+                    <FCP_Pawnkind_NCR_Ranger_Ghost>1</FCP_Pawnkind_NCR_Ranger_Ghost>
+                    <FCP_Pawnkind_NCR_Ranger_Green>1</FCP_Pawnkind_NCR_Ranger_Green>
+                    <FCP_Pawnkind_NCR_Ranger_A_Jackson>1</FCP_Pawnkind_NCR_Ranger_A_Jackson>
+                    <FCP_Pawnkind_NCR_Ranger_Lenk>1</FCP_Pawnkind_NCR_Ranger_Lenk>
+                    <FCP_Pawnkind_NCR_Ranger_Scheffer>1</FCP_Pawnkind_NCR_Ranger_Scheffer>
+                    <FCP_Pawnkind_NCR_Ranger_Stepinac>1</FCP_Pawnkind_NCR_Ranger_Stepinac>
+                    <FCP_Pawnkind_NCR_Ranger_Tilden>1</FCP_Pawnkind_NCR_Ranger_Tilden>
+                    <FCP_Pawnkind_NCR_Patrol_Ranger_Anders>1</FCP_Pawnkind_NCR_Patrol_Ranger_Anders>
+                    <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
             </li>
 
