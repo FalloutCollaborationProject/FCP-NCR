@@ -247,10 +247,10 @@
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                 </options>
                 <characterDefs>
-                    <li>FCP_Character_NCR_Corporal_Mags</li>
-                    <li>FCP_Character_NCR_Private_O_Hanahan</li>
-                    <li>FCP_Character_NCR_Private_Poindexter</li>
-                    <li>FCP_Character_NCR_Private_Razz</li>
+                    <li>FCP_Character_NCR_Mags</li>
+                    <li>FCP_Character_NCR_O_Hanahan</li>
+                    <li>FCP_Character_NCR_Poindexter</li>
+                    <li>FCP_Character_NCR_Razz</li>
                 </characterDefs>
                 <characterChance>0.95</characterChance>
             </li>
@@ -267,11 +267,11 @@
                     <FCP_Pawnkind_NCR_Scout_Recon>3</FCP_Pawnkind_NCR_Scout_Recon>
                 </options>
                 <characterDefs>
-                    <li>FCP_Character_NCR_Lieutenant_Gorobets</li>
-                    <li>FCP_Character_NCR_Sergeant_Bitter_Root</li>
-                    <li>FCP_Character_NCR_Corporal_Betsy</li>
-                    <li>FCP_Character_NCR_Corporal_Sterling</li>
-                    <li>FCP_Character_NCR_Private_10_of_Spades</li>
+                    <li>FCP_Character_NCR_Gorobets</li>
+                    <li>FCP_Character_NCR_Bitter_Root</li>
+                    <li>FCP_Character_NCR_Betsy</li>
+                    <li>FCP_Character_NCR_Sterling</li>
+                    <li>FCP_Character_NCR_10_of_Spades</li>
                 </characterDefs>
                 <characterChance>0.55</characterChance>
             </li>
@@ -289,13 +289,13 @@
                     <FCP_Pawnkind_NCR_Ranger_Veteran>4</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
                 <characterDefs>
-                    <li>FCP_Character_NCR_General_Oliver</li>
-                    <li>FCP_Character_NCR_Colonel_Hsu</li>
-                    <li>FCP_Character_NCR_Colonel_Moore</li>
-                    <li>FCP_Character_NCR_Major_Dhatri</li>
-                    <li>FCP_Character_NCR_Major_Knight</li>
-                    <li>FCP_Character_NCR_Major_Polatli</li>
-                    <li>FCP_Character_NCR_Major_Kieran</li>
+                    <li>FCP_Character_NCR_Oliver</li>
+                    <li>FCP_Character_NCR_Hsu</li>
+                    <li>FCP_Character_NCR_Moore</li>
+                    <li>FCP_Character_NCR_Dhatri</li>
+                    <li>FCP_Character_NCR_Knight</li>
+                    <li>FCP_Character_NCR_Polatli</li>
+                    <li>FCP_Character_NCR_Kieran</li>
                 </characterDefs>
                 <characterChance>0.25</characterChance>
             </li>
@@ -313,10 +313,10 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">2</FCP_Animal_NCR_Guard_Dog>
                 </options>
                 <characterDefs>
-                    <li>FCP_Character_NCR_Lieutenant_Boyd</li>
-                    <li>FCP_Character_NCR_Private_Halford</li>
-                    <li>FCP_Character_NCR_Private_Seamer</li>
-                    <li>FCP_Character_NCR_Corporal_Hornsby</li>
+                    <li>FCP_Character_NCR_Boyd</li>
+                    <li>FCP_Character_NCR_Halford</li>
+                    <li>FCP_Character_NCR_Seamer</li>
+                    <li>FCP_Character_NCR_Hornsby</li>
                 </characterDefs>
                 <characterChance>0.45</characterChance>
             </li>
@@ -334,15 +334,15 @@
                     <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
                 <characterDefs>
-                    <li>FCP_Character_NCR_Chief_Hanlon</li>
-                    <li>FCP_Character_NCR_Ranger_Castillo</li>
-                    <li>FCP_Character_NCR_Ranger_Ghost</li>
-                    <li>FCP_Character_NCR_Ranger_Green</li>
-                    <li>FCP_Character_NCR_Ranger_A_Jackson</li>
-                    <li>FCP_Character_NCR_Ranger_Lenk</li>
-                    <li>FCP_Character_NCR_Ranger_Scheffer</li>
-                    <li>FCP_Character_NCR_Ranger_Stepinac</li>
-                    <li>FCP_Character_NCR_Ranger_Tilden</li>
+                    <li>FCP_Character_NCR_Hanlon</li>
+                    <li>FCP_Character_NCR_Castillo</li>
+                    <li>FCP_Character_NCR_Ghost</li>
+                    <li>FCP_Character_NCR_Green</li>
+                    <li>FCP_Character_NCR_A_Jackson</li>
+                    <li>FCP_Character_NCR_Lenk</li>
+                    <li>FCP_Character_NCR_Scheffer</li>
+                    <li>FCP_Character_NCR_Stepinac</li>
+                    <li>FCP_Character_NCR_Tilden</li>
                 </characterDefs>
                 <characterChance>0.35</characterChance>
             </li>
@@ -369,7 +369,7 @@
 
             <!-- NCR Quartermaster -->
 
-            <li Class="FCP.Core.GroupMakerWithCustomChar">
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
                     <li>FCP_Caravan_NCR_Quartermaster</li>
@@ -391,7 +391,7 @@
             
             <!-- Pre-War Goods Trader -->
 
-            <li Class="FCP.Core.GroupMakerWithCustomChar">
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
                     <li>FCP_Caravan_Pre_War_Goods_Trader</li>
@@ -549,13 +549,13 @@
                 <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
             </li>
             <!-- Territory stuff -->
-            <li class="FCP.Core.ModExtension_FactionTerritory">
+            <!-- <li class="FCP.Core.ModExtension_FactionTerritory">
                 <territoryColor>(222, 49, 41)</territoryColor>
                 <territoryBorderColor>(116, 22, 42)</territoryBorderColor>
                 <factionLabelColor>(0.9, 0.9, 0.8, 1.0)</factionLabelColor>
                 <initialTerritoryRadius>10</initialTerritoryRadius>
                 <renderTerritoryOverWater>false</renderTerritoryOverWater>
-            </li>
+            </li> -->
         </modExtensions>
     </FactionDef>
 
