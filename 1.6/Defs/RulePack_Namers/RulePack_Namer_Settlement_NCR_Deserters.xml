@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- NCR Deserters Settlement Name Maker -->
+    <NameMakerDef>
+        <defName>FCP_Namer_Settlement_NCR_Deserters</defName>
+        <rulesStrings>
+            <li>[name] [type]</li>
+        </rulesStrings>
+        <nameElements>
+            <name>
+                <li>Deserter's</li>
+                <li>Outcast</li>
+                <li>Rogue</li>
+                <li>Lost</li>
+                <li>Forsaken</li>
+                <li>Exile</li>
+                <li>Breakaway</li>
+                <li>Renegade</li>
+                <li>Stray</li>
+                <li>Wanderer's</li>
+            </name>
+            <type>
+                <li>Camp</li>
+                <li>Hold</li>
+                <li>Fort</li>
+                <li>Refuge</li>
+                <li>Hideout</li>
+                <li>Sanctuary</li>
+                <li>Encampment</li>
+                <li>Base</li>
+                <li>Den</li>
+                <li>Compound</li>
+            </type>
+        </nameElements>
+    </NameMakerDef>
+</Defs>

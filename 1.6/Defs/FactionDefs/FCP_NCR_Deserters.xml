@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ NCR Deserters Faction __________-->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_NCR_Deserters</defName>
+        <label>NCR Deserters</label>
+        <description>A rogue faction of former NCR soldiers and officers who have deserted the Republic. Disillusioned with the NCR's leadership, they now operate as a hostile paramilitary group, surviving through raids and mercenary work. Their organization is loose, but they are led by a cunning Rogue Colonel.</description>
+        <leaderTitle>Rogue Colonel</leaderTitle>
+        <pawnSingular>NCR Deserter</pawnSingular>
+        <pawnsPlural>NCR Deserters</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <techLevel>Industrial</techLevel>
+        <colorSpectrum>
+            <li>(0.7, 0.7, 0.7)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <settlementGenerationWeight>0.5</settlementGenerationWeight>
+        <requiredCountAtGameStart>0</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <fixedName>NCR Deserters</fixedName>
+        <factionIconPath>World_Icon/NCR_Icon/FCP_NCR_Deserters_World_Icon</factionIconPath>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <settlementNameMaker>FCP_Namer_Settlement_NCR_Deserters</settlementNameMaker>
+        <allowedCultures>
+            <li>FCP_Culture_NCR_Californian</li>
+        </allowedCultures>
+        <modExtensions Inherit="False">
+            <!-- Hostile to NCR and Legion -->
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li>FCP_Faction_NCR</li>
+                    <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
+                </hostileFactionDefs>
+            </li>
+            <!-- No shuttles for deserters -->
+        </modExtensions>
+
+        <!--__________ Group Makers __________-->
+
+        <pawnGroupMakers>
+            <!-- Deserter Combat Squad -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <FCP_Pawnkind_NCR_Deserter_Trooper>10</FCP_Pawnkind_NCR_Deserter_Trooper>
+                    <FCP_Pawnkind_NCR_Deserter_Officer>2</FCP_Pawnkind_NCR_Deserter_Officer>
+                    <FCP_Pawnkind_NCR_Deserter_Colonel>1</FCP_Pawnkind_NCR_Deserter_Colonel>
+                </options>
+            </li>
+            <!-- Deserter Officer Squad -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <FCP_Pawnkind_NCR_Deserter_Officer>5</FCP_Pawnkind_NCR_Deserter_Officer>
+                    <FCP_Pawnkind_NCR_Deserter_Trooper>5</FCP_Pawnkind_NCR_Deserter_Trooper>
+                </options>
+            </li>
+            <!-- Deserter Colonel Command -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <FCP_Pawnkind_NCR_Deserter_Colonel>1</FCP_Pawnkind_NCR_Deserter_Colonel>
+                    <FCP_Pawnkind_NCR_Deserter_Officer>2</FCP_Pawnkind_NCR_Deserter_Officer>
+                    <FCP_Pawnkind_NCR_Deserter_Trooper>4</FCP_Pawnkind_NCR_Deserter_Trooper>
+                </options>
+            </li>
+        </pawnGroupMakers>
+    </FactionDef>
+
+</Defs>

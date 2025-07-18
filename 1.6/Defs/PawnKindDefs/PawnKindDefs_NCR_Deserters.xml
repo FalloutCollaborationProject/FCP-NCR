@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ NCR Deserters Pawnkinds __________-->
+
+    <!-- Deserter Trooper -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Pawnkind_NCR_Deserter_Trooper</defName>
+        <label>deserter trooper</label>
+        <race>Human</race>
+        <combatPower>120</combatPower>
+        <defaultFactionType>FCP_Faction_NCR_Deserters</defaultFactionType>
+        <gearHealthRange>0.7~1.0</gearHealthRange>
+        <apparelMoney>100</apparelMoney>
+        <weaponMoney>120</weaponMoney>
+        <inventoryOptions>
+            <li>MealSurvivalPack</li>
+        </inventoryOptions>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+            <li>FCP_NCR_Deserter</li>
+        </apparelTags>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryCategory>FCP_Backstory_NCR_Deserter</backstoryCategory>
+    </PawnKindDef>
+
+    <!-- Deserter Officer -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Pawnkind_NCR_Deserter_Officer</defName>
+        <label>deserter officer</label>
+        <race>Human</race>
+        <combatPower>180</combatPower>
+        <defaultFactionType>FCP_Faction_NCR_Deserters</defaultFactionType>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelMoney>200</apparelMoney>
+        <weaponMoney>200</weaponMoney>
+        <inventoryOptions>
+            <li>MealSurvivalPack</li>
+        </inventoryOptions>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+            <li>FCP_NCR_Deserter</li>
+        </apparelTags>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryCategory>FCP_Backstory_NCR_Deserter</backstoryCategory>
+    </PawnKindDef>
+
+    <!-- Deserter Colonel -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Pawnkind_NCR_Deserter_Colonel</defName>
+        <label>rogue colonel</label>
+        <race>Human</race>
+        <combatPower>250</combatPower>
+        <defaultFactionType>FCP_Faction_NCR_Deserters</defaultFactionType>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelMoney>300</apparelMoney>
+        <weaponMoney>300</weaponMoney>
+        <inventoryOptions>
+            <li>MealSurvivalPack</li>
+        </inventoryOptions>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+            <li>FCP_NCR_Deserter</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryCategory>FCP_Backstory_NCR_Deserter</backstoryCategory>
+    </PawnKindDef>
+
+</Defs>

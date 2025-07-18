@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ NCR Deserters Backstories __________-->
+
+    <!--_____ Trooper Backstories _____-->
+
+    <!-- Disillusioned Rifleman -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Trooper_A</defName>
+        <title>Disillusioned Rifleman</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Once a loyal NCR trooper, he grew weary of endless campaigns and corrupt officers. Now he fights for survival among fellow deserters.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Wounded Veteran -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Trooper_B</defName>
+        <title>Wounded Veteran</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Injured in battle and abandoned by command, this trooper deserted to escape a system that no longer cared for its own.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Scavenger Scout -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Trooper_C</defName>
+        <title>Scavenger Scout</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Skilled at navigating the wasteland, this scout left the NCR to use his talents for his own survival and profit.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Mercenary Aspirant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Trooper_D</defName>
+        <title>Mercenary Aspirant</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Dreaming of riches, this trooper abandoned the NCR to become a gun for hire, selling his skills to the highest bidder.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Disgraced Guard -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Trooper_E</defName>
+        <title>Disgraced Guard</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Once tasked with protecting NCR assets, a single mistake led to disgrace and desertion. Now he seeks redemption among outcasts.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!--_____ Officer Backstories _____-->
+
+    <!-- Corrupt Lieutenant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Officer_A</defName>
+        <title>Corrupt Lieutenant</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Once an NCR officer, he used his rank for personal gain until his crimes were discovered. Now he leads deserters in the wasteland.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Disillusioned Strategist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Officer_B</defName>
+        <title>Disillusioned Strategist</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Frustrated by the NCR's poor leadership, this officer deserted to put his tactical skills to better use among the rogue ranks.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Exiled Commander -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Officer_C</defName>
+        <title>Exiled Commander</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Banished for questioning orders, this commander now leads deserters in their fight against former allies and enemies alike.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Wasteland Diplomat -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Officer_D</defName>
+        <title>Wasteland Diplomat</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Skilled in negotiation, this officer deserted to broker deals and alliances for the survival of his new faction.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Vengeful Captain -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Officer_E</defName>
+        <title>Vengeful Captain</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Driven by revenge against the NCR, this captain deserted to lead attacks on his former comrades and claim his own justice.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!--_____ Colonel Backstories _____-->
+
+    <!-- Rogue Colonel -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Colonel_A</defName>
+        <title>Rogue Colonel</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Once a decorated NCR colonel, he now leads deserters with ruthless efficiency, carving out territory in the wasteland.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Exiled Tactician -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Colonel_B</defName>
+        <title>Exiled Tactician</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Renowned for his battlefield tactics, this colonel was exiled for insubordination and now commands a rogue army.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Wasteland Warlord -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Colonel_C</defName>
+        <title>Wasteland Warlord</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>With a vision for a new order, this colonel deserted the NCR to become a feared warlord among the wasteland's outcasts.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Disgraced Leader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Colonel_D</defName>
+        <title>Disgraced Leader</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Once respected, this colonel's fall from grace led him to gather deserters and forge a new path in the wasteland.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Mercenary Commander -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Deserter_Colonel_E</defName>
+        <title>Mercenary Commander</title>
+        <slot>Adult</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Leading with experience and ambition, this colonel deserted to command mercenaries and carve out his own legacy.</baseDesc>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Deserter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+</Defs>
