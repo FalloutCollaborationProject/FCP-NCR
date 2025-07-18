@@ -43,6 +43,9 @@
             <li>FCP_Apparel_NCR_Presidents_Suit</li>
         </apparelRequired>
         <!-- <weaponMoney>1000~1001</weaponMoney> -->
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_9mm_Pistol</li>
+        </weaponTags>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>19~30</initialResistanceRange>
         <backstoryFiltersOverride>
@@ -82,6 +85,9 @@
             </li>
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_9mm_Pistol</li>
+        </weaponTags>
     </PawnKindDef>
 
     <!-- General Olvier -->
@@ -94,7 +100,7 @@
             <li>FCP_NCR_General</li>
         </apparelTags>
         <weaponTags>
-            <li>FCP_NCR_Ranger_Sequoia</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ranger_Sequoia</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -118,7 +124,7 @@
             <li>FCP_Apparel_NCR_Beret</li>
         </apparelRequired>
         <weaponTags>
-            <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -142,7 +148,8 @@
             <li>FCP_Apparel_NCR_Beret</li>
         </apparelRequired>
         <weaponTags>
-            <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_NCR_Service_Rifle</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -197,7 +204,8 @@
             <li>FCP_Apparel_NCR_Beret</li>
         </apparelRequired>
         <weaponTags>
-            <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_NCR_Service_Rifle</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -221,7 +229,8 @@
             <li>FCP_Apparel_NCR_Beret</li>
         </apparelRequired>
         <weaponTags>
-            <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_NCR_Service_Rifle</li>
         </weaponTags>
         <forcedTraits>
             <li>Gay</li>
@@ -248,7 +257,8 @@
             <li>FCP_Apparel_NCR_Beret</li>
         </apparelRequired>
         <weaponTags>
-            <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_NCR_Service_Rifle</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -272,7 +282,8 @@
             <li>FCP_Apparel_NCR_Beret</li>
         </apparelRequired>
         <weaponTags>
-            <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_NCR_Service_Rifle</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -297,6 +308,7 @@
         </apparelRequired>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -321,6 +333,7 @@
         </apparelRequired>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -373,6 +386,7 @@
         </apparelRequired>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -398,6 +412,7 @@
         </apparelRequired>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -931,6 +946,12 @@
             </li>
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
+        </weaponTags>
     </PawnKindDef>
 
     <!-- NCR Citizen -->
@@ -965,6 +986,12 @@
             </li>
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
+        </weaponTags>
     </PawnKindDef>
 
     <!-- NCRCF Inmate -->
@@ -1004,6 +1031,12 @@
             </li>
         </modExtensions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
+        </weaponTags>
     </PawnKindDef>
 
     <!-- NCRCF Guard -->
@@ -1246,6 +1279,10 @@
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -1290,6 +1327,9 @@
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -1334,6 +1374,7 @@
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
             <li>FCP_NCR_Hunting_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -1377,6 +1418,11 @@
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Heavy_Weapon</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -1426,6 +1472,8 @@
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -1500,6 +1548,15 @@
             <li>FCP_NCR_Ranger_Casual</li>
         </apparelTags>
         <apparelMoney>9999</apparelMoney>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Sniper_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
+        </weaponTags>   
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
             <li>Poor</li>
@@ -1536,6 +1593,11 @@
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Sniper_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -1583,6 +1645,11 @@
         <weaponTags>
             <li>FCP_NCR_Ranger_Sequoia</li>
             <li>FCP_NCR_Anti_Material_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Sniper_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
