@@ -24,7 +24,20 @@
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
         </weaponTags>
-        <backstoryCategory>FCP_Backstory_NCR_Deserter</backstoryCategory>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Deserter_Trooper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
     </PawnKindDef>
 
     <!-- Deserter Officer -->
@@ -48,7 +61,20 @@
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
         </weaponTags>
-        <backstoryCategory>FCP_Backstory_NCR_Deserter</backstoryCategory>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Deserter_Officer</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
     </PawnKindDef>
 
     <!-- Deserter Colonel -->
@@ -75,7 +101,20 @@
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
         </weaponTags>
-        <backstoryCategory>FCP_Backstory_NCR_Deserter</backstoryCategory>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Deserter_Colonel</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
     </PawnKindDef>
 
 </Defs>
