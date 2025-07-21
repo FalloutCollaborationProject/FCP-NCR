@@ -51,9 +51,7 @@
         <gearHealthRange>0.8~1.0</gearHealthRange>
         <apparelMoney>200</apparelMoney>
         <weaponMoney>999</weaponMoney>
-        <inventoryOptions>
-            <li>MealSurvivalPack</li>
-        </inventoryOptions>
+        <invFoodDef>MealSurvivalPack</invFoodDef>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
             <li>FCP_NCR_Deserter</li>
@@ -90,9 +88,7 @@
         <gearHealthRange>0.9~1.0</gearHealthRange>
         <apparelMoney>300</apparelMoney>
         <weaponMoney>999</weaponMoney>
-        <inventoryOptions>
-            <li>MealSurvivalPack</li>
-        </inventoryOptions>
+        <invFoodDef>MealSurvivalPack</invFoodDef>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
             <li>FCP_NCR_Deserter</li>
