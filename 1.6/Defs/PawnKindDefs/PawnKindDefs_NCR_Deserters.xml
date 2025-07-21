@@ -14,9 +14,7 @@
         <gearHealthRange>0.7~1.0</gearHealthRange>
         <apparelMoney>100</apparelMoney>
         <weaponMoney>999</weaponMoney>
-        <inventoryOptions>
-            <li>MealSurvivalPack</li>
-        </inventoryOptions>
+        <invFoodDef>MealSurvivalPack</invFoodDef>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
             <li>FCP_NCR_Deserter</li>
