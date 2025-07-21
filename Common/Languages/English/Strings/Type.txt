@@ -1,0 +1,10 @@
+Camp
+Hold
+Fort
+Refuge
+Hideout
+Sanctuary
+Encampment
+Base
+Den
+Compound
