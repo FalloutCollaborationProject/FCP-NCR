@@ -47,6 +47,21 @@
             </points>
         </maxPawnCostPerTotalPointsCurve>
 
+        <!--__________ Backstories __________-->
+        
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_NCR_Deserter_Trooper</li>
+                    <li>FCP_Backstory_NCR_Deserter_Officer</li>
+                    <li>FCP_Backstory_NCR_Deserter_Colonel</li>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
         <!--__________ Group Makers __________-->
 
         <pawnGroupMakers>
