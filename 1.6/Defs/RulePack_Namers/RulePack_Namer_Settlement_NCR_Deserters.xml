@@ -10,8 +10,8 @@
                 <li>r_name->[name] [type]</li>
             </rulesStrings>
             <rulesFiles>
-                <li>name->Name</li>
-                <li>type->Type</li>
+                <li>name->Deserter/Name</li>
+                <li>type->Deserter/Type</li>
             </rulesFiles>
         </rulePack>
     </RulePackDef>
