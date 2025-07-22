@@ -82,6 +82,7 @@
     <PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Deserter_Colonel</defName>
         <label>rogue colonel</label>
+        <factionLeader>true</factionLeader>
         <race>Human</race>
         <combatPower>250</combatPower>
         <defaultFactionType>FCP_Faction_NCR_Deserters</defaultFactionType>
