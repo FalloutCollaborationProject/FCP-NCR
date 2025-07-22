@@ -10,6 +10,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Trooper_A</defName>
         <title>Disillusioned Rifleman</title>
+        <titleShort>Rifleman</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -24,6 +25,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Trooper_B</defName>
         <title>Wounded Veteran</title>
+        <titleShort>Veteran</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -38,6 +40,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Trooper_C</defName>
         <title>Scavenger Scout</title>
+         <titleShort>Scout</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -52,6 +55,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Trooper_D</defName>
         <title>Mercenary Aspirant</title>
+         <titleShort>Aspirant</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -66,6 +70,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Trooper_E</defName>
         <title>Disgraced Guard</title>
+         <titleShort>Guard</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -82,6 +87,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Officer_A</defName>
         <title>Corrupt Lieutenant</title>
+         <titleShort>Lieutenant</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -96,6 +102,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Officer_B</defName>
         <title>Disillusioned Strategist</title>
+         <titleShort>Strategist</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -110,6 +117,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Officer_C</defName>
         <title>Exiled Commander</title>
+         <titleShort>Commander</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -124,6 +132,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Officer_D</defName>
         <title>Wasteland Diplomat</title>
+        <titleShort>Diplomat</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -138,6 +147,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Officer_E</defName>
         <title>Vengeful Captain</title>
+        <titleShort>Captain</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -154,6 +164,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Colonel_A</defName>
         <title>Rogue Colonel</title>
+        <titleShort>Colonel</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -168,6 +179,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Colonel_B</defName>
         <title>Exiled Tactician</title>
+        <titleShort>Tactician</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -182,6 +194,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Colonel_C</defName>
         <title>Wasteland Warlord</title>
+        <titleShort>Warlord</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -196,6 +209,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Colonel_D</defName>
         <title>Disgraced Leader</title>
+        <titleShort>Leader</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -210,6 +224,7 @@
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Deserter_Colonel_E</defName>
         <title>Mercenary Commander</title>
+        <titleShort>Commander</titleShort>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
