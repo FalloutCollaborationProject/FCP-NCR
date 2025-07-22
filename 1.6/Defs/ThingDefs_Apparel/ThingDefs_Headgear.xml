@@ -71,7 +71,7 @@
 
     <ThingDef ParentName="ArmorHelmetMakeableBase" Name="FCP_NCR_Trooper_Helmet">
         <defName>FCP_Apparel_NCR_Trooper_Helmet</defName>
-        <label>Salvaged Power Armor Helmet</label>
+        <label>Trooper Helmet</label>
         <description>The standard helmet of the NCR armed forces. It is mass-produced in the NCR and easy to make and maintain but offers only marginal protection.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
