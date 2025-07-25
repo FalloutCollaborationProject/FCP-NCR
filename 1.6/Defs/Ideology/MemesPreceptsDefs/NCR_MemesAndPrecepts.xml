@@ -15,27 +15,27 @@
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
         <hiddenInChooseMemes>true</hiddenInChooseMemes>
         <requireOne>
-                    <li><li>Cannibalism_Abhorrent</li></li>
-                    <li><li>NutrientPasteEating_Disgusting</li></li>
-                    <li><li>Corpses_Ugly</li></li>
-                    <li><li>InsectMeatEating_Despised_Classic</li></li>
-                    <li><li>Lovin_Free</li></li>
-                    <li><li>MarriageName_UsuallyMans</li></li>
-                    <li><li>SpouseCount_Male_MaxOne</li></li>
-                    <li><li>SpouseCount_Female_MaxOne</li></li>
-                    <li><li>Charity_Worthwhile</li></li>
-                    <li><li>DrugUse_MedicalOrSocial</li></li>
-                    <li><li>FungusEating_Despised</li></li>
-                    <li><li>IdeoDiversity_Standard</li></li>
-                    <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
-                    <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
-                    <li><li>OrganUse_HorribleSellOK</li></li>
-                    <li><li>Execution_HorribleIfInnocent</li></li>
-                    <li><li>Research_Normal</li></li>
-                    <li><li>Skullspike_Disapproved</li></li>
-                    <li><li>Slavery_Disapproved</li></li>
-                    <li><li>Blinding_Horrible</li></li>
-                    <li><li>Scarification_Horrible</li></li>
+            <li><li>Cannibalism_Abhorrent</li></li>
+            <li><li>NutrientPasteEating_Disgusting</li></li>
+            <li><li>Corpses_Ugly</li></li>
+            <li><li>InsectMeatEating_Despised_Classic</li></li>
+            <li><li>Lovin_Free</li></li>
+            <li><li>MarriageName_UsuallyMans</li></li>
+            <li><li>SpouseCount_Male_MaxOne</li></li>
+            <li><li>SpouseCount_Female_MaxOne</li></li>
+            <li><li>Charity_Worthwhile</li></li>
+            <li><li>DrugUse_MedicalOrSocial</li></li>
+            <li><li>FungusEating_Despised</li></li>
+            <li><li>IdeoDiversity_Standard</li></li>
+            <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
+            <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
+            <li><li>OrganUse_HorribleSellOK</li></li>
+            <li><li>Execution_HorribleIfInnocent</li></li>
+            <li><li>Research_Normal</li></li>
+            <li><li>Skullspike_Disapproved</li></li>
+            <li><li>Slavery_Disapproved</li></li>
+            <li><li>Blinding_Horrible</li></li>
+            <li><li>Scarification_Horrible</li></li>
         </requireOne>
         <requiredRituals>
             <li>

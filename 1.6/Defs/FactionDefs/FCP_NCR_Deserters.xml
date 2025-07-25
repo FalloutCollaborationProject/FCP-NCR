@@ -47,6 +47,38 @@
             </points>
         </maxPawnCostPerTotalPointsCurve>
 
+        <!--__________ Ideology __________-->
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Lost Ideals</ideoName>
+        <ideoDescription>Once loyal to the Republic, these deserters have turned away from its broken promises and endless wars. Disillusioned by corruption and failed leadership, they now value survival, freedom, and loyalty to their own above all else. Their ideals are forged in hardship, camaraderie, and a deep distrust of authority. They do what it takes to endure in the wasteland, bound together by necessity and shared experience rather than old world dogma.</ideoDescription>
+        <styles>
+            <li>FCP_Style_Californian</li>
+            <!--<li MayRequire="Ludeon.RimWorld.Ideology">Morbid</li>-->
+        </styles>
+        <forcedMemes>
+            <!-- Structure -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <!-- Memes -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_NCRDeserters</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_DeserterTroopers</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <!--__________ Biotech __________-->
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
         <!--__________ Backstories __________-->
         
         <backstoryFilters>
