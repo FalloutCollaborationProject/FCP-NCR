@@ -1449,7 +1449,7 @@
             </li>
         </backstoryFiltersOverride>
         <forcedTraits>
-            <Psychopath/>
+            <li>Psychopath</li>
         </forcedTraits>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
