@@ -269,7 +269,7 @@
 		<identifier>FCP_Backstory_NCR_Lieutenant_Hayes</identifier>
 		<slot>Adulthood</slot>
 		<title>Lieutenant</title>
-		<titleShort>Lieutenant Gorobets</titleShort>
+		<titleShort>Lieutenant</titleShort>
 		<description>Lieutenant Hayes is a dedicated officer in the NCR military, known for his tactical expertise and leadership skills. He has earned the respect of his peers and subordinates through his unwavering commitment to the Republic's mission and values.</description>
 		<skillGains>
 			<Social>3</Social>
