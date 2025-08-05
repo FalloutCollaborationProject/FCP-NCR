@@ -130,8 +130,8 @@
 		<defName>FCP_Backstory_NCR_Major_Dhatri</defName>
 		<identifier>FCP_Backstory_NCR_Major_Dhatri</identifier>
 		<slot>Adulthood</slot>
-		<title>NCR Major Dhatri</title>
-		<titleShort>Major Knight</titleShort>
+		<title>NCR Major</title>
+		<titleShort>Major Dhatri</titleShort>
 		<description>Major Dhatri is a seasoned officer in the NCR military, known for his tactical expertise and leadership skills. He has a reputation for being tough but fair, and his decisions have led to many victories for the NCR.</description>
 		<skillGains>
 			<Social>3</Social>
@@ -154,7 +154,7 @@
 		<identifier>FCP_Backstory_NCR_Major_Knight</identifier>
 		<slot>Adulthood</slot>
 		<title>NCR Major</title>
-		<titleShort>Major Dhatri</titleShort>
+		<titleShort>Major Knight</titleShort>
 		<description>Major Knight is a seasoned officer in the NCR military, known for his tactical expertise and leadership skills. He has a reputation for being tough but fair, and his decisions have led to many victories for the NCR. He is respected by his peers and subordinates for his strategic mind and unwavering dedication to the Republic's mission.</description>
 		<skillGains>
 			<Social>3</Social>
