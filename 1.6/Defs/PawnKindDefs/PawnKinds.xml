@@ -1279,10 +1279,6 @@
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
