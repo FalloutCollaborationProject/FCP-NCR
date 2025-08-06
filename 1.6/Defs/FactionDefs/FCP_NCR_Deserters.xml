@@ -61,7 +61,6 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
             <!-- Memes -->
             <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_NCRDeserters</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_DeserterTroopers</li>
         </forcedMemes>
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
 

@@ -15,101 +15,26 @@
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
         <hiddenInChooseMemes>true</hiddenInChooseMemes>
         <requireOne>
-            <li><li>Authority_Despised</li></li>
-            <li><li>Individualism_Strong</li></li>
-            <li><li>Charity_Worthwhile</li></li>
-            <li><li>Violence_Approved</li></li>
-            <li><li>DrugUse_Acceptable</li></li>
+            <li><li>IdeoDiversity_Abhorrent</li></li>
+            <li><li>Blinding_Horrible</li></li>
+            <li><li>BodyMod_Abhorrent</li></li>
+            <li><li>Cannibalism_Abhorrent</li></li>
+            <li><li>DrugUse_MedicalOrSocial</li></li>
+            <li><li>FungusEating_Despised</li></li>
+            <li><li>OrganUse_Abhorrent</li></li>
+            <li><li>Execution_DontCare</li></li>
+            <li><li>Raiding_Respected</li></li>
+            <li><li>Research_ExtremelySlow</li></li>
+            <li><li>RoughLiving_Welcomed</li></li>
             <li><li>Slavery_Disapproved</li></li>
-            <li><li>Execution_Approved</li></li>
-            <li><li>Corpses_Ugly</li></li>
-            <li><li>Research_Normal</li></li>
         </requireOne>
         <requiredRituals>
             <li>
                 <precept>LeaderSpeech</precept>
                 <pattern>LeaderSpeech</pattern>
-                <building>FCP_NCR_Deserters_Campfire</building>
+                <building>Burnbong</building>
             </li>
         </requiredRituals>
     </MemeDef>
-
-    <!-- NCR Rangers -->
-
-    <MemeDef>
-        <defName>FCP_Meme_DeserterTroopers</defName>
-        <label>NCR Deserters</label>
-        <description>Disillusioned by the NCR's corruption and endless wars, these former troopers have deserted to form their own band. They value survival, loyalty to their fellow deserters, and a deep distrust of authority. Their experience as soldiers makes them disciplined, but their new life is about freedom, mutual aid, and doing what it takes to survive in the wasteland.</description>
-        <iconPath>Things/UI/Roles/FCP_NCR_Deserter_Trooper</iconPath>
-        <groupDef>Misc</groupDef>
-        <impact>2</impact>
-        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
-        <hiddenInChooseMemes>true</hiddenInChooseMemes>
-        <requireOne>
-            <li>
-                <li>FCP_IdeoRole_DeserterTrooper</li>
-            </li>
-        </requireOne>
-    </MemeDef>
-
-    <!--__________ Precepts __________-->
-
-    <!-- NCR Ranger -->
-
-    <PreceptDef ParentName="PreceptRoleMultiBase">
-        <defName>FCP_IdeoRole_DeserterTrooper</defName>
-        <label>Deserter Trooper</label>
-        <description>Once a disciplined NCR soldier, this deserter now uses their training to protect their own and survive outside the Republic. They are skilled with firearms, resourceful, and loyal to their fellow deserters, but have no patience for orders from above.</description>
-        <iconPath>Things/UI/Roles/FCP_NCR_Deserter_Trooper</iconPath>
-        <nameMaker>NamerRoleShooter</nameMaker>
-        <roleRequirements>
-            <li Class="RoleRequirement_MinSkillAny">
-                <skills>
-                    <Shooting>8</Shooting>
-                </skills>
-            </li>
-        </roleRequirements>
-        <roleRequiredWorkTags>
-            <li>Shooting</li>
-            <li>Violent</li>
-        </roleRequiredWorkTags>
-        <roleTags>
-            <li>ShootingSpecialist</li>
-        </roleTags>
-        <requiredMemes>
-            <li>FCP_Meme_DeserterTroopers</li>
-        </requiredMemes>
-        <roleEffects>
-            <li Class="RoleEffect_PawnStatOffset">
-                <statDef>ShootingAccuracyPawn</statDef>
-                <modifier>4</modifier>
-            </li>
-            <li Class="RoleEffect_PawnStatOffset">
-                <statDef>AimingDelayFactor</statDef>
-                <modifier>-0.2</modifier>
-            </li>
-        </roleEffects>
-        <grantedAbilities>
-            <li>MarksmanCommand</li>
-        </grantedAbilities>
-        <displayOrderInImpact>2</displayOrderInImpact>
-        <roleDisabledWorkTags>
-            <li>PlantWork</li>
-            <li>Mining</li>
-            <li>Cleaning</li>
-        </roleDisabledWorkTags>
-        <roleApparelRequirements>
-            <li>
-                <requirement>
-                    <bodyPartGroupsMatchAny>
-                        <li>UpperHead</li>
-                    </bodyPartGroupsMatchAny>
-                    <requiredDefs>
-                        <li>Apparel_Tailcap</li>
-                    </requiredDefs>
-                </requirement>
-            </li>
-        </roleApparelRequirements>
-    </PreceptDef>
 
 </Defs>
