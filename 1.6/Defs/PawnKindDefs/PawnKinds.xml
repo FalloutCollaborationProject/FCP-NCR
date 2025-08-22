@@ -1053,6 +1053,10 @@
             <li>FCP_Apparel_NCRCF_Guard_Vest</li>
             <li>FCP_Apparel_NCRCF_Guard_Helmet</li>
         </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_9mm_Pistol</li>
+        </weaponTags>
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
             <li>Poor</li>
@@ -1130,6 +1134,10 @@
             <li>FCP_Apparel_NCRCF_Guard_Vest</li>
             <li>FCP_Apparel_NCRCF_Guard_Helmet</li>
         </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_9mm_Pistol</li>
+        </weaponTags>
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
             <li>Poor</li>
