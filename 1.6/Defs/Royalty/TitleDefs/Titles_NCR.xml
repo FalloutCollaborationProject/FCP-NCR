@@ -3,13 +3,6 @@
 
     <!--__________ Title Defs __________-->
 
-    <!--_____ Base Titles _____-->
-
-    <RoyalTitleDef Abstract="True" Name="FCP_Base_Empire_Titles">
-        <awardThought>GainedTitle</awardThought>
-        <lostThought>LostTitle</lostThought>
-    </RoyalTitleDef>
-
     <!--_____ NCR Titles _____-->
 
     <!--___ NCR Army Titles ___-->
