@@ -248,7 +248,7 @@
 
     <!-- NCR Beret -->
 
-    <ThingDef ParentName="HatMakeableBase" Name="FCP_NCR_Beret">
+    <ThingDef ParentName="HatMakeableBase" Name="FCP_Apparel_NCR_Beret">
         <defName>FCP_Apparel_NCR_Beret</defName>
         <label>NCR Beret</label>
         <description>A simple green beret usually worn by officers of the NCR army. It mainly serves as an insignia of rank but offers a fair bit of protection against the weather.</description>
@@ -304,7 +304,7 @@
 
     <!-- NCR 1st Recon Beret -->
 
-    <ThingDef ParentName="FCP_NCR_Beret">
+    <ThingDef ParentName="FCP_Apparel_NCR_Beret">
         <defName>FCP_Apparel_NCR_Beret_1st_Recon</defName>
         <label>NCR First Recon Beret</label>
         <description>A red beret worn by the members of the famed 1st recon battalion. They are renowned as some of the best snipers the republic can muster. Fittingly, their motto is: “the last thing you never see.”</description>
@@ -393,7 +393,7 @@
 
     <!-- NCR General Cap -->
 
-    <ThingDef ParentName="FCP_NCR_Beret">
+    <ThingDef ParentName="FCP_Apparel_Officers_Cap_Base">
         <defName>FCP_Apparel_NCR_General_Cap</defName>
         <label>NCR General Cap</label>
         <description>A cap adorned with the two-headed bear, the heraldic animal of the New California Republic. It serves as a symbol of rank for the republic’s generals and is usually reserved for them.</description>
