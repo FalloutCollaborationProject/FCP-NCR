@@ -261,7 +261,7 @@
             </skillRequirements>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_Beret/FCP_NCR_Beret</texPath>
+            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_Beret/FCP_Apparel_NCR_Beret</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -281,7 +281,7 @@
             <bodyPartGroups>
                 <li>UpperHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_Beret/FCP_NCR_Beret</wornGraphicPath>
+            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_Beret/FCP_Apparel_NCR_Beret</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -481,7 +481,7 @@
 
     <!-- Ranger Hat Brown -->
 
-    <ThingDef ParentName="FCP_NCR_Beret">
+    <ThingDef ParentName="FCP_Apparel_NCR_Beret">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Brown</defName>
         <label>NCR Brown Ranger Hat</label>
         <description>A brown cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
@@ -500,7 +500,7 @@
 
     <!-- Ranger Hat Tan -->
 
-    <ThingDef ParentName="FCP_NCR_Beret">
+    <ThingDef ParentName="FCP_Apparel_NCR_Beret">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Tan</defName>
         <label>NCR Tan Ranger Hat</label>
         <description>A tan cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
@@ -519,7 +519,7 @@
 
     <!-- Ranger Hat Patrol -->
 
-    <ThingDef ParentName="FCP_NCR_Beret">
+    <ThingDef ParentName="FCP_Apparel_NCR_Beret">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Patrol</defName>
         <label>NCR Patrol Ranger Hat</label>
         <description>A simple cowboy hat favoured by the desert rangers, especially those patrolling the Mojave. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
