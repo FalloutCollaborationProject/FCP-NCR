@@ -104,7 +104,7 @@
         </costList>
         <apparel>
             <bodyPartGroups>
-                <li>Torso</li>
+                <li>Shoulders</li>
             </bodyPartGroups>
             <wornGraphicPath>Apparel/NCR_Accessories/NCR_Mantle/FCP_NCR_Mantle</wornGraphicPath>
             <layers>
