@@ -9,7 +9,6 @@
     <description>The Fallout Collaboration Project Presents: New California Republic, a Faction and Armory Mod.</description>
     <url>https://github.com/FalloutCollaborationProject/FCP-NCR</url>
     <supportedVersions>
-        <li>1.5</li>
         <li>1.6</li>
     </supportedVersions>
     <modDependencies>
