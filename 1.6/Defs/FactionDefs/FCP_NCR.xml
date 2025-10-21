@@ -69,7 +69,7 @@
         </xenotypeSet>
 
         <!--__________ Backstories __________-->
-        
+
         <backstoryFilters>
             <li>
                 <categories>
@@ -91,8 +91,12 @@
         <!--__________ Kinds __________-->
 
         <!-- Caravan Trader Kinds -->
-        
+
         <caravanTraderKinds>
+            <li>Caravan_Outlander_BulkGoods</li>
+            <li>Caravan_Outlander_CombatSupplier</li>
+            <li>Caravan_Outlander_Exotic</li>
+            <li>Caravan_Outlander_PirateMerchant</li>
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <!-- <li>FCP_Caravan_Gun_Runners</li> -->
             <!-- <li>FCP_Caravan_Crimson_Caravan_Trader</li> -->
@@ -102,24 +106,31 @@
         </caravanTraderKinds>
 
         <!-- Vistor Trader Kinds -->
-        
+
         <visitorTraderKinds>
+            <li>Caravan_Outlander_BulkGoods</li>
+            <li>Caravan_Outlander_CombatSupplier</li>
+            <li>Caravan_Outlander_Exotic</li>
+            <li>Caravan_Outlander_PirateMerchant</li>
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
             <li>FCP_Caravan_Brahmin_Herder</li>
         </visitorTraderKinds>
 
         <!-- Base Trader Kinds -->
-        
+
         <baseTraderKinds>
+            <li>Caravan_Outlander_BulkGoods</li>
+            <li>Caravan_Outlander_CombatSupplier</li>
+            <li>Caravan_Outlander_Exotic</li>
+            <li>Caravan_Outlander_PirateMerchant</li>
             <li>FCP_Caravan_Pre_War_Goods_Trader</li>
             <li>FCP_Caravan_NCRCF_Prisoner_Exchange</li>
             <li>FCP_Caravan_Brahmin_Herder</li>
-            <!-- <li>Base_Outlander_Standard</li> -->
         </baseTraderKinds>
 
         <!-- Trader Kind Arrival Options -->
-        
+
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
         <raidLootMaker>FCP_NCRRaidLootMaker</raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
@@ -133,7 +144,7 @@
         </maxPawnCostPerTotalPointsCurve>
 
         <!--__________ Group Makers __________-->
-        
+
         <pawnGroupMakers>
 
             <!-- NCR Army Squad -->
@@ -388,7 +399,7 @@
                 </characterDefs>
                 <characterChance>0.25</characterChance> -->
             </li>
-            
+
             <!-- Pre-War Goods Trader -->
 
             <li Class="FCP.Core.GroupMakerWithTraderKind">
