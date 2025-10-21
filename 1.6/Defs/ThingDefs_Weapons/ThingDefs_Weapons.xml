@@ -19,7 +19,6 @@
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_NCR_Standard_Trooper_Corps</li>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
