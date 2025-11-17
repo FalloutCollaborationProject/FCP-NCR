@@ -19,7 +19,7 @@
         <label>NCR tax collector</label>
         <requestable>False</requestable>
         <commonality>1</commonality>
-        <category>TributeCollector</category>
+        <category>FCP_NCR_TributeCollector</category>
         <tradeCurrency>Favor</tradeCurrency>
         <faction>FCP_Faction_NCR</faction>
         <hideThingsNotWillingToTrade>False</hideThingsNotWillingToTrade>
