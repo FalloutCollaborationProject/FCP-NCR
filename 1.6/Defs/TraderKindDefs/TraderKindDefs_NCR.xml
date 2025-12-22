@@ -186,87 +186,87 @@
 
             <!-- Pre-War Meals -->
 
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Blamco_Original_Flavor</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Blamco_Extra_Cheezy_Flavor</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Cram</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Cram_Low_Sodium</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Dandy_Boy_Apples</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Dandy_Boy_Caramel_Apples</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes_Buzzbite_Flavor</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Gum_Drops</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Gum_Drops_Anchorage_Arctic_Flavor</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Insta_Mash</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Insta_Mash_And_Bacon</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Pork_N_Beans</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Pork_N_Beans_Hot_N_Spicy_Flavor</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Potato_Crisps</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Potato_Crisps_Lightly_Salted</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Salisbury_Steak</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_BIG_BOY_Salisbury_Steak</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Sugar_Bombs</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Yum_Yum_Deviled_Eggs</thingDef>
                 <countRange>2~10</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
                 <thingDef>FCP_Food_Yum_Yum_Deviled_Eggs_Sour_Cream_Flavor</thingDef>
                 <countRange>2~10</countRange>
             </li>
