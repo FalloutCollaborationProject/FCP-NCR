@@ -515,13 +515,13 @@
             <!-- Make them hostile to the Compendium Brotherhood of Steel -->
             <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
-                    <li MayRequire="altushka.boscompendium">DRK_BoS </li>
+                    <li MayRequire="altushka.boscompendium">DRK_BoS</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them hostile to the Compendium Enclave -->
             <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
-                    <li MayRequire="altushka.boscompendium">DRK_Enclave </li>
+                    <li MayRequire="altushka.boscompendium">DRK_Enclave</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
