@@ -414,7 +414,7 @@
                     <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_Pawnkind_Armored_Wastelander_Combat_Armor>5</FCP_Pawnkind_Armored_Wastelander_Combat_Armor>
+                    <FCP_Pawnkind_Armored_Wastelander_Combat_Armor MayRequire="Rick.FCP.Wastelanders">5</FCP_Pawnkind_Armored_Wastelander_Combat_Armor>
                 </guards>
                 <!-- <characterDefs>
                     <li></li>
@@ -510,6 +510,18 @@
             <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
+                </hostileFactionDefs>
+            </li>
+            <!-- Make them hostile to the Compendium Brotherhood of Steel -->
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="altushka.boscompendium">DRK_BoS </li>
+                </hostileFactionDefs>
+            </li>
+            <!-- Make them hostile to the Compendium Enclave -->
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="altushka.boscompendium">DRK_Enclave </li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->

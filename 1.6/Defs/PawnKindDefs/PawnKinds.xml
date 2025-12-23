@@ -1167,7 +1167,7 @@
         <trader>true</trader>
         <combatPower>30</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Caravaneer_Outfit</li>
+            <li MayRequire="Rick.FCP.Wastelanders">FCP_Apparel_Caravaneer_Outfit</li>
         </apparelRequired>
         <initialWillRange>1~3</initialWillRange>
         <initialResistanceRange>10~17</initialResistanceRange>
