@@ -16,8 +16,8 @@
         <prerequisites>
             <li>ComplexClothing</li>
         </prerequisites>
-        <researchViewX>2.00</researchViewX>
-        <researchViewY>0</researchViewY>
+        <researchViewX>0.50</researchViewX>
+        <researchViewY>1.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -33,7 +33,7 @@
             <li>FCP_Research_NCR_Civilian_Outfitters</li>
         </prerequisites>
         <researchViewX>2.00</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewY>1.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -50,8 +50,8 @@
         <prerequisites>
             <li>Machining</li>
         </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>0</researchViewY>
+        <researchViewX>0.50</researchViewX>
+        <researchViewY>2.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -66,8 +66,8 @@
         <prerequisites>
             <li>FCP_Research_NCR_Standard_Trooper_Corps</li>
         </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>2.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -82,8 +82,8 @@
         <prerequisites>
             <li>FCP_Research_NCR_Trooper_Variations</li>
         </prerequisites>
-        <researchViewX>0</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>3.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -98,8 +98,8 @@
         <prerequisites>
             <li>FCP_Research_NCR_Trooper_Variations</li>
         </prerequisites>
-        <researchViewX>2</researchViewX>
-        <researchViewY>2</researchViewY>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>3.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -115,8 +115,8 @@
             <li>FCP_Research_NCR_Trooper_Variations</li>
             <li>FCP_Research_NCR_Special_Forces</li>
         </prerequisites>
-        <researchViewX>0</researchViewX>
-        <researchViewY>2</researchViewY>
+        <researchViewX>0.50</researchViewX>
+        <researchViewY>4.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -131,8 +131,8 @@
         <prerequisites>
             <li>FCP_Research_NCR_Ranger_Corps</li>
         </prerequisites>
-        <researchViewX>0</researchViewX>
-        <researchViewY>3</researchViewY>
+        <researchViewX>0.50</researchViewX>
+        <researchViewY>5.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
