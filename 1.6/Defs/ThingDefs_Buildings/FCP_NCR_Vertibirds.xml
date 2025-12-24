@@ -15,7 +15,6 @@
         <leavingSkyfaller>FCP_Shuttle_NCR_VertibirdLeaving</leavingSkyfaller>
         <worldObject>FCP_Shuttle_NCR_TravelingVertibird</worldObject>
         <maxLaunchDistance>70</maxLaunchDistance>
-        <canLaunchToSpace>false</canLaunchToSpace>
     </TransportShipDef>
 
     <!--_____ Building ThingDefs _____-->
