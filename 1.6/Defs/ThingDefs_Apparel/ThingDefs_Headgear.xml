@@ -354,6 +354,7 @@
             <WorkToMake>3000</WorkToMake>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>1</Mass>
+            <MarketValue>650</MarketValue>
             <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
             <ArmorRating_Heat>0.42</ArmorRating_Heat>
