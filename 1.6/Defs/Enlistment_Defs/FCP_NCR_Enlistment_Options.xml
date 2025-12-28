@@ -43,7 +43,7 @@
         <salaryLabelKey>FCP_NCR_Salary_Label</salaryLabelKey>
         <salaryDescKey>FCP_NCR_Salary_Desc</salaryDescKey>
         <salaryButtonIconTexPath>Things/UI/Enlisted/FCP_NCR_Salary</salaryButtonIconTexPath>
-        <salaryRange>1200~2500</salaryRange>
+        <salaryRange>1800~2800</salaryRange>
         <salaryPeriodDays>14</salaryPeriodDays>
 
         <!-- Provision Options -->
