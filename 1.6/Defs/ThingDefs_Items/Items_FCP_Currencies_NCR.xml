@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<!--__________ Currencies __________-->
@@ -23,6 +23,7 @@
 			<RoyalFavorValue>0.002</RoyalFavorValue>
 			<MarketValue>0.75</MarketValue>
 			<Mass>0.002</Mass>
+			<Flammability>0</Flammability>
 		</statBases>
 		<thingCategories>
 			<li>FCP_Currencies_NCR</li>

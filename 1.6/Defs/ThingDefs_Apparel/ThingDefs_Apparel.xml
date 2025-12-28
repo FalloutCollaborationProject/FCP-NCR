@@ -1,1445 +1,1457 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<!--__________ New California Republic __________-->
 
-    <!--__________ New California Republic __________-->
+	<!--_____ NCR Clothing _____-->
 
-    <!--_____ NCR Clothing _____-->
+	<!--___ Civilians ___-->
 
-    <!--___ Civilians ___-->
+	<!-- NCR Engineer Jumpsuit -->
 
-    <!-- NCR Engineer Jumpsuit -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>FCP_Apparel_NCR_Engineer_Jumpsuit</defName>
+		<label>NCR Engineer Jumpsuit</label>
+		<description>A khaki jumpsuit with many pockets and pouches attached. It’s commonly worn by engineers and other technical personnel associated with the NCR. It’s useful for carrying around a few spare tools but provides little protection in a firefight.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Civilians/NCR_Engineer_Jumpsuit/FCP_NCR_Engineer_Jumpsuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>110</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>2</Mass>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>2.3</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructionSpeed>0.33</ConstructionSpeed>
+			<!-- Repair +5 -->
+			<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+			<!-- Repair +5 -->
+			<MoveSpeed>0.20</MoveSpeed>
+			<!-- AP +20 -->
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Civilians/NCR_Engineer_Jumpsuit/FCP_NCR_Engineer_Jumpsuit</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Engineer</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+	</ThingDef>
 
-    <ThingDef ParentName="ApparelMakeableBase">
-        <defName>FCP_Apparel_NCR_Engineer_Jumpsuit</defName>
-        <label>NCR Engineer Jumpsuit</label>
-        <description>A khaki jumpsuit with many pockets and pouches attached. It’s commonly worn by engineers and other technical personnel associated with the NCR. It’s useful for carrying around a few spare tools but provides little protection in a firefight.</description>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Civilians/NCR_Engineer_Jumpsuit/FCP_NCR_Engineer_Jumpsuit</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
-        </graphicData>
-        <techLevel>Industrial</techLevel>
-        <costList>
-            <Cloth>110</Cloth>
-        </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <WorkToMake>6000</WorkToMake>
-            <Mass>2</Mass>
-            <Insulation_Cold>3.0</Insulation_Cold>
-            <Insulation_Heat>2.3</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <ConstructionSpeed>0.33</ConstructionSpeed>            <!-- Repair +5 -->
-            <GeneralLaborSpeed>0.10</GeneralLaborSpeed>            <!-- Repair +5 -->
-            <MoveSpeed>0.20</MoveSpeed>                            <!-- AP +20 -->
-        </equippedStatOffsets>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Civilians/NCR_Engineer_Jumpsuit/FCP_NCR_Engineer_Jumpsuit</wornGraphicPath>
-            <layers>
-                <li>Middle</li>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Engineer</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>Worker</li>
-            </defaultOutfitTags>
-        </apparel>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-        </comps>
-    </ThingDef>
+	<!--___ Politicians ___-->
 
-    <!--___ Politicians ___-->
+	<!-- NCR Ambassador Dress -->
 
-    <!-- NCR Ambassador Dress -->
-
-    <ThingDef ParentName="ApparelMakeableBase">
-        <defName>FCP_Apparel_NCR_Ambassador_Dress</defName>
-        <label>NCR Ambassador Dress</label>
-        <description>A stylish dress often worn by the ambassadors of the New California Republic. While it provides little to no actual
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>FCP_Apparel_NCR_Ambassador_Dress</defName>
+		<label>NCR Ambassador Dress</label>
+		<description>A stylish dress often worn by the ambassadors of the New California Republic. While it provides little to no actual
             protection, it boosts its wearer's confidence during negotiation.</description>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Civilians/NCR_Ambassador/NCR_Ambassadors_Dress/FCP_Ambassadors_Dress</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
-        </graphicData>
-        <techLevel>Industrial</techLevel>
-        <costList>
-            <Cloth>135</Cloth>
-        </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <WorkToMake>10000</WorkToMake>
-            <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Mass>2</Mass>
-            <Insulation_Cold>3.0</Insulation_Cold>
-            <Insulation_Heat>2.3</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <NegotiationAbility>0.15</NegotiationAbility>
-            <TradePriceImprovement>0.05</TradePriceImprovement>
-        </equippedStatOffsets>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Civilians/NCR_Ambassador/NCR_Ambassadors_Dress/FCP_Ambassadors_Dress</wornGraphicPath>
-            <layers>
-                <li>Middle</li>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Ambassador</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>Worker</li>
-            </defaultOutfitTags>
-        </apparel>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-    </ThingDef>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Civilians/NCR_Ambassador/NCR_Ambassadors_Dress/FCP_Ambassadors_Dress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>135</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Mass>2</Mass>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>2.3</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.15</NegotiationAbility>
+			<TradePriceImprovement>0.05</TradePriceImprovement>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Civilians/NCR_Ambassador/NCR_Ambassadors_Dress/FCP_Ambassadors_Dress</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Ambassador</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+	</ThingDef>
 
-    <!-- NCR Ambassador Suit -->
+	<!-- NCR Ambassador Suit -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
-        <defName>FCP_Apparel_NCR_Ambassador_Suit</defName>
-        <label>NCR Ambassador's Suit</label>
-        <description>A stylish suit often worn by the ambassadors of the New California Republic. While it provides little to no actual protection, it boosts its wearer's confidence during negotiation.</description>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Civilians/NCR_Ambassador/NCR_Ambassadors_Suit/FCP_Ambassadors_Suit</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
-        </graphicData>
-        <techLevel>Industrial</techLevel>
-        <costList>
-            <Cloth>135</Cloth>
-        </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <WorkToMake>10000</WorkToMake>
-            <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Mass>2</Mass>
-            <Insulation_Cold>3.0</Insulation_Cold>
-            <Insulation_Heat>2.3</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <NegotiationAbility>0.15</NegotiationAbility>
-            <TradePriceImprovement>0.05</TradePriceImprovement>
-        </equippedStatOffsets>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Civilians/NCR_Ambassador/NCR_Ambassadors_Suit/FCP_Ambassadors_Suit</wornGraphicPath>
-            <layers>
-                <li>Middle</li>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Ambassador</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>Worker</li>
-            </defaultOutfitTags>
-        </apparel>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-    </ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>FCP_Apparel_NCR_Ambassador_Suit</defName>
+		<label>NCR Ambassador's Suit</label>
+		<description>A stylish suit often worn by the ambassadors of the New California Republic. While it provides little to no actual protection, it boosts its wearer's confidence during negotiation.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Civilians/NCR_Ambassador/NCR_Ambassadors_Suit/FCP_Ambassadors_Suit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>135</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Mass>2</Mass>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>2.3</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.15</NegotiationAbility>
+			<TradePriceImprovement>0.05</TradePriceImprovement>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Civilians/NCR_Ambassador/NCR_Ambassadors_Suit/FCP_Ambassadors_Suit</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Ambassador</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+	</ThingDef>
 
-    <!-- NCR Presidents Suit -->
+	<!-- NCR Presidents Suit -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
-        <defName>FCP_Apparel_NCR_Presidents_Suit</defName>
-        <label>NCR President Suit</label>
-        <description>A stylish suit often worn by the president of the New California Republic and similar high-ranking government officials. While it provides little to no actual protection, it gives its wearer an air of authority.</description>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Presidential_Suite</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Civilians/NCR_Presidents_Suit/FCP_NCR_Presidents_Suit</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
-        </graphicData>
-        <techLevel>Industrial</techLevel>
-        <costList>
-            <Cloth>170</Cloth>
-        </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <WorkToMake>10000</WorkToMake>
-            <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Mass>2</Mass>
-            <Insulation_Cold>3.0</Insulation_Cold>
-            <Insulation_Heat>2.3</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <NegotiationAbility>1.8</NegotiationAbility>            <!-- Speech +5 -->
-        </equippedStatOffsets>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Civilians/NCR_Presidents_Suit/FCP_NCR_Presidents_Suit</wornGraphicPath>
-            <layers>
-                <li>Middle</li>
-                <li>OnSkin</li>
-            </layers>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Unique</rarity>
-            </li>
-        </comps>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>FCP_Apparel_NCR_Presidents_Suit</defName>
+		<useHitPoints>false</useHitPoints>
+		<label>NCR President Suit</label>
+		<description>A stylish suit often worn by the president of the New California Republic and similar high-ranking government officials. While it provides little to no actual protection, it gives its wearer an air of authority.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Presidential_Suite</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Civilians/NCR_Presidents_Suit/FCP_NCR_Presidents_Suit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>170</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Mass>2</Mass>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>2.3</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>1.8</NegotiationAbility>
+			<!-- Speech +5 -->
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Civilians/NCR_Presidents_Suit/FCP_NCR_Presidents_Suit</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Unique</rarity>
+			</li>
+		</comps>
 		<modExtensions>
-			<li Class="FCP.Core.UniqueThingExtension"></li>
+			<li Class="FCP.Core.UniqueThingExtension">
+			</li>
 		</modExtensions>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!--___ NCR Army ___-->
+	<!--___ NCR Army ___-->
 
-    <!-- Trooper Fatigues -->
+	<!-- Trooper Fatigues -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Trooper_Fatigues</defName>
-        <description>This light piece of clothing consists of the standard khaki field jacket and breeches but lacks the armored breastplate other NCR armors sport. As such it is lighter but offers only inferior protection.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Trooper Fatigues</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Fatigues/FCP_NCR_Trooper_Fatigues</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>7500</WorkToMake>
-            <Mass>2.0</Mass>
-            <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Insulation_Cold>3</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Cloth>75</Cloth>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Fatigues/FCP_NCR_Trooper_Fatigues</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Trooper</li>
-            </tags>
-        </apparel>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-        </comps>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Trooper_Fatigues</defName>
+		<description>This light piece of clothing consists of the standard khaki field jacket and breeches but lacks the armored breastplate other NCR armors sport. As such it is lighter but offers only inferior protection.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Trooper Fatigues</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Troopers/NCR_Trooper_Fatigues/FCP_NCR_Trooper_Fatigues</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>2.0</Mass>
+			<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Cloth>75</Cloth>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Fatigues/FCP_NCR_Trooper_Fatigues</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Trooper</li>
+			</tags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+	</ThingDef>
 
-    <!-- Trooper MP -->
+	<!-- Trooper MP -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Trooper_MP_Uniform</defName>
-        <description>A uniform labelling the wearer as a member of the NCR military police. It’s quite similar to other NCR uniforms but radiates the authority of the military police.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR MP Uniform</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>2</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Troopers/NCR_Trooper_MP_Uniform/FCP_NCR_MP_Uniform</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>7500</WorkToMake>
-            <Mass>2.0</Mass>
-            <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Insulation_Cold>3</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Cloth>75</Cloth>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_MP_Uniform/FCP_NCR_MP_Uniform</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_MP</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>FCP_NCR_Trooper</li>
-            </defaultOutfitTags>
-        </apparel>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-        </comps>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Trooper_MP_Uniform</defName>
+		<description>A uniform labelling the wearer as a member of the NCR military police. It’s quite similar to other NCR uniforms but radiates the authority of the military police.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR MP Uniform</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Troopers/NCR_Trooper_MP_Uniform/FCP_NCR_MP_Uniform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>2.0</Mass>
+			<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Cloth>75</Cloth>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_MP_Uniform/FCP_NCR_MP_Uniform</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_MP</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>FCP_NCR_Trooper</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+	</ThingDef>
 
-    <!-- NCR General Uniform-->
+	<!-- NCR General Uniform-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
-        <defName>FCP_Apparel_NCR_Generals_Uniform</defName>
-        <label>NCR General Uniform</label>
-        <description>A uniform reserved for the highest-ranking officers of the republic’s army, the generals. It’s heavily decorated with motifs commonly associated with the NCR, such as the two-headed bear. It doesn’t offer much protection, however, since the generals of the army rarely serve on the frontlines.</description>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Officers/NCR_General/NCR_Generals_Uniform/FCP_NCR_Generals_Uniform</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
-        </graphicData>
-        <techLevel>Industrial</techLevel>
-        <costList>
-            <Cloth>150</Cloth>
-        </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <WorkToMake>10000</WorkToMake>
-            <Mass>2</Mass>
-            <Insulation_Cold>3.0</Insulation_Cold>
-            <Insulation_Heat>2.3</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <SocialImpact>0.5</SocialImpact>            <!-- Charisma +2 -->
-        </equippedStatOffsets>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Officers/NCR_General/NCR_Generals_Uniform/FCP_NCR_Generals_Uniform</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_General</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>Worker</li>
-            </defaultOutfitTags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>FCP_Apparel_NCR_Generals_Uniform</defName>
+		<label>NCR General Uniform</label>
+		<description>A uniform reserved for the highest-ranking officers of the republic’s army, the generals. It’s heavily decorated with motifs commonly associated with the NCR, such as the two-headed bear. It doesn’t offer much protection, however, since the generals of the army rarely serve on the frontlines.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Officers/NCR_General/NCR_Generals_Uniform/FCP_NCR_Generals_Uniform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>150</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2</Mass>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>2.3</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.5</SocialImpact>
+			<!-- Charisma +2 -->
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Officers/NCR_General/NCR_Generals_Uniform/FCP_NCR_Generals_Uniform</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_General</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!--___ NCR Rangers ___-->
+	<!--___ NCR Rangers ___-->
 
-    <!-- NCR Ranger Outfit Base-->
+	<!-- NCR Ranger Outfit Base-->
 
-    <ThingDef ParentName="ApparelMakeableBase" Name="FCP_NCR_Ranger_Outfit" Abstract="True">
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
-        </graphicData>
-        <techLevel>Industrial</techLevel>
-        <costList>
-            <Cloth>90</Cloth>
-        </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <WorkToMake>6000</WorkToMake>
-            <Mass>2</Mass>
-            <Insulation_Cold>3.0</Insulation_Cold>
-            <Insulation_Heat>5.2</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
-        </statBases>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <layers>
-                <li>Middle</li>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Ranger_Casual</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>Worker</li>
-            </defaultOutfitTags>
-        </apparel>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-        </comps>
-    </ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase" Name="FCP_NCR_Ranger_Outfit" Abstract="True">
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>90</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>2</Mass>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>5.2</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Ranger_Casual</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+	</ThingDef>
 
-    <!-- NCR Ranger Casual Outfit -->
+	<!-- NCR Ranger Casual Outfit -->
 
-    <ThingDef ParentName="FCP_NCR_Ranger_Outfit">
-        <defName>FCP_Apparel_NCR_Ranger_Casual</defName>
-        <label>NCR Ranger Casual Outfit</label>
-        <description>An outfit often worn by the rangers off-duty or underneath additional armour pieces. It’s reminiscent of the outfits worn by the cowboys of old. It’s quite rugged and offers good protection against the scorching sun but should not be the only protection a rangers has once the bullets start flying.</description>
-        <graphicData>
-            <texPath>Apparel/NCR_Rangers/NCR_Ranger_Casual_Outfit/FCP_NCR_Ranger_Casual_Outfit</texPath>
-        </graphicData>
-        <apparel>
-            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Casual_Outfit/FCP_NCR_Ranger_Casual_Outfit</wornGraphicPath>
-        </apparel>
-    </ThingDef>
+	<ThingDef ParentName="FCP_NCR_Ranger_Outfit">
+		<defName>FCP_Apparel_NCR_Ranger_Casual</defName>
+		<label>NCR Ranger Casual Outfit</label>
+		<description>An outfit often worn by the rangers off-duty or underneath additional armour pieces. It’s reminiscent of the outfits worn by the cowboys of old. It’s quite rugged and offers good protection against the scorching sun but should not be the only protection a rangers has once the bullets start flying.</description>
+		<graphicData>
+			<texPath>Apparel/NCR_Rangers/NCR_Ranger_Casual_Outfit/FCP_NCR_Ranger_Casual_Outfit</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Casual_Outfit/FCP_NCR_Ranger_Casual_Outfit</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-    <!-- NCR Ranger Red Scarf Outfit -->
+	<!-- NCR Ranger Red Scarf Outfit -->
 
-    <ThingDef ParentName="FCP_NCR_Ranger_Outfit">
-        <defName>FCP_Apparel_NCR_Ranger_Red_Scarf</defName>
-        <label>NCR Ranger Red Scarf Outfit</label>
-        <description>Rugged clothes worn by the desert rangers. This particular outfit comes with a red scarf. Like most ranger clothes, it insulates well against the heat.</description>
-        <graphicData>
-            <texPath>Apparel/NCR_Rangers/NCR_Ranger_Red_Scarf_Outfit/FCP_NCR_Ranger_Red_Scarf_Outfit</texPath>
-        </graphicData>
-        <apparel>
-            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Red_Scarf_Outfit/FCP_NCR_Ranger_Red_Scarf_Outfit</wornGraphicPath>
-        </apparel>
-    </ThingDef>
+	<ThingDef ParentName="FCP_NCR_Ranger_Outfit">
+		<defName>FCP_Apparel_NCR_Ranger_Red_Scarf</defName>
+		<label>NCR Ranger Red Scarf Outfit</label>
+		<description>Rugged clothes worn by the desert rangers. This particular outfit comes with a red scarf. Like most ranger clothes, it insulates well against the heat.</description>
+		<graphicData>
+			<texPath>Apparel/NCR_Rangers/NCR_Ranger_Red_Scarf_Outfit/FCP_NCR_Ranger_Red_Scarf_Outfit</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Red_Scarf_Outfit/FCP_NCR_Ranger_Red_Scarf_Outfit</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-    <!-- NCR Ranger Vest Outfit -->
+	<!-- NCR Ranger Vest Outfit -->
 
-    <ThingDef ParentName="FCP_NCR_Ranger_Outfit">
-        <defName>FCP_Apparel_NCR_Ranger_Vest</defName>
-        <label>NCR Ranger Vest Outfit</label>
-        <description>A rugged vest worn by NCR Rangers. It provides good protection against the elements and is ideal for long patrols and reconnaissance missions in harsh environments.</description>
-        <graphicData>
-            <texPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</texPath>
-        </graphicData>
-        <apparel>
-            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</wornGraphicPath>
-        </apparel>
-    </ThingDef>
+	<ThingDef ParentName="FCP_NCR_Ranger_Outfit">
+		<defName>FCP_Apparel_NCR_Ranger_Vest</defName>
+		<label>NCR Ranger Vest Outfit</label>
+		<description>A rugged vest worn by NCR Rangers. It provides good protection against the elements and is ideal for long patrols and reconnaissance missions in harsh environments.</description>
+		<graphicData>
+			<texPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-    <!-- Veteran Ranger Uniform -->
+	<!-- Veteran Ranger Uniform -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Ranger_Veteran_Uniform</defName>
-        <description>A set of clothes made from tough materials such as leathers. It’s often worn underneath armour by the rangers and is particularly well insulating against heat.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Veteran Ranger Uniform</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Uniform/FCP_NCR_Ranger_Combat_Armor_Under_Outfit</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>250</MaxHitPoints>
-            <WorkToMake>9200</WorkToMake>
-            <Mass>3.0</Mass>
-            <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.05</ArmorRating_Heat>
-            <Insulation_Cold>5</Insulation_Cold>
-            <Insulation_Heat>10</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Leather_Plain>105</Leather_Plain>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Uniform/FCP_NCR_Ranger_Combat_Armor_Under_Outfit</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Ranger_Veteran</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Ranger_Veteran_Uniform</defName>
+		<description>A set of clothes made from tough materials such as leathers. It’s often worn underneath armour by the rangers and is particularly well insulating against heat.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Veteran Ranger Uniform</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Uniform/FCP_NCR_Ranger_Combat_Armor_Under_Outfit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>9200</WorkToMake>
+			<Mass>3.0</Mass>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Leather_Plain>105</Leather_Plain>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Uniform/FCP_NCR_Ranger_Combat_Armor_Under_Outfit</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Ranger_Veteran</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!-- Veteran Ranger Duster -->
+	<!-- Veteran Ranger Duster -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Ranger_Veteran_Duster</defName>
-        <description>A duster often worn by the rangers. It’s main use is to protect the wearer against the sun and temperatures of the Mojave Desert, but it’s thick enough to provide additional protection in a firefight as well.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Veteran Ranger Duster</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Duster/FCP_NCR_Ranger_Duster</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>250</MaxHitPoints>
-            <WorkToMake>9200</WorkToMake>
-            <Mass>2.0</Mass>
-            <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.08</ArmorRating_Heat>
-            <Insulation_Cold>1</Insulation_Cold>
-            <Insulation_Heat>5</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Leather_Plain>90</Leather_Plain>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Duster/FCP_NCR_Ranger_Duster</wornGraphicPath>
-            <layers>
-                <li>Shell</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Ranger_Veteran</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Ranger_Veteran_Duster</defName>
+		<description>A duster often worn by the rangers. It’s main use is to protect the wearer against the sun and temperatures of the Mojave Desert, but it’s thick enough to provide additional protection in a firefight as well.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Veteran Ranger Duster</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Duster/FCP_NCR_Ranger_Duster</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>9200</WorkToMake>
+			<Mass>2.0</Mass>
+			<ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.08</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Leather_Plain>90</Leather_Plain>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Duster/FCP_NCR_Ranger_Duster</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Ranger_Veteran</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!--___ NCRCF ___-->
+	<!--___ NCRCF ___-->
 
-    <!-- NCRCF Inmate Uniform -->
+	<!-- NCRCF Inmate Uniform -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
-        <defName>FCP_Apparel_NCRCF_Inmate_Uniform</defName>
-        <description>A simple blue shirt with pants issued to the inmates of the NCRCF. These are simple clothes cheaply mass-produced in the NCR. As such they offer little to no protection in a fight but isolate quite well against the heat, since the NCR likes to use the inmates as roadworkers.</description>
-        <label>NCRCF Inmate Uniform</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCRCF/NCRCF_Inmates/NCRCF_Inmate_Uniform/FCP_NCRCF_Inmate_Uniform</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <techLevel>Industrial</techLevel>
-        <costList>
-            <Cloth>100</Cloth>
-        </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>100</MaxHitPoints>
-            <WorkToMake>2700</WorkToMake>
-            <Mass>0.3</Mass>
-            <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Insulation_Cold>2.6</Insulation_Cold>
-            <Insulation_Heat>5.6</Insulation_Heat>
-            <EquipDelay>1.5</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <SlaveSuppressionOffset>-0.10</SlaveSuppressionOffset>
-        </equippedStatOffsets>
-        <apparel>
-            <slaveApparel>true</slaveApparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCRCF/NCRCF_Inmates/NCRCF_Inmate_Uniform/FCP_NCRCF_Inmate_Uniform</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-            </layers>
-            <tags>
-                <li>FCP_NCRCF_Inmate</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>Slave</li>
-                <li>Worker</li>
-            </defaultOutfitTags>
-        </apparel>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>FCP_Apparel_NCRCF_Inmate_Uniform</defName>
+		<description>A simple blue shirt with pants issued to the inmates of the NCRCF. These are simple clothes cheaply mass-produced in the NCR. As such they offer little to no protection in a fight but isolate quite well against the heat, since the NCR likes to use the inmates as roadworkers.</description>
+		<label>NCRCF Inmate Uniform</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCRCF/NCRCF_Inmates/NCRCF_Inmate_Uniform/FCP_NCRCF_Inmate_Uniform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>100</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2700</WorkToMake>
+			<Mass>0.3</Mass>
+			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Insulation_Cold>2.6</Insulation_Cold>
+			<Insulation_Heat>5.6</Insulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset>-0.10</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<slaveApparel>true</slaveApparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCRCF/NCRCF_Inmates/NCRCF_Inmate_Uniform/FCP_NCRCF_Inmate_Uniform</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_NCRCF_Inmate</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Slave</li>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!-- NCRCF Jacket -->
+	<!-- NCRCF Jacket -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
-        <defName>FCP_Apparel_NCRCF_Over_Shirt</defName>
-        <description>A simple overshirt worn by inmates of the NCRCF. It’s meant to identify the inmates as such and doesn’t offer much protection against any kind of threat. Despite this, the Powder Gangers still wear these, probably because of the lack of alternative garments.</description>
-        <label>NCRCF Over Shirt</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCRCF/NCRCF_Inmates/NCRCF_Over_Shirt/FCP_NCRCF_Over_Shirt</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <techLevel>Industrial</techLevel>
-        <costList>
-            <Cloth>100</Cloth>
-        </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>100</MaxHitPoints>
-            <WorkToMake>2700</WorkToMake>
-            <Mass>0.3</Mass>
-            <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.02</ArmorRating_Heat>
-            <Insulation_Cold>2.6</Insulation_Cold>
-            <Insulation_Heat>5.6</Insulation_Heat>
-            <EquipDelay>1.5</EquipDelay>
-        </statBases>
-        <apparel>
-            <shellRenderedBehindHead>true</shellRenderedBehindHead>
-            <slaveApparel>true</slaveApparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCRCF/NCRCF_Inmates/NCRCF_Over_Shirt/FCP_NCRCF_Over_Shirt</wornGraphicPath>
-            <layers>
-                <li>Shell</li>
-            </layers>
-            <tags>
-                <li>FCP_NCRCF_Inmate</li>
-            </tags>
-            <defaultOutfitTags>
-                <li>Slave</li>
-                <li>Worker</li>
-            </defaultOutfitTags>
-        </apparel>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>FCP_Apparel_NCRCF_Over_Shirt</defName>
+		<description>A simple overshirt worn by inmates of the NCRCF. It’s meant to identify the inmates as such and doesn’t offer much protection against any kind of threat. Despite this, the Powder Gangers still wear these, probably because of the lack of alternative garments.</description>
+		<label>NCRCF Over Shirt</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Tailoring_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCRCF/NCRCF_Inmates/NCRCF_Over_Shirt/FCP_NCRCF_Over_Shirt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>100</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2700</WorkToMake>
+			<Mass>0.3</Mass>
+			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Insulation_Cold>2.6</Insulation_Cold>
+			<Insulation_Heat>5.6</Insulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<shellRenderedBehindHead>true</shellRenderedBehindHead>
+			<slaveApparel>true</slaveApparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCRCF/NCRCF_Inmates/NCRCF_Over_Shirt/FCP_NCRCF_Over_Shirt</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>FCP_NCRCF_Inmate</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Slave</li>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!--_____ NCR Armors _____-->
+	<!--_____ NCR Armors _____-->
 
-    <!--___ NCR Army ___-->
+	<!--___ NCR Army ___-->
 
-    <!-- Trooper Armor -->
+	<!-- Trooper Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Trooper_Armor</defName>
-        <description>The standard armor for the rank and file of the NCR military forces. It’s composed of a khaki field jacket and breeches, an armored breastplate and brown combat boots. It protects its wearer well but is heavy.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Trooper Armor</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Armor/FCP_NCR_Trooper_Armor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>8700</WorkToMake>
-            <Mass>4.0</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <Insulation_Cold>3</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Steel>30</Steel>
-            <Cloth>75</Cloth>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Armor/FCP_NCR_Trooper_Armor</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Trooper</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Trooper_Armor</defName>
+		<description>The standard armor for the rank and file of the NCR military forces. It’s composed of a khaki field jacket and breeches, an armored breastplate and brown combat boots. It protects its wearer well but is heavy.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Trooper Armor</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Troopers/NCR_Trooper_Armor/FCP_NCR_Trooper_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>8700</WorkToMake>
+			<Mass>4.0</Mass>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Steel>30</Steel>
+			<Cloth>75</Cloth>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Armor/FCP_NCR_Trooper_Armor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Trooper</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!-- Trooper Bandoleer Armor -->
+	<!-- Trooper Bandoleer Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</defName>
-        <description>This armor is essentially the regular NCR armed forces uniform composed of a khaki field jacket and breeches, an armored breastplate and brown combat boots, but features a bandoleer for carrying additional ammunition and other military equipment.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Trooper Bandoleer Armor</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Bandoleer_Armor/FCP_NCR_Bandoleer_Armor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>8800</WorkToMake>
-            <Mass>4.0</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <Insulation_Cold>3</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <CarryingCapacity>5</CarryingCapacity>            <!-- Extra carry weight due to bandoleer -->
-        </equippedStatOffsets>
-        <costList>
-            <Steel>30</Steel>
-            <Cloth>90</Cloth>            <!-- Extra cloth cost to account for the bandoleer, should probably add extra carry weight to make it worth it -->
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Bandoleer_Armor/FCP_NCR_Bandoleer_Armor</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Trooper</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</defName>
+		<description>This armor is essentially the regular NCR armed forces uniform composed of a khaki field jacket and breeches, an armored breastplate and brown combat boots, but features a bandoleer for carrying additional ammunition and other military equipment.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Trooper Bandoleer Armor</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Troopers/NCR_Trooper_Bandoleer_Armor/FCP_NCR_Bandoleer_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>8800</WorkToMake>
+			<Mass>4.0</Mass>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>5</CarryingCapacity>
+			<!-- Extra carry weight due to bandoleer -->
+		</equippedStatOffsets>
+		<costList>
+			<Steel>30</Steel>
+			<Cloth>90</Cloth>
+			<!-- Extra cloth cost to account for the bandoleer, should probably add extra carry weight to make it worth it -->
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Bandoleer_Armor/FCP_NCR_Bandoleer_Armor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Trooper</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!-- Trooper Vest -->
+	<!-- Trooper Vest -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Trooper_Vest</defName>
-        <description>A vest often worn by NCR troopers. It’s composed of a reinforced chestplate and armoured pauldrons. While it offers quite a bit of additional protection, it only covers the torso and shoulders, leaving the lower body parts and the head unprotected.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Trooper Vest</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Vest/FCP_NCR_Trooper_Vest</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>1200</WorkToMake>
-            <Mass>2.0</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Cloth>30</Cloth>
-            <Steel>30</Steel>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Vest/FCP_NCR_Trooper_Vest</wornGraphicPath>
-            <layers>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Trooper</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Trooper_Vest</defName>
+		<description>A vest often worn by NCR troopers. It’s composed of a reinforced chestplate and armoured pauldrons. While it offers quite a bit of additional protection, it only covers the torso and shoulders, leaving the lower body parts and the head unprotected.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Trooper Vest</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Troopers/NCR_Trooper_Vest/FCP_NCR_Trooper_Vest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>2.0</Mass>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Cloth>30</Cloth>
+			<Steel>30</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Vest/FCP_NCR_Trooper_Vest</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Trooper</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!-- Trooper Mantle Armor -->
+	<!-- Trooper Mantle Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Trooper_Mantle_Armor</defName>
-        <description>This suit of armor is often worn by the sergeants and corporals of the NCR military. In addition to the standard khaki field jacket and breeches, as well as an armored breastplate, this armor also features a camouflaged cloth wrapped around the shoulder. It offers decent protection but is quite heavy.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Trooper Mantle Armor</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Mantle_Armor/FCP_NCR_Mantle_Armor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>8900</WorkToMake>
-            <Mass>4.0</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <Insulation_Cold>3</Insulation_Cold>
-            <Insulation_Heat>7</Insulation_Heat>            <!-- Better protection against the heat due to the mantle -->
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Steel>30</Steel>
-            <Cloth>110</Cloth>            <!-- Extra cloth cost to account for the mantle -->
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Mantle_Armor/FCP_NCR_Mantle_Armor</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Trooper</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Trooper_Mantle_Armor</defName>
+		<description>This suit of armor is often worn by the sergeants and corporals of the NCR military. In addition to the standard khaki field jacket and breeches, as well as an armored breastplate, this armor also features a camouflaged cloth wrapped around the shoulder. It offers decent protection but is quite heavy.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Trooper Mantle Armor</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Troopers/NCR_Trooper_Mantle_Armor/FCP_NCR_Mantle_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>8900</WorkToMake>
+			<Mass>4.0</Mass>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>7</Insulation_Heat>
+			<!-- Better protection against the heat due to the mantle -->
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Steel>30</Steel>
+			<Cloth>110</Cloth>
+			<!-- Extra cloth cost to account for the mantle -->
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Mantle_Armor/FCP_NCR_Mantle_Armor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Trooper</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!-- Scout Recon -->
+	<!-- Scout Recon -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Scout_Recon_Armor</defName>
-        <description>An armor usually worn by the NCR’s sniper squads and recon teams. It’s very similar looking to other NCR armor, but is darker for camouflage purposes. It provides good protection but, like most NCR armors, is quite heavy.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Recon Assault Armor</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Special_Forces</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Troopers/NCR_Trooper_Scout_Recon_Armor/FCP_NCR_Scout_Recon_Armor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>8900</WorkToMake>
-            <Mass>4.0</Mass>
-            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.25</ArmorRating_Heat>
-            <Insulation_Cold>12</Insulation_Cold>
-            <Insulation_Heat>5</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Steel>40</Steel>
-            <Cloth>90</Cloth>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Scout_Recon_Armor/FCP_NCR_Scout_Recon_Armor</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Trooper_Recon</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Scout_Recon_Armor</defName>
+		<description>An armor usually worn by the NCR’s sniper squads and recon teams. It’s very similar looking to other NCR armor, but is darker for camouflage purposes. It provides good protection but, like most NCR armors, is quite heavy.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Recon Assault Armor</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Special_Forces</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Troopers/NCR_Trooper_Scout_Recon_Armor/FCP_NCR_Scout_Recon_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>8900</WorkToMake>
+			<Mass>4.0</Mass>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>12</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Steel>40</Steel>
+			<Cloth>90</Cloth>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Scout_Recon_Armor/FCP_NCR_Scout_Recon_Armor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Trooper_Recon</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!-- Power Armor -->
+	<!-- Power Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Salvaged_Power_Armor</defName>
-        <description>A suit of T-45d power armor, captured by the NCR during the NCR-Brotherhood war. Technicians stripped out the servomotors and replaced the rad scrubbers with a custom air conditioning module, allowing it to be used by soldiers without the need of specialised training. This process, however, makes the armor much less effective. Despite that it still is, essentially, power armor and offers superior protection at the cost of enormous weight. It’s usually only worn by the NCR heavy troopers.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Salvaged Power Armor</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Heavy_Trooper_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Power_Armor/NCR_Salvaged_Power_Armor/NCR_Power_Armor/FCP_NCR_Salvaged_Power_Armor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>400</MaxHitPoints>
-            <WorkToMake>10200</WorkToMake>
-            <Mass>6.5</Mass>
-            <MarketValue>2800</MarketValue>
-            <ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-            <ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.65</ArmorRating_Heat>
-            <Insulation_Cold>3</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>3.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Steel>170</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <apparel>
-            <shellRenderedBehindHead>true</shellRenderedBehindHead>
-            <bodyPartGroups>
-                <li>Neck</li>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Power_Armor/NCR_Salvaged_Power_Armor/NCR_Power_Armor/FCP_NCR_Salvaged_Power_Armor</wornGraphicPath>
-            <layers>
-                <li>Middle</li>
-                <li>Shell</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Trooper_Heavy</li>
-            </tags>
-        </apparel>
-        <modExtensions>
-            <li Class="FalloutCore.ApparelExtension">
-                <shouldHideBody>True</shouldHideBody>
-                <displayBodyType>Hulk</displayBodyType>
-            </li>
-        </modExtensions>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Salvaged_Power_Armor</defName>
+		<description>A suit of T-45d power armor, captured by the NCR during the NCR-Brotherhood war. Technicians stripped out the servomotors and replaced the rad scrubbers with a custom air conditioning module, allowing it to be used by soldiers without the need of specialised training. This process, however, makes the armor much less effective. Despite that it still is, essentially, power armor and offers superior protection at the cost of enormous weight. It’s usually only worn by the NCR heavy troopers.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Salvaged Power Armor</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Heavy_Trooper_Corps</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Power_Armor/NCR_Salvaged_Power_Armor/NCR_Power_Armor/FCP_NCR_Salvaged_Power_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToMake>10200</WorkToMake>
+			<Mass>6.5</Mass>
+			<MarketValue>2800</MarketValue>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>3.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Steel>170</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<apparel>
+			<shellRenderedBehindHead>true</shellRenderedBehindHead>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Power_Armor/NCR_Salvaged_Power_Armor/NCR_Power_Armor/FCP_NCR_Salvaged_Power_Armor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Trooper_Heavy</li>
+			</tags>
+		</apparel>
+		<modExtensions>
+			<li Class="FalloutCore.ApparelExtension">
+				<shouldHideBody>True</shouldHideBody>
+				<displayBodyType>Hulk</displayBodyType>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!--___ NCR Rangers ___-->
+	<!--___ NCR Rangers ___-->
 
-    <!-- Ranger Patrol Armor -->
+	<!-- Ranger Patrol Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Ranger_Patrol_Armor</defName>
-        <description>A suit of brownish combat armor, hand-manufactured in the NCR and most often worn by the NCR Rangers. As it is combat armor, it’s sturdy and protects very well against damage, but weighs quite a lot.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Ranger Patrol Armor</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Ranger_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Rangers/NCR_Patrol_Rangers/NCR_Ranger_Patrol_Armor/FCP_NCR_Ranger_Patrol_Armor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>250</MaxHitPoints>
-            <WorkToMake>9200</WorkToMake>
-            <Mass>5.0</Mass>
-            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.30</ArmorRating_Heat>
-            <Insulation_Cold>5</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Steel>90</Steel>
-            <Cloth>10</Cloth>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Legs</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Patrol_Rangers/NCR_Ranger_Patrol_Armor/FCP_NCR_Ranger_Patrol_Armor</wornGraphicPath>
-            <layers>
-                <li>OnSkin</li>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Ranger_Patrol</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Ranger_Patrol_Armor</defName>
+		<description>A suit of brownish combat armor, hand-manufactured in the NCR and most often worn by the NCR Rangers. As it is combat armor, it’s sturdy and protects very well against damage, but weighs quite a lot.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Ranger Patrol Armor</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Ranger_Corps</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Rangers/NCR_Patrol_Rangers/NCR_Ranger_Patrol_Armor/FCP_NCR_Ranger_Patrol_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>9200</WorkToMake>
+			<Mass>5.0</Mass>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.30</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Steel>90</Steel>
+			<Cloth>10</Cloth>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Patrol_Rangers/NCR_Ranger_Patrol_Armor/FCP_NCR_Ranger_Patrol_Armor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Ranger_Patrol</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!-- Veteran Ranger Armor -->
+	<!-- Veteran Ranger Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Ranger_Veteran_Armor</defName>
-        <description>A combat vest composed of the chestplate of a combat armour. It’s often worn by the rangers and offers formidable protection. Its biggest drawback is that it only covers the torso, leaving the appendages unprotected.</description>
-        <techLevel>Industrial</techLevel>
-        <label>NCR Veteran Ranger Armor</label>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Armor/FCP_NCR_Ranger_Combat_Vest</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <statBases>
-            <MaxHitPoints>275</MaxHitPoints>
-            <WorkToMake>9200</WorkToMake>
-            <Mass>4.0</Mass>
-            <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.35</ArmorRating_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <costList>
-            <Cloth>30</Cloth>
-            <Steel>75</Steel>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Armor/FCP_NCR_Ranger_Combat_Vest</wornGraphicPath>
-            <layers>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_NCR_Ranger_Veteran</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Rare</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCR_Ranger_Veteran_Armor</defName>
+		<description>A combat vest composed of the chestplate of a combat armour. It’s often worn by the rangers and offers formidable protection. Its biggest drawback is that it only covers the torso, leaving the appendages unprotected.</description>
+		<techLevel>Industrial</techLevel>
+		<label>NCR Veteran Ranger Armor</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Armor/FCP_NCR_Ranger_Combat_Vest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>275</MaxHitPoints>
+			<WorkToMake>9200</WorkToMake>
+			<Mass>4.0</Mass>
+			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<costList>
+			<Cloth>30</Cloth>
+			<Steel>75</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Armor/FCP_NCR_Ranger_Combat_Vest</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_NCR_Ranger_Veteran</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
 
-    <!--___ NCRCF ___-->
+	<!--___ NCRCF ___-->
 
-    <!-- NCRCF Guard Armor -->
+	<!-- NCRCF Guard Armor -->
 
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCRCF_Guard_Vest</defName>
-        <label>NCRCF Guard Vest</label>
-        <description>A padded vest often worn by the guards of the NCRCF. While less protective than full-blown armour, it guards its wearer quite well against small firearms.</description>
-        <techLevel>Industrial</techLevel>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <graphicData>
-            <texPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Vest/FCP_NCRCF_Guard_Vest</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
-        </graphicData>
-        <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>750</WorkToMake>
-            <Mass>3.8</Mass>
-            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <EquipDelay>1.2</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <SlaveSuppressionOffset>0.52</SlaveSuppressionOffset>
-        </equippedStatOffsets>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <costList>
-            <Steel>25</Steel>
-            <Leather_Plain>25</Leather_Plain>
-        </costList>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Shoulders</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Vest/FCP_NCRCF_Guard_Vest</wornGraphicPath>
-            <layers>
-                <li>Middle</li>
-            </layers>
-            <tags>
-                <li>FCP_NCRCF_Guard</li>
-            </tags>
-        </apparel>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-        </comps>
-        <tradeTags>
-            <li>FCP_Trade_Tag_NCR_Apparel</li>
-        </tradeTags>
-    </ThingDef>
-
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>FCP_Apparel_NCRCF_Guard_Vest</defName>
+		<label>NCRCF Guard Vest</label>
+		<description>A padded vest often worn by the guards of the NCRCF. While less protective than full-blown armour, it guards its wearer quite well against small firearms.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Armor_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Vest/FCP_NCRCF_Guard_Vest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>750</WorkToMake>
+			<Mass>3.8</Mass>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<EquipDelay>1.2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset>0.52</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Steel>25</Steel>
+			<Leather_Plain>25</Leather_Plain>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Vest/FCP_NCRCF_Guard_Vest</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_NCRCF_Guard</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_NCR_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+	
 </Defs>
