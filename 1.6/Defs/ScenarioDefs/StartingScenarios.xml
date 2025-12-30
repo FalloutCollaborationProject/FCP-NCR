@@ -42,9 +42,8 @@
                 </li>
 
                 <!-- Player starting stuff spawn method-->
-                <li Class="ScenPart_PlayerPawnsArriveMethod">
-                    <def>PlayerPawnsArriveMethod</def>
-                    <method>Standing</method>
+                <li Class="FCP_Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
+                    <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
 
                 <!-- Player pawns modifiers -->
