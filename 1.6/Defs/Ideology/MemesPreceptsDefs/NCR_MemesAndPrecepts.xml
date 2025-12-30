@@ -9,7 +9,7 @@
         <defName>FCP_Meme_OldWorldBlues</defName>
         <label>Old World Blues</label>
         <description>The New California Republic (NCR) is a federal presidential republic founded in New California, comprised of five contiguous states and additional territorial holdings in Nevada and Baja California. The NCR emphasizes and strives to support a myriad of old world values, such as democracy, personal liberty, and the rule of law. It also aims to restore general order to the wasteland, the improvement and development of infrastructure and economic systems, and overarching peace between people. Similar to institutions of the old world it seeks to emulate, continued expansion has created challenges with territorial control, loyalty, and corruption that plague the Republic and serve to hinder its goals.</description>
-        <iconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</iconPath>
+        <iconPath>Things/UI/Ideology/FCP_Old_World_Government</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>

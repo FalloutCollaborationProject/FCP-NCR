@@ -3,7 +3,7 @@
 
     <IdeoIconDef>
         <defName>FCP_Icon_NCR</defName>
-        <iconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</iconPath>
+        <iconPath>Things/UI/Ideology/FCP_Old_World_Government</iconPath>
         <cultures>
             <li>FCP_Culture_NCR_Californian</li>
         </cultures>

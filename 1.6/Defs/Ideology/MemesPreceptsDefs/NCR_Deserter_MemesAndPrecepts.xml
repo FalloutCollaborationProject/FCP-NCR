@@ -9,7 +9,7 @@
         <defName>FCP_Meme_NCRDeserters</defName>
         <label>NCR Deserters</label>
         <description>Once loyal to the New California Republic, these individuals have turned their backs on the old world order. Disillusioned by corruption and endless war, they now value survival, independence, and camaraderie above all else. They are wary of authority, skeptical of grand ideals, and quick to defend their own. Their code is one of mutual aid, hard-earned trust, and doing what it takes to survive in the wasteland.</description>
-        <iconPath>World_Icon/NCR_Icon/FCP_NCR_Deserters_World_Icon</iconPath>
+        <iconPath>Things/UI/Ideology/FCP_NCR_Deserters</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
