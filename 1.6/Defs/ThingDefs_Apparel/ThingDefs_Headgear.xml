@@ -355,9 +355,9 @@
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>1</Mass>
             <MarketValue>650</MarketValue>
-            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.42</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.60</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.10</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <Insulation_Heat>2</Insulation_Heat>
             <EquipDelay>1.5</EquipDelay>
@@ -571,9 +571,9 @@
             <WorkToMake>3500</WorkToMake>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>0.8</Mass>
-            <ArmorRating_Sharp>0.78</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.42</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.85</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.65</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.30</ArmorRating_Heat>
             <Insulation_Heat>2</Insulation_Heat>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
