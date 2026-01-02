@@ -542,6 +542,12 @@
                     <li MayRequire="altushka.boscompendium">DRK_Enclave</li>
                 </hostileFactionDefs>
             </li>
+            <!-- Make them hostile to the Great Khans -->
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="altushka.boscompendium">FCP_Faction_GreatKhans</li>
+                </hostileFactionDefs>
+            </li>
             <!-- Make them unable to use drop pods -->
             <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
                 <arrivalModes>
