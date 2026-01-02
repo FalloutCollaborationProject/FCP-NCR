@@ -119,23 +119,6 @@
         <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <permitPointsAwarded>2</permitPointsAwarded>
         <requiredApparel>
-            <li>
-                <bodyPartGroupsMatchAny>
-                    <li>Torso</li>
-                </bodyPartGroupsMatchAny>
-                <requiredTags>
-                    <li>FCP_NCR_Ranger_Casual</li>
-                </requiredTags>
-            </li>
-            <li>
-                <bodyPartGroupsMatchAny>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
-                </bodyPartGroupsMatchAny>
-                <requiredTags>
-                    <li>FCP_NCR_Ranger_Casual</li>
-                </requiredTags>
-            </li>
         </requiredApparel>
     </RoyalTitleDef>
 
