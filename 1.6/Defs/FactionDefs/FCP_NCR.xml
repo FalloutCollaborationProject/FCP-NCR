@@ -23,7 +23,7 @@
         <pawnSingular>New Californian</pawnSingular>
         <pawnsPlural>New Californians</pawnsPlural>
         <categoryTag>Outlander</categoryTag>
-        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <settlementGenerationWeight>0.3</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>

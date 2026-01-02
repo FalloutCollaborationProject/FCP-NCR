@@ -13,10 +13,10 @@
         <categoryTag>Outlander</categoryTag>
         <techLevel>Industrial</techLevel>
         <colorSpectrum>
-            <li>(0.7, 0.7, 0.7)</li>
+            <li>(1, 1, 1)</li>
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-        <settlementGenerationWeight>0.5</settlementGenerationWeight>
+        <settlementGenerationWeight>0.09</settlementGenerationWeight>
         <requiredCountAtGameStart>0</requiredCountAtGameStart>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
