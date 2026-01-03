@@ -79,6 +79,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--_____ Revolvers _____-->
@@ -158,6 +163,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+        </comps>
     </ThingDef>
 
     <!--_____ Sniper Rifles _____-->
@@ -243,6 +253,9 @@
                 <!-- <DraftedDrawOffset>(0.5, 0)</DraftedDrawOffset> -->
                 <HeldDrawOffset>(0.5, -0.5)</HeldDrawOffset>
             </li>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
         </comps>
     </ThingDef>
 
@@ -322,6 +335,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+        </comps>
     </ThingDef>
 
 </Defs>
