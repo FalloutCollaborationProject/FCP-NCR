@@ -2,7 +2,7 @@
 <Defs>
 
     <!--__________ New California Republic __________-->
-    
+
     <!--_____ NCR Headgear _____-->
 
     <!--___ NCR Army ___-->
@@ -112,6 +112,8 @@
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -140,6 +142,8 @@
                 <li>Eyes</li>
             </bodyPartGroups>
             <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Goggles_Helmet/FCP_NCR_Goggles_Helmet</wornGraphicPath>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -175,6 +179,8 @@
                 <li>Neck</li>
             </bodyPartGroups>
             <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Face_Wrap_Helmet/FCP_NCR_Face_Wrap_Helmet</wornGraphicPath>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -211,6 +217,8 @@
                 <li>Neck</li>
             </bodyPartGroups>
             <wornGraphicPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Face_Wrap_Goggles_Helmet/FCP_NCR_Face_Wrap_Goggles_Helmet</wornGraphicPath>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -236,6 +244,8 @@
             <tags Inherit="False">
                 <li>FCP_NCR_MP</li>
             </tags>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -469,6 +479,8 @@
             <defaultOutfitTags>
                 <li>Worker</li>
             </defaultOutfitTags>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -598,6 +610,8 @@
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">

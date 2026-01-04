@@ -364,7 +364,7 @@
                 <kindDef>Peaceful</kindDef>
                 <options>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
-                    <FCP_Pawnkind_NCR_Citizen>14</FCP_Pawnkind_NCR_Citizen>
+                    <FCP_Pawnkind_NCR_Citizen MayRequire="Rick.FCP.Wastelanders">14</FCP_Pawnkind_NCR_Citizen>
                     <FCP_Pawnkind_NCR_Trooper>9</FCP_Pawnkind_NCR_Trooper>
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                     <FCP_Pawnkind_NCR_Ranger_Veteran>3</FCP_Pawnkind_NCR_Ranger_Veteran>
@@ -436,7 +436,7 @@
                     <FCP_Animal_Brahmin>6</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
-                    <FCP_Pawnkind_NCR_Citizen>5</FCP_Pawnkind_NCR_Citizen>
+                    <FCP_Pawnkind_NCR_Citizen MayRequire="Rick.FCP.Wastelanders">5</FCP_Pawnkind_NCR_Citizen>
                 </guards>
                 <!-- <characterDefs>
                     <li></li>
@@ -489,9 +489,9 @@
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
-                    <FCP_Pawnkind_NCR_Citizen>30</FCP_Pawnkind_NCR_Citizen>
+                    <FCP_Pawnkind_NCR_Citizen MayRequire="Rick.FCP.Wastelanders">30</FCP_Pawnkind_NCR_Citizen>
                     <FCP_Pawnkind_NCR_Crimson_Caravan_Trader>3</FCP_Pawnkind_NCR_Crimson_Caravan_Trader>
-                    <FCP_Pawnkind_NCR_Engineer>15</FCP_Pawnkind_NCR_Engineer>
+                    <FCP_Pawnkind_NCR_Engineer MayRequire="Rick.FCP.Wastelanders">15</FCP_Pawnkind_NCR_Engineer>
                     <FCP_Pawnkind_NCR_Trooper>4</FCP_Pawnkind_NCR_Trooper>
                     <FCP_Pawnkind_NCR_Ranger_Volunteer>5</FCP_Pawnkind_NCR_Ranger_Volunteer>
                     <FCP_Pawnkind_NCR_MP>12</FCP_Pawnkind_NCR_MP>
