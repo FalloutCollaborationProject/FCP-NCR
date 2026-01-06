@@ -103,7 +103,7 @@
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_NCR_Ranger_Elite_Corps</li>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Advanced_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -187,7 +187,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Advanced_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -276,7 +276,7 @@
         </weaponClasses>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Advanced_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
