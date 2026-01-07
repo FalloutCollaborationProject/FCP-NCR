@@ -6,14 +6,14 @@
     <!--_____ NCR _____-->
 
     <ScenarioDef ParentName="ScenarioBase">
-        <defName MayRequire="Rick.FCP.NCR">FCP_Scenario_Lost_Squad</defName>
+        <defName>FCP_Scenario_Lost_Squad</defName>
         <label>Lost Squad</label>
         <description>Your outpost was attacked by unknown enemies. Your squad was sent off in the dead of night to get reinforcements, but you have now become lost. Will you work your way back to the NCR? Or will you stay where you are and survive as new citizens of this desolate wasteland?</description>
         <scenario>
             <summary>Five lost soldiers of the New California Republic attempt to start anew.</summary>
             <playerFaction>
                 <def>PlayerFaction</def>
-                <factionDef>PlayerColony</factionDef>
+                <factionDef>FCP_Faction_NCR_Player</factionDef>
             </playerFaction>
             <parts>
 
