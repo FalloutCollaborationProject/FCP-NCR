@@ -20,10 +20,12 @@
     </modDependencies>
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
-        <li>Rick.FCP.PowerArmor</li>
-        <li>Rick.FCP.Wastelanders</li>
         <li>Rick.FCP.Animals</li>
         <li>Rick.FCP.BallisticWeapons</li>
+        <li>Rick.FCP.GreatKhans</li>
+        <li>Rick.FCP.PowerArmor</li>
+        <li>Rick.FCP.PreWarFood</li>
+        <li>Rick.FCP.Wastelanders</li>
     </loadAfter>
 
 </ModMetaData>
