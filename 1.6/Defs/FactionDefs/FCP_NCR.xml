@@ -506,46 +506,17 @@
             <li Class="FCP.Currencies.CurrencyReplacement">
                 <currency>FCP_Currency_NCR_Dollar</currency>
             </li>
-            <!-- Make them hostile to the legion -->
+            <!-- Make them hostile to the Legion, Great Khans, Brotherhood of Steel, and Enclave -->
             <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
-                </hostileFactionDefs>
-            </li>
-            <!-- Make them hostile to the Brotherhood of Steel -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
-                <hostileFactionDefs>
-                    <li MayRequire="altushka.boscompendium">FCP_Faction_BoS</li>
-                </hostileFactionDefs>
-            </li>
-            <!-- Make them hostile to the Brotherhood of Steel Outcasts -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
-                <hostileFactionDefs>
-                    <li MayRequire="altushka.boscompendium">FCP_Faction_BoS_Outcast_Remnants</li>
-                </hostileFactionDefs>
-            </li>
-            <!-- Make them hostile to the Compendium Brotherhood of Steel -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
-                <hostileFactionDefs>
                     <li MayRequire="altushka.boscompendium">DRK_BoS</li>
-                </hostileFactionDefs>
-            </li>
-            <!-- Make them hostile to the Enclave -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
-                <hostileFactionDefs>
-                    <li MayRequire="altushka.boscompendium">FCP_Faction_Enclave</li>
-                </hostileFactionDefs>
-            </li>
-            <!-- Make them hostile to the Compendium Enclave -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
-                <hostileFactionDefs>
+                    <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS</li>
+                    <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS_Outcast_Remnants</li>
+                    <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS_Lost_Hills</li>
                     <li MayRequire="altushka.boscompendium">DRK_Enclave</li>
-                </hostileFactionDefs>
-            </li>
-            <!-- Make them hostile to the Great Khans -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
-                <hostileFactionDefs>
-                    <li MayRequire="altushka.boscompendium">FCP_Faction_GreatKhans</li>
+                    <li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
+                    <li MayRequire="Rick.FCP.Khans">FCP_Faction_Great_Khans</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
