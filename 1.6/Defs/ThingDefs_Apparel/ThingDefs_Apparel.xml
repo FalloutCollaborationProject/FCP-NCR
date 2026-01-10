@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!--__________ New California Republic __________-->
 
@@ -11,7 +11,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>FCP_Apparel_NCR_Engineer_Jumpsuit</defName>
 		<label>NCR Engineer Jumpsuit</label>
-		<description>A khaki jumpsuit with many pockets and pouches attached. It’s commonly worn by engineers and other technical personnel associated with the NCR. It’s useful for carrying around a few spare tools but provides little protection in a firefight.</description>
+		<description>A khaki jumpsuit with many pockets and pouches attached. It�s commonly worn by engineers and other technical personnel associated with the NCR. It�s useful for carrying around a few spare tools but provides little protection in a firefight.</description>
 		<recipeMaker>
 			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
@@ -368,7 +368,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Trooper_MP_Uniform</defName>
-		<description>A uniform labelling the wearer as a member of the NCR military police. It’s quite similar to other NCR uniforms but radiates the authority of the military police.</description>
+		<description>A uniform labelling the wearer as a member of the NCR military police. It�s quite similar to other NCR uniforms but radiates the authority of the military police.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR MP Uniform</label>
 		<recipeMaker>
@@ -435,7 +435,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>FCP_Apparel_NCR_Generals_Uniform</defName>
 		<label>NCR General Uniform</label>
-		<description>A uniform reserved for the highest-ranking officers of the republic’s army, the generals. It’s heavily decorated with motifs commonly associated with the NCR, such as the two-headed bear. It doesn’t offer much protection, however, since the generals of the army rarely serve on the frontlines.</description>
+		<description>A uniform reserved for the highest-ranking officers of the republic�s army, the generals. It�s heavily decorated with motifs commonly associated with the NCR, such as the two-headed bear. It doesn�t offer much protection, however, since the generals of the army rarely serve on the frontlines.</description>
 		<recipeMaker>
 			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
@@ -565,7 +565,7 @@
 	<ThingDef ParentName="FCP_NCR_Ranger_Outfit">
 		<defName>FCP_Apparel_NCR_Ranger_Casual</defName>
 		<label>NCR Ranger Casual Outfit</label>
-		<description>An outfit often worn by the rangers off-duty or underneath additional armour pieces. It’s reminiscent of the outfits worn by the cowboys of old. It’s quite rugged and offers good protection against the scorching sun but should not be the only protection a rangers has once the bullets start flying.</description>
+		<description>An outfit often worn by the rangers off-duty or underneath additional armour pieces. It�s reminiscent of the outfits worn by the cowboys of old. It�s quite rugged and offers good protection against the scorching sun but should not be the only protection a rangers has once the bullets start flying.</description>
 		<graphicData>
 			<texPath>Apparel/NCR_Rangers/NCR_Ranger_Casual_Outfit/FCP_NCR_Ranger_Casual_Outfit</texPath>
 		</graphicData>
@@ -606,7 +606,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Ranger_Veteran_Uniform</defName>
-		<description>A set of clothes made from tough materials such as leathers. It’s often worn underneath armour by the rangers and is particularly well insulating against heat.</description>
+		<description>A set of clothes made from tough materials such as leathers. It�s often worn underneath armour by the rangers and is particularly well insulating against heat.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Veteran Ranger Uniform</label>
 		<recipeMaker>
@@ -669,7 +669,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Ranger_Veteran_Duster</defName>
-		<description>A duster often worn by the rangers. It’s main use is to protect the wearer against the sun and temperatures of the Mojave Desert, but it’s thick enough to provide additional protection in a firefight as well.</description>
+		<description>A duster often worn by the rangers. It�s main use is to protect the wearer against the sun and temperatures of the Mojave Desert, but it�s thick enough to provide additional protection in a firefight as well.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Veteran Ranger Duster</label>
 		<recipeMaker>
@@ -798,7 +798,7 @@
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>FCP_Apparel_NCRCF_Over_Shirt</defName>
-		<description>A simple overshirt worn by inmates of the NCRCF. It’s meant to identify the inmates as such and doesn’t offer much protection against any kind of threat. Despite this, the Powder Gangers still wear these, probably because of the lack of alternative garments.</description>
+		<description>A simple overshirt worn by inmates of the NCRCF. It�s meant to identify the inmates as such and doesn�t offer much protection against any kind of threat. Despite this, the Powder Gangers still wear these, probably because of the lack of alternative garments.</description>
 		<label>NCRCF Over Shirt</label>
 		<recipeMaker>
 			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
@@ -865,7 +865,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Trooper_Armor</defName>
-		<description>The standard armor for the rank and file of the NCR military forces. It’s composed of a khaki field jacket and breeches, an armored breastplate and brown combat boots. It protects its wearer well but is heavy.</description>
+		<description>The standard armor for the rank and file of the NCR military forces. It�s composed of a khaki field jacket and breeches, an armored breastplate and brown combat boots. It protects its wearer well but is heavy.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Trooper Armor</label>
 		<recipeMaker>
@@ -889,8 +889,8 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>8700</WorkToMake>
 			<Mass>4.0</Mass>
-			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.54</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.20</ArmorRating_Heat>
 			<Insulation_Cold>3</Insulation_Cold>
 			<Insulation_Heat>3</Insulation_Heat>
@@ -954,8 +954,8 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>8800</WorkToMake>
 			<Mass>4.0</Mass>
-			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.54</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.20</ArmorRating_Heat>
 			<Insulation_Cold>3</Insulation_Cold>
 			<Insulation_Heat>3</Insulation_Heat>
@@ -1000,7 +1000,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Trooper_Vest</defName>
-		<description>A vest often worn by NCR troopers. It’s composed of a reinforced chestplate and armoured pauldrons. While it offers quite a bit of additional protection, it only covers the torso and shoulders, leaving the lower body parts and the head unprotected.</description>
+		<description>A vest often worn by NCR troopers. It�s composed of a reinforced chestplate and armoured pauldrons. While it offers quite a bit of additional protection, it only covers the torso and shoulders, leaving the lower body parts and the head unprotected.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Trooper Vest</label>
 		<recipeMaker>
@@ -1024,8 +1024,8 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>1200</WorkToMake>
 			<Mass>2.0</Mass>
-			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.54</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.20</ArmorRating_Heat>
 			<EquipDelay>1.2</EquipDelay>
 		</statBases>
@@ -1084,8 +1084,8 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>8900</WorkToMake>
 			<Mass>4.0</Mass>
-			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.56</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.20</ArmorRating_Heat>
 			<Insulation_Cold>3</Insulation_Cold>
 			<Insulation_Heat>7</Insulation_Heat>
@@ -1127,7 +1127,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Scout_Recon_Armor</defName>
-		<description>An armor usually worn by the NCR’s sniper squads and recon teams. It’s very similar looking to other NCR armor, but is darker for camouflage purposes. It provides good protection but, like most NCR armors, is quite heavy.</description>
+		<description>An armor usually worn by the NCR�s sniper squads and recon teams. It�s very similar looking to other NCR armor, but is darker for camouflage purposes. It provides good protection but, like most NCR armors, is quite heavy.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Recon Assault Armor</label>
 		<recipeMaker>
@@ -1151,8 +1151,8 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>8900</WorkToMake>
 			<Mass>4.0</Mass>
-			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.32</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
 			<Insulation_Cold>12</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
@@ -1192,7 +1192,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Salvaged_Power_Armor</defName>
-		<description>A suit of T-45d power armor, captured by the NCR during the NCR-Brotherhood war. Technicians stripped out the servomotors and replaced the rad scrubbers with a custom air conditioning module, allowing it to be used by soldiers without the need of specialised training. This process, however, makes the armor much less effective. Despite that it still is, essentially, power armor and offers superior protection at the cost of enormous weight. It’s usually only worn by the NCR heavy troopers.</description>
+		<description>A suit of T-45d power armor, captured by the NCR during the NCR-Brotherhood war. Technicians stripped out the servomotors and replaced the rad scrubbers with a custom air conditioning module, allowing it to be used by soldiers without the need of specialised training. This process, however, makes the armor much less effective. Despite that it still is, essentially, power armor and offers superior protection at the cost of enormous weight. It�s usually only worn by the NCR heavy troopers.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Salvaged Power Armor</label>
 		<recipeMaker>
@@ -1219,7 +1219,7 @@
 			<MarketValue>2800</MarketValue>
 			<ArmorRating_Sharp>1.60</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.40</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.10</ArmorRating_Heat>
+			<ArmorRating_Heat>0.50</ArmorRating_Heat>
 			<Insulation_Cold>3</Insulation_Cold>
 			<Insulation_Heat>3</Insulation_Heat>
 			<EquipDelay>3.2</EquipDelay>
@@ -1268,7 +1268,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Ranger_Patrol_Armor</defName>
-		<description>A suit of brownish combat armor, hand-manufactured in the NCR and most often worn by the NCR Rangers. As it is combat armor, it’s sturdy and protects very well against damage, but weighs quite a lot.</description>
+		<description>A suit of brownish combat armor, hand-manufactured in the NCR and most often worn by the NCR Rangers. As it is combat armor, it�s sturdy and protects very well against damage, but weighs quite a lot.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Ranger Patrol Armor</label>
 		<recipeMaker>
@@ -1333,7 +1333,7 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>FCP_Apparel_NCR_Ranger_Veteran_Armor</defName>
-		<description>A combat vest composed of the chestplate of a combat armour. It’s often worn by the rangers and offers formidable protection. Its biggest drawback is that it only covers the torso, leaving the appendages unprotected.</description>
+		<description>A combat vest composed of the chestplate of a combat armour. It�s often worn by the rangers and offers formidable protection. Its biggest drawback is that it only covers the torso, leaving the appendages unprotected.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Veteran Ranger Armor</label>
 		<recipeMaker>

@@ -1,4 +1,4 @@
-ï»¿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--__________ Unique Clothing __________-->
   <!--_____ Ranger Rick _____-->
@@ -62,7 +62,7 @@
   <ThingDef MayRequire="Rick.FCP.NCR" ParentName="ApparelBase">
     <defName>FCP_Apparel_Ranger_Ricks_Armor</defName>
     <useHitPoints>false</useHitPoints>
-    <description>A combat vest composed of the chestplate of a combat armor. Itâ€™s often worn by the rangers and offers formidable protection. Its biggest drawback is that it only covers the torso, leaving the appendages unprotected. This set appears to have been customized with extra padding, and a heat resistant coating on the chestpiece. You can also make out a fant name scratched onto the neckpiece normally where unit designations go. "Ranger Rick"</description>
+    <description>A combat vest composed of the chestplate of a combat armor. It’s often worn by the rangers and offers formidable protection. Its biggest drawback is that it only covers the torso, leaving the appendages unprotected. This set appears to have been customized with extra padding, and a heat resistant coating on the chestpiece. You can also make out a fant name scratched onto the neckpiece normally where unit designations go. "Ranger Rick"</description>
     <techLevel>Industrial</techLevel>
     <label>Ranger Ricks' Armor</label>
     <graphicData>
@@ -114,7 +114,7 @@
   <ThingDef MayRequire="Rick.FCP.NCR" ParentName="ApparelBase">
     <defName>FCP_Apparel_Ranger_Ricks_Duster</defName>
     <useHitPoints>false</useHitPoints>
-    <description>A duster often worn by the rangers. Itâ€™s main use is to protect the wearer against the sun and temperatures of the Mojave Desert, but itâ€™s thick enough to provide additional protection in a firefight as well. This one looks a bit rougher than most, having seen a lot of action. The colors are also different from those of the NCR Veterans, it has a darker brown color. It also has the badge of the Desert Rangers still pinned on the chest. A relic of a bygone era. On the inside of the duster someone has hurridly written "Rick".</description>
+    <description>A duster often worn by the rangers. It’s main use is to protect the wearer against the sun and temperatures of the Mojave Desert, but it’s thick enough to provide additional protection in a firefight as well. This one looks a bit rougher than most, having seen a lot of action. The colors are also different from those of the NCR Veterans, it has a darker brown color. It also has the badge of the Desert Rangers still pinned on the chest. A relic of a bygone era. On the inside of the duster someone has hurridly written "Rick".</description>
     <techLevel>Industrial</techLevel>
     <label>Ranger Ricks' Duster</label>
     <graphicData>
