@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 
     <!--__________ Pawnkinds __________-->
 
     <!--_____ NCR Pawnkinds _____-->
 
     <!--___ Characters ___-->
-
     <!-- Character Military Base -->
-
-    <PawnKindDef Name="FCP_NCR_CharacterkindBase" ParentName="FCP_NCRkindBase" Abstract="true">
+    
+<PawnKindDef Name="FCP_NCR_CharacterkindBase" ParentName="FCP_NCRkindBase" Abstract="true">
         <apparelMoney>9999</apparelMoney>
         <gearHealthRange>10</gearHealthRange>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -33,8 +33,8 @@
     </PawnKindDef>
 
     <!-- President Kimball -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_President_Kimball</defName>
         <label>President</label>
         <factionLeader>true</factionLeader>
@@ -43,7 +43,8 @@
             <li>FCP_Apparel_NCR_Presidents_Suit</li>
         </apparelRequired>
         <!-- <weaponMoney>1000~1001</weaponMoney> -->
-        <weaponTags>
+        
+<weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_9mm_Pistol</li>
         </weaponTags>
         <initialWillRange>3~5</initialWillRange>
@@ -62,8 +63,8 @@
     </PawnKindDef>
 
     <!-- Ambassador Crocker -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Ambassador_Crocker</defName>
         <label>Ambassador</label>
         <trader>true</trader>
@@ -91,8 +92,8 @@
     </PawnKindDef>
 
     <!-- General Olvier -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_General_Oliver</defName>
         <label>General</label>
         <combatPower>190</combatPower>
@@ -112,8 +113,8 @@
     </PawnKindDef>
 
     <!-- Colonel Hsu -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Colonel_Hsu</defName>
         <label>Colonel</label>
         <combatPower>95</combatPower>
@@ -136,8 +137,8 @@
     </PawnKindDef>
 
     <!-- Colonel Moore -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Colonel_Moore</defName>
         <label>Colonel</label>
         <combatPower>95</combatPower>
@@ -161,8 +162,8 @@
     </PawnKindDef>
 
     <!-- Chief Hanlon -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Chief_Hanlon</defName>
         <label>Chief Hanlon</label>
         <combatPower>120</combatPower>
@@ -192,8 +193,8 @@
     </PawnKindDef>
 
     <!-- Major Dhatri -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Major_Dhatri</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
@@ -217,8 +218,8 @@
     </PawnKindDef>
 
     <!-- Major Knight -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Major_Knight</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
@@ -245,8 +246,8 @@
     </PawnKindDef>
 
     <!-- Major Kieran -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Major_Kieran</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
@@ -270,8 +271,8 @@
     </PawnKindDef>
 
     <!-- Major Polatli -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Major_Polatli</defName>
         <label>Major</label>
         <combatPower>95</combatPower>
@@ -295,8 +296,8 @@
     </PawnKindDef>
 
     <!-- Captain Parker -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Captain_Parker</defName>
         <label>Captain</label>
         <combatPower>95</combatPower>
@@ -320,8 +321,8 @@
     </PawnKindDef>
 
     <!-- Captain Gilles -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Captain_Gilles</defName>
         <label>Captain</label>
         <combatPower>95</combatPower>
@@ -345,8 +346,8 @@
     </PawnKindDef>
 
     <!-- Lieutenant Gorobets -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Lieutenant_Gorobets</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
@@ -373,8 +374,8 @@
     </PawnKindDef>
 
     <!-- Lieutenant Hayes -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Lieutenant_Hayes</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
@@ -398,8 +399,8 @@
     </PawnKindDef>
 
     <!-- Lieutenant Boyd -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Lieutenant_Boyd</defName>
         <label>Lieutenant</label>
         <combatPower>95</combatPower>
@@ -424,7 +425,6 @@
     </PawnKindDef>
 
     <!-- Sergeant Bitter-Root -->
-
     <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Sergeant_Bitter_Root</defName>
         <label>Sergeant</label>
@@ -449,8 +449,8 @@
     </PawnKindDef>
 
     <!-- Corporal Betsy -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Corporal_Betsy</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
@@ -474,8 +474,8 @@
     </PawnKindDef>
 
     <!-- Corporal Sterling -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Corporal_Sterling</defName>
         <label>Corporal</label>
         <combatPower>110</combatPower>
@@ -498,8 +498,8 @@
     </PawnKindDef>
 
     <!-- Private Brooks (10 of Spades) -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Private_10_of_Spades</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -522,8 +522,8 @@
     </PawnKindDef>
 
     <!-- Corporal Mags -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Corporal_Mags</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
@@ -547,8 +547,8 @@
     </PawnKindDef>
 
     <!-- Private O'Hanahan -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Private_O_Hanahan</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -569,8 +569,8 @@
     </PawnKindDef>
 
     <!-- Private Poindexter -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Private_Poindexter</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -591,8 +591,8 @@
     </PawnKindDef>
 
     <!-- Private Razz -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Private_Razz</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -613,8 +613,8 @@
     </PawnKindDef>
 
     <!-- Private Halford -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Private_Halford</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -638,8 +638,8 @@
     </PawnKindDef>
 
     <!-- Private Seamer -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Private_Seamer</defName>
         <label>Private</label>
         <combatPower>95</combatPower>
@@ -663,8 +663,8 @@
     </PawnKindDef>
 
     <!-- Corporal Walter Hornsby -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Corporal_Hornsby</defName>
         <label>Corporal</label>
         <combatPower>95</combatPower>
@@ -688,8 +688,8 @@
     </PawnKindDef>
 
     <!-- Ranger Comm Officer Castillo -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Castillo</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -713,8 +713,8 @@
     </PawnKindDef>
 
     <!-- Ranger Ghost -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Ghost</defName>
         <label>Ranger</label>
         <combatPower>95</combatPower>
@@ -738,8 +738,8 @@
     </PawnKindDef>
 
     <!-- Ranger Comm Officer Green -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Green</defName>
         <label>Ranger Comm Officer Green</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -763,8 +763,8 @@
     </PawnKindDef>
 
     <!-- Ranger Jackson (Mojave Outpost) -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_A_Jackson</defName>
         <label>Ranger</label>
         <combatPower>95</combatPower>
@@ -788,8 +788,8 @@
     </PawnKindDef>
 
     <!-- Ranger Comm Officer Lenk -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Lenk</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -813,8 +813,8 @@
     </PawnKindDef>
 
     <!-- Ranger Comm Officer Scheffer -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Scheffer</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -838,8 +838,8 @@
     </PawnKindDef>
 
     <!-- Ranger Comm Officer Stepinac -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Stepinac</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -863,8 +863,8 @@
     </PawnKindDef>
 
     <!-- Ranger Comm Officer Tilden -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Tilden</defName>
         <label>Ranger Comm Officer</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -888,8 +888,8 @@
     </PawnKindDef>
 
     <!-- Patrol Ranger Bryce Anders -->
-
-    <PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
+    
+<PawnKindDef ParentName="FCP_NCR_CharacterkindBase">
         <defName>FCP_Pawnkind_NCR_Patrol_Ranger_Anders</defName>
         <label>Patrol Ranger</label>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -914,10 +914,9 @@
     </PawnKindDef>
 
     <!--___ Civilians ___-->
-
     <!-- Engineer -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Engineer</defName>
         <label>NCR engineer</label>
         <combatPower>25</combatPower>
@@ -955,8 +954,8 @@
     </PawnKindDef>
 
     <!-- NCR Citizen -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Citizen</defName>
         <label>NCR Citizen</label>
         <combatPower>55</combatPower>
@@ -995,8 +994,8 @@
     </PawnKindDef>
 
     <!-- NCRCF Inmate -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_NCRCF_Inmate</defName>
         <label>NCRCF Inmate</label>
         <combatPower>25</combatPower>
@@ -1040,8 +1039,8 @@
     </PawnKindDef>
 
     <!-- NCRCF Guard -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_NCRCF_Guard</defName>
         <label>NCRCF Guard</label>
         <combatPower>80</combatPower>
@@ -1081,10 +1080,9 @@
     </PawnKindDef>
 
     <!--___ Traders ___-->
-
     <!-- NCR Quartermaster -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Quartermaster</defName>
         <label>NCR Quartermaster</label>
         <trader>true</trader>
@@ -1121,8 +1119,8 @@
     </PawnKindDef>
 
     <!-- NCRCF Warden -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_NCRCF_Warden</defName>
         <label>NCRCF Warden</label>
         <trader>true</trader>
@@ -1160,8 +1158,8 @@
     </PawnKindDef>
 
     <!-- Crimson Caravan Trader -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Crimson_Caravan_Trader</defName>
         <label>NCR Crimson Caravan Trader</label>
         <trader>true</trader>
@@ -1187,10 +1185,9 @@
     </PawnKindDef>
 
     <!--___ Politicians ___-->
-
     <!-- Tax Collector -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Tax_Collector</defName>
         <label>NCR Tax Collector</label>
         <trader>true</trader>
@@ -1216,8 +1213,8 @@
     </PawnKindDef>
 
     <!-- Ambassador -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Ambassador</defName>
         <label>NCR Ambassador</label>
         <trader>true</trader>
@@ -1243,7 +1240,6 @@
     </PawnKindDef>
 
     <!-- President -->
-
     <!-- <PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_NCR_President</defName>
         <label>NCR President</label>
@@ -1270,10 +1266,9 @@
     </PawnKindDef> -->
 
     <!--___ Military ___-->
-
     <!-- NCR Trooper -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Trooper</defName>
         <label>NCR trooper</label>
         <combatPower>65</combatPower>
@@ -1312,12 +1307,29 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>10~50</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~25</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- NCR MP -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_MP</defName>
         <label>NCR Military Police</label>
         <combatPower>60</combatPower>
@@ -1359,12 +1371,29 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>10~50</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~25</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- NCR Scout Recon -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Scout_Recon</defName>
         <label>NCR 1st Recon Scout</label>
         <combatPower>75</combatPower>
@@ -1404,12 +1433,29 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.65</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>15~60</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>10~30</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- NCR Heavy Trooper -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Trooper_Heavy</defName>
         <label>NCR Heavy Trooper</label>
         <combatPower>90</combatPower>
@@ -1455,12 +1501,29 @@
         <forcedTraits>
             <li>Psychopath</li>
         </forcedTraits>
+        <inventoryOptions>
+            <skipChance>0.60</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>15~60</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>10~30</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- NCR Officer -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Officer</defName>
         <label>NCR Officer</label>
         <combatPower>95</combatPower>
@@ -1503,12 +1566,33 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.60</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>20~80</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~40</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- General -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_General</defName>
         <label>NCR General</label>
         <combatPower>190</combatPower>
@@ -1538,12 +1622,33 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.50</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>30~100</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>20~50</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- Ranger Volunteer -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Volunteer</defName>
         <label>NCR ranger</label>
         <combatPower>75</combatPower>
@@ -1560,7 +1665,7 @@
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Sniper_Rifle</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
-        </weaponTags>   
+        </weaponTags>
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
             <li>Poor</li>
@@ -1579,12 +1684,29 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.65</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>15~60</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>10~30</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- NCR Ranger Patrol -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Patrolman</defName>
         <label>NCR Ranger</label>
         <combatPower>80</combatPower>
@@ -1627,12 +1749,33 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.60</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>20~70</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~35</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
     <!-- NCR Veteran Ranger -->
-
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    
+<PawnKindDef ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Veteran</defName>
         <label>NCR Veteran Ranger</label>
         <combatPower>85</combatPower>
@@ -1679,7 +1822,27 @@
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.55</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <countRange>25~90</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>20~45</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
-
 </Defs>
