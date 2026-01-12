@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 	<!--__________ New California Republic __________-->
 
 	<!--_____ NCR Clothing _____-->
@@ -31,9 +32,6 @@
 		<costList>
 			<Cloth>110</Cloth>
 		</costList>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToMake>6000</WorkToMake>
@@ -107,9 +105,6 @@
 		<costList>
 			<Cloth>135</Cloth>
 		</costList>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToMake>10000</WorkToMake>
@@ -179,9 +174,6 @@
 		<costList>
 			<Cloth>135</Cloth>
 		</costList>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToMake>10000</WorkToMake>
@@ -252,9 +244,6 @@
 		<costList>
 			<Cloth>170</Cloth>
 		</costList>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToMake>10000</WorkToMake>
@@ -455,9 +444,6 @@
 		<costList>
 			<Cloth>150</Cloth>
 		</costList>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToMake>10000</WorkToMake>
@@ -521,9 +507,6 @@
 		<costList>
 			<Cloth>90</Cloth>
 		</costList>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToMake>6000</WorkToMake>
@@ -583,7 +566,10 @@
 		<graphicData>
 			<texPath>Apparel/NCR_Rangers/NCR_Ranger_Red_Scarf_Outfit/FCP_NCR_Ranger_Red_Scarf_Outfit</texPath>
 		</graphicData>
-		<apparel>
+				<thingCategories>
+			<li>Headgear</li>
+		</thingCategories>
+<apparel>
 			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Red_Scarf_Outfit/FCP_NCR_Ranger_Red_Scarf_Outfit</wornGraphicPath>
 		</apparel>
 	</ThingDef>
@@ -597,7 +583,10 @@
 		<graphicData>
 			<texPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</texPath>
 		</graphicData>
-		<apparel>
+				<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+<apparel>
 			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</wornGraphicPath>
 		</apparel>
 	</ThingDef>
@@ -753,9 +742,6 @@
 		<costList>
 			<Cloth>100</Cloth>
 		</costList>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>2700</WorkToMake>
@@ -818,9 +804,6 @@
 		<costList>
 			<Cloth>100</Cloth>
 		</costList>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>2700</WorkToMake>

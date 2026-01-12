@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-
     <!--__________ Pawnkinds __________-->
 
     <!--_____ NCR Pawnkinds _____-->
 
     <!--___ Characters ___-->
+
     <!-- Character Military Base -->
     
     <PawnKindDef Name="FCP_NCR_CharacterkindBase" ParentName="FCP_NCRkindBase" Abstract="true">
@@ -919,6 +919,7 @@
     </PawnKindDef>
 
     <!--___ Civilians ___-->
+
     <!-- Engineer -->
     
     <PawnKindDef ParentName="FCP_NCRkindBase">
@@ -1085,6 +1086,7 @@
     </PawnKindDef>
 
     <!--___ Traders ___-->
+
     <!-- NCR Quartermaster -->
     
     <PawnKindDef ParentName="FCP_NCRkindBase">
@@ -1190,6 +1192,7 @@
     </PawnKindDef>
 
     <!--___ Politicians ___-->
+
     <!-- Tax Collector -->
     
     <PawnKindDef ParentName="FCP_NCRkindBase">
@@ -1272,6 +1275,7 @@
     </PawnKindDef> -->
 
     <!--___ Military ___-->
+    
     <!-- NCR Trooper -->
     
     <PawnKindDef ParentName="FCP_NCRkindBase">

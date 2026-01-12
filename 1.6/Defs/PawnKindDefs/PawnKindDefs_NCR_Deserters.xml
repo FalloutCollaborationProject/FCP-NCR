@@ -9,10 +9,10 @@
         <defName>FCP_Pawnkind_NCR_Deserter_Trooper</defName>
         <label>deserter trooper</label>
         <race>Human</race>
-        <combatPower>120</combatPower>
+        <combatPower>60</combatPower>
         <defaultFactionType>FCP_Faction_NCR_Deserters</defaultFactionType>
         <gearHealthRange>0.7~1.0</gearHealthRange>
-        <apparelMoney>100</apparelMoney>
+        <apparelMoney>500</apparelMoney>
         <weaponMoney>999</weaponMoney>
         <invFoodDef>MealSurvivalPack</invFoodDef>
         <apparelTags>
