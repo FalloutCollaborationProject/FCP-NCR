@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ NCR Unique Character PawnKinds - Part 2 (Rangers) __________-->
+
+    <!-- Chief Hanlon -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Chief_Hanlon</defName>
+        <label>Chief Hanlon</label>
+        <labelPlural>Chief Hanlon</labelPlural>
+        <race>Human</race>
+        <combatPower>140</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Excellent</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>2000~3000</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>1000~2000</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>21~31</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Patrol Ranger Anders -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Patrol_Ranger_Anders</defName>
+        <label>Patrol Ranger Anders</label>
+        <labelPlural>Patrol Ranger Anders</labelPlural>
+        <race>Human</race>
+        <combatPower>110</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Good</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1500~2500</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>800~1500</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>3~4</initialWillRange>
+        <initialResistanceRange>19~29</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Ranger Ghost -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Ranger_Ghost</defName>
+        <label>Ranger Ghost</label>
+        <labelPlural>Ranger Ghost</labelPlural>
+        <race>Human</race>
+        <combatPower>130</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Excellent</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1800~2800</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>1000~1800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>22~32</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Ranger Sterling -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Ranger_Sterling</defName>
+        <label>Ranger Sterling</label>
+        <labelPlural>Ranger Sterling</labelPlural>
+        <race>Human</race>
+        <combatPower>125</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Excellent</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1800~2800</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>900~1600</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>22~32</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Communications Officers -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_Lenk</defName>
+        <label>Comm Officer Lenk</label>
+        <labelPlural>Comm Officer Lenk</labelPlural>
+        <race>Human</race>
+        <combatPower>90</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>800~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_Stepinac</defName>
+        <label>Comm Officer Stepinac</label>
+        <labelPlural>Comm Officer Stepinac</labelPlural>
+        <race>Human</race>
+        <combatPower>90</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>800~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_David_Pappas</defName>
+        <label>Comm Officer Pappas</label>
+        <labelPlural>Comm Officer Pappas</labelPlural>
+        <race>Human</race>
+        <combatPower>90</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>800~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_Christopher_Gaines</defName>
+        <label>Comm Officer Gaines</label>
+        <labelPlural>Comm Officer Gaines</labelPlural>
+        <race>Human</race>
+        <combatPower>90</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>800~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_Alex_Richards</defName>
+        <label>Comm Officer Richards</label>
+        <labelPlural>Comm Officer Richards</labelPlural>
+        <race>Human</race>
+        <combatPower>90</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>800~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_Catherine_Stone</defName>
+        <label>Comm Officer Stone</label>
+        <labelPlural>Comm Officer Stone</labelPlural>
+        <race>Human</race>
+        <combatPower>90</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>800~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_Grant</defName>
+        <label>Comm Officer Grant</label>
+        <labelPlural>Comm Officer Grant</labelPlural>
+        <race>Human</race>
+        <combatPower>90</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>800~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_Traci</defName>
+        <label>Comm Officer Traci</label>
+        <labelPlural>Comm Officer Traci</labelPlural>
+        <race>Human</race>
+        <combatPower>90</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>800~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>2~3</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+</Defs>

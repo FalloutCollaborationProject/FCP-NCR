@@ -159,8 +159,8 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">8</FCP_Animal_NCR_Guard_Dog>
                     <FCP_Pawnkind_NCR_Trooper>15</FCP_Pawnkind_NCR_Trooper>
                     <FCP_Pawnkind_NCR_Officer>2</FCP_Pawnkind_NCR_Officer>
-                    <FCP_Pawnkind_NCR_Captain_Parker>1</FCP_Pawnkind_NCR_Captain_Parker>
-                    <FCP_Pawnkind_NCR_Lieutenant_Hayes>1</FCP_Pawnkind_NCR_Lieutenant_Hayes>
+                    <FCP_Unique_Pawnkind_Captain_Kyle_Parker>1</FCP_Unique_Pawnkind_Captain_Kyle_Parker>
+                    <FCP_Unique_Pawnkind_Lieutenant_Jesse_Hayes>1</FCP_Unique_Pawnkind_Lieutenant_Jesse_Hayes>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
@@ -177,7 +177,7 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">4</FCP_Animal_NCR_Guard_Dog>
                     <FCP_Pawnkind_NCR_Scout_Recon>8</FCP_Pawnkind_NCR_Scout_Recon>
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
-                    <FCP_Pawnkind_NCR_Captain_Gilles>1</FCP_Pawnkind_NCR_Captain_Gilles>
+                    <FCP_Unique_Pawnkind_Captain_April_Gilles>1</FCP_Unique_Pawnkind_Captain_April_Gilles>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
             </li>
@@ -257,12 +257,6 @@
                     <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                 </options>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Mags</li>
-                    <li>FCP_Character_NCR_O_Hanahan</li>
-                    <li>FCP_Character_NCR_Poindexter</li>
-                    <li>FCP_Character_NCR_Razz</li>
-                </characterDefs>
                 <characterChance>0.95</characterChance>
             </li>
 
@@ -277,13 +271,6 @@
                 <options>
                     <FCP_Pawnkind_NCR_Scout_Recon>3</FCP_Pawnkind_NCR_Scout_Recon>
                 </options>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Gorobets</li>
-                    <li>FCP_Character_NCR_Bitter_Root</li>
-                    <li>FCP_Character_NCR_Betsy</li>
-                    <li>FCP_Character_NCR_Sterling</li>
-                    <li>FCP_Character_NCR_10_of_Spades</li>
-                </characterDefs>
                 <characterChance>0.55</characterChance>
             </li>
 
@@ -299,15 +286,6 @@
                     <FCP_Pawnkind_NCR_Trooper_Heavy>8</FCP_Pawnkind_NCR_Trooper_Heavy>
                     <FCP_Pawnkind_NCR_Ranger_Veteran>4</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Oliver</li>
-                    <li>FCP_Character_NCR_Hsu</li>
-                    <li>FCP_Character_NCR_Moore</li>
-                    <li>FCP_Character_NCR_Dhatri</li>
-                    <li>FCP_Character_NCR_Knight</li>
-                    <li>FCP_Character_NCR_Polatli</li>
-                    <li>FCP_Character_NCR_Kieran</li>
-                </characterDefs>
                 <characterChance>0.25</characterChance>
             </li>
 
@@ -323,12 +301,6 @@
                     <FCP_Pawnkind_NCR_MP>6</FCP_Pawnkind_NCR_MP>
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">2</FCP_Animal_NCR_Guard_Dog>
                 </options>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Boyd</li>
-                    <li>FCP_Character_NCR_Halford</li>
-                    <li>FCP_Character_NCR_Seamer</li>
-                    <li>FCP_Character_NCR_Hornsby</li>
-                </characterDefs>
                 <characterChance>0.45</characterChance>
             </li>
 
@@ -341,20 +313,9 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Pawnkind_NCR_Patrol_Ranger_Anders>1</FCP_Pawnkind_NCR_Patrol_Ranger_Anders>
+                    <FCP_Unique_Pawnkind_Patrol_Ranger_Anders>1</FCP_Unique_Pawnkind_Patrol_Ranger_Anders>
                     <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Hanlon</li>
-                    <li>FCP_Character_NCR_Castillo</li>
-                    <li>FCP_Character_NCR_Ghost</li>
-                    <li>FCP_Character_NCR_Green</li>
-                    <li>FCP_Character_NCR_A_Jackson</li>
-                    <li>FCP_Character_NCR_Lenk</li>
-                    <li>FCP_Character_NCR_Scheffer</li>
-                    <li>FCP_Character_NCR_Stepinac</li>
-                    <li>FCP_Character_NCR_Tilden</li>
-                </characterDefs>
                 <characterChance>0.35</characterChance>
             </li>
 
@@ -370,9 +331,6 @@
                     <FCP_Pawnkind_NCR_Ranger_Veteran>3</FCP_Pawnkind_NCR_Ranger_Veteran>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
-                <characterDefs>
-                    <li>FCP_Character_NCR_Crocker</li>
-                </characterDefs>
                 <characterChance>0.35</characterChance>
             </li>
 
@@ -496,7 +454,7 @@
                     <FCP_Pawnkind_NCR_Ranger_Volunteer>5</FCP_Pawnkind_NCR_Ranger_Volunteer>
                     <FCP_Pawnkind_NCR_MP>12</FCP_Pawnkind_NCR_MP>
                     <FCP_Pawnkind_NCR_Ambassador>2</FCP_Pawnkind_NCR_Ambassador>
-                    <FCP_Pawnkind_NCR_President_Kimball>1</FCP_Pawnkind_NCR_President_Kimball>
+                    <FCP_Unique_Pawnkind_President_Kimball>1</FCP_Unique_Pawnkind_President_Kimball>
                 </options>
             </li>
         </pawnGroupMakers>

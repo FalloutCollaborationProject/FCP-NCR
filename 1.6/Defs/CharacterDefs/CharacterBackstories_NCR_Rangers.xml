@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ NCR Ranger Backstories __________-->
+
+    <!--___ Chief Hanlon - Childhood ___-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Chief_Hanlon_Child</defName>
+        <title>frontier orphan</title>
+        <titleShort>orphan</titleShort>
+        <baseDesc>[PAWN_nameDef] lost [PAWN_possessive] parents to raiders at a young age. [PAWN_pronoun] was taken in by the NCR Rangers, who became [PAWN_possessive] new family.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Hanlon_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Chief Hanlon - Adulthood ___-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Chief_Hanlon_Adult</defName>
+        <title>legendary Ranger chief</title>
+        <titleShort>chief ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] became a legendary NCR Ranger, serving with distinction for decades. As Ranger Chief, [PAWN_pronoun] led the defense of Hoover Dam during the First Battle, but grew disillusioned with the endless war.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Chief_Hanlon</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>9</Shooting>
+            <Social>7</Social>
+            <Intellectual>6</Intellectual>
+            <Melee>5</Melee>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--___ Ranger Comm Officers - Childhood ___-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Castillo_Child</defName>
+        <title>border town kid</title>
+        <titleShort>border kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in a town on the edge of NCR territory, seeing Rangers as heroes who protected the frontier. [PAWN_pronoun] aspired to join their ranks.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Castillo_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Ghost_Child</defName>
+        <title>scout's daughter</title>
+        <titleShort>scout kid</titleShort>
+        <baseDesc>[PAWN_nameDef] learned wilderness survival and stealth from [PAWN_possessive] parents, who worked as scouts for NCR caravans. [PAWN_pronoun] could move unseen even as a child.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ghost_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Animals>2</Animals>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Green_Child</defName>
+        <title>Ranger's son</title>
+        <titleShort>ranger kid</titleShort>
+        <baseDesc>[PAWN_nameDef] was raised by a Ranger father, learning combat skills and ranger tactics from childhood. Following in those footsteps was never a question.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Green_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_A_Jackson_Child</defName>
+        <title>outpost kid</title>
+        <titleShort>outpost kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up at remote NCR outposts, watching Rangers come and go. [PAWN_pronoun] learned that Rangers were the Republic's elite.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_A_Jackson_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Lenk_Child</defName>
+        <title>trader's daughter</title>
+        <titleShort>trader kid</titleShort>
+        <baseDesc>[PAWN_nameDef] traveled with [PAWN_possessive] merchant parents, learning to read people and handle dangerous situations. Rangers often provided escort for their caravans.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lenk_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Scheffer_Child</defName>
+        <title>farm defender</title>
+        <titleShort>defender</titleShort>
+        <baseDesc>[PAWN_nameDef] helped defend [PAWN_possessive] family farm from raiders and wildlife, developing the skills that would later serve [PAWN_objective] as a Ranger.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Scheffer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Stepinac_Child</defName>
+        <title>military academy student</title>
+        <titleShort>cadet</titleShort>
+        <baseDesc>[PAWN_nameDef] attended an NCR military academy, where [PAWN_pronoun] excelled in marksmanship and tactics. Rangers recruited the best graduates.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Stepinac_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Tilden_Child</defName>
+        <title>wasteland wanderer</title>
+        <titleShort>wanderer</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up traveling the wasteland, learning self-reliance and survival. [PAWN_pronoun] saw the NCR Rangers as the ultimate wasteland survivors.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Tilden_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Anders_Child</defName>
+        <title>veteran's son</title>
+        <titleShort>vet's kid</titleShort>
+        <baseDesc>[PAWN_nameDef] was raised by an NCR veteran who taught [PAWN_objective] combat skills and respect for those who serve. Becoming a Ranger was the ultimate honor.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Anders_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Rangers - Adulthood ___-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Castillo_Adult</defName>
+        <title>Ranger comm officer</title>
+        <titleShort>ranger officer</titleShort>
+        <baseDesc>[PAWN_nameDef] served as a Ranger communications officer, coordinating operations across the Mojave and ensuring Rangers stayed in contact with command.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Castillo</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>5</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Ghost_Adult</defName>
+        <title>stealth Ranger</title>
+        <titleShort>ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] became known among the Rangers for [PAWN_possessive] exceptional stealth abilities, earning the callsign "Ghost." [PAWN_pronoun] specialized in reconnaissance missions.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Ghost</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Green_Adult</defName>
+        <title>veteran Ranger officer</title>
+        <titleShort>ranger officer</titleShort>
+        <baseDesc>[PAWN_nameDef] followed [PAWN_possessive] father's path to become a Ranger communications officer, serving with distinction and coordinating critical operations.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Green</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_A_Jackson_Adult</defName>
+        <title>Mojave Outpost Ranger</title>
+        <titleShort>ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] was stationed at the vital Mojave Outpost, serving as one of the Rangers responsible for monitoring the Long 15 and protecting NCR supply lines.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_A_Jackson</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Social>4</Social>
+            <Melee>4</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Lenk_Adult</defName>
+        <title>Ranger intelligence officer</title>
+        <titleShort>intel ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] specialized in intelligence gathering and analysis for the Rangers, using [PAWN_possessive] social skills to extract information and coordinate operations.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Lenk</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>7</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Scheffer_Adult</defName>
+        <title>Ranger station commander</title>
+        <titleShort>ranger commander</titleShort>
+        <baseDesc>[PAWN_nameDef] commanded a Ranger station in the Mojave, coordinating patrols and managing communications between remote outposts and NCR command.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Scheffer</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Stepinac_Adult</defName>
+        <title>tactical Ranger officer</title>
+        <titleShort>tactical ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] served as a Ranger communications officer with a focus on tactical operations, planning and coordinating strikes against the NCR's enemies.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Stepinac</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Intellectual>5</Intellectual>
+            <Melee>4</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Tilden_Adult</defName>
+        <title>veteran Ranger scout</title>
+        <titleShort>ranger scout</titleShort>
+        <baseDesc>[PAWN_nameDef] worked as a Ranger scout and communications officer, coordinating long-range patrols and providing critical intelligence on enemy movements.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Tilden</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Social>4</Social>
+            <Melee>4</Melee>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Anders_Adult</defName>
+        <title>patrol Ranger</title>
+        <titleShort>patrol ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] served as a patrol Ranger, wearing the distinctive patrol armor while scouting dangerous territories and engaging hostile forces in the Mojave.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+</Defs>

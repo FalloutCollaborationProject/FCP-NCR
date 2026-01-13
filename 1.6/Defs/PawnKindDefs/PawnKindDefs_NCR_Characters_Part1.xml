@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ NCR Unique Character PawnKinds - Part 1 __________-->
+
+    <!-- President Kimball -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_President_Kimball</defName>
+        <label>President Kimball</label>
+        <labelPlural>President Kimball</labelPlural>
+        <race>Human</race>
+        <combatPower>150</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Good</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>2000~3000</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>1000~2000</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Ambassador Crocker -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Ambassador_Crocker</defName>
+        <label>Ambassador Crocker</label>
+        <labelPlural>Ambassador Crocker</labelPlural>
+        <race>Human</race>
+        <combatPower>80</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Good</itemQuality>
+        <isFighter>false</isFighter>
+        <apparelMoney>1500~2500</apparelMoney>
+        <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>200~500</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- General Oliver -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_General_Oliver</defName>
+        <label>General Oliver</label>
+        <labelPlural>General Oliver</labelPlural>
+        <race>Human</race>
+        <combatPower>140</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Excellent</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>2000~3000</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>1000~2000</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Colonel Hsu -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Colonel_Hsu</defName>
+        <label>Colonel Hsu</label>
+        <labelPlural>Colonel Hsu</labelPlural>
+        <race>Human</race>
+        <combatPower>130</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Excellent</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1800~2800</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>800~1500</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>23~33</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Colonel Moore -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Colonel_Moore</defName>
+        <label>Colonel Moore</label>
+        <labelPlural>Colonel Moore</labelPlural>
+        <race>Human</race>
+        <combatPower>135</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Excellent</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1800~2800</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>800~1500</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>23~33</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Major Dhatri -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Major_Dhatri</defName>
+        <label>Major Dhatri</label>
+        <labelPlural>Major Dhatri</labelPlural>
+        <race>Human</race>
+        <combatPower>120</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Good</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1500~2500</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>700~1200</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>21~31</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Major Knight -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Major_Knight</defName>
+        <label>Major Knight</label>
+        <labelPlural>Major Knight</labelPlural>
+        <race>Human</race>
+        <combatPower>120</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Good</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1500~2500</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>700~1200</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>21~31</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Captain Kieran -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Captain_Kieran</defName>
+        <label>Captain Kieran</label>
+        <labelPlural>Captain Kieran</labelPlural>
+        <race>Human</race>
+        <combatPower>110</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Good</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1200~2000</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>600~1000</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>3~4</initialWillRange>
+        <initialResistanceRange>19~29</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Lieutenant Polatli -->
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Unique_Pawnkind_Lieutenant_Polatli</defName>
+        <label>Lieutenant Polatli</label>
+        <labelPlural>Lieutenant Polatli</labelPlural>
+        <race>Human</race>
+        <combatPower>100</combatPower>
+        <defaultFactionType>FCP_Faction_NCR</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <apparelMoney>1000~1800</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>500~900</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>3~4</initialWillRange>
+        <initialResistanceRange>17~27</initialResistanceRange>
+    </PawnKindDef>
+
+</Defs>

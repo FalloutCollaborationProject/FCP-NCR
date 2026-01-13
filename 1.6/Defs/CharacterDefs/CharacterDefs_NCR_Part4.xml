@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ NCR Character Definitions - Part 4 __________-->
+
+    <!--___ Rangers ___-->
+
+    <!-- Chief Hanlon -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Chief_Hanlon</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Chief_Hanlon</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>900</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Hanlon</firstName>
+                <lastName></lastName>
+                <nickname>Chief</nickname>
+                <gender>Male</gender>
+                <age>52</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(100, 100, 100)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(215, 190, 170)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer Lenk -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_Lenk</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_Lenk</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Lenk</firstName>
+                <lastName></lastName>
+                <nickname>Comm. Lenk</nickname>
+                <gender>Male</gender>
+                <age>35</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 52, 35)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(208, 183, 163)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer Alex Richards -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_Alex_Richards</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_Alex_Richards</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Alex</firstName>
+                <lastName>Richards</lastName>
+                <nickname>Comm. Richards</nickname>
+                <gender>Male</gender>
+                <age>33</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(52, 38, 24)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(210, 185, 165)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer David Pappas -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_David_Pappas</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_David_Pappas</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>David</firstName>
+                <lastName>Pappas</lastName>
+                <nickname>Comm. Pappas</nickname>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(28, 22, 16)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(190, 160, 135)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer Christopher Gaines -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_Christopher_Gaines</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_Christopher_Gaines</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Christopher</firstName>
+                <lastName>Gaines</lastName>
+                <nickname>Comm. Gaines</nickname>
+                <gender>Male</gender>
+                <age>34</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(82, 62, 42)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(202, 178, 158)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer Catherine Stone -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_Catherine_Stone</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_Catherine_Stone</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Catherine</firstName>
+                <lastName>Stone</lastName>
+                <nickname>Comm. Stone</nickname>
+                <gender>Female</gender>
+                <age>32</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(62, 45, 28)</hairColor>
+                <hairDef>FCP_Hair_Prim_N_Proper</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(210, 185, 165)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer Grant -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_Grant</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_Grant</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Grant</firstName>
+                <lastName></lastName>
+                <nickname>Comm. Grant</nickname>
+                <gender>Male</gender>
+                <age>37</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(110, 85, 55)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(220, 195, 175)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer Stepinac -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_Stepinac</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_Stepinac</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Stepinac</firstName>
+                <lastName></lastName>
+                <nickname>Comm. Stepinac</nickname>
+                <gender>Male</gender>
+                <age>35</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(45, 32, 20)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(218, 193, 173)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer Traci -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_Traci</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_Traci</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Traci</firstName>
+                <lastName></lastName>
+                <nickname>Comm. Traci</nickname>
+                <gender>Female</gender>
+                <age>31</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(72, 55, 38)</hairColor>
+                <hairDef>FCP_Hair_Prim_N_Proper</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(205, 180, 160)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Ranger Ghost -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Ranger_Ghost</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Ranger_Ghost</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Ghost</firstName>
+                <lastName></lastName>
+                <nickname>Ghost</nickname>
+                <gender>Female</gender>
+                <age>40</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(245, 245, 245)</hairColor>
+                <hairDef>FCP_Hair_Prim_N_Proper</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(255, 240, 235)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Patrol Ranger Anders -->
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Patrol_Ranger_Anders</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Patrol_Ranger_Anders</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Anders</firstName>
+                <lastName></lastName>
+                <nickname>Ranger Anders</nickname>
+                <gender>Male</gender>
+                <age>28</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(85, 65, 42)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(212, 187, 167)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>
