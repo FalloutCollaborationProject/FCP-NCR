@@ -22,7 +22,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!-- Ambassador Raymond Crocker -->
+    <!-- Ambassador Dennis Crocker -->
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ambassador_Crocker_Child</defName>
@@ -62,7 +62,7 @@
         </workDisables>
     </BackstoryDef>
 
-    <!-- Ambassador Raymond Crocker -->
+    <!-- Ambassador Dennis Crocker -->
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ambassador_Crocker_Adult</defName>
@@ -119,7 +119,7 @@
         </skillGains>
     </BackstoryDef>
 
-    <!-- Colonel William Moore -->
+    <!-- Colonel Cassandra Moore -->
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Colonel_Moore_Child</defName>
@@ -492,6 +492,42 @@
         </skillGains>
     </BackstoryDef>
 
+    <!-- Lieutenant Markland -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Lieutenant_Markland_Child</defName>
+        <title>NCR officer candidate</title>
+        <titleShort>candidate</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in a military family and attended NCR officer training as a teenager. [PAWN_pronoun] showed natural leadership abilities and tactical thinking from an early age.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Markland_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Lieutenant Monroe -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Lieutenant_Monroe_Child</defName>
+        <title>post-war survivor</title>
+        <titleShort>survivor</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in the harsh wasteland, learning to adapt and survive in a world still recovering from nuclear devastation. [PAWN_pronoun] saw military service as a path to stability.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Lieutenant_Monroe_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
     <!--___ Lieutenants - Adulthood ___-->
 
     <!-- Lieutenant Gorobets -->
@@ -557,6 +593,48 @@
         </workDisables>
     </BackstoryDef>
 
+    <!-- Lieutenant Markland -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Lieutenant_Markland_Adult</defName>
+        <title>Forlorn Hope CO</title>
+        <titleShort>lieutenant</titleShort>
+        <baseDesc>[PAWN_nameDef] commanded Camp Forlorn Hope, one of the NCR's most embattled positions. [PAWN_pronoun] struggled with supply shortages and low morale while trying to hold the line against Legion forces.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Lieutenant_Markland</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Shooting>5</Shooting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Lieutenant Monroe -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Lieutenant_Monroe_Adult</defName>
+        <title>Searchlight CO</title>
+        <titleShort>lieutenant</titleShort>
+        <baseDesc>[PAWN_nameDef] commanded Camp Searchlight before it was irradiated by Legion forces. [PAWN_pronoun] barely survived the disaster that claimed most of [PAWN_possessive] troops.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Lieutenant_Monroe_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Shooting>5</Shooting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
     <!--___ Sergeants - Childhood ___-->
 
     <!-- Sergeant Bitter Root -->
@@ -579,6 +657,40 @@
         </forcedTraits>
     </BackstoryDef>
 
+    <!-- Sergeant Astor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_Astor_Child</defName>
+        <title>frontier guard's son</title>
+        <titleShort>guard kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up watching [PAWN_possessive] parents defend NCR settlements from raiders and wildlife. [PAWN_pronoun] learned vigilance and combat skills early in life.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Astor_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Sergeant Contreras -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_Contreras_Child</defName>
+        <title>trader's apprentice</title>
+        <titleShort>trader kid</titleShort>
+        <baseDesc>[PAWN_nameDef] learned the art of trading and negotiation from merchant parents. [PAWN_pronoun] developed a keen eye for profit and opportunity from an early age.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_Contreras_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
     <!--___ Sergeants - Adulthood ___-->
 
     <!-- Sergeant Bitter Root -->
@@ -596,6 +708,42 @@
             <Shooting>7</Shooting>
             <Melee>3</Melee>
             <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Sergeant Astor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_Astor_Adult</defName>
+        <title>Forlorn Hope NCO</title>
+        <titleShort>sergeant</titleShort>
+        <baseDesc>[PAWN_nameDef] served as a non-commissioned officer at Camp Forlorn Hope, managing security and keeping the troops combat-ready despite constant Legion threats and low supplies.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_Astor</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Sergeant Contreras -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_Contreras_Adult</defName>
+        <title>corrupt quartermaster</title>
+        <titleShort>quartermaster</titleShort>
+        <baseDesc>[PAWN_nameDef] became the quartermaster at Camp McCarran, using [PAWN_possessive] position to run black market operations selling NCR supplies for personal profit.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_Contreras_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>5</Intellectual>
+            <Shooting>2</Shooting>
         </skillGains>
     </BackstoryDef>
 
@@ -743,216 +891,9 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--___ Privates - Childhood ___-->
+    <!--___ Rangers - Childhood ___-->
 
-    <!-- Private 10 of Spades -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_10_of_Spades_Child</defName>
-        <title>sharpshooter's son</title>
-        <titleShort>shooter kid</titleShort>
-        <baseDesc>[PAWN_nameDef] learned to shoot at a remarkably young age, showing natural talent with firearms. [PAWN_pronoun] earned [PAWN_possessive] nickname "10 of Spades" for [PAWN_possessive] accuracy.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_10_of_Spades_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>5</Shooting>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private O'Hanahan -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_O_Hanahan_Child</defName>
-        <title>slacker kid</title>
-        <titleShort>slacker</titleShort>
-        <baseDesc>[PAWN_nameDef] had a relatively easy childhood in NCR territory, never taking things too seriously. The military was a rude awakening.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_O_Hanahan_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Social>2</Social>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Poindexter -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Poindexter_Child</defName>
-        <title>bookish child</title>
-        <titleShort>bookworm</titleShort>
-        <baseDesc>[PAWN_nameDef] was more interested in books than combat training, but joined the military out of a sense of patriotic duty to the NCR.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Poindexter_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Intellectual>4</Intellectual>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Razz -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Razz_Child</defName>
-        <title>anxious youth</title>
-        <titleShort>nervous</titleShort>
-        <baseDesc>[PAWN_nameDef] was an anxious child, often worried about what could go wrong. This made military service particularly challenging.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Razz_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Intellectual>2</Intellectual>
-            <Crafting>1</Crafting>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Halford -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Halford_Child</defName>
-        <title>rule follower</title>
-        <titleShort>obedient</titleShort>
-        <baseDesc>[PAWN_nameDef] always followed the rules and respected authority. The structured environment of the NCR military suited [PAWN_objective] perfectly.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Halford_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Social>2</Social>
-            <Shooting>1</Shooting>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Seamer -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Seamer_Child</defName>
-        <title>enlisted family kid</title>
-        <titleShort>enlisted kid</titleShort>
-        <baseDesc>[PAWN_nameDef] came from a family of NCR enlisted soldiers. Military service was not just expected, it was tradition.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Seamer_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>2</Shooting>
-            <Melee>1</Melee>
-        </skillGains>
-    </BackstoryDef>
-
-    <!--___ Privates - Adulthood ___-->
-
-    <!-- Private 10 of Spades -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_10_of_Spades_Adult</defName>
-        <title>1st Recon marksman</title>
-        <titleShort>marksman</titleShort>
-        <baseDesc>[PAWN_nameDef] became one of the youngest members of 1st Recon, earning [PAWN_possessive] place through exceptional marksmanship despite [PAWN_possessive] young age.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Private_10_of_Spades</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>7</Shooting>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private O'Hanahan -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_O_Hanahan_Adult</defName>
-        <title>misfit trooper</title>
-        <titleShort>trooper</titleShort>
-        <baseDesc>[PAWN_nameDef] served in the infamous 9th Platoon "The Misfits," known for their lack of discipline and poor combat readiness.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Private_O_Hanahan</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>3</Shooting>
-            <Social>3</Social>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Poindexter -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Poindexter_Adult</defName>
-        <title>misfit intellectual</title>
-        <titleShort>smart trooper</titleShort>
-        <baseDesc>[PAWN_nameDef] was placed in the 9th Platoon despite [PAWN_possessive] intelligence. [PAWN_pronoun] struggled with the physical demands of military service.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Private_Poindexter</li>
-        </spawnCategories>
-        <skillGains>
-            <Intellectual>5</Intellectual>
-            <Shooting>2</Shooting>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Razz -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Razz_Adult</defName>
-        <title>nervous trooper</title>
-        <titleShort>nervous</titleShort>
-        <baseDesc>[PAWN_nameDef] served in the 9th Platoon, [PAWN_possessive] anxiety making it difficult to perform under pressure. [PAWN_pronoun] tried [PAWN_possessive] best despite constant worry.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Private_Razz</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>3</Shooting>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Halford -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Halford_Adult</defName>
-        <title>NCR MP private</title>
-        <titleShort>MP private</titleShort>
-        <baseDesc>[PAWN_nameDef] served in the Military Police at Camp McCarran, assisting with law enforcement duties and maintaining order among the troops.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Private_Halford</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>3</Shooting>
-            <Social>3</Social>
-            <Melee>2</Melee>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Seamer -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Seamer_Adult</defName>
-        <title>NCR MP guard</title>
-        <titleShort>MP guard</titleShort>
-        <baseDesc>[PAWN_nameDef] worked as a Military Police guard at Camp McCarran, following in [PAWN_possessive] family's tradition of NCR service.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Private_Seamer</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>4</Shooting>
-            <Melee>3</Melee>
-            <Social>2</Social>
-        </skillGains>
-    </BackstoryDef>
-
-    <!--___  Rangers - Chief ___-->
-
-    <!-- Chief Hanlon - Childhood -->
+    <!-- Chief Hanlon -->
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Chief_Hanlon_Child</defName>
@@ -969,7 +910,132 @@
         </skillGains>
     </BackstoryDef>
 
-    <!-- Chief Hanlon - Adulthood -->
+    <!-- Ranger Anders -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Anders_Child</defName>
+        <title>military brat</title>
+        <titleShort>NCR kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up on NCR military bases, the child of career soldiers. [PAWN_pronoun] learned discipline and firearms handling at an early age, naturally drawn to service.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Anders_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Ranger Ghost -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Ghost_Child</defName>
+        <title>scout's daughter</title>
+        <titleShort>scout kid</titleShort>
+        <baseDesc>[PAWN_nameDef] learned wilderness survival and stealth from [PAWN_possessive] parents, who worked as scouts for NCR caravans. [PAWN_pronoun] could move unseen even as a child.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ghost_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Animals>2</Animals>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Ranger Jackson -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Jackson_Child</defName>
+        <title>veteran's son</title>
+        <titleShort>vet kid</titleShort>
+        <baseDesc>[PAWN_nameDef] was raised by an NCR veteran who taught [PAWN_objective] combat tactics, survival skills, and the history of the Rangers. [PAWN_pronoun] idolized the Rangers from childhood.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Jackson_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Ranger Milo -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Milo_Child</defName>
+        <title>caravan scout's kid</title>
+        <titleShort>scout kid</titleShort>
+        <baseDesc>[PAWN_nameDef] traveled with caravan scouts across the wasteland, learning navigation, tracking, and how to spot danger from miles away. These skills made [PAWN_objective] a natural Ranger candidate.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Milo_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Animals>2</Animals>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Ranger Andy -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Andy_Child</defName>
+        <title>frontier settler</title>
+        <titleShort>settler</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up on the dangerous frontier, learning to shoot and survive from necessity. [PAWN_pronoun] saw Rangers as heroes protecting civilization and aspired to join their ranks.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Andy_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Animals>1</Animals>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Ranger Stella -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Stella_Child</defName>
+        <title>Ranger's daughter</title>
+        <titleShort>ranger kid</titleShort>
+        <baseDesc>[PAWN_nameDef] was raised by a Ranger parent, learning marksmanship, tracking, and survival skills from an early age. [PAWN_pronoun] followed naturally in [PAWN_possessive] parent's footsteps.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Stella_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Ranger Erasmus -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Erasmus_Child</defName>
+        <title>desert nomad</title>
+        <titleShort>nomad</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up among desert nomads, learning to navigate harsh terrain and survive with minimal resources. [PAWN_pronoun] joined the NCR to put these skills to use against the Legion.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Erasmus_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Animals>1</Animals>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Rangers - Adulthood ___-->
+
+    <!-- Chief Hanlon -->
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Chief_Hanlon_Adult</defName>
@@ -991,182 +1057,22 @@
         </workDisables>
     </BackstoryDef>
 
-    <!--___ Rangers - Childhood ___-->
-
-    <!-- Ranger Castillo -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Castillo_Child</defName>
-        <title>border town kid</title>
-        <titleShort>border kid</titleShort>
-        <baseDesc>[PAWN_nameDef] grew up in a town on the edge of NCR territory, seeing Rangers as heroes who protected the frontier. [PAWN_pronoun] aspired to join their ranks.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Castillo_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>2</Shooting>
-            <Social>2</Social>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Ranger Ghost -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Ghost_Child</defName>
-        <title>scout's daughter</title>
-        <titleShort>scout kid</titleShort>
-        <baseDesc>[PAWN_nameDef] learned wilderness survival and stealth from [PAWN_possessive] parents, who worked as scouts for NCR caravans. [PAWN_pronoun] could move unseen even as a child.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Ghost_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>3</Shooting>
-            <Animals>2</Animals>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Ranger Green -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Green_Child</defName>
-        <title>Ranger's son</title>
-        <titleShort>ranger kid</titleShort>
-        <baseDesc>[PAWN_nameDef] was raised by a Ranger father, learning combat skills and ranger tactics from childhood. Following in those footsteps was never a question.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Green_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>3</Shooting>
-            <Melee>2</Melee>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Ranger A. Jackson -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_A_Jackson_Child</defName>
-        <title>outpost kid</title>
-        <titleShort>outpost kid</titleShort>
-        <baseDesc>[PAWN_nameDef] grew up at remote NCR outposts, watching Rangers come and go. [PAWN_pronoun] learned that Rangers were the Republic's elite.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_A_Jackson_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>2</Shooting>
-            <Social>2</Social>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Ranger Lenk -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Lenk_Child</defName>
-        <title>trader's daughter</title>
-        <titleShort>trader kid</titleShort>
-        <baseDesc>[PAWN_nameDef] traveled with [PAWN_possessive] merchant parents, learning to read people and handle dangerous situations. Rangers often provided escort for their caravans.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Lenk_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Social>3</Social>
-            <Shooting>2</Shooting>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Ranger Scheffer -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Scheffer_Child</defName>
-        <title>farm defender</title>
-        <titleShort>defender</titleShort>
-        <baseDesc>[PAWN_nameDef] helped defend [PAWN_possessive] family farm from raiders and wildlife, developing the skills that would later serve [PAWN_objective] as a Ranger.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Scheffer_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>3</Shooting>
-            <Plants>1</Plants>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Ranger Stepinac -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Stepinac_Child</defName>
-        <title>military academy student</title>
-        <titleShort>cadet</titleShort>
-        <baseDesc>[PAWN_nameDef] attended an NCR military academy, where [PAWN_pronoun] excelled in marksmanship and tactics. Rangers recruited the best graduates.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Stepinac_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>3</Shooting>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Ranger Tilden -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Tilden_Child</defName>
-        <title>wasteland wanderer</title>
-        <titleShort>wanderer</titleShort>
-        <baseDesc>[PAWN_nameDef] grew up traveling the wasteland, learning self-reliance and survival. [PAWN_pronoun] saw the NCR Rangers as the ultimate wasteland survivors.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Tilden_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>2</Shooting>
-            <Melee>2</Melee>
-        </skillGains>
-    </BackstoryDef>
-
     <!-- Ranger Anders -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Anders_Child</defName>
-        <title>veteran's son</title>
-        <titleShort>vet's kid</titleShort>
-        <baseDesc>[PAWN_nameDef] was raised by an NCR veteran who taught [PAWN_objective] combat skills and respect for those who serve. Becoming a Ranger was the ultimate honor.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Anders_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>3</Shooting>
-            <Melee>1</Melee>
-        </skillGains>
-    </BackstoryDef>
-
-    <!--___ Rangers - Adulthood ___-->
-
-    <!-- Ranger Castillo -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Castillo_Adult</defName>
-        <title>Ranger comm officer</title>
-        <titleShort>ranger officer</titleShort>
-        <baseDesc>[PAWN_nameDef] served as a Ranger communications officer, coordinating operations across the Mojave and ensuring Rangers stayed in contact with command.</baseDesc>
+        <defName>FCP_Backstory_NCR_Ranger_Anders_Adult</defName>
+        <title>patrol ranger</title>
+        <titleShort>ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] earned the coveted Ranger tab through exceptional performance in the field. As a patrol ranger, [PAWN_pronoun] specialized in long-range reconnaissance and border security.</baseDesc>
         <slot>Adulthood</slot>
         <spawnCategories>
-            <li>FCP_Backstory_NCR_Ranger_Castillo</li>
+            <li>FCP_Backstory_NCR_Ranger_Anders</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>6</Shooting>
-            <Social>5</Social>
-            <Intellectual>5</Intellectual>
+            <Shooting>7</Shooting>
+            <Melee>6</Melee>
+            <Social>3</Social>
         </skillGains>
-        <workDisables>
-            <li>ManualDumb</li>
-        </workDisables>
     </BackstoryDef>
 
     <!-- Ranger Ghost -->
@@ -1187,140 +1093,1013 @@
         </skillGains>
     </BackstoryDef>
 
-    <!-- Ranger Green -->
+    <!-- Ranger Jackson -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Green_Adult</defName>
-        <title>veteran Ranger officer</title>
-        <titleShort>ranger officer</titleShort>
-        <baseDesc>[PAWN_nameDef] followed [PAWN_possessive] father's path to become a Ranger communications officer, serving with distinction and coordinating critical operations.</baseDesc>
+        <defName>FCP_Backstory_NCR_Ranger_Jackson_Adult</defName>
+        <title>Mojave Outpost Ranger CO</title>
+        <titleShort>ranger CO</titleShort>
+        <baseDesc>[PAWN_nameDef] commanded the Ranger forces at the Mojave Outpost, a critical gateway into NCR territory. [PAWN_pronoun] was a veteran Ranger with decades of experience, known for [PAWN_possessive] pragmatic approach and steady leadership.</baseDesc>
         <slot>Adulthood</slot>
         <spawnCategories>
-            <li>FCP_Backstory_NCR_Ranger_Green</li>
+            <li>FCP_Backstory_NCR_Ranger_Jackson</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>6</Shooting>
+            <Shooting>7</Shooting>
             <Social>6</Social>
+            <Melee>5</Melee>
             <Intellectual>4</Intellectual>
         </skillGains>
-        <workDisables>
-            <li>ManualDumb</li>
-        </workDisables>
     </BackstoryDef>
 
-    <!-- Ranger A. Jackson -->
+    <!-- Ranger Milo -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_A_Jackson_Adult</defName>
-        <title>Mojave Outpost Ranger</title>
+        <defName>FCP_Backstory_NCR_Ranger_Milo_Adult</defName>
+        <title>Station Charlie Ranger</title>
         <titleShort>ranger</titleShort>
-        <baseDesc>[PAWN_nameDef] was stationed at the vital Mojave Outpost, serving as one of the Rangers responsible for monitoring the Long 15 and protecting NCR supply lines.</baseDesc>
+        <baseDesc>[PAWN_nameDef] was stationed at Ranger Station Charlie, monitoring Legion movements across the Colorado. [PAWN_pronoun] specialized in long-range reconnaissance and remained constantly vigilant against the enemy threat.</baseDesc>
         <slot>Adulthood</slot>
         <spawnCategories>
-            <li>FCP_Backstory_NCR_Ranger_A_Jackson</li>
+            <li>FCP_Backstory_NCR_Ranger_Milo</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>7</Shooting>
-            <Social>4</Social>
-            <Melee>4</Melee>
+            <Shooting>8</Shooting>
+            <Melee>5</Melee>
+            <Intellectual>3</Intellectual>
+            <Social>2</Social>
         </skillGains>
     </BackstoryDef>
 
-    <!-- Ranger Lenk -->
+    <!-- Ranger Andy -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Lenk_Adult</defName>
-        <title>Ranger intelligence officer</title>
-        <titleShort>intel ranger</titleShort>
-        <baseDesc>[PAWN_nameDef] specialized in intelligence gathering and analysis for the Rangers, using [PAWN_possessive] social skills to extract information and coordinate operations.</baseDesc>
+        <defName>FCP_Backstory_NCR_Ranger_Andy_Adult</defName>
+        <title>retired injured Ranger</title>
+        <titleShort>veteran ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] was a decorated NCR Ranger until a severe leg injury forced [PAWN_objective] into semi-retirement at Novac. Despite [PAWN_possessive] injury, [PAWN_pronoun] continued training younger Rangers, passing on decades of combat experience and survival skills.</baseDesc>
         <slot>Adulthood</slot>
         <spawnCategories>
-            <li>FCP_Backstory_NCR_Ranger_Lenk</li>
+            <li>FCP_Backstory_NCR_Ranger_Andy_Adult</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>5</Shooting>
-            <Social>7</Social>
-            <Intellectual>6</Intellectual>
-        </skillGains>
-        <workDisables>
-            <li>ManualDumb</li>
-        </workDisables>
-    </BackstoryDef>
-
-    <!-- Ranger Scheffer -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Scheffer_Adult</defName>
-        <title>Ranger station commander</title>
-        <titleShort>ranger commander</titleShort>
-        <baseDesc>[PAWN_nameDef] commanded a Ranger station in the Mojave, coordinating patrols and managing communications between remote outposts and NCR command.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Ranger_Scheffer</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>6</Shooting>
+            <Shooting>8</Shooting>
             <Social>6</Social>
-            <Intellectual>4</Intellectual>
-        </skillGains>
-        <workDisables>
-            <li>ManualDumb</li>
-        </workDisables>
-    </BackstoryDef>
-
-    <!-- Ranger Stepinac -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Stepinac_Adult</defName>
-        <title>tactical Ranger officer</title>
-        <titleShort>tactical ranger</titleShort>
-        <baseDesc>[PAWN_nameDef] served as a Ranger communications officer with a focus on tactical operations, planning and coordinating strikes against the NCR's enemies.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Ranger_Stepinac</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>7</Shooting>
             <Intellectual>5</Intellectual>
             <Melee>4</Melee>
         </skillGains>
     </BackstoryDef>
 
-    <!-- Ranger Tilden -->
+    <!-- Ranger Stella -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Tilden_Adult</defName>
-        <title>veteran Ranger scout</title>
-        <titleShort>ranger scout</titleShort>
-        <baseDesc>[PAWN_nameDef] worked as a Ranger scout and communications officer, coordinating long-range patrols and providing critical intelligence on enemy movements.</baseDesc>
+        <defName>FCP_Backstory_NCR_Ranger_Stella_Adult</defName>
+        <title>Station Bravo Ranger CO</title>
+        <titleShort>ranger CO</titleShort>
+        <baseDesc>[PAWN_nameDef] commanded Ranger Station Bravo, managing a remote outpost along the Long 15. [PAWN_pronoun] proved herself a capable leader, maintaining discipline and readiness in isolation.</baseDesc>
         <slot>Adulthood</slot>
         <spawnCategories>
-            <li>FCP_Backstory_NCR_Ranger_Tilden</li>
+            <li>FCP_Backstory_NCR_Ranger_Stella_Adult</li>
         </spawnCategories>
         <skillGains>
             <Shooting>7</Shooting>
-            <Social>4</Social>
-            <Melee>4</Melee>
+            <Social>5</Social>
+            <Melee>5</Melee>
             <Intellectual>3</Intellectual>
         </skillGains>
     </BackstoryDef>
 
-    <!-- Ranger Anders -->
+    <!-- Ranger Erasmus -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Ranger_Anders_Adult</defName>
-        <title>patrol Ranger</title>
-        <titleShort>patrol ranger</titleShort>
-        <baseDesc>[PAWN_nameDef] served as a patrol Ranger, wearing the distinctive patrol armor while scouting dangerous territories and engaging hostile forces in the Mojave.</baseDesc>
+        <defName>FCP_Backstory_NCR_Ranger_Erasmus_Adult</defName>
+        <title>Station Delta Ranger</title>
+        <titleShort>ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] was stationed at Ranger Station Delta, the NCR's easternmost outpost monitoring Legion activity. [PAWN_pronoun] was an expert at desert survival and long-range patrol operations in hostile territory.</baseDesc>
         <slot>Adulthood</slot>
         <spawnCategories>
-            <li>FCP_Backstory_NCR_Ranger</li>
+            <li>FCP_Backstory_NCR_Ranger_Erasmus_Adult</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>7</Shooting>
-            <Melee>5</Melee>
+            <Shooting>8</Shooting>
+            <Melee>6</Melee>
+            <Intellectual>3</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Privates - Childhood ___-->
+
+    <!-- Private Davey Crenshaw -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Crenshaw_Child</defName>
+        <title>wasteland orphan</title>
+        <titleShort>orphan</titleShort>
+        <baseDesc>[PAWN_nameDef] was orphaned at a young age and taken in by a small NCR settlement. [PAWN_pronoun] grew up learning to survive and wanting to prove [PAWN_objective] worthy.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Crenshaw_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Hoover -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Hoover_Child</defName>
+        <title>squatter's son</title>
+        <titleShort>squatter kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in a poor squatter camp on the outskirts of NCR territory. Life was hard, but [PAWN_pronoun] learned to make do with little.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Hoover_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private First Class Dustin -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Dustin_Child</defName>
+        <title>farmer's hand</title>
+        <titleShort>farm hand</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up working on an NCR farm, learning the value of hard work and discipline from an early age.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Dustin_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>1</Animals>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private First Class Richie -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Richie_Child</defName>
+        <title>trader's assistant</title>
+        <titleShort>trader kid</titleShort>
+        <baseDesc>[PAWN_nameDef] helped [PAWN_possessive] family run a small trading post, learning to deal with people and manage inventory from a young age.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Richie_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private James Sexton -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Sexton_Child</defName>
+        <title>settlement kid</title>
+        <titleShort>settler</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in a stable NCR settlement, having a relatively normal childhood by wasteland standards.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Sexton_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Gilbert -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Gilbert_Child</defName>
+        <title>brahmin ranch kid</title>
+        <titleShort>ranch kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up on a brahmin ranch, developing [PAWN_possessive] considerable strength through years of physical labor.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gilbert_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Melee>1</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Christina Morales -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Morales_Child</defName>
+        <title>border town youth</title>
+        <titleShort>border youth</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in a town on NCR's southern border, learning multiple languages and cultures from the diverse community.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Morales_Child</li>
+        </spawnCategories>
+        <skillGains>
             <Social>3</Social>
         </skillGains>
+    </BackstoryDef>
+
+    <!-- Private First Class 10 of Spades -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_10_of_Spades_Child</defName>
+        <title>Camp Golf kid</title>
+        <titleShort>golf kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up around Camp Golf, watching NCR soldiers train and dream of joining their ranks. [PAWN_pronoun] earned [PAWN_possessive] unique nickname from a card game incident as a youth.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_10_of_Spades_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>1</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Poindexter (The Misfits) -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Poindexter_Child</defName>
+        <title>bookish youth</title>
+        <titleShort>bookworm</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up as an intellectual among more physical peers. [PAWN_pronoun] read extensively and developed strong analytical skills, but struggled with social connections.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Poindexter_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Shooting>1</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private O'Hanrahan (The Misfits) -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_OHanrahan_Child</defName>
+        <title>jaded recruit</title>
+        <titleShort>cynic</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up witnessing the harsh realities of wasteland life. [PAWN_pronoun] developed a bitter, cynical outlook that made [PAWN_objective] difficult to work with.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_OHanrahan_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Razz (The Misfits) -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Razz_Child</defName>
+        <title>slacker kid</title>
+        <titleShort>slacker</titleShort>
+        <baseDesc>[PAWN_nameDef] always did the bare minimum required, preferring leisure over work. [PAWN_pronoun] developed a reputation for laziness from an early age.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Razz_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Ackerman (The Misfits) -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Ackerman_Child</defName>
+        <title>fearful youth</title>
+        <titleShort>scared kid</titleShort>
+        <baseDesc>[PAWN_nameDef] was always the timid one, afraid of conflict and danger. [PAWN_pronoun] was pressured into military service despite [PAWN_possessive] cowardly nature.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Ackerman_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>1</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Reyes -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Reyes_Child</defName>
+        <title>dam worker's son</title>
+        <titleShort>dam kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up near Hoover Dam, watching the massive structure provide power to the wasteland. [PAWN_pronoun] joined the military to help protect this vital asset.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Reyes_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>1</Construction>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Privates - Adulthood ___-->
+
+    <!-- Private Davey Crenshaw -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Crenshaw_Adult</defName>
+        <title>NCR recruit</title>
+        <titleShort>recruit</titleShort>
+        <baseDesc>[PAWN_nameDef] joined the NCR military to prove [PAWN_objective] and find a place to belong. [PAWN_pronoun] served with dedication despite [PAWN_possessive] young age.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Crenshaw</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Hoover -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Hoover_Adult</defName>
+        <title>drafted soldier</title>
+        <titleShort>draftee</titleShort>
+        <baseDesc>[PAWN_nameDef] was conscripted into NCR service during an expansion of the military. [PAWN_pronoun] served dutifully, though [PAWN_pronoun] hadn't originally planned on military life.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Hoover</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Construction>2</Construction>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private First Class Dustin -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Dustin_Adult</defName>
+        <title>NCR frontline soldier</title>
+        <titleShort>soldier</titleShort>
+        <baseDesc>[PAWN_nameDef] served on the front lines of NCR expansion, seeing combat against raiders and hostile factions. [PAWN_pronoun] earned a promotion to PFC for [PAWN_possessive] steady service.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Dustin</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private First Class Richie -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Richie_Adult</defName>
+        <title>NCR supply trooper</title>
+        <titleShort>trooper</titleShort>
+        <baseDesc>[PAWN_nameDef] worked in supply distribution while serving as an NCR trooper. [PAWN_possessive] organizational skills and people skills earned [PAWN_objective] a promotion to PFC.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Richie</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private James Sexton -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Sexton_Adult</defName>
+        <title>NCR trooper</title>
+        <titleShort>trooper</titleShort>
+        <baseDesc>[PAWN_nameDef] served as a standard NCR trooper, performing guard duty and patrols across the Mojave. [PAWN_pronoun] was reliable if unremarkable.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Sexton</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Gilbert -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Gilbert_Adult</defName>
+        <title>NCR heavy trooper</title>
+        <titleShort>heavy</titleShort>
+        <baseDesc>[PAWN_nameDef] used [PAWN_possessive] considerable strength to carry heavy weapons and equipment for [PAWN_possessive] squad. [PAWN_pronoun] proved valuable in combat situations.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Gilbert</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Christina Morales -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Morales_Adult</defName>
+        <title>bilingual trooper</title>
+        <titleShort>trooper</titleShort>
+        <baseDesc>[PAWN_nameDef] served as an NCR trooper, [PAWN_possessive] language skills occasionally proving useful when dealing with wastelanders and traders from the south.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Morales</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Shooting>4</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private First Class 10 of Spades -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_10_of_Spades_Adult</defName>
+        <title>NCR golf trooper</title>
+        <titleShort>trooper</titleShort>
+        <baseDesc>[PAWN_nameDef] earned promotion to Private First Class while stationed at Camp Golf. Known for [PAWN_possessive] card-playing skills and distinctive nickname, [PAWN_pronoun] proved reliable in combat despite [PAWN_possessive] laid-back demeanor.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_10_of_Spades</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>3</Social>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Stone -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Stone_Adult</defName>
+        <title>Forlorn Hope trooper</title>
+        <titleShort>trooper</titleShort>
+        <baseDesc>[PAWN_nameDef] was assigned to Camp Forlorn Hope, one of the NCR's most dangerous postings. Despite the hardships and constant danger, [PAWN_pronoun] remained optimistic about the NCR's mission.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Stone</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Edwards -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Edwards_Adult</defName>
+        <title>weary frontline soldier</title>
+        <titleShort>soldier</titleShort>
+        <baseDesc>[PAWN_nameDef] served at Camp Forlorn Hope, enduring constant Legion attacks and supply shortages. [PAWN_pronoun] remained dedicated to duty despite growing war-weariness.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Edwards</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Poindexter (The Misfits) -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Poindexter_Adult</defName>
+        <title>Misfits squad leader</title>
+        <titleShort>misfit</titleShort>
+        <baseDesc>[PAWN_nameDef] was assigned to lead "The Misfits," a dysfunctional squad at Camp Golf. Despite [PAWN_possessive] intelligence, [PAWN_pronoun] struggled to motivate the unmotivated troops.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Poindexter_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private O'Hanrahan (The Misfits) -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_OHanrahan_Adult</defName>
+        <title>bitter misfit veteran</title>
+        <titleShort>misfit</titleShort>
+        <baseDesc>[PAWN_nameDef] ended up in the Misfits squad after years of complaints and insubordination. [PAWN_pronoun] resented being stuck with the worst troops at Camp Golf.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_OHanrahan_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Razz (The Misfits) -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Razz_Adult</defName>
+        <title>lazy misfit soldier</title>
+        <titleShort>misfit</titleShort>
+        <baseDesc>[PAWN_nameDef] was assigned to the Misfits for chronic laziness and poor performance. [PAWN_pronoun] preferred sleeping or gambling to actual military duties.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Razz_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Ackerman (The Misfits) -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Ackerman_Adult</defName>
+        <title>cowardly misfit</title>
+        <titleShort>misfit</titleShort>
+        <baseDesc>[PAWN_nameDef] ended up in the Misfits after repeatedly showing cowardice in combat situations. [PAWN_pronoun] was terrified of any real fighting and tried to avoid danger.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Ackerman_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Reyes -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Reyes_Adult</defName>
+        <title>Hoover Dam guard</title>
+        <titleShort>dam guard</titleShort>
+        <baseDesc>[PAWN_nameDef] was stationed at Hoover Dam, guarding one of the NCR's most vital assets. [PAWN_pronoun] took pride in protecting the facility that powered much of the region.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Private_Reyes_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Medical Officers - Childhood ___-->
+
+    <!-- Medical Officer Richards -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Medical_Officer_Richards_Child</defName>
+        <title>doctor's apprentice</title>
+        <titleShort>apprentice</titleShort>
+        <baseDesc>[PAWN_nameDef] learned medicine from a skilled wasteland doctor, developing [PAWN_possessive] healing abilities from a young age. [PAWN_pronoun] felt called to help others.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Richards_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Doctor Kilborn -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Doctor_Kilborn_Child</defName>
+        <title>clinic assistant</title>
+        <titleShort>assistant</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up helping in a frontier clinic, learning medical techniques through hands-on experience. [PAWN_pronoun] witnessed countless preventable deaths that shaped [PAWN_possessive] dedication to medicine.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Doctor_Kilborn_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Quartermaster - Childhood ___-->
+
+    <!-- Quartermaster Mayes -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Quartermaster_Mayes_Child</defName>
+        <title>supply depot kid</title>
+        <titleShort>supply kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up around military supply depots, learning inventory management and logistics from an early age. [PAWN_pronoun] had a natural talent for organization.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Quartermaster_Mayes_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Medical Officers - Adulthood ___-->
+
+    <!-- Medical Officer Richards -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Medical_Officer_Richards_Adult</defName>
+        <title>overworked field doctor</title>
+        <titleShort>field doctor</titleShort>
+        <baseDesc>[PAWN_nameDef] served as the chief medical officer at Camp Forlorn Hope, treating an endless stream of wounded soldiers with limited supplies. The constant casualties wore heavily on [PAWN_objective], but [PAWN_pronoun] refused to abandon [PAWN_possessive] post.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Medical_Officer_Richards</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>9</Medicine>
+            <Intellectual>6</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+            <li>Violent</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Doctor Kilborn -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Doctor_Kilborn_Adult</defName>
+        <title>Forlorn Hope doctor</title>
+        <titleShort>field doctor</titleShort>
+        <baseDesc>[PAWN_nameDef] served as the senior medical officer at Camp Forlorn Hope, working alongside Medical Officer Richards. Together they treated countless wounded soldiers with minimal resources, their skills constantly tested by the brutal frontier conditions.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Doctor_Kilborn_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>8</Medicine>
+            <Intellectual>6</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+            <li>Violent</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--___ Quartermaster - Adulthood ___-->
+
+    <!-- Quartermaster Mayes -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Quartermaster_Mayes_Adult</defName>
+        <title>Forlorn Hope quartermaster</title>
+        <titleShort>quartermaster</titleShort>
+        <baseDesc>[PAWN_nameDef] managed supplies at Camp Forlorn Hope, one of the most challenging logistics positions in the NCR. [PAWN_pronoun] struggled daily to stretch limited resources across troops that desperately needed more.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Quartermaster_Mayes_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>5</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--___ Communications Officers - Childhood ___-->
+
+    <!-- Comm Officer Lenk -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Lenk_Child</defName>
+        <title>radio enthusiast</title>
+        <titleShort>radio kid</titleShort>
+        <baseDesc>[PAWN_nameDef] was fascinated by radio technology from a young age, tinkering with old equipment and learning how communications worked in the wasteland.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Comm_Lenk_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Comm Officer Richards -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Richards_Child</defName>
+        <title>signaler's apprentice</title>
+        <titleShort>signaler</titleShort>
+        <baseDesc>[PAWN_nameDef] learned signal communication from an NCR veteran, studying codes and radio procedures that would later serve [PAWN_objective] well.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Richards_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Comm Officer Pappas -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Pappas_Child</defName>
+        <title>tech scavenger</title>
+        <titleShort>scavenger</titleShort>
+        <baseDesc>[PAWN_nameDef] scavenged pre-war technology with [PAWN_possessive] family, learning how old communications equipment worked and how to repair it.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Pappas_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Comm Officer Gaines -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Gaines_Child</defName>
+        <title>NCR cadet student</title>
+        <titleShort>cadet</titleShort>
+        <baseDesc>[PAWN_nameDef] attended NCR military academy, showing aptitude for communications and coordination that set [PAWN_objective] apart from other students.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gaines_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Comm Officer Stone -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Stone_Child</defName>
+        <title>telegraph operator's daughter</title>
+        <titleShort>operator kid</titleShort>
+        <baseDesc>[PAWN_nameDef] learned communications from [PAWN_possessive] parents, who operated telegraph and radio equipment for an NCR outpost. [PAWN_pronoun] grew up with the clicking of morse code.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Stone_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Comm Officer Grant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Grant_Child</defName>
+        <title>message runner</title>
+        <titleShort>runner</titleShort>
+        <baseDesc>[PAWN_nameDef] worked as a message runner between NCR settlements, learning the importance of clear and accurate communication.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Grant_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Comm Officer Stepinac -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Stepinac_Child</defName>
+        <title>engineer's assistant</title>
+        <titleShort>assistant</titleShort>
+        <baseDesc>[PAWN_nameDef] helped [PAWN_possessive] guardian maintain NCR communications equipment, learning the technical side of radio operations.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Comm_Stepinac_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Comm Officer Traci -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Traci_Child</defName>
+        <title>dispatcher's trainee</title>
+        <titleShort>trainee</titleShort>
+        <baseDesc>[PAWN_nameDef] trained as a dispatcher for NCR caravans, learning to coordinate movements and relay information effectively.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Traci_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Communications Officers - Adulthood ___-->
+
+    <!-- Comm Officer Lenk -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Lenk_Adult</defName>
+        <title>NCR communications officer</title>
+        <titleShort>comm officer</titleShort>
+        <baseDesc>[PAWN_nameDef] managed communications for NCR forces in the Mojave, coordinating radio traffic and ensuring messages reached their destinations.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Lenk</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>4</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Comm Officer Richards -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Richards_Adult</defName>
+        <title>NCR signal specialist</title>
+        <titleShort>signal officer</titleShort>
+        <baseDesc>[PAWN_nameDef] specialized in signal operations for the NCR military, managing secure communications and encryption protocols.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Richards</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Social>3</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Comm Officer Pappas -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Pappas_Adult</defName>
+        <title>NCR radio technician</title>
+        <titleShort>radio tech</titleShort>
+        <baseDesc>[PAWN_nameDef] maintained and operated NCR radio equipment, ensuring communications stayed functional even in harsh wasteland conditions.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Pappas</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>5</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Comm Officer Gaines -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Gaines_Adult</defName>
+        <title>NCR coordination officer</title>
+        <titleShort>coord officer</titleShort>
+        <baseDesc>[PAWN_nameDef] coordinated military communications for NCR operations in the Mojave, managing multiple channels and ensuring efficient information flow.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Gaines</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>5</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Comm Officer Stone -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Stone_Adult</defName>
+        <title>NCR dispatch supervisor</title>
+        <titleShort>dispatcher</titleShort>
+        <baseDesc>[PAWN_nameDef] supervised communications dispatch for NCR military units, managing emergency communications and coordinating rapid response.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Stone</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>6</Intellectual>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Comm Officer Grant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Grant_Adult</defName>
+        <title>NCR field communications officer</title>
+        <titleShort>field comm</titleShort>
+        <baseDesc>[PAWN_nameDef] managed field communications for NCR units, setting up mobile radio stations and maintaining contact with command during operations.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Grant</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>4</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Comm Officer Stepinac -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Stepinac_Adult</defName>
+        <title>NCR comm maintenance officer</title>
+        <titleShort>maintenance officer</titleShort>
+        <baseDesc>[PAWN_nameDef] managed maintenance and repair of NCR communications equipment, ensuring the vital radio network stayed operational.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Stepinac</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>5</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Comm Officer Traci -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Traci_Adult</defName>
+        <title>NCR tactical comm officer</title>
+        <titleShort>tactical comm</titleShort>
+        <baseDesc>[PAWN_nameDef] specialized in tactical communications, coordinating real-time battlefield communications for NCR forces during combat operations.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Traci</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>5</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
     </BackstoryDef>
 
 </Defs>
