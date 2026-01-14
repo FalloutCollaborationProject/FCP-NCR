@@ -613,6 +613,7 @@
     <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
         <defName>FCP_Unique_Pawnkind_Sergeant_Contreras</defName>
         <label>Sergeant Contreras</label>
+        <trader>true</trader>
         <combatPower>95</combatPower>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
@@ -1164,6 +1165,7 @@
     <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
         <defName>FCP_Unique_Pawnkind_Quartermaster_Mayes</defName>
         <label>Quartermaster Mayes</label>
+        <trader>true</trader>
         <combatPower>85</combatPower>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
