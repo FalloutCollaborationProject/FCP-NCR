@@ -313,7 +313,7 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Unique_Pawnkind_Patrol_Ranger_Anders>1</FCP_Unique_Pawnkind_Patrol_Ranger_Anders>
+                    <FCP_Unique_Pawnkind_Ranger_Anders>1</FCP_Unique_Pawnkind_Ranger_Anders>
                     <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
                 <characterChance>0.35</characterChance>
@@ -454,7 +454,7 @@
                     <FCP_Pawnkind_NCR_Ranger_Volunteer>5</FCP_Pawnkind_NCR_Ranger_Volunteer>
                     <FCP_Pawnkind_NCR_MP>12</FCP_Pawnkind_NCR_MP>
                     <FCP_Pawnkind_NCR_Ambassador>2</FCP_Pawnkind_NCR_Ambassador>
-                    <FCP_Unique_Pawnkind_President_Kimball>1</FCP_Unique_Pawnkind_President_Kimball>
+                    <FCP_Unique_Pawnkind_President_Aaron_Kimball>1</FCP_Unique_Pawnkind_President_Aaron_Kimball>
                 </options>
             </li>
         </pawnGroupMakers>

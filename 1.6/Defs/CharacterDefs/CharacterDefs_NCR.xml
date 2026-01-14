@@ -305,6 +305,57 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
+    <!-- Captain Ronald Curtis -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Captain_Ronald_Curtis</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Captain_Ronald_Curtis</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Ronald</firstName>
+                <lastName>Curtis</lastName>
+                <nickname>Capt. Curtis</nickname>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(55, 45, 35)</hairColor>
+                <hairDef>FCP_Hair_Shaggy_Suave</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 170, 150)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Captain Rodriguez -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Captain_Rodriguez</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Captain_Rodriguez</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Rodriguez</firstName>
+                <nickname>Capt. Rodriguez</nickname>
+                <gender>Female</gender>
+                <age>45</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(25, 20, 15)</hairColor>
+                <hairDef>Afro</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(95, 75, 60)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
     <!--___ Lieutenants ___-->
 
     <!-- Lieutenant Liam Gorobets -->
@@ -405,6 +456,31 @@
                 <hairDef>FCP_Hair_Buzz_Cut</hairDef>
                 <beardDef>NoBeard</beardDef>
                 <skinColorOverride>(200, 175, 155)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Lieutenant Markland -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Lieutenant_Markland</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Lieutenant_Markland</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Markland</firstName>
+                <nickname>Lt. Markland</nickname>
+                <gender>Male</gender>
+                <age>35</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 60, 50)</hairColor>
+                <hairDef>FCP_Hair_Shaggy_Suave</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 170, 150)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
@@ -800,7 +876,7 @@
                 <hairColor>(45, 35, 25)</hairColor>
                 <hairDef>FCP_Hair_Buzz_Cut</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(200, 175, 155)</skinColorOverride>
+                <skinColorOverride>(105, 75, 55)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
@@ -1072,6 +1148,31 @@
     </FCP.Core.CharacterDef>
 
     <!--___ Rangers ___-->
+
+    <!-- Ranger Biff -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Ranger_Biff</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Ranger_Biff</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Biff</firstName>
+                <nickname>Ranger Biff</nickname>
+                <gender>Male</gender>
+                <age>62</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(180, 170, 160)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>Full</beardDef>
+                <skinColorOverride>(215, 190, 175)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
 
     <!-- Chief Hanlon -->
 
@@ -1490,6 +1591,161 @@
                 <hairDef>FCP_Hair_Prim_N_Proper</hairDef>
                 <beardDef>NoBeard</beardDef>
                 <skinColorOverride>(205, 180, 160)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--__________ New Characters __________-->
+
+    <!-- First Sergeant Daniel Asher -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_First_Sergeant_Daniel_Asher</defName>
+        <pawnKind>FCP_Unique_Pawnkind_First_Sergeant_Daniel_Asher</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Daniel</firstName>
+                <lastName>Asher</lastName>
+                <gender>Male</gender>
+                <age>38</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(45, 30, 20)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 170, 150)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Ranger Grant -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Ranger_Grant</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Ranger_Grant</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Grant</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>32</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 60, 40)</hairColor>
+                <hairDef>Mohawk</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(200, 175, 155)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--__________ Scientists / Researchers __________-->
+
+    <!-- Thomas Hildern -->
+
+    <FCP.Core.CharacterDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Character_NCR_Thomas_Hildern</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Thomas_Hildern</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Thomas</firstName>
+                <lastName>Hildern</lastName>
+                <gender>Male</gender>
+                <age>48</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(85, 75, 65)</hairColor>
+                <hairDef>FCP_Hair_Comb_Over</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(210, 185, 165)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Angela Williams -->
+
+    <FCP.Core.CharacterDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Character_NCR_Angela_Williams</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Angela_Williams</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Angela</firstName>
+                <lastName>Williams</lastName>
+                <gender>Female</gender>
+                <age>32</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 30, 20)</hairColor>
+                <hairDef>FCP_Hair_Prim_N_Proper</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 170, 145)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Dr. Keely -->
+
+    <FCP.Core.CharacterDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Character_NCR_Doctor_Keely</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Doctor_Keely</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Keely</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>35</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 50, 40)</hairColor>
+                <hairDef>FCP_Hair_No_Nonsense</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(220, 200, 180)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--__________ Civilians __________-->
+
+    <!-- Dr. Usanagi -->
+
+    <FCP.Core.CharacterDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Character_NCR_Doctor_Usanagi</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Doctor_Usanagi</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Usanagi</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>42</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 15, 10)</hairColor>
+                <hairDef>FCP_Hair_Prim_N_Proper</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(235, 215, 195)</skinColorOverride>
                 <headTypeDef>Female_AverageNormal</headTypeDef>
                 <bodyTypeDef>Female</bodyTypeDef>
             </li>

@@ -394,6 +394,40 @@
         </skillGains>
     </BackstoryDef>
 
+    <!-- Captain Curtis -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Captain_Curtis_Child</defName>
+        <title>merchant's son</title>
+        <titleShort>merchant kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up helping [PAWN_possessive] parents run a trading post, learning the value of supplies and efficient resource management from a young age.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Curtis_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Captain Rodriguez -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Captain_Rodriguez_Child</defName>
+        <title>NCR core territories kid</title>
+        <titleShort>NCR kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in the heart of NCR territory, learning early about duty, perseverance, and the challenges of maintaining order in the wasteland.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Rodriguez_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
     <!--___ Captains - Adulthood ___-->
 
     <!-- Captain Parker -->
@@ -432,6 +466,49 @@
             <Shooting>5</Shooting>
             <Social>5</Social>
             <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Captain Curtis -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Captain_Curtis</defName>
+        <title>McCarran supply officer</title>
+        <titleShort>supply officer</titleShort>
+        <baseDesc>[PAWN_nameDef] managed supply operations at Camp McCarran, ensuring troops received necessary equipment. [PAWN_pronoun] became adept at procurement and 'creative' logistics to meet demands despite limited official resources.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Captain_Curtis</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>6</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Captain Rodriguez -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Captain_Rodriguez</defName>
+        <title>isolated NCR captain</title>
+        <titleShort>isolated captain</titleShort>
+        <baseDesc>[PAWN_nameDef] commanded an NCR unit cut off from the Republic for over a decade. [PAWN_pronoun] maintained discipline and hope despite isolation, keeping [PAWN_possessive] troops together through sheer will and leadership.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Captain_Rodriguez</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>8</Social>
+            <Shooting>6</Shooting>
+            <Intellectual>4</Intellectual>
+            <Melee>3</Melee>
         </skillGains>
         <workDisables>
             <li>ManualDumb</li>
@@ -652,9 +729,7 @@
             <Shooting>2</Shooting>
             <Melee>2</Melee>
         </skillGains>
-        <forcedTraits>
-            <Bloodlust>0</Bloodlust>
-        </forcedTraits>
+
     </BackstoryDef>
 
     <!-- Sergeant Astor -->
@@ -688,6 +763,23 @@
         <skillGains>
             <Social>3</Social>
             <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- First Sergeant Daniel Asher -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_First_Sergeant_Asher_Child</defName>
+        <title>sharpshooter prodigy</title>
+        <titleShort>marksman kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up hunting in the wastes, developing exceptional marksmanship skills from a young age. [PAWN_pronoun] could hit targets others couldn't even see.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Asher_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Animals>2</Animals>
         </skillGains>
     </BackstoryDef>
 
@@ -745,6 +837,27 @@
             <Intellectual>5</Intellectual>
             <Shooting>2</Shooting>
         </skillGains>
+    </BackstoryDef>
+
+    <!-- First Sergeant Daniel Asher -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_First_Sergeant_Asher_Adult</defName>
+        <title>1st Recon First Sergeant</title>
+        <titleShort>recon leader</titleShort>
+        <baseDesc>[PAWN_nameDef] rose through the ranks to become First Sergeant of the legendary 1st Recon Battalion. [PAWN_pronoun] leads the NCR's most elite sniper unit with precision and discipline.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_First_Sergeant_Asher</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>10</Shooting>
+            <Social>4</Social>
+            <Melee>3</Melee>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
     </BackstoryDef>
 
     <!--___ Corporals - Childhood ___-->
@@ -893,6 +1006,24 @@
 
     <!--___ Rangers - Childhood ___-->
 
+    <!-- Ranger Biff -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Biff_Child</defName>
+        <title>frontier survivor</title>
+        <titleShort>frontier kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up on the harsh frontier, learning survival and combat skills from an early age. [PAWN_pronoun] developed an unshakeable optimism despite the dangers around [PAWN_objective].</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Biff_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Animals>1</Animals>
+        </skillGains>
+    </BackstoryDef>
+
     <!-- Chief Hanlon -->
 
     <BackstoryDef>
@@ -1033,7 +1164,45 @@
         </skillGains>
     </BackstoryDef>
 
+    <!-- Ranger Grant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Grant_Child</defName>
+        <title>wasteland wanderer</title>
+        <titleShort>wanderer</titleShort>
+        <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] youth traveling the wastes with a caravan, learning survival skills and how to handle threats in the harsh Mojave.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Grant_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Social>3</Social>
+            <Animals>2</Animals>
+        </skillGains>
+    </BackstoryDef>
+
     <!--___ Rangers - Adulthood ___-->
+
+    <!-- Ranger Biff -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Biff</defName>
+        <title>hopeful veteran ranger</title>
+        <titleShort>veteran ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] became a veteran NCR Ranger, earning the elite black armor. Cut off from the Republic for over a decade, [PAWN_pronoun] maintained unwavering faith that the NCR would return "any day now," refusing to give up hope.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Biff</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>7</Melee>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+
+    </BackstoryDef>
 
     <!-- Chief Hanlon -->
 
@@ -1188,6 +1357,24 @@
         </skillGains>
     </BackstoryDef>
 
+    <!-- Ranger Grant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Grant_Adult</defName>
+        <title>NCR patrol ranger</title>
+        <titleShort>ranger</titleShort>
+        <baseDesc>[PAWN_nameDef] joined the NCR Rangers and was assigned to patrol duty at Ranger Station Charlie. [PAWN_pronoun] guards the eastern approaches to the Mojave, watching for Legion activity.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Grant_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>3</Melee>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
     <!--___ Privates - Childhood ___-->
 
     <!-- Private Davey Crenshaw -->
@@ -1255,6 +1442,82 @@
         <skillGains>
             <Social>2</Social>
             <Intellectual>1</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Scientists / Researchers - Childhood ___-->
+
+    <!-- Thomas Hildern -->
+
+    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Backstory_NCR_Thomas_Hildern_Child</defName>
+        <title>ambitious scholar</title>
+        <titleShort>scholar</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in the NCR studying pre-war scientific texts with obsessive dedication. [PAWN_pronoun] was driven by an ambition to restore pre-war technology and scientific progress.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Hildern_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Angela Williams -->
+
+    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Backstory_NCR_Angela_Williams_Child</defName>
+        <title>scientist's daughter</title>
+        <titleShort>scientist kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up learning about botany and agriculture from [PAWN_possessive] parents. [PAWN_pronoun] was fascinated by how pre-war agricultural science could help feed the growing NCR population.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Williams_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>4</Plants>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Dr. Keely -->
+
+    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Backstory_NCR_Doctor_Keely_Child</defName>
+        <title>vault dweller child</title>
+        <titleShort>vault kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in a vault that emphasized scientific education and environmental studies. [PAWN_pronoun] was fascinated by biology and ecology from a young age.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Keely_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Intellectual>4</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--___ Civilians - Childhood ___-->
+
+    <!-- Dr. Usanagi -->
+
+    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Backstory_Wastelander_Doctor_Usanagi_Child</defName>
+        <title>medical prodigy</title>
+        <titleShort>prodigy</titleShort>
+        <baseDesc>[PAWN_nameDef] showed exceptional aptitude for medicine from a young age, learning from doctors in the Followers of the Apocalypse.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Usanagi_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Intellectual>3</Intellectual>
         </skillGains>
     </BackstoryDef>
 
@@ -1404,6 +1667,40 @@
         <skillGains>
             <Shooting>2</Shooting>
             <Construction>1</Construction>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Stone -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Stone_Child</defName>
+        <title>scavenger youth</title>
+        <titleShort>scavenger</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up scavenging the wasteland for useful items and equipment. [PAWN_pronoun] learned to spot valuable salvage and developed a keen eye for details.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Stone_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Private Edwards -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Private_Edwards_Child</defName>
+        <title>caravan guard's kid</title>
+        <titleShort>caravan kid</titleShort>
+        <baseDesc>[PAWN_nameDef] traveled with trading caravans as a child, learning about wasteland dangers and the importance of vigilance. [PAWN_pronoun] became comfortable with weapons early on.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Edwards_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>1</Social>
         </skillGains>
     </BackstoryDef>
 
@@ -1615,7 +1912,7 @@
         </spawnCategories>
         <skillGains>
             <Shooting>5</Shooting>
-            <Melee>4</Shooting>
+            <Melee>4</Melee>
         </skillGains>
     </BackstoryDef>
 
@@ -1682,7 +1979,7 @@
         <baseDesc>[PAWN_nameDef] learned medicine from a skilled wasteland doctor, developing [PAWN_possessive] healing abilities from a young age. [PAWN_pronoun] felt called to help others.</baseDesc>
         <slot>Childhood</slot>
         <spawnCategories>
-            <li>FCP_Character_Backstory_Richards_Child</li>
+            <li>FCP_Character_Backstory_Medical_Richards_Child</li>
         </spawnCategories>
         <skillGains>
             <Medicine>3</Medicine>
@@ -2015,6 +2312,98 @@
         </skillGains>
         <workDisables>
             <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--___ Scientists / Researchers - Adulthood ___-->
+
+    <!-- Thomas Hildern -->
+
+    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Backstory_NCR_Thomas_Hildern_Adult</defName>
+        <title>OSI director</title>
+        <titleShort>OSI director</titleShort>
+        <baseDesc>[PAWN_nameDef] became the director of the NCR's Office of Science and Industry at Camp McCarran. [PAWN_pronoun] is obsessed with recovering agricultural data from Vault 22, willing to risk lives for scientific progress.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Thomas_Hildern_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>10</Intellectual>
+            <Social>4</Social>
+            <Plants>3</Plants>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+            <li>Violent</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Angela Williams -->
+
+    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Backstory_NCR_Angela_Williams_Adult</defName>
+        <title>OSI botanist</title>
+        <titleShort>OSI botanist</titleShort>
+        <baseDesc>[PAWN_nameDef] works as a botanist for the OSI, researching agricultural technologies to help feed the NCR's expanding population. [PAWN_pronoun] is passionate about the work but concerned about Hildern's reckless methods.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Angela_Williams_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>8</Plants>
+            <Intellectual>7</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+            <li>Violent</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Dr. Keely -->
+
+    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Backstory_NCR_Doctor_Keely_Adult</defName>
+        <title>OSI field researcher</title>
+        <titleShort>field researcher</titleShort>
+        <baseDesc>[PAWN_nameDef] is an OSI researcher specializing in botany and ecology. [PAWN_pronoun] was sent to Vault 22 to recover agricultural data but became trapped by the vault's mutated plant life.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Doctor_Keely_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>9</Plants>
+            <Intellectual>8</Intellectual>
+            <Medicine>4</Medicine>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!--___ Civilians - Adulthood ___-->
+
+    <!-- Dr. Usanagi -->
+
+    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+        <defName>FCP_Backstory_Wastelander_Doctor_Usanagi_Adult</defName>
+        <title>New Vegas doctor</title>
+        <titleShort>doctor</titleShort>
+        <baseDesc>[PAWN_nameDef] runs the New Vegas Medical Clinic, one of the most advanced medical facilities in the Mojave. [PAWN_pronoun] offers high-quality medical services including cybernetic implants to those who can afford them.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_Wastelander_Doctor_Usanagi_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>12</Medicine>
+            <Intellectual>8</Intellectual>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+            <li>Violent</li>
         </workDisables>
     </BackstoryDef>
 
