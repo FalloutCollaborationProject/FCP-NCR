@@ -258,10 +258,10 @@
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Private_Poindexter</li>
-                    <li>FCP_Unique_Pawnkind_Private_OHanrahan</li>
-                    <li>FCP_Unique_Pawnkind_Private_Razz</li>
-                    <li>FCP_Unique_Pawnkind_Private_Ackerman</li>
+                    <li>FCP_Character_NCR_Private_Poindexter</li>
+                    <li>FCP_Character_NCR_Private_OHanrahan</li>
+                    <li>FCP_Character_NCR_Private_Razz</li>
+                    <li>FCP_Character_NCR_Private_Ackerman</li>
                 </characterDefs>
                 <characterChance>1.0</characterChance>
             </li>
@@ -278,12 +278,12 @@
                     <FCP_Pawnkind_NCR_Scout_Recon>3</FCP_Pawnkind_NCR_Scout_Recon>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Lieutenant_Liam_Gorobets</li>
-                    <li>FCP_Unique_Pawnkind_First_Sergeant_Daniel_Asher</li>
-                    <li>FCP_Unique_Pawnkind_Sergeant_Jesse_Bitter_Root</li>
-                    <li>FCP_Unique_Pawnkind_Corporal_Cindy_Betsy</li>
-                    <li>FCP_Unique_Pawnkind_Private_10_of_Spades</li>
-                    <li>FCP_Unique_Pawnkind_Corporal_Emerson_Sterling</li>
+                    <li>FCP_Character_NCR_Lieutenant_Liam_Gorobets</li>
+                    <li>FCP_Character_NCR_First_Sergeant_Daniel_Asher</li>
+                    <li>FCP_Character_NCR_Sergeant_Jesse_Bitter_Root</li>
+                    <li>FCP_Character_NCR_Corporal_Cindy_Betsy</li>
+                    <li>FCP_Character_NCR_Private_10_of_Spades</li>
+                    <li>FCP_Character_NCR_Corporal_Emerson_Sterling</li>
                 </characterDefs>
                 <characterChance>1.0</characterChance>
             </li>
@@ -301,9 +301,9 @@
                     <FCP_Pawnkind_NCR_Ranger_Veteran>4</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_General_Lee_Oliver</li>
-                    <li>FCP_Unique_Pawnkind_Colonel_James_Hsu</li>
-                    <li>FCP_Unique_Pawnkind_Colonel_Cassandra_Moore</li>
+                    <li>FCP_Character_NCR_General_Lee_Oliver</li>
+                    <li>FCP_Character_NCR_Colonel_James_Hsu</li>
+                    <li>FCP_Character_NCR_Colonel_Cassandra_Moore</li>
                 </characterDefs>
                 <characterChance>0.25</characterChance>
             </li>
@@ -321,8 +321,8 @@
                     <FCP_Animal_NCR_Guard_Dog MayRequire="Rick.FCP.Animals">2</FCP_Animal_NCR_Guard_Dog>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Lieutenant_Carrie_Boyd</li>
-                    <li>FCP_Unique_Pawnkind_Corporal_Walter_Hornsby</li>
+                    <li>FCP_Character_NCR_Lieutenant_Carrie_Boyd</li>
+                    <li>FCP_Character_NCR_Corporal_Walter_Hornsby</li>
                 </characterDefs>
                 <characterChance>0.45</characterChance>
             </li>
@@ -339,8 +339,8 @@
                     <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Chief_Kris_Hanlon</li>
-                    <li>FCP_Unique_Pawnkind_Ranger_Anders</li>
+                    <li>FCP_Character_NCR_Chief_Hanlon</li>
+                    <li>FCP_Character_NCR_Patrol_Ranger_Anders</li>
                 </characterDefs>
                 <characterChance>0.35</characterChance>
             </li>
@@ -358,10 +358,10 @@
                     <FCP_Pawnkind_NCR_Trooper_Heavy>3</FCP_Pawnkind_NCR_Trooper_Heavy>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Major_Guy_Dhatri</li>
-                    <li>FCP_Unique_Pawnkind_Major_Thomas_Knight</li>
-                    <li>FCP_Unique_Pawnkind_Major_Elizabeth_Kieran</li>
-                    <li>FCP_Unique_Pawnkind_Major_Joseph_Polatli</li>
+                    <li>FCP_Character_NCR_Major_Guy_Dhatri</li>
+                    <li>FCP_Character_NCR_Major_Thomas_Knight</li>
+                    <li>FCP_Character_NCR_Major_Elizabeth_Kieran</li>
+                    <li>FCP_Character_NCR_Major_Joseph_Polatli</li>
                 </characterDefs>
                 <characterChance>0.30</characterChance>
             </li>
@@ -379,11 +379,11 @@
                     <FCP_Pawnkind_NCR_Trooper>3</FCP_Pawnkind_NCR_Trooper>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Ranger_Jackson</li>
-                    <li>FCP_Unique_Pawnkind_Ranger_Milo</li>
-                    <li>FCP_Unique_Pawnkind_Ranger_Stella</li>
-                    <li>FCP_Unique_Pawnkind_Ranger_Grant</li>
-                    <li>FCP_Unique_Pawnkind_Ranger_Erasmus</li>
+                    <li>FCP_Character_NCR_Ranger_Jackson</li>
+                    <li>FCP_Character_NCR_Ranger_Milo</li>
+                    <li>FCP_Character_NCR_Ranger_Stella</li>
+                    <li>FCP_Character_NCR_Ranger_Grant</li>
+                    <li>FCP_Character_NCR_Ranger_Erasmus</li>
                 </characterDefs>
                 <characterChance>0.40</characterChance>
             </li>
@@ -401,8 +401,8 @@
                     <FCP_Pawnkind_NCR_Scout_Recon>2</FCP_Pawnkind_NCR_Scout_Recon>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Ranger_Ghost</li>
-                    <li>FCP_Unique_Pawnkind_Ranger_Biff</li>
+                    <li>FCP_Character_NCR_Ranger_Ghost</li>
+                    <li>FCP_Character_NCR_Ranger_Biff</li>
                 </characterDefs>
                 <characterChance>0.25</characterChance>
             </li>
@@ -420,14 +420,14 @@
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Comm_Officer_Lenk</li>
-                    <li>FCP_Unique_Pawnkind_Comm_Officer_Alex_Richards</li>
-                    <li>FCP_Unique_Pawnkind_Comm_Officer_David_Pappas</li>
-                    <li>FCP_Unique_Pawnkind_Comm_Officer_Christopher_Gaines</li>
-                    <li>FCP_Unique_Pawnkind_Comm_Officer_Catherine_Stone</li>
-                    <li>FCP_Unique_Pawnkind_Comm_Officer_Grant</li>
-                    <li>FCP_Unique_Pawnkind_Comm_Officer_Stepinac</li>
-                    <li>FCP_Unique_Pawnkind_Comm_Officer_Traci</li>
+                    <li>FCP_Character_NCR_Comm_Officer_Lenk</li>
+                    <li>FCP_Character_NCR_Comm_Officer_Alex_Richards</li>
+                    <li>FCP_Character_NCR_Comm_Officer_David_Pappas</li>
+                    <li>FCP_Character_NCR_Comm_Officer_Christopher_Gaines</li>
+                    <li>FCP_Character_NCR_Comm_Officer_Catherine_Stone</li>
+                    <li>FCP_Character_NCR_Comm_Officer_Grant</li>
+                    <li>FCP_Character_NCR_Comm_Officer_Stepinac</li>
+                    <li>FCP_Character_NCR_Comm_Officer_Traci</li>
                 </characterDefs>
                 <characterChance>0.50</characterChance>
             </li>
@@ -445,8 +445,8 @@
                     <FCP_Pawnkind_NCR_MP>2</FCP_Pawnkind_NCR_MP>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Medical_Officer_Richards</li>
-                    <li>FCP_Unique_Pawnkind_Doctor_Kilborn</li>
+                    <li>FCP_Character_NCR_Medical_Officer_Richards</li>
+                    <li>FCP_Character_NCR_Doctor_Kilborn</li>
                 </characterDefs>
                 <characterChance>0.40</characterChance>
             </li>
@@ -464,8 +464,8 @@
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Lieutenant_Markland</li>
-                    <li>FCP_Unique_Pawnkind_Lieutenant_Monroe</li>
+                    <li>FCP_Character_NCR_Lieutenant_Markland</li>
+                    <li>FCP_Character_NCR_Lieutenant_Monroe</li>
                 </characterDefs>
                 <characterChance>0.50</characterChance>
             </li>
@@ -483,8 +483,8 @@
                     <FCP_Pawnkind_NCR_Trooper_Heavy>4</FCP_Pawnkind_NCR_Trooper_Heavy>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Captain_Ronald_Curtis</li>
-                    <li>FCP_Unique_Pawnkind_Captain_Rodriguez</li>
+                    <li>FCP_Character_NCR_Captain_Ronald_Curtis</li>
+                    <li>FCP_Character_NCR_Captain_Rodriguez</li>
                 </characterDefs>
                 <characterChance>0.35</characterChance>
             </li>
@@ -502,8 +502,8 @@
                     <FCP_Pawnkind_NCR_Ranger_Patrolman>4</FCP_Pawnkind_NCR_Ranger_Patrolman>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Ranger_Andy</li>
-                    <li>FCP_Unique_Pawnkind_Corporal_Emerson_Sterling</li>
+                    <li>FCP_Character_NCR_Ranger_Andy</li>
+                    <li>FCP_Character_NCR_Corporal_Emerson_Sterling</li>
                 </characterDefs>
                 <characterChance>0.45</characterChance>
             </li>
@@ -521,7 +521,7 @@
                     <FCP_Pawnkind_NCR_Trooper_Heavy>4</FCP_Pawnkind_NCR_Trooper_Heavy>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_President_Aaron_Kimball</li>
+                    <li>FCP_Character_NCR_President_Aaron_Kimball</li>
                 </characterDefs>
                 <characterChance>0.15</characterChance>
             </li>
@@ -539,7 +539,7 @@
                     <FCP_Pawnkind_NCR_Ranger_Patrolman>3</FCP_Pawnkind_NCR_Ranger_Patrolman>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Ambassador_Dennis_Crocker</li>
+                    <li>FCP_Character_NCR_Ambassador_Dennis_Crocker</li>
                 </characterDefs>
                 <characterChance>0.20</characterChance>
             </li>
@@ -554,9 +554,9 @@
                     <FCP_Pawnkind_NCR_Trooper>4</FCP_Pawnkind_NCR_Trooper>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Thomas_Hildern</li>
-                    <li>FCP_Unique_Pawnkind_Angela_Williams</li>
-                    <li>FCP_Unique_Pawnkind_Doctor_Keely</li>
+                    <li>FCP_Character_NCR_Thomas_Hildern</li>
+                    <li>FCP_Character_NCR_Angela_Williams</li>
+                    <li>FCP_Character_NCR_Doctor_Keely</li>
                 </characterDefs>
                 <characterChance>0.30</characterChance>
             </li>
@@ -571,7 +571,7 @@
                     <FCP_Pawnkind_NCR_Trooper>2</FCP_Pawnkind_NCR_Trooper>
                 </options>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Doctor_Usanagi</li>
+                    <li>FCP_Character_NCR_Doctor_Usanagi</li>
                 </characterDefs>
                 <characterChance>0.25</characterChance>
             </li>
@@ -610,8 +610,8 @@
                     <FCP_Pawnkind_NCR_Trooper>5</FCP_Pawnkind_NCR_Trooper>
                 </guards>
                 <characterDefs>
-                    <li>FCP_Unique_Pawnkind_Quartermaster_Mayes</li>
-                    <li>FCP_Unique_Pawnkind_Sergeant_Contreras</li>
+                    <li>FCP_Character_NCR_Quartermaster_Mayes</li>
+                    <li>FCP_Character_NCR_Sergeant_Contreras</li>
                 </characterDefs>
                 <characterChance>0.40</characterChance>
             </li>
