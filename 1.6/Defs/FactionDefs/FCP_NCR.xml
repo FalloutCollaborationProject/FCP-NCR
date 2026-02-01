@@ -777,7 +777,7 @@
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
             <!-- Shuttles -->
-            <li Class="FCP_Shuttles.FactionModExtension">
+            <li Class="FCP.Core.Shuttles.FactionModExtension">
                 <transportShipDef>FCP_Shuttle_NCR_Vertibird</transportShipDef>
                 <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
                 <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>

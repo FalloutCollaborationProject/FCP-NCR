@@ -42,7 +42,7 @@
                 </li>
 
                 <!-- Player starting stuff spawn method-->
-                <li Class="FCP_Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
+                <li Class="FCP.Core.Shuttles.ScenPart_PlayerPawnsArriveInShuttle">
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
 
