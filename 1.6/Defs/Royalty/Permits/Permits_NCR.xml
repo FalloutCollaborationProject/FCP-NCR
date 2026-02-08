@@ -34,7 +34,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
 			</li>
 		</modExtensions>
@@ -60,7 +60,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_NCR_COL</maxTitle>
 			</li>
 		</modExtensions>
@@ -84,7 +84,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
 			</li>
 		</modExtensions>
@@ -110,7 +110,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_NCR_COL</maxTitle>
 			</li>
 		</modExtensions>
@@ -134,7 +134,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
 			</li>
 		</modExtensions>
@@ -159,7 +159,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
 			</li>
 		</modExtensions>
@@ -184,7 +184,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
 			</li>
 		</modExtensions>

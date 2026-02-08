@@ -723,7 +723,7 @@
                 <currency>FCP_Currency_NCR_Dollar</currency>
             </li>
             <!-- Make them hostile to the Legion, Great Khans, Brotherhood of Steel, and Enclave -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+            <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
                     <li MayRequire="altushka.boscompendium">DRK_BoS</li>
@@ -736,7 +736,7 @@
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
                 <arrivalModes>
                     <li>EdgeDrop</li>
                     <li>EdgeDropGroups</li>
@@ -745,7 +745,7 @@
                 </arrivalModes>
             </li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <li Class="FCP.Factions.FactionExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_NCR</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Citizen</memberName>
@@ -783,7 +783,7 @@
                 <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
             </li>
             <!-- Territory stuff -->
-            <!-- <li class="FCP.Core.ModExtension_FactionTerritory">
+            <!-- <li class="FCP.Factions.FactionExtension_HasTerritory">
                 <territoryColor>(222, 49, 41)</territoryColor>
                 <territoryBorderColor>(116, 22, 42)</territoryBorderColor>
                 <factionLabelColor>(0.9, 0.9, 0.8, 1.0)</factionLabelColor>

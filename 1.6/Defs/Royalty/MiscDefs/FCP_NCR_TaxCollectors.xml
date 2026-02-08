@@ -7,7 +7,7 @@
         <letterLabel>NCR Tax Collectors</letterLabel>
         <letterText>A tax collector from the NCR is approaching.\n\nThey will accept tax in caps, and NCR dollars; you can also hand in prisoners. The one who gives over the tax will receive Service Points for doing their civic duty.\n\nYou can expect a tax collector to arrive roughly twice per year as long as you are not enemies with the NCR.\n\n&lt;color="#808080"&gt;"In order to for a better tomorrow to be built, we must pave the way. Defense, labor and projection is not cheap however, taxes shall be needed in order to pay for this great road into the future!"&lt;/color&gt; ~ President Kimball</letterText>
         <modExtensions>
-            <li Class="FCP.Core.ModExtension_FactionTaxCollectors">
+            <li Class="FCP.Factions.FactionExtension_TaxCollector">
                 <factionDef>FCP_Faction_NCR</factionDef>
                 <traderKindDef>FCP_Trader_NCRTaxCollector</traderKindDef>
             </li>

@@ -29,7 +29,7 @@
         </allowedCultures>
         <modExtensions Inherit="False">
             <!-- Hostile to NCR and Legion -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+            <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li>FCP_Faction_NCR</li>
                     <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
