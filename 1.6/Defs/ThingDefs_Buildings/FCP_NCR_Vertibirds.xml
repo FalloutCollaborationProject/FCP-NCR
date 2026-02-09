@@ -37,6 +37,7 @@
             <texPath>Things/Vehicles/FCP_NCR_Light_Vertibird_east</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(8,8)</drawSize>
+            <color>(255,255,255)</color>
             <shadowData>
                 <volume>(4.1, 1.0, 1.8)</volume>
                 <offset>(0, 0, -0.1)</offset>
@@ -87,6 +88,7 @@
                             <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_a</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
+                            <color>(255,255,255)</color>
                         </bladeGraphic>
                         <positionOffset>(1.4, 0, -1.5)</positionOffset>
                         <spinRate>1.5</spinRate>
@@ -96,6 +98,7 @@
                             <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_b</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
+                            <color>(255,255,255)</color>
                         </bladeGraphic>
                         <positionOffset>(1.4, 0, 3.6)</positionOffset>
                         <spinRate>1.5</spinRate>
@@ -125,7 +128,7 @@
         <expandMore>true</expandMore>
         <expandingIconDrawSize>1.6</expandingIconDrawSize>
         <allowCaravanIncidentsWhichGenerateMap>true</allowCaravanIncidentsWhichGenerateMap>
-        <rotateGraphicWhenTraveling>true</rotateGraphicWhenTraveling>
+        <rotateGraphicWhenTraveling>false</rotateGraphicWhenTraveling>
     </WorldObjectDef>
 
     <!--_____ Skyfaller Defs _____-->
@@ -141,6 +144,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutFlying</shaderType>
             <drawSize>(8,8)</drawSize>
+            <color>(255,255,255)</color>
         </graphicData>
         <skyfaller>
             <movementType>Decelerate</movementType>

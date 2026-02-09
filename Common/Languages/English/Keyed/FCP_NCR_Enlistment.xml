@@ -64,6 +64,11 @@
 	<FCP_NCR_Turn_In_Desc>Turn in suspected outlaws and criminals to NCRCF facilities.\n\n -Turning over any hostile pawns do not result in a slavery debuff-</FCP_NCR_Turn_In_Desc>
 	<FCP_NCR_Turn_In_Trader_Name>New California Republic Correctional Facility Warden</FCP_NCR_Turn_In_Trader_Name>
 
+	<!-- Shuttle Service Options (Vertibird) -->
+
+	<FCP_NCR_Shuttle_Service_Label>Vertibird Transport</FCP_NCR_Shuttle_Service_Label>
+	<FCP_NCR_Shuttle_Service_Desc>Call for a Vertibird to transport your caravan to another location. Cost: 500 NCR Dollars.</FCP_NCR_Shuttle_Service_Desc>
+
 	<!-- Resign Options -->
 
 	<FCP_NCR_Resign_Menu_Text>You will resign from active duty in the NCR Army effective immediately. (-25 in relations)</FCP_NCR_Resign_Menu_Text>

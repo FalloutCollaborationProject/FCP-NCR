@@ -7,6 +7,7 @@
 
     <FCP.Enlist.FactionEnlistOptionsDef>
         <defName>FCP_Enlistment_NCR</defName>
+        <currencyDef>FCP_Currency_NCR_Dollar</currencyDef>
         <minGoodwillRequrementToEnlist>10</minGoodwillRequrementToEnlist>
         <enlistGoodwillGain>5</enlistGoodwillGain>
 
@@ -19,7 +20,7 @@
         <enlistRequrementsNotSatisfiedKey>FCP_NCR_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
         <enlistedToHostileFactionKey>FCP_NCR_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
         <enlistButtonIconTexPath>Things/UI/Enlisted/FCP_NCR_Enlist</enlistButtonIconTexPath>
-        <enlistedSoundDef>FCP_Sound_Card_Use</enlistedSoundDef>
+        <!-- <enlistedSoundDef>FCP_Sound_Card_Use</enlistedSoundDef> -->
         <enlistedWithKey>FCP_NCR_Enlisted_With_Key</enlistedWithKey>
 
         <!-- Mission Options -->
@@ -155,6 +156,15 @@
         <!-- Drop Pod Options -->
 
         <dropPodServiceIsEnabled>false</dropPodServiceIsEnabled>
+
+        <!-- Shuttle Service Options (Vertibird) -->
+
+        <shuttleServiceIsEnabled>true</shuttleServiceIsEnabled>
+        <shuttleServiceLabelKey>FCP_NCR_Shuttle_Service_Label</shuttleServiceLabelKey>
+        <shuttleServiceDescKey>FCP_NCR_Shuttle_Service_Desc</shuttleServiceDescKey>
+        <shuttleServiceButtonIconTexPath>Things/Vehicles/FCP_NCR_Light_Vertibird_east</shuttleServiceButtonIconTexPath>
+        <shuttleServiceCost>500</shuttleServiceCost>
+        <shuttleServiceCostRequirementKey>FCP_NCR_Not_Enough_Money</shuttleServiceCostRequirementKey>
 
         <!-- Resign Options -->
 
