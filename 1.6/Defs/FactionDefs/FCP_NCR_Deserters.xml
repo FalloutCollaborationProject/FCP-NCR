@@ -28,6 +28,10 @@
             <li>FCP_Culture_NCR_Californian</li>
         </allowedCultures>
         <modExtensions Inherit="False">
+            <!-- Faction tab label override -->
+            <li Class="FCP.Factions.FactionExtension_FactionTabLabelOverride">
+                <newLabel>Rogue Soldiers</newLabel>
+            </li>
             <!-- Hostile to NCR and Legion -->
             <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>

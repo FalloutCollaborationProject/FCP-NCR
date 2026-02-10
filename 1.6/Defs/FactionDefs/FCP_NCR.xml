@@ -718,6 +718,10 @@
         </pawnGroupMakers>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <modExtensions Inherit="False">
+            <!-- Faction Tab Type Name -->
+            <li Class="FCP.Factions.FactionExtension_FactionTabLabelOverride">
+                <newLabel>Wasteland Republic</newLabel>
+            </li>
             <!-- NCR Dollars -->
             <li Class="FCP.Currencies.CurrencyReplacement">
                 <currency>FCP_Currency_NCR_Dollar</currency>
