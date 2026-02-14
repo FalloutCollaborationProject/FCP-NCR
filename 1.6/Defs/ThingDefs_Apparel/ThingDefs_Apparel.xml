@@ -598,16 +598,6 @@
 		<description>A set of clothes made from tough materials such as leathers. It�s often worn underneath armour by the rangers and is particularly well insulating against heat.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Veteran Ranger Uniform</label>
-		<recipeMaker>
-			<researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>5</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>FCP_Production_Tailoring_Workbench</li>
-			</recipeUsers>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Uniform/FCP_NCR_Ranger_Combat_Armor_Under_Outfit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -661,16 +651,6 @@
 		<description>A duster often worn by the rangers. It�s main use is to protect the wearer against the sun and temperatures of the Mojave Desert, but it�s thick enough to provide additional protection in a firefight as well.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Veteran Ranger Duster</label>
-		<recipeMaker>
-			<researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>5</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>FCP_Production_Tailoring_Workbench</li>
-			</recipeUsers>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Duster/FCP_NCR_Ranger_Duster</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1173,21 +1153,12 @@
 
 	<!-- Power Armor -->
 
-	<ThingDef ParentName="ArmorMachineableBase">
+	<ThingDef ParentName="ApparelBase">
 		<defName>FCP_Apparel_NCR_Salvaged_Power_Armor</defName>
-		<description>A suit of T-45d power armor, captured by the NCR during the NCR-Brotherhood war. Technicians stripped out the servomotors and replaced the rad scrubbers with a custom air conditioning module, allowing it to be used by soldiers without the need of specialised training. This process, however, makes the armor much less effective. Despite that it still is, essentially, power armor and offers superior protection at the cost of enormous weight. It�s usually only worn by the NCR heavy troopers.</description>
+		<description>A suit of T-45d power armor, captured by the NCR during the NCR-Brotherhood war. Technicians stripped out the servomotors and replaced the rad scrubbers with a custom air conditioning module, allowing it to be used by soldiers without the need of specialised training. This process, however, makes the armor much less effective. Despite that it still is, essentially, power armor and offers superior protection at the cost of enormous weight. It's usually only worn by the NCR heavy troopers.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Salvaged Power Armor</label>
-		<recipeMaker>
-			<researchPrerequisite>FCP_Research_NCR_Heavy_Trooper_Corps</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>7</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>FCP_Production_Armor_Workbench</li>
-			</recipeUsers>
-		</recipeMaker>
+		<smeltable>false</smeltable>
 		<graphicData>
 			<texPath>Apparel/NCR_Power_Armor/NCR_Salvaged_Power_Armor/NCR_Power_Armor/FCP_NCR_Salvaged_Power_Armor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1197,7 +1168,6 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
-			<WorkToMake>10200</WorkToMake>
 			<Mass>6.5</Mass>
 			<MarketValue>2800</MarketValue>
 			<ArmorRating_Sharp>1.60</ArmorRating_Sharp>
@@ -1207,10 +1177,6 @@
 			<Insulation_Heat>3</Insulation_Heat>
 			<EquipDelay>3.2</EquipDelay>
 		</statBases>
-		<costList>
-			<Steel>170</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
-		</costList>
 		<apparel>
 			<shellRenderedBehindHead>true</shellRenderedBehindHead>
 			<bodyPartGroups>
@@ -1319,16 +1285,6 @@
 		<description>A combat vest composed of the chestplate of a combat armour. It�s often worn by the rangers and offers formidable protection. Its biggest drawback is that it only covers the torso, leaving the appendages unprotected.</description>
 		<techLevel>Industrial</techLevel>
 		<label>NCR Veteran Ranger Armor</label>
-		<recipeMaker>
-			<researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>6</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>FCP_Production_Armor_Workbench</li>
-			</recipeUsers>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Armor/FCP_NCR_Ranger_Combat_Vest</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

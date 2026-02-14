@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ NCR Salvaged Power Armor __________-->
+
+    <!-- Convert T-45 Helmet to NCR Salvaged Power Armor Helmet -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>Make_FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet</defName>
+        <label>convert T-45 helmet to NCR salvaged power armor helmet</label>
+        <description>Convert a T-45 power armor helmet into an NCR salvaged power armor helmet by stripping out advanced components and adding NCR modifications.</description>
+        <jobString>Converting T-45 helmet to NCR salvaged power armor helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>3000</workAmount>
+        <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T45_Helmet</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FCP_Apparel_Power_Armor_T45_Helmet</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet>1</FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet>
+        </products>
+        <skillRequirements>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+        <researchPrerequisites>
+            <li>FCP_Research_NCR_Heavy_Trooper_Corps</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+    <!-- Convert T-45 Armor to NCR Salvaged Power Armor -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>Make_FCP_Apparel_NCR_Salvaged_Power_Armor</defName>
+        <label>convert T-45 armor to NCR salvaged power armor</label>
+        <description>Convert a T-45 power armor suit into NCR salvaged power armor by stripping out the servomotors and replacing advanced systems with simpler, more maintainable components.</description>
+        <jobString>Converting T-45 armor to NCR salvaged power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>10200</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T45Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FCP_Apparel_Power_Armor_T45Armor</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <FCP_Apparel_NCR_Salvaged_Power_Armor>1</FCP_Apparel_NCR_Salvaged_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+        <researchPrerequisites>
+            <li>FCP_Research_NCR_Heavy_Trooper_Corps</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+</Defs>

@@ -22,6 +22,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Helmet/FCP_NCRCF_Guard_Helmet</texPath>
@@ -81,6 +84,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Trooper_Helmet/FCP_NCR_Trooper_Helmet</texPath>
@@ -270,6 +276,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_Beret/FCP_NCR_Beret</texPath>
@@ -345,24 +354,17 @@
 
     <!-- NCR Salvaged Power Armor Helmet -->
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <ThingDef ParentName="HatBase">
         <defName>FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet</defName>
         <label>Trooper Helmet</label>
-        <description>A T-45 power armor helmet usually worn paired with the NCR’s salvaged power armors. Despite its salvaged nature, it offers excellent protection and, in contrast to the armor itself, has no major drawbacks compared to a regular power armor.</description>
+        <description>A T-45 power armor helmet usually worn paired with the NCR's salvaged power armors. Despite its salvaged nature, it offers excellent protection and, in contrast to the armor itself, has no major drawbacks compared to a regular power armor.</description>
         <techLevel>Industrial</techLevel>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Heavy_Trooper_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Apparel/NCR_Power_Armor/NCR_Salvaged_Power_Armor/NCR_Power_Armor_Helmets/FCP_NCR_Salvaged_Power_Armor_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>3000</WorkToMake>
             <MaxHitPoints>80</MaxHitPoints>
             <Mass>1</Mass>
             <MarketValue>650</MarketValue>
@@ -373,9 +375,6 @@
             <Insulation_Heat>2</Insulation_Heat>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
-        <costList>
-            <Cloth>25</Cloth>
-        </costList>
         <apparel>
             <bodyPartGroups>
                 <li>UpperHead</li>
@@ -447,8 +446,9 @@
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
-            </skillRequirements>
-        </recipeMaker>
+            </skillRequirements>            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>        </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Hat/FCP_NCR_Ranger_Hat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -495,7 +495,7 @@
 
     <!-- Ranger Hat Brown -->
 
-    <ThingDef ParentName="FCP_Apparel_NCR_Beret">
+    <ThingDef ParentName="FCP_NCR_Ranger_Hat">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Brown</defName>
         <label>NCR Brown Ranger Hat</label>
         <description>A brown cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
@@ -514,7 +514,7 @@
 
     <!-- Ranger Hat Tan -->
 
-    <ThingDef ParentName="FCP_Apparel_NCR_Beret">
+    <ThingDef ParentName="FCP_NCR_Ranger_Hat">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Tan</defName>
         <label>NCR Tan Ranger Hat</label>
         <description>A tan cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
@@ -533,7 +533,7 @@
 
     <!-- Ranger Hat Patrol -->
 
-    <ThingDef ParentName="FCP_Apparel_NCR_Beret">
+    <ThingDef ParentName="FCP_NCR_Ranger_Hat">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Patrol</defName>
         <label>NCR Patrol Ranger Hat</label>
         <description>A simple cowboy hat favoured by the desert rangers, especially those patrolling the Mojave. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
@@ -569,13 +569,6 @@
         <label>Veteran Ranger Helmet</label>
         <description>An enclosed military helmet with built-in low light optics and a gas mask worn by NCR Rangers. It offers better protection in comparison to the Trooper helmet but is significantly rarer.</description>
         <techLevel>Industrial</techLevel>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_NCR_Ranger_Elite_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>2</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Rangers/NCR_Veteran_Rangers/NCR_Veteran_Ranger_Helmet/FCP_NCR_Ranger_Combat_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
