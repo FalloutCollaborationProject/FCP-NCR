@@ -191,7 +191,7 @@
                     <factionDefs>
                         <li>PirateWaster</li>
                         <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
-                        <li MayRequire="Rick.FCP.GreatKhans">FCP_Faction_Great_Khans</li>
+                        <li MayRequire="Rick.FCP.GreatKhans">FCP_Faction_GreatKhans</li>
                     </factionDefs>
                 </li>
                 <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">

@@ -736,7 +736,7 @@
                     <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS_Lost_Hills</li>
                     <li MayRequire="altushka.boscompendium">DRK_Enclave</li>
                     <li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
-                    <li MayRequire="Rick.FCP.Khans">FCP_Faction_Great_Khans</li>
+                    <li MayRequire="Rick.FCP.Khans">FCP_Faction_GreatKhans</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
