@@ -7,7 +7,7 @@
 
     <!-- Service Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Service_Rifle</defName>
         <label>Service Rifle</label>
         <description>A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy.</description>
@@ -23,9 +23,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -90,7 +87,7 @@
 
     <!-- Ranger Sequoia -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Ranger_Sequoia</defName>
         <label>Ranger Sequoia</label>
         <description>A rare, large caliber double-action revolver gifted to NCR rangers after 20 years of service. It’s a beautifully made weapon and decorated with NCR symbols and quotes. However, it’s by no means just for show. In fact, it is one of the most powerful handguns in the whole wasteland and a testament for the skills of the Republic’s gun smiths.</description>
@@ -108,9 +105,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -174,7 +168,7 @@
 
     <!-- Anti-Material Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Anti_Material_Rifle</defName>
         <label>Anti-Material Rifle</label>
         <description>The anti-materiel rifle is a high-calibre bolt-action precision rifle, originally intended for the use against military equipment. Naturally, it can be, and is, used against living targets. There are relatively few anti-materiel rifles in circulation in the wasteland, most of them in the hands of elite forces of larger factions or high-end mercenaries. As a pure sniper rifle it is very unwieldy and cannot be used effectively in close combat. Over long distances, however, its accuracy and potency are unparalleled, making it a truly fearsome weapon when used by an experienced shooter.</description>
@@ -192,9 +186,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -261,7 +252,7 @@
 
     <!-- Hunting Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_NCR_Hunting_Rifle</defName>
         <label>NCR Standard Hunting Rifle</label>
         <description>A powerful bolt-action rifle with an attached iron sight intended for hunting big game. It is durable, accurate and easy to use and maintain weapon and thus a popular choice not only for hunters, but for many snipers in the NCR, Legion, and other groups. This particular design is boasted by the NCR recon snipers, featuring the two headed bear insignia.</description>
@@ -281,9 +272,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
