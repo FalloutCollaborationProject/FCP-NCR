@@ -11,20 +11,15 @@
 
     <!-- NCRCF Guard Helmet -->
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <ThingDef ParentName="FCP_Armor_Helmet_Makeable_Base">
         <defName>FCP_Apparel_NCRCF_Guard_Helmet</defName>
         <label>NCRCF Guard Helmet</label>
         <description>A riot helmet once worn by the guards of the NCRCF. Like many other parts of their gear, it has been apprehended by the Powder Gangers. It offers good protection, especially against blunt damage.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCRCF/NCRCF_Security/NCRCF_Guard_Helmet/FCP_NCRCF_Guard_Helmet</texPath>
@@ -73,20 +68,15 @@
 
     <!-- NCR Trooper Helmet -->
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase" Name="FCP_NCR_Trooper_Helmet">
+    <ThingDef ParentName="FCP_Armor_Helmet_Makeable_Base" Name="FCP_NCR_Trooper_Helmet">
         <defName>FCP_Apparel_NCR_Trooper_Helmet</defName>
         <label>Trooper Helmet</label>
         <description>The standard helmet of the NCR armed forces. It is mass-produced in the NCR and easy to make and maintain but offers only marginal protection.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_NCR_Standard_Trooper_Corps</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Troopers/NCR_Trooper_Helmets/NCR_Trooper_Helmet/FCP_NCR_Trooper_Helmet</texPath>
@@ -265,20 +255,15 @@
 
     <!-- NCR Beret -->
 
-    <ThingDef ParentName="HatMakeableBase" Name="FCP_Apparel_NCR_Beret">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base" Name="FCP_Apparel_NCR_Beret">
         <defName>FCP_Apparel_NCR_Beret</defName>
         <label>NCR Beret</label>
         <description>A simple green beret usually worn by officers of the NCR army. It mainly serves as an insignia of rank but offers a fair bit of protection against the weather.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_NCR_Trooper_Variations</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Troopers/NCR_Trooper_Berets/NCR_Beret/FCP_NCR_Beret</texPath>
@@ -436,19 +421,16 @@
 
     <!-- Ranger Hat Grey -->
 
-    <ThingDef ParentName="HatMakeableBase" Name="FCP_NCR_Ranger_Hat">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base" Name="FCP_NCR_Ranger_Hat">
         <defName>FCP_Apparel_NCR_Ranger_Hat_Grey</defName>
         <label>NCR Grey Ranger Hat</label>
         <description>A grey cowboy hat favoured by the NCR rangers. It’s useful for protecting the wearer against the relentless heat of the wasteland.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
-            </skillRequirements>            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>        </recipeMaker>
+            </skillRequirements>
+        </recipeMaker>
         <graphicData>
             <texPath>Apparel/NCR_Rangers/NCR_Ranger_Hats/NCR_Ranger_Hat/FCP_NCR_Ranger_Hat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -564,7 +546,7 @@
 
     <!-- NCR Veteran Ranger Helmet -->
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <ThingDef ParentName="HatBase">
         <defName>FCP_Apparel_NCR_Veteran_Ranger_Helmet</defName>
         <label>Veteran Ranger Helmet</label>
         <description>An enclosed military helmet with built-in low light optics and a gas mask worn by NCR Rangers. It offers better protection in comparison to the Trooper helmet but is significantly rarer.</description>
