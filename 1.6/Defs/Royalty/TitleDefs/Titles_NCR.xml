@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <FCP.Factions.TitleBranchDef>
+        <label>NCR Armed Forces</label>
+        <defName>FCP_TitleBranch_NCR_Army</defName>
+    </FCP.Factions.TitleBranchDef>
+
+    <FCP.Factions.TitleBranchDef>
+        <label>NCR Rangers</label>
+        <defName>FCP_TitleBranch_NCR_Rangers</defName>
+    </FCP.Factions.TitleBranchDef>
+
+    <RoyalTitleDef Name="FCP_Title_NCR_Army_Base" ParentName="FCP_Base_Empire_Titles" Abstract="True">
+        <tags>
+            <li>FCP_Title_NCR</li>
+            <li>FCP_Title_NCR_Army</li>
+        </tags>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef Name="FCP_Title_NCR_Rangers_Base" ParentName="FCP_Base_Empire_Titles" Abstract="True">
+        <tags>
+            <li>FCP_Title_NCR</li>
+            <li>FCP_Title_NCR_Rangers</li>
+        </tags>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+    </RoyalTitleDef>
+
     <!--__________ Title Defs __________-->
 
     <!--_____ NCR Titles _____-->
@@ -9,54 +35,63 @@
 
     <!-- NCR Private -->
 
-    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Army_Base">
         <defName>FCP_Title_NCR_PVT</defName>
         <label>NCR Army Private</label>
         <description>The lowest rank within the New California Republic's military. There isn't a lot of repect in this role, nor is the pay well.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
-        <seniority>0</seniority>
+        <seniority>201</seniority>
         <favorCost>1</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
-        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <permitPointsAwarded>1</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Army</branchDef>
+                <seniority>1</seniority>
+            </li>
+        </modExtensions>
     </RoyalTitleDef>
 
     <!-- NCR Sergeant -->
 
-    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Army_Base">
         <defName>FCP_Title_NCR_SGT</defName>
         <label>NCR Army Sergeant</label>
         <description>The first rank within the New California Republic's non commissioned officer corps. This is the first step in a professional military carrer with reaL power and responsibilities.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
-        <seniority>100</seniority>
+        <seniority>202</seniority>
         <favorCost>6</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>1</commonality>
         <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
-        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <permitPointsAwarded>2</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Army</branchDef>
+                <seniority>2</seniority>
+            </li>
+        </modExtensions>
     </RoyalTitleDef>
 
     <!-- NCR Lieutenant -->
 
-    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Army_Base">
         <defName>FCP_Title_NCR_LT</defName>
         <label>NCR Army Lieutenant</label>
         <description>The first rank within the New California Republic's commissioned officer corps. This is the lowest command position with the ability to call in reinforcements and supplies much faster and with greater quality and quantity.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
-        <seniority>300</seniority>
+        <seniority>203</seniority>
         <favorCost>10</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>1</commonality>
         <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
-        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <requiredApparel>
             <li>
                 <bodyPartGroupsMatchAny>
@@ -69,23 +104,28 @@
             </li>
         </requiredApparel>
         <permitPointsAwarded>3</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Army</branchDef>
+                <seniority>3</seniority>
+            </li>
+        </modExtensions>
     </RoyalTitleDef>
 
     <!-- NCR Colonel -->
 
-    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Army_Base">
         <defName>FCP_Title_NCR_COL</defName>
         <label>NCR Army Colonel</label>
         <description>The highest rank that achievable in the New California Republic without a political ally. This is one of the highest command positions with the ability to call in reinforcements at the company level and higher including special forces.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
-        <seniority>600</seniority>
+        <seniority>204</seniority>
         <favorCost>12</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>1</commonality>
         <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
-        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <requiredApparel>
             <li>
                 <bodyPartGroupsMatchAny>
@@ -98,45 +138,54 @@
             </li>
         </requiredApparel>
         <permitPointsAwarded>4</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Army</branchDef>
+                <seniority>4</seniority>
+            </li>
+        </modExtensions>
     </RoyalTitleDef>
 
     <!--___ NCR Ranger Titles ___-->
 
     <!-- NCR Ranger Volunteer -->
 
-    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Rangers_Base">
         <defName>FCP_Title_NCR_Ranger_Volunteer</defName>
         <label>NCR Ranger Volunteer</label>
         <description>.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
-        <seniority>650</seniority>
+        <seniority>301</seniority>
         <favorCost>7</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>1</commonality>
         <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
-        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <permitPointsAwarded>2</permitPointsAwarded>
-        <requiredApparel>
-        </requiredApparel>
+        <requiredApparel/>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Rangers</branchDef>
+                <seniority>1</seniority>
+            </li>
+        </modExtensions>
     </RoyalTitleDef>
 
     <!-- NCR Ranger Patrolman -->
 
-    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Rangers_Base">
         <defName>FCP_Title_NCR_Ranger_Patrolman</defName>
         <label>NCR Ranger Patrolman</label>
         <description>.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
-        <seniority>700</seniority>
+        <seniority>302</seniority>
         <favorCost>11</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>1</commonality>
         <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
-        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <requiredApparel>
             <li>
                 <bodyPartGroupsMatchAny>
@@ -157,23 +206,28 @@
             </li>
         </requiredApparel>
         <permitPointsAwarded>3</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Rangers</branchDef>
+                <seniority>2</seniority>
+            </li>
+        </modExtensions>
     </RoyalTitleDef>
 
     <!-- NCR Ranger Veteran -->
 
-    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Rangers_Base">
         <defName>FCP_Title_NCR_Ranger_Veteran</defName>
         <label>NCR Ranger Veteran</label>
         <description>.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
-        <seniority>750</seniority>
+        <seniority>303</seniority>
         <favorCost>13</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>1</commonality>
         <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
-        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
         <requiredApparel>
             <li>
                 <bodyPartGroupsMatchAny>
@@ -194,6 +248,12 @@
             </li>
         </requiredApparel>
         <permitPointsAwarded>4</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Rangers</branchDef>
+                <seniority>3</seniority>
+            </li>
+        </modExtensions>
     </RoyalTitleDef>
 
 </Defs>

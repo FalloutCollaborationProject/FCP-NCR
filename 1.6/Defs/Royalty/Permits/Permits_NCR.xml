@@ -33,11 +33,6 @@
 			</itemsToDrop>
 			<favorCost>6</favorCost>
 		</royalAid>
-		<modExtensions>
-			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
-				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
-			</li>
-		</modExtensions>
 	</RoyalTitlePermitDef>
 
 	<!--_____ Weapon Drop _____-->
@@ -60,8 +55,10 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
-				<maxTitle>FCP_Title_NCR_COL</maxTitle>
+			<li Class="FCP.Factions.PermitExtension_BranchPermit">
+				<branchDefs>
+					<li>FCP_TitleBranch_NCR_Army</li>
+				</branchDefs>
 			</li>
 		</modExtensions>
 	</RoyalTitlePermitDef>
@@ -84,8 +81,10 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
-				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
+			<li Class="FCP.Factions.PermitExtension_BranchPermit">
+				<branchDefs>
+					<li>FCP_TitleBranch_NCR_Rangers</li>
+				</branchDefs>
 			</li>
 		</modExtensions>
 	</RoyalTitlePermitDef>
@@ -110,8 +109,10 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
-				<maxTitle>FCP_Title_NCR_COL</maxTitle>
+			<li Class="FCP.Factions.PermitExtension_BranchPermit">
+				<branchDefs>
+					<li>FCP_TitleBranch_NCR_Army</li>
+				</branchDefs>
 			</li>
 		</modExtensions>
 	</RoyalTitlePermitDef>
@@ -134,8 +135,10 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
-				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
+			<li Class="FCP.Factions.PermitExtension_BranchPermit">
+				<branchDefs>
+					<li>FCP_TitleBranch_NCR_Rangers</li>
+				</branchDefs>
 			</li>
 		</modExtensions>
 	</RoyalTitlePermitDef>
@@ -159,8 +162,10 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
-				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
+			<li Class="FCP.Factions.PermitExtension_BranchPermit">
+				<branchDefs>
+					<li>FCP_TitleBranch_NCR_Rangers</li>
+				</branchDefs>
 			</li>
 		</modExtensions>
 	</RoyalTitlePermitDef>
@@ -184,8 +189,10 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
-				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
+			<li Class="FCP.Factions.PermitExtension_BranchPermit">
+				<branchDefs>
+					<li>FCP_TitleBranch_NCR_Rangers</li>
+				</branchDefs>
 			</li>
 		</modExtensions>
 	</RoyalTitlePermitDef>
