@@ -719,8 +719,9 @@
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <modExtensions Inherit="False">
             <!-- Faction Tab Type Name -->
-            <li Class="FCP.Factions.FactionExtension_FactionExtension_FlavorOverride">
+            <li Class="FCP.Factions.FactionExtension_FlavorOverride">
                 <newLabel>Wasteland Republic</newLabel>
+                <preferFactionLeaderTitle>true</preferFactionLeaderTitle>
             </li>
             <!-- NCR Dollars -->
             <li Class="FCP.Currencies.CurrencyReplacement">
@@ -757,6 +758,7 @@
                 <roleOverrides>
                     <li>
                         <preceptDef>IdeoRole_Leader</preceptDef>
+                        <newName>Governor</newName>
                         <disableApparelRequirements>true</disableApparelRequirements>
                     </li>
                     <li>
