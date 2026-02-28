@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ NCR Ranger Title Defs __________-->
+
+    <!-- TitleBranchDef -->
+
+    <FCP.Factions.TitleBranchDef>
+        <label>NCR Rangers</label>
+        <defName>FCP_TitleBranch_NCR_Rangers</defName>
+    </FCP.Factions.TitleBranchDef>
+
+    <!-- Abstract Base -->
+
+    <RoyalTitleDef Name="FCP_Title_NCR_Rangers_Base" ParentName="FCP_Base_Empire_Titles" Abstract="True">
+        <tags>
+            <li>FCP_Title_NCR</li>
+            <li>FCP_Title_NCR_Rangers</li>
+        </tags>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+    </RoyalTitleDef>
+
+    <!--___ NCR Ranger Titles ___-->
+
+    <!-- NCR Ranger Volunteer -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Rangers_Base">
+        <defName>FCP_Title_NCR_Ranger_Volunteer</defName>
+        <label>NCR Ranger Volunteer</label>
+        <description>.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>301</seniority>
+        <favorCost>7</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <permitPointsAwarded>2</permitPointsAwarded>
+        <requiredApparel/>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Rangers</branchDef>
+                <seniority>1</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+    <!-- NCR Ranger Patrolman -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Rangers_Base">
+        <defName>FCP_Title_NCR_Ranger_Patrolman</defName>
+        <label>NCR Ranger Patrolman</label>
+        <description>.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>302</seniority>
+        <favorCost>11</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Ranger_Patrol</li>
+                </requiredTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Ranger_Patrol</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Rangers</branchDef>
+                <seniority>2</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+    <!-- NCR Ranger Veteran -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Rangers_Base">
+        <defName>FCP_Title_NCR_Ranger_Veteran</defName>
+        <label>NCR Ranger Veteran</label>
+        <description>.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>303</seniority>
+        <favorCost>13</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Ranger_Veteran</li>
+                </requiredTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Ranger_Veteran</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Rangers</branchDef>
+                <seniority>3</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+    <!-- NCR Ranger Captain -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Rangers_Base">
+        <defName>FCP_Title_NCR_Ranger_Captain</defName>
+        <label>NCR Ranger Captain</label>
+        <description>A senior officer within the NCR Rangers, commanding ranger stations and coordinating operations across vast stretches of wasteland. Ranger Captains are seasoned veterans trusted with the most dangerous assignments.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>304</seniority>
+        <favorCost>15</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Ranger_Veteran</li>
+                </requiredTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Ranger_Veteran</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>5</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Rangers</branchDef>
+                <seniority>4</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+    <!--___ Unobtainable ___-->
+
+    <!-- NCR Ranger Chief -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Rangers_Base">
+        <defName>FCP_Title_NCR_Ranger_Chief</defName>
+        <label>NCR Ranger Chief</label>
+        <description>The supreme commander of the NCR Rangers. The Ranger Chief oversees all ranger operations across the Republic and reports directly to the President. This rank is not awarded through normal service.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>305</seniority>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Rangers</branchDef>
+                <seniority>5</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+</Defs>

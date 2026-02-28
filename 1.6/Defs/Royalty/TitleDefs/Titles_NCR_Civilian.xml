@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ NCR Civilian Title Defs __________-->
+
+    <!-- TitleBranchDef -->
+
+    <FCP.Factions.TitleBranchDef>
+        <label>NCR Civilian Government</label>
+        <defName>FCP_TitleBranch_NCR_Civilian</defName>
+    </FCP.Factions.TitleBranchDef>
+
+    <!-- Abstract Base -->
+
+    <RoyalTitleDef Name="FCP_Title_NCR_Civilian_Base" ParentName="FCP_Base_Empire_Titles" Abstract="True">
+        <tags>
+            <li>FCP_Title_NCR</li>
+            <li>FCP_Title_NCR_Civilian</li>
+        </tags>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+    </RoyalTitleDef>
+
+    <!--___ NCR Civilian Titles ___-->
+
+    <!-- NCR Representative -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Civilian_Base">
+        <defName>FCP_Title_NCR_Representative</defName>
+        <label>NCR Representative</label>
+        <description>An elected representative of the New California Republic's Congress. Representatives serve the interests of their local communities and vote on legislation that shapes the Republic's future.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>1101</seniority>
+        <favorCost>5</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <permitPointsAwarded>1</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Civilian</branchDef>
+                <seniority>1</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+    <!-- NCR Senator -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Civilian_Base">
+        <defName>FCP_Title_NCR_Senator</defName>
+        <label>NCR Senator</label>
+        <description>A senior legislator in the New California Republic's Congress. Senators wield considerable political influence, shaping policy and controlling the Republic's budget and military oversight.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>1102</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <permitPointsAwarded>2</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Civilian</branchDef>
+                <seniority>2</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+    <!-- NCR Councillor -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Civilian_Base">
+        <defName>FCP_Title_NCR_Councillor</defName>
+        <label>NCR Councillor</label>
+        <description>A member of the President's inner council. Councillors advise on matters of state, oversee government departments, and serve as the highest-ranking civilian officials below the executive office.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>1103</seniority>
+        <favorCost>14</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <permitPointsAwarded>3</permitPointsAwarded>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Civilian</branchDef>
+                <seniority>3</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+    <!--___ Unobtainable ___-->
+
+    <!-- NCR Vice President -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Civilian_Base">
+        <defName>FCP_Title_NCR_VP</defName>
+        <label>NCR Vice President</label>
+        <description>The second-highest executive office in the New California Republic. The Vice President presides over Congress and stands ready to assume the presidency. This title is not awarded through normal service.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>1999</seniority>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Civilian</branchDef>
+                <seniority>4</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+    <!-- NCR President -->
+
+    <RoyalTitleDef ParentName="FCP_Title_NCR_Civilian_Base">
+        <defName>FCP_Title_NCR_President</defName>
+        <label>NCR President</label>
+        <description>The head of state and commander-in-chief of the New California Republic. The President holds supreme executive authority over the Republic and its armed forces. This title is not awarded through normal service.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>2000</seniority>
+        <modExtensions>
+            <li Class="FCP.Factions.TitleExtension_BranchTitle">
+                <branchDef>FCP_TitleBranch_NCR_Civilian</branchDef>
+                <seniority>5</seniority>
+            </li>
+        </modExtensions>
+    </RoyalTitleDef>
+
+</Defs>
