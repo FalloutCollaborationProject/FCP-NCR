@@ -29,7 +29,7 @@
         </allowedCultures>
         <modExtensions Inherit="False">
             <!-- Faction tab label override -->
-            <li Class="FCP.Factions.FactionExtension_FactionTabLabelOverride">
+            <li Class="FCP.Factions.FactionExtension_FactionExtension_FlavorOverride">
                 <newLabel>Rogue Soldiers</newLabel>
             </li>
             <!-- Hostile to NCR and Legion -->

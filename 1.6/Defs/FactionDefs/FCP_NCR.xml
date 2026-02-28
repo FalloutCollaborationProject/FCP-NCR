@@ -719,7 +719,7 @@
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <modExtensions Inherit="False">
             <!-- Faction Tab Type Name -->
-            <li Class="FCP.Factions.FactionExtension_FactionTabLabelOverride">
+            <li Class="FCP.Factions.FactionExtension_FactionExtension_FlavorOverride">
                 <newLabel>Wasteland Republic</newLabel>
             </li>
             <!-- NCR Dollars -->
