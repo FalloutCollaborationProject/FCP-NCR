@@ -88,14 +88,32 @@
         <label>California Grizzly</label>
         <description>A large two headed bear from the mountains of California, this is the ideological and political symbol of the NCR and its military. This massive beast should be treated with respect and honor.</description>
         <race>
-            <maxPreyBodySize Inherit="False">4</maxPreyBodySize>
-            <body Inherit="False">FCP_Body_Quadruped_Animal_With_Paws_and_2_Heads</body>
-            <manhunterOnTameFailChance Inherit="False">0.80</manhunterOnTameFailChance>
-            <manhunterOnDamageChance Inherit="False">0.80</manhunterOnDamageChance>
+            <maxPreyBodySize>4</maxPreyBodySize>
+            <body>FCP_Body_Quadruped_Animal_With_Paws_and_2_Heads</body>
+            <manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
             <meatLabel>bear meat</meatLabel>
+            <lifeStageAges Inherit="False">
+                <li>
+                    <def>AnimalBaby</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.2</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>0.5</minAge>
+                    <soundWounded>Pawn_Bear_Injured</soundWounded>
+                    <soundDeath>Pawn_Bear_Death</soundDeath>
+                    <soundCall>Pawn_Bear_Call</soundCall>
+                    <soundAngry>Pawn_Bear_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
         </race>
         <statBases>
             <Wildness>0.90</Wildness>
