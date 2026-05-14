@@ -83,7 +83,7 @@
         </xenotypeSet>
 
         <!--__________ Backstories __________-->
-        
+
         <backstoryFilters>
             <li>
                 <categories>
@@ -127,6 +127,22 @@
                 </options>
             </li>
         </pawnGroupMakers>
+        <modExtensions>
+            <!-- Make them unable to use drop pods -->
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+            <!-- Clusters and biome configuration -->
+            <li Class="FCP.Factions.FactionExtension_SpawnConfig">
+                <clustered>true</clustered>
+                <clusterRadius>30</clusterRadius>
+            </li>
+        </modExtensions>
     </FactionDef>
 
 </Defs>

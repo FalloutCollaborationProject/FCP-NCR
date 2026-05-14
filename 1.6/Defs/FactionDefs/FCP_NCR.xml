@@ -796,6 +796,15 @@
                 <initialTerritoryRadius>10</initialTerritoryRadius>
                 <renderTerritoryOverWater>false</renderTerritoryOverWater>
             </li> -->
+            <!-- Clusters and biome configuration -->
+            <li Class="FCP.Factions.FactionExtension_SpawnConfig">
+                <allowedBiomes>
+                    <li>AridShrubland</li>
+                    <li>Desert</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+                <clusterRadius>30</clusterRadius>
+            </li>
         </modExtensions>
     </FactionDef>
 
