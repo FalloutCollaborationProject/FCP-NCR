@@ -29,4 +29,38 @@
         </modExtensions>
     </IncidentDef>
 
+    <IncidentDef>
+        <defName>FCP_Incident_NCR_RangerOutpost</defName>
+        <label>NCR Ranger Outpost appears</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <workerClass>FCP.Factions.IncidentWorker_RandomFactionSite</workerClass>
+        <baseChance>1.0</baseChance>
+        <minRefireDays>20</minRefireDays>
+        <letterLabel>NCR Ranger Outpost Discovered</letterLabel>
+        <letterText>Your scouts have discovered an NCR Ranger outpost in the region.</letterText>
+        <letterDef>NeutralEvent</letterDef>
+        <modExtensions>
+            <li Class="FCP.Factions.RandomSiteIncidentExtension">
+                <targetFaction>FCP_Faction_NCR</targetFaction>
+                <sitePartDef>FCP_SitePart_NCR_RangerOutpost</sitePartDef>
+                <durationDays>15</durationDays>
+                <maxActiveSites>2</maxActiveSites>
+                <requiresPlayerVisible>true</requiresPlayerVisible>
+                <searchRadius>40</searchRadius>
+                <siteTemplate>
+                    <guaranteedPawnKinds>
+                        <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
+                    </guaranteedPawnKinds>
+                    <allowedBiomes>
+                        <li>Desert</li>
+                        <li>AridShrubland</li>
+                    </allowedBiomes>
+                </siteTemplate>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
 </Defs>

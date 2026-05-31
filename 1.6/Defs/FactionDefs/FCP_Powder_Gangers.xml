@@ -114,7 +114,7 @@
                     <li>
                         <name>NCRCF</name>
                         <prefab>FCP_Prefab_NCRCF_Facility</prefab>
-                        <forcedMapSize>(275, 1, 275)</forcedMapSize>
+                        <forcedMapSize>(275, 275)</forcedMapSize>
                         <guaranteedCharacters>
                             <li>FCP_Character_Powder_Ganger_Eddie</li>
                             <li>FCP_Character_Powder_Ganger_Carter</li>
@@ -129,16 +129,9 @@
                             <li>FCP_Character_Powder_Ganger_Hannigan</li>
                         </guaranteedCharacters>
                         <guaranteedPawnKinds>
-                            <li>FCP_Pawnkind_Powder_Ganger</li>
-                            <li>FCP_Pawnkind_Powder_Ganger</li>
-                            <li>FCP_Pawnkind_Powder_Ganger</li>
-                            <li>FCP_Pawnkind_Powder_Ganger</li>
-                            <li>FCP_Pawnkind_Powder_Ganger</li>
-                            <li>FCP_Pawnkind_Powder_Ganger</li>
-                            <li>FCP_Pawnkind_Powder_Ganger_Bomber</li>
-                            <li>FCP_Pawnkind_Powder_Ganger_Bomber</li>
-                            <li>FCP_Pawnkind_Powder_Ganger_Veteran</li>
-                            <li>FCP_Pawnkind_Powder_Ganger_Veteran</li>
+                            <FCP_Pawnkind_Powder_Ganger>6</FCP_Pawnkind_Powder_Ganger>
+                            <FCP_Pawnkind_Powder_Ganger_Bomber>2</FCP_Pawnkind_Powder_Ganger_Bomber>
+                            <FCP_Pawnkind_Powder_Ganger_Veteran>2</FCP_Pawnkind_Powder_Ganger_Veteran>
                         </guaranteedPawnKinds>
                         <preferredHilliness>
                             <li>Flat</li>

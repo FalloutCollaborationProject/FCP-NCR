@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SitePartDef>
+		<defName>FCP_SitePart_NCR_RangerOutpost</defName>
+		<label>NCR ranger outpost</label>
+		<description>An NCR ranger outpost.</description>
+		<workerClass>FCP.Factions.SitePartWorker_FactionOutpost</workerClass>
+		<siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+		<expandingIconTexture>MapIcons/Sites/FCP_Camp_Site</expandingIconTexture>
+		<tags>
+			<li>FCP_NCR_RangerOutpost</li>
+		</tags>
+	</SitePartDef>
+
+</Defs>

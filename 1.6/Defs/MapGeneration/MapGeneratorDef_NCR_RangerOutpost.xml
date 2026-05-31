@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GenStepDef>
+		<defName>FCP_GenStep_NCR_RangerOutpost</defName>
+		<linkWithSite>FCP_SitePart_NCR_RangerOutpost</linkWithSite>
+		<order>450</order>
+		<genStep Class="FCP.Factions.GenStep_FactionOutpost" />
+	</GenStepDef>
+
+</Defs>
