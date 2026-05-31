@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Item_NCR_DogTags</defName>
+        <label>NCR dog tags</label>
+        <description>Military identification tags from NCR soldiers. Each set bears the name, rank, and service number of a trooper. The NCR offers bounties for recovered tags from deserters - proof of elimination or reclamation of government property.</description>
+        <graphicData>
+            <texPath>Things/Items/Dogtags/FCP_NCR_Dogtags</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>500</stackLimit>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <MarketValue>35</MarketValue>
+            <Mass>0.05</Mass>
+            <Flammability>0.2</Flammability>
+            <DeteriorationRate>0.5</DeteriorationRate>
+        </statBases>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <burnableByRecipe>false</burnableByRecipe>
+        <smeltable>false</smeltable>
+        <allowedArchonexusCount>1000</allowedArchonexusCount>
+    </ThingDef>
+
+</Defs>

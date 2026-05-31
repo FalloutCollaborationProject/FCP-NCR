@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Powder Gangers Unique Character PawnKinds __________-->
+
+    <!--___ Base Definition ___-->
+
+    <PawnKindDef Name="FCP_PowderGanger_UniqueCharacterBase" ParentName="FCP_NCRkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <combatPower>65</combatPower>
+        <defaultFactionType>FCP_Faction_Powder_Gangers</defaultFactionType>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~1.0</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>10~20</initialResistanceRange>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </PawnKindDef>
+
+    <!--___ Gang Leaders ___-->
+
+    <!-- Samuel Cooke -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Samuel_Cooke</defName>
+        <label>Samuel Cooke</label>
+        <combatPower>95</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Samuel_Cooke</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.1</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>50~120</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Eddie -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Eddie</defName>
+        <label>Eddie</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>90</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Caravan_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Eddie</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.1</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Psycho</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Meyers -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Meyers</defName>
+        <label>Meyers</label>
+        <combatPower>85</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Meyers</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.2</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>30~70</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!--___ Raider Leaders ___-->
+
+    <!-- Joe Cobb -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Joe_Cobb</defName>
+        <label>Joe Cobb</label>
+        <combatPower>70</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Powder_Ganger_Simple_Outfit</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Varmint_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_9mm_SMG</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Joe_Cobb</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.3</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>20~50</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Jet</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Boxcars -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Boxcars</defName>
+        <label>Boxcars</label>
+        <combatPower>35</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pipe_Pistol</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Boxcars</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.5</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~15</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!--___ Vault 19 Members ___-->
+
+    <!-- Philip Lem -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Philip_Lem</defName>
+        <label>Philip Lem</label>
+        <combatPower>75</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Hunting_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Philip_Lem</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.2</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>30~60</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Hannigan -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Hannigan</defName>
+        <label>Hannigan</label>
+        <combatPower>60</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_9mm_Pistol</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Hannigan</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.3</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~40</countRange>
+                </li>
+                <li>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!--___ NCRCF Guards ___-->
+
+    <!-- Carter -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Carter</defName>
+        <label>Carter</label>
+        <combatPower>65</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+            <li>FCP_Apparel_NCRCF_Guard_Vest</li>
+            <li>FCP_Apparel_NCRCF_Guard_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Varmint_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Carter</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.3</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~35</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Dawes -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Dawes</defName>
+        <label>Dawes</label>
+        <combatPower>65</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+            <li>FCP_Apparel_NCRCF_Guard_Vest</li>
+            <li>FCP_Apparel_NCRCF_Guard_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_9mm_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pipe_Rifle</li>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Dawes</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.3</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~35</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Diluted_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Scrambler -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Scrambler</defName>
+        <label>Scrambler</label>
+        <combatPower>70</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+            <li>FCP_Apparel_NCRCF_Guard_Vest</li>
+            <li>FCP_Apparel_NCRCF_Guard_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_9mm_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Hunting_Shotgun</li>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Scrambler</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.3</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>20~45</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Buffout</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Chavez -->
+
+    <PawnKindDef ParentName="FCP_PowderGanger_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Chavez</defName>
+        <label>Chavez</label>
+        <combatPower>75</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Caravan_Shotgun</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Rebar_Club</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Chavez</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.3</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~40</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Psycho</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+</Defs>

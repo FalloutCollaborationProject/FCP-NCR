@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SitePartDef>
+        <defName>FCP_Site_NCRCF_Facility</defName>
+        <label>NCRCF facility</label>
+        <description>Former NCR prison seized by hostile deserter inmates.</description>
+        <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Camp_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <tags>
+            <li>FCP_Site_NCRCF_Facility</li>
+        </tags>
+        <approachOrderString>Attack NCRCF facility</approachOrderString>
+        <approachingReportString>Attacking NCRCF facility</approachingReportString>
+        <arrivedLetter>Hostile inmates control the facility. Clear them out.</arrivedLetter>
+        <arrivedLetterDef>ThreatBig</arrivedLetterDef>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <minThreatPoints>400</minThreatPoints>
+        <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_NCRCF_Facility_Enemies</defName>
+        <linkWithSite>FCP_Site_NCRCF_Facility</linkWithSite>
+        <order>400</order>
+        <genStep Class="FCP.Core.GenSteps.GenStep_SitePartPawns"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_NCRCF_Facility_Compound</defName>
+        <linkWithSite>FCP_Site_NCRCF_Facility</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_ScatterGroupPrefabs">
+            <count>1</count>
+            <minSpacing>5</minSpacing>
+            <spotMustBeStandable>false</spotMustBeStandable>
+            <allowRoofed>false</allowRoofed>
+            <warnOnFail>false</warnOnFail>
+            <groups>
+                <FCP_Prefab_NCRCF_Facility>
+                    <weight>1.0</weight>
+                    <indoorRuin>false</indoorRuin>
+                    <max>1</max>
+                </FCP_Prefab_NCRCF_Facility>
+            </groups>
+        </genStep>
+    </GenStepDef>
+
+</Defs>

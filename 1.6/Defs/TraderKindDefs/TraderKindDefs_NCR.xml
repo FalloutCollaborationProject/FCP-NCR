@@ -78,8 +78,6 @@
 
             <!--_ Apparel _-->
 
-            <!-- Clothing -->
-
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Apparel_NCR_Trooper_Fatigues</thingDef>
                 <countRange>1~10</countRange>
@@ -160,7 +158,55 @@
                 <countRange>2~6</countRange>
             </li>
 
+            <!--__ Medicine __-->
+
+            <!-- Stimpak -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <!-- Med-X -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <!-- Pre-War Food -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!-- Nuka-Cola -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDef>FCP_Gun_Combat_Rifle_Standard</thingDef>
+                <countRange>2~6</countRange>
+            </li>
+
             <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
 
             <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
 

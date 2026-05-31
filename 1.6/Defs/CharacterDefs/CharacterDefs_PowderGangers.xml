@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Powder Gangers Character Definitions __________-->
+
+    <!--___ Gang Leaders ___-->
+
+    <!-- Samuel Cooke -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Samuel_Cooke</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Samuel_Cooke</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Samuel</firstName>
+                <lastName>Cooke</lastName>
+                <nickname>Cooke</nickname>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 30, 20)</hairColor>
+                <hairDef>Mohawk</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(190, 160, 135)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Eddie -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Eddie</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Eddie</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Eddie</firstName>
+                <lastName></lastName>
+                <nickname>Eddie</nickname>
+                <gender>Male</gender>
+                <age>33</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(25, 20, 15)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(180, 150, 125)</skinColorOverride>
+                <headTypeDef>Male_AverageWide</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Meyers -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Meyers</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Meyers</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Meyers</firstName>
+                <lastName></lastName>
+                <nickname>Sheriff</nickname>
+                <gender>Male</gender>
+                <age>52</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 75, 70)</hairColor>
+                <hairDef>Flowy</hairDef>
+                <beardDef>Full</beardDef>
+                <skinColorOverride>(195, 170, 145)</skinColorOverride>
+                <headTypeDef>Male_AverageWide</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--___ Raider Leaders ___-->
+
+    <!-- Joe Cobb -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Joe_Cobb</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Joe_Cobb</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Joe</firstName>
+                <lastName>Cobb</lastName>
+                <nickname>Joe</nickname>
+                <gender>Male</gender>
+                <age>31</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(45, 35, 25)</hairColor>
+                <hairDef>Topdog</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(175, 145, 120)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Boxcars -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Boxcars</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Boxcars</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Boxcars</firstName>
+                <lastName></lastName>
+                <nickname>Boxcars</nickname>
+                <gender>Male</gender>
+                <age>34</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 40, 30)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>Stubble</beardDef>
+                <skinColorOverride>(160, 135, 110)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--___ Vault 19 Gang ___-->
+
+    <!-- Philip Lem -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Philip_Lem</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Philip_Lem</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Philip</firstName>
+                <lastName>Lem</lastName>
+                <nickname>Lem</nickname>
+                <gender>Male</gender>
+                <age>29</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(55, 45, 35)</hairColor>
+                <hairDef>Wavy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(185, 160, 135)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Hannigan -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Hannigan</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Hannigan</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Hannigan</firstName>
+                <lastName></lastName>
+                <nickname>Hannigan</nickname>
+                <gender>Male</gender>
+                <age>27</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 50, 40)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(190, 165, 140)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--___ NCRCF Guards ___-->
+
+    <!-- Carter -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Carter</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Carter</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Carter</firstName>
+                <lastName></lastName>
+                <nickname>Carter</nickname>
+                <gender>Male</gender>
+                <age>28</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 40, 30)</hairColor>
+                <hairDef>Topdog</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(180, 155, 130)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Dawes -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Dawes</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Dawes</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Dawes</firstName>
+                <lastName></lastName>
+                <nickname>Dawes</nickname>
+                <gender>Male</gender>
+                <age>32</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 35, 25)</hairColor>
+                <hairDef>Mohawk</hairDef>
+                <beardDef>Stubble</beardDef>
+                <skinColorOverride>(170, 145, 120)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Scrambler -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Scrambler</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Scrambler</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Scrambler</firstName>
+                <lastName></lastName>
+                <nickname>Scrambler</nickname>
+                <gender>Male</gender>
+                <age>35</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(55, 45, 35)</hairColor>
+                <hairDef>Wavy</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(185, 160, 135)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Chavez -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Powder_Ganger_Chavez</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Chavez</pawnKind>
+        <faction>FCP_Faction_Powder_Gangers</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Chavez</firstName>
+                <lastName></lastName>
+                <nickname>Chavez</nickname>
+                <gender>Male</gender>
+                <age>30</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(30, 25, 20)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(165, 135, 110)</skinColorOverride>
+                <headTypeDef>Male_AverageWide</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>

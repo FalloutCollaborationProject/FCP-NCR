@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MapGeneratorDef ParentName="MapCommonBase">
+		<defName>FCP_MapGen_NCRCF</defName>
+		<genSteps>
+			<li>ElevationFertility</li>
+			<li>Terrain</li>
+			<li>RocksFromGrid</li>
+			<li>FCP_Settlement_NCRCF_Prefab</li>
+			<li>Settlement</li>
+			<li>SettlementPower</li>
+		</genSteps>
+	</MapGeneratorDef>
+
+	<GenStepDef>
+		<defName>FCP_Settlement_NCRCF_Prefab</defName>
+		<order>450</order>
+		<genStep Class="GenStep_ScatterGroupPrefabs">
+			<count>1</count>
+			<minSpacing>5</minSpacing>
+			<spotMustBeStandable>false</spotMustBeStandable>
+			<allowRoofed>false</allowRoofed>
+			<warnOnFail>true</warnOnFail>
+			<groups>
+				<FCP_Prefab_NCRCF_Facility>
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+					<max>1</max>
+				</FCP_Prefab_NCRCF_Facility>
+			</groups>
+		</genStep>
+	</GenStepDef>
+
+</Defs>

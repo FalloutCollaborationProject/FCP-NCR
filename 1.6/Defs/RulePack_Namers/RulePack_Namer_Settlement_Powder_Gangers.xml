@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Powder Gangers Settlement Name Maker -->
+
+    <RulePackDef>
+        <defName>FCP_Namer_Settlement_Powder_Gangers</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->NCRCF</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    
+</Defs>

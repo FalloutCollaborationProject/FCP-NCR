@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Powder Gangers Faction __________-->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_Powder_Gangers</defName>
+        <label>Powder Gangers</label>
+        <description>Escaped convicts from the NCR Correctional Facility who seized control of the prison during a violent riot. Armed with stolen guard weapons and scavenged explosives, these hardened criminals now terrorize the surrounding region. They're poorly organized and equipped, surviving through raids and extortion.</description>
+        <leaderTitle>Gang Leader</leaderTitle>
+        <pawnSingular>Powder Ganger</pawnSingular>
+        <pawnsPlural>Powder Gangers</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <techLevel>Industrial</techLevel>
+        <colorSpectrum>
+            <li>(1, 1, 1)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <settlementGenerationWeight>0.02</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>false</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <fixedName>Powder Gangers</fixedName>
+        <factionIconPath>World_Icon/NCR_Icon/FCP_NCRCF_Powder_Gangers_World_Icon</factionIconPath>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <settlementNameMaker>FCP_Namer_Settlement_Powder_Gangers</settlementNameMaker>
+        <allowedCultures>
+            <li>FCP_Culture_NCR_Californian</li>
+        </allowedCultures>
+        <basicMemberKind>FCP_Pawnkind_Powder_Ganger</basicMemberKind>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <!--__________ Ideology __________-->
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Convict's Way</ideoName>
+        <ideoDescription>Escaped from the NCR's prisons, these outlaws live by their own code. Violence is survival, authority is oppression, and loyalty goes to those who share your scars.</ideoDescription>
+        <styles>
+            <li>FCP_Style_Californian</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <!--__________ Biotech __________-->
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
+        <!--__________ Backstories __________-->
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_Powder_Ganger</li>
+                    <li>FCP_Backstory_NCRCF_Inmate</li>
+                    <li>FCP_Backstory_Wastelander</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
+        <!--__________ Group Makers __________-->
+
+        <pawnGroupMakers>
+            <!-- Settlement -->
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <FCP_Pawnkind_Powder_Ganger>12</FCP_Pawnkind_Powder_Ganger>
+                    <FCP_Pawnkind_Powder_Ganger_Bomber>4</FCP_Pawnkind_Powder_Ganger_Bomber>
+                    <FCP_Pawnkind_Powder_Ganger_Veteran>2</FCP_Pawnkind_Powder_Ganger_Veteran>
+                    <FCP_Pawnkind_Powder_Ganger_Leader>1</FCP_Pawnkind_Powder_Ganger_Leader>
+                </options>
+            </li>
+            
+            <!-- Combat: Raids -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <FCP_Pawnkind_Powder_Ganger>10</FCP_Pawnkind_Powder_Ganger>
+                    <FCP_Pawnkind_Powder_Ganger_Bomber>5</FCP_Pawnkind_Powder_Ganger_Bomber>
+                    <FCP_Pawnkind_Powder_Ganger_Veteran>2</FCP_Pawnkind_Powder_Ganger_Veteran>
+                    <FCP_Pawnkind_Powder_Ganger_Leader>1</FCP_Pawnkind_Powder_Ganger_Leader>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <modExtensions>
+            <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <maxSettlements>1</maxSettlements>
+                <searchRadius>500</searchRadius>
+                <namedSettlements>
+                    <li>
+                        <name>NCRCF</name>
+                        <prefab>FCP_Prefab_NCRCF_Facility</prefab>
+                        <forcedMapSize>(275, 1, 275)</forcedMapSize>
+                        <guaranteedCharacters>
+                            <li>FCP_Character_Powder_Ganger_Eddie</li>
+                            <li>FCP_Character_Powder_Ganger_Carter</li>
+                            <li>FCP_Character_Powder_Ganger_Dawes</li>
+                            <li>FCP_Character_Powder_Ganger_Scrambler</li>
+                            <li>FCP_Character_Powder_Ganger_Chavez</li>
+                            <li>FCP_Character_Powder_Ganger_Boxcars</li>
+                            <li>FCP_Character_Powder_Ganger_Meyers</li>
+                            <li>FCP_Character_Powder_Ganger_Samuel_Cooke</li>
+                            <li>FCP_Character_Powder_Ganger_Joe_Cobb</li>
+                            <li>FCP_Character_Powder_Ganger_Philip_Lem</li>
+                            <li>FCP_Character_Powder_Ganger_Hannigan</li>
+                        </guaranteedCharacters>
+                        <guaranteedPawnKinds>
+                            <li>FCP_Pawnkind_Powder_Ganger</li>
+                            <li>FCP_Pawnkind_Powder_Ganger</li>
+                            <li>FCP_Pawnkind_Powder_Ganger</li>
+                            <li>FCP_Pawnkind_Powder_Ganger</li>
+                            <li>FCP_Pawnkind_Powder_Ganger</li>
+                            <li>FCP_Pawnkind_Powder_Ganger</li>
+                            <li>FCP_Pawnkind_Powder_Ganger_Bomber</li>
+                            <li>FCP_Pawnkind_Powder_Ganger_Bomber</li>
+                            <li>FCP_Pawnkind_Powder_Ganger_Veteran</li>
+                            <li>FCP_Pawnkind_Powder_Ganger_Veteran</li>
+                        </guaranteedPawnKinds>
+                        <preferredHilliness>
+                            <li>Flat</li>
+                        </preferredHilliness>
+                        <allowedBiomes>
+                            <li>Desert</li>
+                            <li>ExtremeDesert</li>
+                            <li>AridShrubland</li>
+                        </allowedBiomes>
+                    </li>
+                </namedSettlements>
+            </li>
+            <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li>FCP_Faction_NCR</li>
+                </hostileFactionDefs>
+            </li>
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

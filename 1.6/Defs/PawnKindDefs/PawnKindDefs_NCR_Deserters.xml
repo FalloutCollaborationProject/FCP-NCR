@@ -39,9 +39,16 @@
             </li>
         </backstoryFiltersOverride>
         <inventoryOptions>
-            <skipChance>0.75</skipChance>
+            <skipChance>0</skipChance>
             <subOptionsChooseOne>
                 <li>
+                    <thingDef>FCP_Item_NCR_DogTags</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+            <subOptionsChooseOne>
+                <li>
+                    <skipChance>0.75</skipChance>
                     <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                     <countRange>5~30</countRange>
                 </li>
@@ -93,9 +100,16 @@
             </li>
         </backstoryFiltersOverride>
         <inventoryOptions>
-            <skipChance>0.70</skipChance>
+            <skipChance>0</skipChance>
             <subOptionsChooseOne>
                 <li>
+                    <thingDef>FCP_Item_NCR_DogTags</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+            <subOptionsChooseOne>
+                <li>
+                    <skipChance>0.70</skipChance>
                     <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                     <countRange>10~50</countRange>
                 </li>
@@ -155,9 +169,16 @@
             </li>
         </backstoryFiltersOverride>
         <inventoryOptions>
-            <skipChance>0.60</skipChance>
+            <skipChance>0</skipChance>
             <subOptionsChooseOne>
                 <li>
+                    <thingDef>FCP_Item_NCR_DogTags</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+            <subOptionsChooseOne>
+                <li>
+                    <skipChance>0.60</skipChance>
                     <thingDef>FCP_Currency_NCR_Dollar</thingDef>
                     <countRange>20~80</countRange>
                 </li>
@@ -175,6 +196,39 @@
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Deserter NCRCF Inmate -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Pawnkind_NCR_Deserter_NCRCF_Quest</defName>
+        <label>NCRCF deserter inmate</label>
+        <combatPower>35</combatPower>
+        <defaultFactionType>FCP_Faction_NCR_Deserters</defaultFactionType>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Deserter_Trooper</li>
+                    <li>FCP_Backstory_NCRCF_Inmate</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <modExtensions>
+            <li Class=" FCP.Core.ModExtension_PawnKindProperties">
+                <purchasableFromTrader>False</purchasableFromTrader>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
 </Defs>

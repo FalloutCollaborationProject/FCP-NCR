@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Powder Gangers Backstories __________-->
+
+    <!-- Escaped Convict -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Powder_Ganger_A</defName>
+        <title>Escaped Convict</title>
+        <titleShort>Convict</titleShort>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>[PAWN_nameDef] took part in the NCRCF riot and escaped during the chaos. Armed with stolen weapons and whatever explosives could be scavenged, [PAWN_pronoun] now survives by raiding travelers and settlements.</baseDesc>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Powder_Ganger</li>
+        </spawnCategories>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Prison Enforcer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Powder_Ganger_B</defName>
+        <title>Prison Enforcer</title>
+        <titleShort>Enforcer</titleShort>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>Before the breakout, [PAWN_nameDef] kept order among the inmates through intimidation and violence. Those skills proved useful when the Powder Gangers needed muscle for their raids.</baseDesc>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Powder_Ganger</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Brawler>0</Brawler>
+        </forcedTraits>
+        <workDisables>
+            <li>Intellectual</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Demolitions Expert -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Powder_Ganger_C</defName>
+        <title>Demolitions Expert</title>
+        <titleShort>Demo Expert</titleShort>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>[PAWN_nameDef] learned to handle explosives working on NCR road crews as an inmate. After the breakout, those skills made [PAWN_objective] invaluable to the gang.</baseDesc>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Crafting>3</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Powder_Ganger</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Gang Boss -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Powder_Ganger_D</defName>
+        <title>Gang Boss</title>
+        <titleShort>Boss</titleShort>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <baseDesc>[PAWN_nameDef] organized the riot that freed the prisoners from NCRCF. Now [PAWN_pronoun] leads a crew of escaped convicts, raiding and extorting anyone unlucky enough to cross their path.</baseDesc>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Powder_Ganger</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Strung Out Raider -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Powder_Ganger_E</defName>
+        <title>Strung Out Raider</title>
+        <titleShort>Raider</titleShort>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <baseDesc>Years of substance abuse left [PAWN_nameDef] unstable and paranoid. The breakout gave [PAWN_objective] freedom, but [PAWN_pronoun] still relies on violence and theft to feed various habits.</baseDesc>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Powder_Ganger</li>
+        </spawnCategories>
+        <forcedTraits>
+            <DrugDesire>1</DrugDesire>
+        </forcedTraits>
+        <workDisables>
+            <li>Intellectual</li>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+</Defs>

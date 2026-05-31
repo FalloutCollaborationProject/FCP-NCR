@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>FCP_Quest_NCR_Deserter_Elimination</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootMinPoints>300</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>true</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->deserter bounty</li>
+                <li>questName->AWOL elimination</li>
+                <li>questName->fugitive soldiers</li>
+                <li>questName->deserter extermination</li>
+                <li>questName->rogue trooper bounty</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->[asker_nameFull] reports NCR deserters fortified in a hideout. Command wants them eliminated. Bounty paid on-site once all hostiles are dead.</li>
+                <li>questDescription->NCR deserters holed up in a hideout. [asker_nameFull] authorizes hostile engagement. Eliminate all targets for bounty payment.</li>
+                <li>questDescription->[asker_nameFull]: "AWOL soldiers dug in near your position. Take them out, we'll pay bounty rates. Don't leave any alive."</li>
+                <li>questDescription->Former NCR troops deserted and fortified a position. [asker_nameFull] offers bounty for their elimination. Kill them all for payment.</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                    <parms>
+                        <pointsFactorTwoStar>1.4</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.8</pointsFactorThreeStar>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                </li>
+                <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <storeAs>sitePartDefs</storeAs>
+                    <sitePartsTags>
+                        <li>
+                            <tag>FCP_Site_NCR_Deserter_Hideout</tag>
+                        </li>
+                    </sitePartsTags>
+                </li>
+                <li Class="QuestNode_GetDefaultSitePartsParams">
+                    <tile>$siteTile</tile>
+                    <faction>FCP_Faction_NCR_Deserters</faction>
+                    <sitePartDefs>$sitePartDefs</sitePartDefs>
+                    <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+                </li>
+                <li Class="QuestNode_GetSiteThreatPoints">
+                    <storeAs>sitePoints</storeAs>
+                    <sitePartsParams>$sitePartsParams</sitePartsParams>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GetDefaultRewardValueFromPoints</def>
+                    <parms>
+                        <points>$sitePoints</points>
+                    </parms>
+                </li>
+                <li Class="QuestNode_Multiply">
+                    <value1>$rewardValue</value1>
+                    <value2>1.5</value2>
+                    <storeAs>rewardValue</storeAs>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GenerateSite</def>
+                    <parms>
+                        <siteFaction>FCP_Faction_NCR_Deserters</siteFaction>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(12,24)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <destroyOnCleanup>true</destroyOnCleanup>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestExpired">quest expired: [resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestExpired">Deserters abandoned their hideout. Quest [resolvedQuestName] expired.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.Destroyed</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestFailed">quest failed: [resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestFailed">Deserters fled after discovery. Quest [resolvedQuestName] ended.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Notify_PlayerRaidedSomeone">
+                                <getRaidersFromMapParent>$site</getRaidersFromMapParent>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>true</addCampLootReward>
+                                <customLetterLabel>Deserters eliminated</customLetterLabel>
+                                <customLetterText>All deserters eliminated. The NCR has paid your bounty.\n\nCollect any dog tags from the bodies - NCR settlements will buy them.</customLetterText>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_End">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <outcome>Success</outcome>
+                </li>
+                <li Class="QuestNode_NoWorldObject">
+                    <worldObject>$site</worldObject>
+                    <node Class="QuestNode_End" />
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Powder Gangers Pawnkinds __________-->
+
+    <!-- Powder Ganger -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Pawnkind_Powder_Ganger</defName>
+        <label>powder ganger</label>
+        <race>Human</race>
+        <combatPower>45</combatPower>
+        <defaultFactionType>FCP_Faction_Powder_Gangers</defaultFactionType>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.4~0.8</gearHealthRange>
+        <apparelMoney>200~400</apparelMoney>
+        <weaponMoney>250~500</weaponMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pipe_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pipe_Revolver</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.05</techHediffsChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialResistanceRange>8~20</initialResistanceRange>
+        <initialWillRange>1~5</initialWillRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Powder_Ganger</li>
+                    <li>FCP_Backstory_NCRCF_Inmate</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.3</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~20</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.MeleeWeapons">
+                    <thingDef>FCP_Melee_Bat</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.MeleeWeapons">
+                    <thingDef>FCP_Melee_Board_Spiked</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.MeleeWeapons">
+                    <thingDef>FCP_Melee_Scrap_Pipe</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Diluted_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Jet</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Psycho</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Bug_Mush</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Black_Blood_Sausage</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>1</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Powder Ganger Bomber -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Pawnkind_Powder_Ganger_Bomber</defName>
+        <label>powder ganger bomber</label>
+        <race>Human</race>
+        <combatPower>65</combatPower>
+        <defaultFactionType>FCP_Faction_Powder_Gangers</defaultFactionType>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.4~0.8</gearHealthRange>
+        <apparelMoney>200~400</apparelMoney>
+        <weaponMoney>9999</weaponMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Powder_Ganger_Simple_Outfit</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>GrenadeDestructive</li>
+            <li>GrenadeFrag</li>
+            <li>GrenadeMolotov</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.05</techHediffsChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialResistanceRange>8~20</initialResistanceRange>
+        <initialWillRange>1~5</initialWillRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Powder_Ganger</li>
+                    <li>FCP_Backstory_NCRCF_Inmate</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.2</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>8~25</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Psycho</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Buffout</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cook_Cooks_Fiend_Stew</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Powder Ganger Leader -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Pawnkind_Powder_Ganger_Leader</defName>
+        <label>gang leader</label>
+        <factionLeader>true</factionLeader>
+        <race>Human</race>
+        <combatPower>85</combatPower>
+        <defaultFactionType>FCP_Faction_Powder_Gangers</defaultFactionType>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~1.0</gearHealthRange>
+        <apparelMoney>300~500</apparelMoney>
+        <weaponMoney>500~800</weaponMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.1</techHediffsChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialResistanceRange>10~25</initialResistanceRange>
+        <initialWillRange>3~8</initialWillRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Powder_Ganger</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.1</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~50</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.MeleeWeapons">
+                    <thingDef>FCP_Melee_Bat_Aluminum</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.MeleeWeapons">
+                    <thingDef>FCP_Melee_Rebar_Club</thingDef>
+                    <countRange>1</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Psycho</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Jet</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Crispy_Wings</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola_Cherry</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+    <!-- Powder Ganger Veteran -->
+
+    <PawnKindDef ParentName="FCP_NCRkindBase">
+        <defName>FCP_Pawnkind_Powder_Ganger_Veteran</defName>
+        <label>powder ganger veteran</label>
+        <race>Human</race>
+        <combatPower>70</combatPower>
+        <defaultFactionType>FCP_Faction_Powder_Gangers</defaultFactionType>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.5~0.9</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <weaponMoney>400~700</weaponMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
+            <li>FCP_Apparel_NCRCF_Guard_Vest</li>
+            <li>FCP_Apparel_NCRCF_Guard_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Hunting_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Service_Rifle</li>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.08</techHediffsChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialResistanceRange>10~22</initialResistanceRange>
+        <initialWillRange>2~6</initialWillRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Powder_Ganger</li>
+                    <li>FCP_Backstory_NCRCF_Inmate</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.2</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>10~35</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Buffout</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Jet</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+</Defs>

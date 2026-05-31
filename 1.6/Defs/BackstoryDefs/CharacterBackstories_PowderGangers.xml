@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Powder Gangers Character Backstories __________-->
+
+    <!-- Samuel Cooke -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Samuel_Cooke_Adult</defName>
+        <title>Vault 19 gang leader</title>
+        <titleShort>gang leader</titleShort>
+        <slot>Adulthood</slot>
+        <description>After escaping NCRCF, [PAWN_nameDef] organized a disciplined gang at Vault 19. Unlike other Powder Gangers, [PAWN_pronoun] believes in structure and vision, seeing [PAWN_possessive] gang as the foundation of something greater.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>6</Social>
+            <Melee>3</Melee>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Samuel_Cooke</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <!-- Eddie -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Eddie_Adult</defName>
+        <title>NCRCF gang boss</title>
+        <titleShort>gang boss</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] seized control of NCRCF after the prison riot, ruling through intimidation and brutal enforcement. [PAWN_pronoun] keeps the prison as [PAWN_possessive] stronghold, extracting tribute from those who pass through [PAWN_possessive] territory.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>7</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Eddie</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Brawler>0</Brawler>
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <workDisables>
+            <li>Intellectual</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Meyers -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Meyers_Adult</defName>
+        <title>disgraced sheriff</title>
+        <titleShort>ex-sheriff</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] served as sheriff of Primm until [PAWN_possessive] brutal methods crossed the line. Imprisoned at NCRCF for manslaughter, [PAWN_pronoun] believes [PAWN_pronoun] did what was necessary to keep order.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>3</Melee>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Meyers</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <!-- Joe Cobb -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Joe_Cobb_Adult</defName>
+        <title>powder ganger raider</title>
+        <titleShort>raider</titleShort>
+        <slot>Adulthood</slot>
+        <description>After escaping NCRCF, [PAWN_nameDef] formed a raiding group targeting poorly defended settlements. [PAWN_pronoun] led the assault on Goodsprings, seeing easy prey in isolated frontier towns.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Joe_Cobb</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Boxcars -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Boxcars_Adult</defName>
+        <title>Legion-crippled ganger</title>
+        <titleShort>crippled</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] rode with the Powder Gangers until Caesar's Legion crucified [PAWN_possessive] gang in Nipton. [PAWN_pronoun] was the only survivor, left alive but crippled as a warning. Now [PAWN_pronoun] lives on chems and bitterness.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Boxcars</li>
+        </spawnCategories>
+        <forcedTraits>
+            <DrugDesire>2</DrugDesire>
+        </forcedTraits>
+        <workDisables>
+            <li>Caring</li>
+            <li>Intellectual</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Philip Lem -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Philip_Lem_Adult</defName>
+        <title>Vault 19 lieutenant</title>
+        <titleShort>lieutenant</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] serves as Samuel Cooke's second-in-command at Vault 19. [PAWN_pronoun] handles the day-to-day operations of the gang, managing supplies and coordinating their activities.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>4</Social>
+            <Melee>2</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Philip_Lem</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <!-- Carter -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Carter_Adult</defName>
+        <title>prison gate guard</title>
+        <titleShort>gate guard</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] stands watch at the entrance to NCRCF, checking visitors and watching for NCR patrols. [PAWN_pronoun] knows everyone who comes and goes from the prison.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Carter</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <!-- Dawes -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Dawes_Adult</defName>
+        <title>cell block guard</title>
+        <titleShort>cell guard</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] patrols the cell blocks at NCRCF, keeping the other prisoners in line and enforcing Eddie's rules. [PAWN_pronoun] enjoys having authority over those weaker than [PAWN_objective].</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Dawes</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <!-- Scrambler -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Scrambler_Adult</defName>
+        <title>prison yard overseer</title>
+        <titleShort>overseer</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] manages the prison yard at NCRCF, overseeing supplies, coordinating work details, and ensuring Eddie's orders are carried out. [PAWN_pronoun] keeps the gang's operations running smoothly.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Scrambler</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <!-- Chavez -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Chavez_Adult</defName>
+        <title>Eddie's enforcer</title>
+        <titleShort>enforcer</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] serves as Eddie's personal enforcer at NCRCF, delivering beatings and worse to anyone who steps out of line. [PAWN_pronoun] takes savage pleasure in violence.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Chavez</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Brawler>0</Brawler>
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <workDisables>
+            <li>Intellectual</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Hannigan -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Hannigan_Adult</defName>
+        <title>Vault 19 technician</title>
+        <titleShort>technician</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] maintains the aging systems at Vault 19 for Samuel Cooke's gang. [PAWN_pronoun] keeps the generators running, the doors working, and repairs whatever equipment the gang salvages.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Crafting>5</Crafting>
+            <Construction>3</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_Hannigan</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+</Defs>

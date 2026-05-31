@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WorldObjectDef>
+        <defName>FCP_Site_NCR_Prison_Facility</defName>
+        <label>NCR prison facility</label>
+        <description>An NCR correctional facility.</description>
+        <worldObjectClass>Settlement</worldObjectClass>
+        <texture>World/WorldObjects/DefaultSettlement</texture>
+        <expandingIcon>true</expandingIcon>
+        <allowCaravanIncidentsWhichGenerateMap>false</allowCaravanIncidentsWhichGenerateMap>
+    </WorldObjectDef>
+
+</Defs>

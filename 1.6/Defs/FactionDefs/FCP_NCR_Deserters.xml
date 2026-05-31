@@ -17,7 +17,7 @@
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <settlementGenerationWeight>0.09</settlementGenerationWeight>
-        <requiredCountAtGameStart>0</requiredCountAtGameStart>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <fixedName>NCR Deserters</fixedName>
@@ -100,6 +100,15 @@
         <!--__________ Group Makers __________-->
 
         <pawnGroupMakers>
+            <!-- Settlement Defense -->
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <FCP_Pawnkind_NCR_Deserter_Trooper>10</FCP_Pawnkind_NCR_Deserter_Trooper>
+                    <FCP_Pawnkind_NCR_Deserter_Officer>3</FCP_Pawnkind_NCR_Deserter_Officer>
+                    <FCP_Pawnkind_NCR_Deserter_Colonel>1</FCP_Pawnkind_NCR_Deserter_Colonel>
+                </options>
+            </li>
             <!-- Deserter Combat Squad -->
             <li>
                 <kindDef>Combat</kindDef>
@@ -138,7 +147,7 @@
                 </arrivalModes>
             </li>
             <!-- Clusters and biome configuration -->
-            <li Class="FCP.Factions.FactionExtension_SpawnConfig">
+            <li Class="FCP.Factions.FactionExtension_SettlementControl">
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
             </li>

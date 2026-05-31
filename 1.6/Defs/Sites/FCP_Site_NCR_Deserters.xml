@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SitePartDef ParentName="Outpost">
+        <defName>FCP_Site_NCR_Deserter_Hideout</defName>
+        <label>deserter hideout</label>
+        <description>A hideout occupied by NCR deserters.</description>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Generic_Quest_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags Inherit="False">
+            <li>FCP_Site_NCR_Deserter_Hideout</li>
+        </tags>
+        <approachOrderString>Attack deserter hideout</approachOrderString>
+        <approachingReportString>approaching deserter hideout</approachingReportString>
+        <arrivedLetter>Your caravan arrived at the deserter hideout.</arrivedLetter>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_NCR_Deserter_Outpost</defName>
+        <linkWithSite>FCP_Site_NCR_Deserter_Hideout</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_NCR_Deserter_OutpostPower</defName>
+        <linkWithSite>FCP_Site_NCR_Deserter_Hideout</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+</Defs>

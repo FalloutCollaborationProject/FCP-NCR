@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PrefabDef>
+        <defName>FCP_Prefab_NCRCF_Facility</defName>
+        <size>(69,39)</size>
+        <things>
+            <Table1x2c>
+                <position>(26, 0, 12)</position>
+                <relativeRotation>Counterclockwise</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Table1x2c>
+            <Table1x2c>
+                <position>(29, 0, 13)</position>
+                <relativeRotation>Opposite</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Table1x2c>
+            <Table1x2c>
+                <positions>
+                    <li>(23, 0, 14)</li>
+                    <li>(25, 0, 14)</li>
+                    <li>(7, 0, 25)</li>
+                    <li>(9, 0, 25)</li>
+                </positions>
+                <relativeRotation>Clockwise</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Table1x2c>
+            <FCP_Production_Old_Table_Terminal>
+                <rects>
+                    <li>(23,14,23,14)</li>
+                    <li>(8,25,8,25)</li>
+                </rects>
+                <relativeRotation>Opposite</relativeRotation>
+            </FCP_Production_Old_Table_Terminal>
+            <FCP_Building_NCRCF_Fence>
+                <rects>
+                    <li>(16,2,23,2)</li>
+                    <li>(25,2,56,2)</li>
+                    <li>(16,3,16,8)</li>
+                    <li>(22,3,22,9)</li>
+                    <li>(26,3,26,9)</li>
+                    <li>(56,3,57,3)</li>
+                    <li>(57,4,58,4)</li>
+                    <li>(58,5,59,5)</li>
+                    <li>(59,6,60,6)</li>
+                    <li>(60,7,61,7)</li>
+                    <li>(1,8,15,8)</li>
+                    <li>(61,8,62,8)</li>
+                    <li>(1,9,1,37)</li>
+                    <li>(62,9,63,9)</li>
+                    <li>(63,10,64,10)</li>
+                    <li>(64,11,65,11)</li>
+                    <li>(65,12,66,12)</li>
+                    <li>(66,13,66,25)</li>
+                    <li>(65,25,65,26)</li>
+                    <li>(64,26,64,27)</li>
+                    <li>(63,27,63,28)</li>
+                    <li>(62,28,62,29)</li>
+                    <li>(61,29,61,30)</li>
+                    <li>(60,30,60,31)</li>
+                    <li>(59,31,59,32)</li>
+                    <li>(58,32,58,33)</li>
+                    <li>(57,33,57,34)</li>
+                    <li>(56,34,56,35)</li>
+                    <li>(55,35,55,36)</li>
+                    <li>(54,36,54,37)</li>
+                    <li>(2,37,53,37)</li>
+                </rects>
+            </FCP_Building_NCRCF_Fence>
+            <FCP_Building_NCRCF_Tower>
+                <positions>
+                    <li>(19, 0, 6)</li>
+                    <li>(53, 0, 6)</li>
+                    <li>(4, 0, 12)</li>
+                    <li>(63, 0, 20)</li>
+                    <li>(4, 0, 33)</li>
+                </positions>
+            </FCP_Building_NCRCF_Tower>
+            <Armchair>
+                <position>(8, 0, 26)</position>
+                <relativeRotation>Opposite</relativeRotation>
+                <stuff>Cloth</stuff>
+                <quality>Normal</quality>
+            </Armchair>
+            <Door>
+                <rects>
+                    <li>(23,10,23,10)</li>
+                    <li>(43,20,43,20)</li>
+                    <li>(8,21,8,21)</li>
+                    <li>(44,28,44,28)</li>
+                    <li>(47,28,47,28)</li>
+                    <li>(50,28,50,28)</li>
+                </rects>
+                <stuff>Steel</stuff>
+            </Door>
+            <Door>
+                <rects>
+                    <li>(32,15,32,15)</li>
+                    <li>(56,16,56,16)</li>
+                    <li>(12,19,12,19)</li>
+                    <li>(50,19,50,19)</li>
+                    <li>(47,21,47,21)</li>
+                    <li>(45,24,45,24)</li>
+                    <li>(47,24,47,24)</li>
+                </rects>
+                <relativeRotation>Clockwise</relativeRotation>
+                <stuff>Steel</stuff>
+            </Door>
+            <Dresser>
+                <position>(5, 0, 22)</position>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Dresser>
+            <Dresser>
+                <position>(11, 0, 22)</position>
+                <relativeRotation>Counterclockwise</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Dresser>
+            <Stool>
+                <rects>
+                    <li>(25,11,26,11)</li>
+                </rects>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Stool>
+            <Stool>
+                <position>(29, 0, 11)</position>
+                <relativeRotation>Opposite</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Stool>
+            <Stool>
+                <position>(27, 0, 12)</position>
+                <relativeRotation>Clockwise</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Stool>
+            <Stool>
+                <rects>
+                    <li>(28,12,28,13)</li>
+                    <li>(30,12,30,12)</li>
+                </rects>
+                <relativeRotation>Counterclockwise</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Stool>
+            <Building_OutfitStand>
+                <position>(5, 0, 27)</position>
+                <relativeRotation>Opposite</relativeRotation>
+                <stuff>WoodLog</stuff>
+            </Building_OutfitStand>
+            <DiningChair>
+                <position>(23, 0, 15)</position>
+                <relativeRotation>Opposite</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </DiningChair>
+            <DiningChair>
+                <rects>
+                    <li>(51,22,51,25)</li>
+                    <li>(55,22,55,25)</li>
+                </rects>
+                <relativeRotation>Clockwise</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </DiningChair>
+            <DiningChair>
+                <rects>
+                    <li>(54,22,54,25)</li>
+                    <li>(58,22,58,25)</li>
+                </rects>
+                <relativeRotation>Counterclockwise</relativeRotation>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </DiningChair>
+            <Bed>
+                <positions>
+                    <li>(49, 0, 21)</li>
+                    <li>(49, 0, 24)</li>
+                </positions>
+                <stuff>Steel</stuff>
+                <quality>Normal</quality>
+            </Bed>
+            <Bed>
+                <position>(43, 0, 25)</position>
+                <relativeRotation>Opposite</relativeRotation>
+                <stuff>Steel</stuff>
+                <quality>Normal</quality>
+            </Bed>
+            <Bed>
+                <positions>
+                    <li>(44, 0, 30)</li>
+                    <li>(47, 0, 30)</li>
+                    <li>(50, 0, 30)</li>
+                </positions>
+                <relativeRotation>Counterclockwise</relativeRotation>
+                <stuff>Steel</stuff>
+                <quality>Normal</quality>
+            </Bed>
+            <WallLamp>
+                <rects>
+                    <li>(28,11,28,11)</li>
+                    <li>(57,18,57,18)</li>
+                    <li>(5,22,5,22)</li>
+                    <li>(11,22,11,22)</li>
+                    <li>(46,29,46,29)</li>
+                </rects>
+                <relativeRotation>Opposite</relativeRotation>
+            </WallLamp>
+            <WallLamp>
+                <rects>
+                    <li>(27,15,27,15)</li>
+                    <li>(5,20,5,20)</li>
+                    <li>(11,20,11,20)</li>
+                    <li>(44,25,44,25)</li>
+                    <li>(48,25,48,25)</li>
+                    <li>(54,25,54,25)</li>
+                </rects>
+            </WallLamp>
+            <WallLamp>
+                <rects>
+                    <li>(43,21,43,21)</li>
+                    <li>(48,22,48,22)</li>
+                    <li>(5,26,5,26)</li>
+                </rects>
+                <relativeRotation>Counterclockwise</relativeRotation>
+            </WallLamp>
+            <WallLamp>
+                <rects>
+                    <li>(11,26,11,26)</li>
+                    <li>(44,29,44,29)</li>
+                    <li>(50,29,50,29)</li>
+                </rects>
+                <relativeRotation>Clockwise</relativeRotation>
+            </WallLamp>
+            <Table2x4c>
+                <positions>
+                    <li>(52, 0, 23)</li>
+                    <li>(56, 0, 23)</li>
+                </positions>
+                <stuff>WoodLog</stuff>
+                <quality>Normal</quality>
+            </Table2x4c>
+            <Wall>
+                <rects>
+                    <li>(22,10,22,16)</li>
+                    <li>(24,10,32,10)</li>
+                    <li>(32,11,32,14)</li>
+                    <li>(50,15,56,15)</li>
+                    <li>(23,16,32,16)</li>
+                    <li>(50,16,50,18)</li>
+                    <li>(4,17,12,17)</li>
+                    <li>(56,17,59,17)</li>
+                    <li>(4,18,4,28)</li>
+                    <li>(12,18,12,18)</li>
+                    <li>(44,18,49,18)</li>
+                    <li>(59,18,59,26)</li>
+                    <li>(44,19,44,20)</li>
+                    <li>(12,20,12,28)</li>
+                    <li>(42,20,42,31)</li>
+                    <li>(47,20,50,20)</li>
+                    <li>(5,21,7,21)</li>
+                    <li>(9,21,11,21)</li>
+                    <li>(50,21,50,26)</li>
+                    <li>(47,22,47,23)</li>
+                    <li>(43,23,45,23)</li>
+                    <li>(48,23,49,23)</li>
+                    <li>(45,25,45,26)</li>
+                    <li>(47,25,47,26)</li>
+                    <li>(43,26,44,26)</li>
+                    <li>(48,26,49,26)</li>
+                    <li>(51,26,58,26)</li>
+                    <li>(51,27,51,31)</li>
+                    <li>(5,28,11,28)</li>
+                    <li>(43,28,43,28)</li>
+                    <li>(45,28,46,28)</li>
+                    <li>(48,28,49,28)</li>
+                    <li>(45,29,45,31)</li>
+                    <li>(48,29,48,31)</li>
+                    <li>(43,31,44,31)</li>
+                    <li>(46,31,47,31)</li>
+                    <li>(49,31,50,31)</li>
+                </rects>
+                <stuff>WoodLog</stuff>
+            </Wall>
+            <Shelf>
+                <position>(5, 0, 19)</position>
+                <relativeRotation>Clockwise</relativeRotation>
+                <stuff>WoodLog</stuff>
+            </Shelf>
+            <Shelf>
+                <position>(8, 0, 18)</position>
+                <stuff>WoodLog</stuff>
+            </Shelf>
+            <FCP_Building_NCRCF_FenceGate>
+                <position>(24, 0, 2)</position>
+            </FCP_Building_NCRCF_FenceGate>
+        </things>
+    </PrefabDef>
+
+</Defs>

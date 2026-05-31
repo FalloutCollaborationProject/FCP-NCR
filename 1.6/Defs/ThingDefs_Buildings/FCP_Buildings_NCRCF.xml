@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ NCRCF Buildings __________-->
+
+    <!-- NCRCF Fence -->
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>FCP_Building_NCRCF_Fence</defName>
+        <label>NCRCF fence</label>
+        <description>Tall barbed wire fence. Impassable but provides no cover.</description>
+        <thingClass>Building</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Buildings/NCRCF_Fence/FCP_NCRCF_Fence_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <linkType>Basic</linkType>
+            <linkFlags>
+                <li>Custom9</li>
+            </linkFlags>
+            <damageData>
+                <rect>(0.35,0.1,0.3,0.7)</rect>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Buildings/NCRCF_Fence/FCP_NCRCF_Fence_UI</uiIconPath>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToBuild>350</WorkToBuild>
+            <Flammability>0</Flammability>
+        </statBases>
+        <designationCategory>Security</designationCategory>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <researchPrerequisites>
+            <li>FCP_Research_Correctional_Security</li>
+            <li>FCP_Research_NCR_Standard_Trooper_Corps</li>
+        </researchPrerequisites>
+        <costList>
+            <Steel>5</Steel>
+        </costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>false</blockWind>
+        <coversFloor>false</coversFloor>
+        <fillPercent>1</fillPercent>
+        <castEdgeShadows>false</castEdgeShadows>
+        <holdsRoof>false</holdsRoof>
+        <drawStyleCategory>Walls</drawStyleCategory>
+        <tickerType>Never</tickerType>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <neverMultiSelect>true</neverMultiSelect>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <canOverlapZones>false</canOverlapZones>
+        <replaceTags>
+            <li>FCP_NCRCF_Fence</li>
+        </replaceTags>
+        <building>
+            <isInert>true</isInert>
+            <isFence>true</isFence>
+            <ai_chillDestination>false</ai_chillDestination>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+            <blueprintGraphicData>
+                <texPath>Buildings/NCRCF_Fence/FCP_NCRCF_Fence_Atlas_Blueprint</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </blueprintGraphicData>
+            <relatedBuildCommands>
+                <li>FCP_Building_NCRCF_FenceGate</li>
+            </relatedBuildCommands>
+        </building>
+    </ThingDef>
+
+    <!-- NCRCF Fence Gate -->
+
+    <ThingDef ParentName="DoorBase">
+        <defName>FCP_Building_NCRCF_FenceGate</defName>
+        <label>NCRCF fence gate</label>
+        <description>Gate for NCRCF fence perimeter.</description>
+        <stuffCategories Inherit="False" />
+        <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToBuild>800</WorkToBuild>
+            <Flammability>0</Flammability>
+        </statBases>
+        <designationCategory>Security</designationCategory>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <researchPrerequisites>
+            <li>FCP_Research_Correctional_Security</li>
+            <li>FCP_Research_NCR_Standard_Trooper_Corps</li>
+        </researchPrerequisites>
+        <graphicData>
+            <texPath>Buildings/NCRCF_Fence/FCP_NCRCF_Fence_Gate</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Buildings/NCRCF_Fence/FCP_NCRCF_Fence_Gate_UI</uiIconPath>
+        <costStuffCount>0</costStuffCount>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <blockWind>false</blockWind>
+        <holdsRoof>false</holdsRoof>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Buildings/NCRCF_Fence/FCP_NCRCF_Fence_Gate_Blueprint</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+            </blueprintGraphicData>
+            <relatedBuildCommands>
+                <li>FCP_Building_NCRCF_Fence</li>
+            </relatedBuildCommands>
+        </building>
+        <replaceTags>
+            <li>FCP_NCRCF_Fence</li>
+        </replaceTags>
+    </ThingDef>
+
+    <!-- NCRCF Guard Tower -->
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>FCP_Building_NCRCF_Tower</defName>
+        <label>NCRCF guard tower</label>
+        <description>Elevated guard tower for facility perimeter defense.</description>
+        <thingClass>Building</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Buildings/NCRCF_Tower/FCP_NCRCF_Tower</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(5,7)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <uiIconScale>0.75</uiIconScale>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>3000</WorkToBuild>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <designationCategory>Security</designationCategory>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <researchPrerequisites>
+            <li>FCP_Research_Correctional_Security</li>
+            <li>FCP_Research_NCR_Standard_Trooper_Corps</li>
+        </researchPrerequisites>
+        <size>(5,7)</size>
+        <costList>
+            <Steel>150</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <blockWind>true</blockWind>
+        <fillPercent>0.5</fillPercent>
+        <canOverlapZones>false</canOverlapZones>
+        <castEdgeShadows>true</castEdgeShadows>
+        <holdsRoof>true</holdsRoof>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <building>
+            <ai_chillDestination>true</ai_chillDestination>
+            <isInert>true</isInert>
+        </building>
+    </ThingDef>
+
+</Defs>

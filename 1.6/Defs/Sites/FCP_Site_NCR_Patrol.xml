@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Site Defs __________-->
+
+    <!-- Site Patrol -->
+
+    <SitePartDef>
+        <defName>FCP_Site_NCR_Patrol</defName>
+        <label>hostile camp</label>
+        <description>A raider camp that needs clearing.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Generic_Quest_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_NCR_Patrol</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Patrol_Outpost</defName>
+        <linkWithSite>FCP_Site_NCR_Patrol</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Patrol_OutpostPower</defName>
+        <linkWithSite>FCP_Site_NCR_Patrol</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+</Defs>

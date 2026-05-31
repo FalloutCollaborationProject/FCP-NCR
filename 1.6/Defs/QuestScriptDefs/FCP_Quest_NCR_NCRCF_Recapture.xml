@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>FCP_Quest_NCR_NCRCF_Recapture</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootMinPoints>300</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>false</canGiveRoyalFavor>
+        <expireDaysRange>8~15</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->NCRCF recapture</li>
+                <li>questName->facility clearance</li>
+                <li>questName->NCRCF bounty</li>
+                <li>questName->inmate suppression</li>
+                <li>questName->riot control</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->[asker_nameFull] reports deserter inmates seized [site_label]. Clear the facility for bounty payment.</li>
+                <li>questDescription->Hostile inmates control [site_label]. [asker_nameFull] offers bounty for elimination.</li>
+                <li>questDescription->[asker_nameFull]: "Deserters took [site_label]. Clear them out, bounty paid on confirmation."</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetSiteTile_BiomeFiltered">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                    <minDist>7</minDist>
+                    <maxDist>100</maxDist>
+                    <allowedBiomes>
+                        <li>Desert</li>
+                        <li>ExtremeDesert</li>
+                    </allowedBiomes>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>points</name>
+                    <value>$(randInt(800,1200))</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>siteFaction</name>
+                    <value>FCP_Faction_NCR_Deserters</value>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GenerateSiteSimple">
+                    <tile>$siteTile</tile>
+                    <factionDefName>$siteFaction</factionDefName>
+                    <threatPoints>$points</threatPoints>
+                    <storeAs>site</storeAs>
+                    <sitePartDefs>
+                        <li>FCP_Site_NCRCF_Facility</li>
+                    </sitePartDefs>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GetDefaultRewardValueFromPoints</def>
+                </li>
+                <li Class="QuestNode_Multiply">
+                    <value1>$rewardValue</value1>
+                    <value2>1.5</value2>
+                    <storeAs>rewardValue</storeAs>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(12,24)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <destroyOnCleanup>true</destroyOnCleanup>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestExpired">quest expired: [resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestExpired">Inmates abandoned the facility. Quest expired.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.Destroyed</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestFailed">quest failed: [resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestFailed">Facility lost. Quest ended.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Notify_PlayerRaidedSomeone">
+                                <getRaidersFromMapParent>$site</getRaidersFromMapParent>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>true</addCampLootReward>
+                                <customLetterLabel>Facility cleared</customLetterLabel>
+                                <customLetterText>NCRCF facility secured. NCR bounty paid.</customLetterText>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_End">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <outcome>Success</outcome>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

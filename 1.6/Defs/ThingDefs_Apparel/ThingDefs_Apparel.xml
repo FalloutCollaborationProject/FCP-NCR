@@ -756,6 +756,55 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Powder Ganger Simple Outfit -->
+
+	<ThingDef ParentName="FCP_Apparel_Makeable_Base">
+		<defName>FCP_Apparel_Powder_Ganger_Simple_Outfit</defName>
+		<description>A simple outfit commonly worn by Powder Gangers in the Mojave heat - consisting of shorts, boots, and a makeshift bandolier. The minimalist design offers excellent heat resistance but provides almost no protection in combat.</description>
+		<label>Powder Ganger Simple Outfit</label>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_NCR_Civilian_Outfitters</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/Powder_Gangers/FCP_Powder_Ganger_Simple_Outfit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<FCP_Apparel_NCRCF_Inmate_Uniform>1</FCP_Apparel_NCRCF_Inmate_Uniform>
+		</costList>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.2</Mass>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>-2</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>1.0</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Powder_Gangers/FCP_Powder_Ganger_Simple_Outfit</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_Powder_Ganger</li>
+			</tags>
+			<defaultOutfitTags>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+		</tradeTags>
+	</ThingDef>
+
 	<!--_____ NCR Armors _____-->
 
 	<!--___ NCR Army ___-->
@@ -1182,9 +1231,9 @@
 			<MaxHitPoints>275</MaxHitPoints>
 			<WorkToMake>9200</WorkToMake>
 			<Mass>4.0</Mass>
-			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.65</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.30</ArmorRating_Heat>
+			<ArmorRating_Sharp>1.95</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.75</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.35</ArmorRating_Heat>
 			<EquipDelay>1.2</EquipDelay>
 		</statBases>
 		<costList>

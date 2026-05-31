@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>FCP_Quest_NCR_Patrol</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootMinPoints>25</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>true</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->NCR Patrol Support</li>
+                <li>questName->Route Clearance</li>
+                <li>questName->Ranger Station Backup</li>
+                <li>questName->Securing the Highway</li>
+                <li>questName->Patrol the Long 15</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->NCR command reports hostile activity along one of their patrol routes. [asker_nameFull] needs backup to sweep a known raider position. Standard combat pay, no questions asked.</li>
+                <li>questDescription->[asker_nameFull] sends: "Patrol went dark near a raider camp. Can't spare the men to investigate. Need someone to clear it out, confirm hostile elimination. Payment on completion."</li>
+                <li>questDescription->NCR dispatch from [asker_nameFull]: Raiders have fortified a position near the highway. Interfering with supply lines. Clear them out and the Republic pays standard rates.</li>
+                <li>questDescription->[asker_nameFull] reports increased hostile contacts near NCR territory. Need independent contractors to eliminate the threat. Simple extermination contract.</li>
+                <li>questDescription->Priority from NCR command: [asker_nameFull] requests combat assistance. Raiders threatening trade routes. Eliminate all hostiles, secure the area.</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                    <parms>
+                        <pointsFactorTwoStar>1.3</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.7</pointsFactorThreeStar>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                </li>
+                <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <storeAs>sitePartDefs</storeAs>
+                    <storeFactionAs>siteFaction</storeFactionAs>
+                    <sitePartsTags>
+                        <li>
+                            <tag>FCP_Site_NCR_Patrol</tag>
+                        </li>
+                    </sitePartsTags>
+                    <mustBeHostileToFactionOf>$asker</mustBeHostileToFactionOf>
+                </li>
+                <li Class="QuestNode_GetDefaultSitePartsParams">
+                    <tile>$siteTile</tile>
+                    <faction>$siteFaction</faction>
+                    <sitePartDefs>$sitePartDefs</sitePartDefs>
+                    <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GenerateSite</def>
+                    <parms>
+                        <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+                    </parms>
+                </li>
+                <li Class="QuestNode_LoopCount">
+                    <loopCount>$(randInt(2,4))</loopCount>
+                    <node Class="QuestNode_GeneratePawn">
+                        <kindDef>FCP_Pawnkind_NCR_Trooper</kindDef>
+                        <faction>$askerFaction</faction>
+                        <addToList>escorts</addToList>
+                        <allowAddictions>false</allowAddictions>
+                        <biocodeWeaponChance>1</biocodeWeaponChance>
+                        <biocodeApparelChance>1</biocodeApparelChance>
+                    </node>
+                </li>
+                <li Class="QuestNode_SetAllApparelLocked">
+                    <pawns>$escorts</pawns>
+                </li>
+                <li Class="QuestNode_JoinPlayer">
+                    <pawns>$escorts</pawns>
+                    <joinPlayer>true</joinPlayer>
+                </li>
+                <li Class="QuestNode_ExtraFaction">
+                    <factionOf>$asker</factionOf>
+                    <pawns>$escorts</pawns>
+                    <factionType>HomeFaction</factionType>
+                    <inSignalsRemovePawn>
+                        <li>escorts.RanWild</li>
+                    </inSignalsRemovePawn>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnPawns">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <pawns>$escorts</pawns>
+                    <mapParent>$site</mapParent>
+                </li>
+                <li Class="QuestNode_LeaveOnCleanup">
+                    <pawns>$escorts</pawns>
+                    <sendStandardLetter>false</sendStandardLetter>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                    <defsToExcludeFromHyperlinks>Human</defsToExcludeFromHyperlinks>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(15,30)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <letterDef>PositiveEvent</letterDef>
+                                <label>Route secured</label>
+                                <text>Mission accomplished. NCR confirms the route is clear.</text>
+                            </li>
+                            <li Class="QuestNode_Notify_PlayerRaidedSomeone">
+                                <getRaidersFromMapParent>$site</getRaidersFromMapParent>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>true</addCampLootReward>
+                                <customLetterLabel>Payment arrived</customLetterLabel>
+                                <customLetterText>Payment from the NCR has arrived.</customLetterText>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_End">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <outcome>Success</outcome>
+                </li>
+                <li Class="QuestNode_NoWorldObject">
+                    <worldObject>$site</worldObject>
+                    <node Class="QuestNode_End" />
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>
