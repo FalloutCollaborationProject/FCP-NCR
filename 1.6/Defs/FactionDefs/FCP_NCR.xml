@@ -838,6 +838,16 @@
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
                 <allowedBiomes>
+                    <li MayRequire="FIP.Arktos">Arktos_CentralValley</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Divide</li>
+                    <li MayRequire="FIP.Arktos">Arktos_BrahminWoods</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Crater</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Ruin</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Sequoia</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Wasteland</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Mesa</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Canyon</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Mojave</li>
                     <li>AridShrubland</li>
                     <li>Desert</li>
                 </allowedBiomes>
