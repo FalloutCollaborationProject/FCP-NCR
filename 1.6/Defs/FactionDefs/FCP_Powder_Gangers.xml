@@ -114,7 +114,7 @@
                     <li>
                         <name>NCRCF</name>
                         <prefab>FCP_Prefab_NCRCF_Facility</prefab>
-                        <forcedMapSize>(275, 275)</forcedMapSize>
+                        <forcedMapSize>(275, 275, 0)</forcedMapSize>
                         <guaranteedCharacters>
                             <li>FCP_Character_Powder_Ganger_Eddie</li>
                             <li>FCP_Character_Powder_Ganger_Carter</li>
