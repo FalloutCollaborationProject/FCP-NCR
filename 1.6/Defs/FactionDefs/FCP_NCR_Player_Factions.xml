@@ -16,6 +16,7 @@
         <pawnsPlural>Citizens</pawnsPlural>
         <leaderTitle>Governor</leaderTitle>
         <factionIconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</factionIconPath>
+        <factionNameMaker>FCP_Namer_Faction_NCR_Player</factionNameMaker>
         <settlementNameMaker>FCP_Namer_Settlement_NCR</settlementNameMaker>
         <colorSpectrum>
             <li>(1, 1, 1)</li>
