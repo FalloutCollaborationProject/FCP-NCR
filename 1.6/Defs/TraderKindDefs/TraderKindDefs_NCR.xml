@@ -202,6 +202,28 @@
                 <countRange>2~6</countRange>
             </li>
 
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Fragmentation</thingDef>
+                <countRange>4~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Flashbang</thingDef>
+                <countRange>3~7</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Plasma</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Pulse</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
             <!--__ Buying __-->
 
             <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>

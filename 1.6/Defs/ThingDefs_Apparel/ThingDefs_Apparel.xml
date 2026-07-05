@@ -520,10 +520,10 @@
 		<graphicData>
 			<texPath>Apparel/NCR_Rangers/NCR_Ranger_Red_Scarf_Outfit/FCP_NCR_Ranger_Red_Scarf_Outfit</texPath>
 		</graphicData>
-				<thingCategories>
+		<thingCategories>
 			<li>Headgear</li>
 		</thingCategories>
-<apparel>
+		<apparel>
 			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Red_Scarf_Outfit/FCP_NCR_Ranger_Red_Scarf_Outfit</wornGraphicPath>
 		</apparel>
 	</ThingDef>
@@ -537,10 +537,10 @@
 		<graphicData>
 			<texPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</texPath>
 		</graphicData>
-				<thingCategories>
+		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>
-<apparel>
+		<apparel>
 			<wornGraphicPath>Apparel/NCR_Rangers/NCR_Ranger_Vest_Outfit/FCP_NCR_Ranger_Vest_Outfit</wornGraphicPath>
 		</apparel>
 	</ThingDef>
@@ -1321,5 +1321,5 @@
 			<li>FCP_Trade_Tag_NCR_Apparel</li>
 		</tradeTags>
 	</ThingDef>
-	
+
 </Defs>
