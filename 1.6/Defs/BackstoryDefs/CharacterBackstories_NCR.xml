@@ -9,6 +9,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_President_Kimball_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR settler's son</title>
         <titleShort>settler kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in the New California Republic as the son of prosperous ranchers. [PAWN_pronoun] learned the values of hard work, community, and the importance of strong leadership from an early age.</baseDesc>
@@ -26,6 +28,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ambassador_Crocker_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR diplomat's son</title>
         <titleShort>diplomat kid</titleShort>
         <baseDesc>[PAWN_nameDef] was raised in the NCR capital, watching [PAWN_possessive] parents navigate the complex world of post-war politics. [PAWN_pronoun] developed a keen understanding of negotiation and compromise.</baseDesc>
@@ -45,6 +49,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_President_Kimball_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR war hero president</title>
         <titleShort>president</titleShort>
         <baseDesc>[PAWN_nameDef] rose to fame as a military leader in the Baja Campaign, earning the nickname "the Hero of the Mojave." [PAWN_pronoun] parlayed this military success into a political career, eventually becoming President of the NCR.</baseDesc>
@@ -66,6 +72,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ambassador_Crocker_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR ambassador</title>
         <titleShort>ambassador</titleShort>
         <baseDesc>[PAWN_nameDef] served as the NCR's ambassador to New Vegas, tasked with maintaining diplomatic relations and advancing the Republic's interests in the Mojave. [PAWN_pronoun] became skilled at navigating complex political situations.</baseDesc>
@@ -89,6 +97,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_General_Oliver_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR officer's son</title>
         <titleShort>officer kid</titleShort>
         <baseDesc>[PAWN_nameDef] was raised in a military family, learning discipline and strategy from an early age. [PAWN_pronoun] always knew [PAWN_pronoun] would follow in [PAWN_possessive] father's footsteps.</baseDesc>
@@ -106,6 +116,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Colonel_Hsu_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Hub refugee</title>
         <titleShort>refugee</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in the Hub, one of the NCR's core territories. [PAWN_pronoun] witnessed both the prosperity and challenges of the growing Republic, inspiring [PAWN_objective] to serve.</baseDesc>
@@ -123,6 +135,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Colonel_Moore_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR patriot's daughter</title>
         <titleShort>patriot kid</titleShort>
         <baseDesc>[PAWN_nameDef] was raised with unwavering belief in the NCR's mission to bring order to the wasteland. [PAWN_pronoun] learned that strength and determination were the keys to survival.</baseDesc>
@@ -142,6 +156,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_General_Oliver_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR general</title>
         <titleShort>general</titleShort>
         <baseDesc>[PAWN_nameDef] rose through the NCR military ranks to become General, taking command of the Hoover Dam campaign. Known as "General Wait-and-See," [PAWN_pronoun] favored cautious, defensive strategies.</baseDesc>
@@ -163,6 +179,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Colonel_Hsu_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR colonel</title>
         <titleShort>colonel</titleShort>
         <baseDesc>[PAWN_nameDef] served as commanding officer of Camp McCarran, managing thousands of troops in the Mojave. [PAWN_pronoun] earned respect for [PAWN_possessive] fairness and tactical competence.</baseDesc>
@@ -184,6 +202,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Colonel_Moore_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR hardline colonel</title>
         <titleShort>colonel</titleShort>
         <baseDesc>[PAWN_nameDef] became one of the NCR's most aggressive commanders, stationed at Hoover Dam. [PAWN_pronoun] believed in total victory and had no tolerance for weakness or compromise.</baseDesc>
@@ -208,6 +228,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Major_Dhatri_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Freeside survivor</title>
         <titleShort>survivor</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in Freeside before the NCR's arrival, witnessing the harsh reality of wasteland life. This shaped [PAWN_possessive] determination to bring order and safety to dangerous places.</baseDesc>
@@ -225,6 +247,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Major_Knight_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR city kid</title>
         <titleShort>city kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in one of the NCR's safe, prosperous cities. [PAWN_pronoun] enlisted to prove [PAWN_objective] could handle the dangers of the frontier.</baseDesc>
@@ -242,6 +266,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Major_Kieran_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR rancher's daughter</title>
         <titleShort>rancher kid</titleShort>
         <baseDesc>[PAWN_nameDef] was raised on a cattle ranch in NCR territory, learning discipline and hard work. [PAWN_pronoun] joined the military to see more of the world.</baseDesc>
@@ -259,6 +285,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Major_Polatli_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>caravan guard's son</title>
         <titleShort>caravan kid</titleShort>
         <baseDesc>[PAWN_nameDef] traveled the wasteland with [PAWN_possessive] parents' caravan, learning to watch for danger and handle weapons at a young age.</baseDesc>
@@ -278,6 +306,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Major_Dhatri_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR major</title>
         <titleShort>major</titleShort>
         <baseDesc>[PAWN_nameDef] became a respected NCR major, known for [PAWN_possessive] competence and concern for [PAWN_possessive] troops. [PAWN_pronoun] led the effort to combat the Fiends threatening Camp McCarran.</baseDesc>
@@ -299,6 +329,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Major_Knight_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR logistics major</title>
         <titleShort>major</titleShort>
         <baseDesc>[PAWN_nameDef] specialized in supply logistics, ensuring NCR forces in the Mojave stayed equipped and fed. [PAWN_possessive] organizational skills proved invaluable.</baseDesc>
@@ -320,6 +352,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Major_Kieran_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR field major</title>
         <titleShort>major</titleShort>
         <baseDesc>[PAWN_nameDef] rose through the ranks to become a major, leading troops in combat operations across the Mojave. [PAWN_pronoun] earned respect for [PAWN_possessive] tactical skill.</baseDesc>
@@ -341,6 +375,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Major_Polatli_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR quartermaster major</title>
         <titleShort>major</titleShort>
         <baseDesc>[PAWN_nameDef] became the quartermaster at Camp McCarran, responsible for managing the massive supply operations needed to support the NCR's Mojave campaign.</baseDesc>
@@ -364,6 +400,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Captain_Parker_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR farm boy</title>
         <titleShort>farm boy</titleShort>
         <baseDesc>[PAWN_nameDef] grew up on a farm in NCR territory, learning to work hard and shoot straight. [PAWN_pronoun] enlisted as soon as [PAWN_pronoun] was old enough.</baseDesc>
@@ -381,6 +419,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Captain_Gilles_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Shady Sands kid</title>
         <titleShort>city kid</titleShort>
         <baseDesc>[PAWN_nameDef] was raised in Shady Sands, the capital of the NCR. [PAWN_pronoun] grew up surrounded by the Republic's ideals of democracy and expansion.</baseDesc>
@@ -398,6 +438,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Captain_Curtis_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>merchant's son</title>
         <titleShort>merchant kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up helping [PAWN_possessive] parents run a trading post, learning the value of supplies and efficient resource management from a young age.</baseDesc>
@@ -415,6 +457,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Captain_Rodriguez_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR core territories kid</title>
         <titleShort>NCR kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in the heart of NCR territory, learning early about duty, perseverance, and the challenges of maintaining order in the wasteland.</baseDesc>
@@ -434,6 +478,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Captain_Parker_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR infantry captain</title>
         <titleShort>captain</titleShort>
         <baseDesc>[PAWN_nameDef] served as an infantry captain in the NCR army, leading troops in numerous engagements against raiders, tribals, and hostile factions.</baseDesc>
@@ -455,6 +501,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Captain_Gilles_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR garrison captain</title>
         <titleShort>captain</titleShort>
         <baseDesc>[PAWN_nameDef] commanded garrison forces at key NCR installations in the Mojave, balancing security needs with limited resources.</baseDesc>
@@ -476,6 +524,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Captain_Curtis</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>McCarran supply officer</title>
         <titleShort>supply officer</titleShort>
         <baseDesc>[PAWN_nameDef] managed supply operations at Camp McCarran, ensuring troops received necessary equipment. [PAWN_pronoun] became adept at procurement and 'creative' logistics to meet demands despite limited official resources.</baseDesc>
@@ -497,6 +547,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Captain_Rodriguez</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>isolated NCR captain</title>
         <titleShort>isolated captain</titleShort>
         <baseDesc>[PAWN_nameDef] commanded an NCR unit cut off from the Republic for over a decade. [PAWN_pronoun] maintained discipline and hope despite isolation, keeping [PAWN_possessive] troops together through sheer will and leadership.</baseDesc>
@@ -521,6 +573,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Gorobets_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>wasteland hunter's son</title>
         <titleShort>hunter kid</titleShort>
         <baseDesc>[PAWN_nameDef] learned to track and shoot from [PAWN_possessive] father, a skilled wasteland hunter. These skills made [PAWN_objective] a natural fit for 1st Recon.</baseDesc>
@@ -538,6 +592,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Hayes_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR military brat</title>
         <titleShort>military kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up moving from base to base as [PAWN_possessive] parents served in the NCR military. [PAWN_pronoun] knew the military life intimately.</baseDesc>
@@ -555,6 +611,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Boyd_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>lawman's daughter</title>
         <titleShort>lawman kid</titleShort>
         <baseDesc>[PAWN_nameDef] was raised by a former sheriff who instilled in [PAWN_objective] a strong sense of justice and order. [PAWN_pronoun] joined the NCR Military Police.</baseDesc>
@@ -573,6 +631,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Markland_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR officer candidate</title>
         <titleShort>candidate</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in a military family and attended NCR officer training as a teenager. [PAWN_pronoun] showed natural leadership abilities and tactical thinking from an early age.</baseDesc>
@@ -591,6 +651,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Monroe_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>post-war survivor</title>
         <titleShort>survivor</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in the harsh wasteland, learning to adapt and survive in a world still recovering from nuclear devastation. [PAWN_pronoun] saw military service as a path to stability.</baseDesc>
@@ -611,6 +673,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Gorobets_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>1st Recon lieutenant</title>
         <titleShort>recon officer</titleShort>
         <baseDesc>[PAWN_nameDef] commanded a squad in the elite 1st Recon unit, specializing in long-range reconnaissance and precision marksmanship.</baseDesc>
@@ -632,6 +696,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Hayes_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR platoon lieutenant</title>
         <titleShort>lieutenant</titleShort>
         <baseDesc>[PAWN_nameDef] led a platoon in the 1st Company, 5th Battalion, stationed at the vital Mojave Outpost. [PAWN_pronoun] kept morale up despite limited resources.</baseDesc>
@@ -653,6 +719,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Boyd_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR military police officer</title>
         <titleShort>MP officer</titleShort>
         <baseDesc>[PAWN_nameDef] served as a Military Police officer at Camp McCarran, investigating crimes and maintaining discipline among the troops.</baseDesc>
@@ -674,6 +742,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Markland_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Forlorn Hope CO</title>
         <titleShort>lieutenant</titleShort>
         <baseDesc>[PAWN_nameDef] commanded Camp Forlorn Hope, one of the NCR's most embattled positions. [PAWN_pronoun] struggled with supply shortages and low morale while trying to hold the line against Legion forces.</baseDesc>
@@ -695,6 +765,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Lieutenant_Monroe_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Searchlight CO</title>
         <titleShort>lieutenant</titleShort>
         <baseDesc>[PAWN_nameDef] commanded Camp Searchlight before it was irradiated by Legion forces. [PAWN_pronoun] barely survived the disaster that claimed most of [PAWN_possessive] troops.</baseDesc>
@@ -718,6 +790,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Sergeant_Bitter_Root_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>tribal survivor</title>
         <titleShort>survivor</titleShort>
         <baseDesc>[PAWN_nameDef] survived the massacre of [PAWN_possessive] tribe by the Great Khans. This tragedy drove [PAWN_objective] to seek revenge and join the NCR military.</baseDesc>
@@ -736,6 +810,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Sergeant_Astor_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>frontier guard's son</title>
         <titleShort>guard kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up watching [PAWN_possessive] parents defend NCR settlements from raiders and wildlife. [PAWN_pronoun] learned vigilance and combat skills early in life.</baseDesc>
@@ -753,6 +829,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Sergeant_Contreras_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>trader's apprentice</title>
         <titleShort>trader kid</titleShort>
         <baseDesc>[PAWN_nameDef] learned the art of trading and negotiation from merchant parents. [PAWN_pronoun] developed a keen eye for profit and opportunity from an early age.</baseDesc>
@@ -770,6 +848,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_First_Sergeant_Asher_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>sharpshooter prodigy</title>
         <titleShort>marksman kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up hunting in the wastes, developing exceptional marksmanship skills from a young age. [PAWN_pronoun] could hit targets others couldn't even see.</baseDesc>
@@ -789,6 +869,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Sergeant_Bitter_Root_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>1st Recon sniper</title>
         <titleShort>sniper</titleShort>
         <baseDesc>[PAWN_nameDef] became a skilled sniper in 1st Recon's Alpha Squad. [PAWN_possessive] hatred of the Great Khans fueled [PAWN_possessive] determination in battle.</baseDesc>
@@ -807,6 +889,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Sergeant_Astor_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Forlorn Hope NCO</title>
         <titleShort>sergeant</titleShort>
         <baseDesc>[PAWN_nameDef] served as a non-commissioned officer at Camp Forlorn Hope, managing security and keeping the troops combat-ready despite constant Legion threats and low supplies.</baseDesc>
@@ -825,6 +909,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Sergeant_Contreras_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>corrupt quartermaster</title>
         <titleShort>quartermaster</titleShort>
         <baseDesc>[PAWN_nameDef] became the quartermaster at Camp McCarran, using [PAWN_possessive] position to run black market operations selling NCR supplies for personal profit.</baseDesc>
@@ -843,6 +929,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_First_Sergeant_Asher_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>1st Recon First Sergeant</title>
         <titleShort>recon leader</titleShort>
         <baseDesc>[PAWN_nameDef] rose through the ranks to become First Sergeant of the legendary 1st Recon Battalion. [PAWN_pronoun] leads the NCR's most elite sniper unit with precision and discipline.</baseDesc>
@@ -866,6 +954,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Corporal_Betsy_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>frontier settler</title>
         <titleShort>settler</titleShort>
         <baseDesc>[PAWN_nameDef] grew up on the edge of NCR territory, learning to handle threats from raiders and wildlife. [PAWN_pronoun] enlisted to help protect others.</baseDesc>
@@ -883,6 +973,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Corporal_Sterling_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Ranger hopeful</title>
         <titleShort>hopeful</titleShort>
         <baseDesc>[PAWN_nameDef] grew up idolizing the NCR Rangers and dreaming of joining their ranks. [PAWN_pronoun] trained constantly to prove [PAWN_objective] worthy.</baseDesc>
@@ -900,6 +992,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Corporal_Mags_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>troubled youth</title>
         <titleShort>troublemaker</titleShort>
         <baseDesc>[PAWN_nameDef] had a difficult childhood, getting into trouble frequently. The NCR military offered [PAWN_objective] a chance at redemption and purpose.</baseDesc>
@@ -917,6 +1011,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Corporal_Hornsby_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR cadet</title>
         <titleShort>cadet</titleShort>
         <baseDesc>[PAWN_nameDef] attended an NCR military academy as a teenager, learning discipline and combat skills. [PAWN_pronoun] excelled at following orders.</baseDesc>
@@ -936,6 +1032,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Corporal_Betsy_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>1st Recon spotter</title>
         <titleShort>spotter</titleShort>
         <baseDesc>[PAWN_nameDef] served in 1st Recon's Alpha Squad as a spotter. After a traumatic encounter with Cook-Cook of the Fiends, [PAWN_pronoun] struggled but remained determined.</baseDesc>
@@ -954,6 +1052,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Corporal_Sterling_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Ranger-in-training</title>
         <titleShort>ranger trainee</titleShort>
         <baseDesc>[PAWN_nameDef] earned the right to wear Ranger patrol armor and trained under experienced Rangers, working to prove [PAWN_objective] worthy of full Ranger status.</baseDesc>
@@ -972,6 +1072,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Corporal_Mags_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>misfit soldier</title>
         <titleShort>misfit</titleShort>
         <baseDesc>[PAWN_nameDef] served in the 9th Platoon, nicknamed "The Misfits" for their poor performance. Despite this reputation, [PAWN_pronoun] remained loyal to the NCR.</baseDesc>
@@ -990,6 +1092,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Corporal_Hornsby_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR military policeman</title>
         <titleShort>MP</titleShort>
         <baseDesc>[PAWN_nameDef] served in the NCR Military Police at Camp McCarran, maintaining order and investigating crimes among the troops.</baseDesc>
@@ -1010,6 +1114,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Biff_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>frontier survivor</title>
         <titleShort>frontier kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up on the harsh frontier, learning survival and combat skills from an early age. [PAWN_pronoun] developed an unshakeable optimism despite the dangers around [PAWN_objective].</baseDesc>
@@ -1028,6 +1134,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Chief_Hanlon_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>frontier orphan</title>
         <titleShort>orphan</titleShort>
         <baseDesc>[PAWN_nameDef] lost [PAWN_possessive] parents to raiders at a young age. [PAWN_pronoun] was taken in by the NCR Rangers, who became [PAWN_possessive] new family.</baseDesc>
@@ -1045,6 +1153,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Anders_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>military brat</title>
         <titleShort>NCR kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up on NCR military bases, the child of career soldiers. [PAWN_pronoun] learned discipline and firearms handling at an early age, naturally drawn to service.</baseDesc>
@@ -1062,6 +1172,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Ghost_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>scout's daughter</title>
         <titleShort>scout kid</titleShort>
         <baseDesc>[PAWN_nameDef] learned wilderness survival and stealth from [PAWN_possessive] parents, who worked as scouts for NCR caravans. [PAWN_pronoun] could move unseen even as a child.</baseDesc>
@@ -1079,6 +1191,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Jackson_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>veteran's son</title>
         <titleShort>vet kid</titleShort>
         <baseDesc>[PAWN_nameDef] was raised by an NCR veteran who taught [PAWN_objective] combat tactics, survival skills, and the history of the Rangers. [PAWN_pronoun] idolized the Rangers from childhood.</baseDesc>
@@ -1097,6 +1211,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Milo_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>caravan scout's kid</title>
         <titleShort>scout kid</titleShort>
         <baseDesc>[PAWN_nameDef] traveled with caravan scouts across the wasteland, learning navigation, tracking, and how to spot danger from miles away. These skills made [PAWN_objective] a natural Ranger candidate.</baseDesc>
@@ -1115,6 +1231,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Andy_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>frontier settler</title>
         <titleShort>settler</titleShort>
         <baseDesc>[PAWN_nameDef] grew up on the dangerous frontier, learning to shoot and survive from necessity. [PAWN_pronoun] saw Rangers as heroes protecting civilization and aspired to join their ranks.</baseDesc>
@@ -1133,6 +1251,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Stella_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Ranger's daughter</title>
         <titleShort>ranger kid</titleShort>
         <baseDesc>[PAWN_nameDef] was raised by a Ranger parent, learning marksmanship, tracking, and survival skills from an early age. [PAWN_pronoun] followed naturally in [PAWN_possessive] parent's footsteps.</baseDesc>
@@ -1150,6 +1270,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Erasmus_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>desert nomad</title>
         <titleShort>nomad</titleShort>
         <baseDesc>[PAWN_nameDef] grew up among desert nomads, learning to navigate harsh terrain and survive with minimal resources. [PAWN_pronoun] joined the NCR to put these skills to use against the Legion.</baseDesc>
@@ -1168,6 +1290,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Grant_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>wasteland wanderer</title>
         <titleShort>wanderer</titleShort>
         <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] youth traveling the wastes with a caravan, learning survival skills and how to handle threats in the harsh Mojave.</baseDesc>
@@ -1188,6 +1312,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Biff</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>hopeful veteran ranger</title>
         <titleShort>veteran ranger</titleShort>
         <baseDesc>[PAWN_nameDef] became a veteran NCR Ranger, earning the elite black armor. Cut off from the Republic for over a decade, [PAWN_pronoun] maintained unwavering faith that the NCR would return "any day now," refusing to give up hope.</baseDesc>
@@ -1208,6 +1334,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Chief_Hanlon_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>legendary Ranger chief</title>
         <titleShort>chief ranger</titleShort>
         <baseDesc>[PAWN_nameDef] became a legendary NCR Ranger, serving with distinction for decades. As Ranger Chief, [PAWN_pronoun] led the defense of Hoover Dam during the First Battle, but grew disillusioned with the endless war.</baseDesc>
@@ -1230,6 +1358,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Anders_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>patrol ranger</title>
         <titleShort>ranger</titleShort>
         <baseDesc>[PAWN_nameDef] earned the coveted Ranger tab through exceptional performance in the field. As a patrol ranger, [PAWN_pronoun] specialized in long-range reconnaissance and border security.</baseDesc>
@@ -1248,6 +1378,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Ghost_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>stealth Ranger</title>
         <titleShort>ranger</titleShort>
         <baseDesc>[PAWN_nameDef] became known among the Rangers for [PAWN_possessive] exceptional stealth abilities, earning the callsign "Ghost." [PAWN_pronoun] specialized in reconnaissance missions.</baseDesc>
@@ -1266,6 +1398,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Jackson_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Mojave Outpost Ranger CO</title>
         <titleShort>ranger CO</titleShort>
         <baseDesc>[PAWN_nameDef] commanded the Ranger forces at the Mojave Outpost, a critical gateway into NCR territory. [PAWN_pronoun] was a veteran Ranger with decades of experience, known for [PAWN_possessive] pragmatic approach and steady leadership.</baseDesc>
@@ -1285,6 +1419,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Milo_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Station Charlie Ranger</title>
         <titleShort>ranger</titleShort>
         <baseDesc>[PAWN_nameDef] was stationed at Ranger Station Charlie, monitoring Legion movements across the Colorado. [PAWN_pronoun] specialized in long-range reconnaissance and remained constantly vigilant against the enemy threat.</baseDesc>
@@ -1304,6 +1440,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Andy_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>retired injured Ranger</title>
         <titleShort>veteran ranger</titleShort>
         <baseDesc>[PAWN_nameDef] was a decorated NCR Ranger until a severe leg injury forced [PAWN_objective] into semi-retirement at Novac. Despite [PAWN_possessive] injury, [PAWN_pronoun] continued training younger Rangers, passing on decades of combat experience and survival skills.</baseDesc>
@@ -1323,6 +1461,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Stella_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Station Bravo Ranger CO</title>
         <titleShort>ranger CO</titleShort>
         <baseDesc>[PAWN_nameDef] commanded Ranger Station Bravo, managing a remote outpost along the Long 15. [PAWN_pronoun] proved herself a capable leader, maintaining discipline and readiness in isolation.</baseDesc>
@@ -1342,6 +1482,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Erasmus_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Station Delta Ranger</title>
         <titleShort>ranger</titleShort>
         <baseDesc>[PAWN_nameDef] was stationed at Ranger Station Delta, the NCR's easternmost outpost monitoring Legion activity. [PAWN_pronoun] was an expert at desert survival and long-range patrol operations in hostile territory.</baseDesc>
@@ -1361,6 +1503,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ranger_Grant_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR patrol ranger</title>
         <titleShort>ranger</titleShort>
         <baseDesc>[PAWN_nameDef] joined the NCR Rangers and was assigned to patrol duty at Ranger Station Charlie. [PAWN_pronoun] guards the eastern approaches to the Mojave, watching for Legion activity.</baseDesc>
@@ -1381,6 +1525,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Crenshaw_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>wasteland orphan</title>
         <titleShort>orphan</titleShort>
         <baseDesc>[PAWN_nameDef] was orphaned at a young age and taken in by a small NCR settlement. [PAWN_pronoun] grew up learning to survive and wanting to prove [PAWN_objective] worthy.</baseDesc>
@@ -1398,6 +1544,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Hoover_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>squatter's son</title>
         <titleShort>squatter kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in a poor squatter camp on the outskirts of NCR territory. Life was hard, but [PAWN_pronoun] learned to make do with little.</baseDesc>
@@ -1415,6 +1563,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Dustin_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>farmer's hand</title>
         <titleShort>farm hand</titleShort>
         <baseDesc>[PAWN_nameDef] grew up working on an NCR farm, learning the value of hard work and discipline from an early age.</baseDesc>
@@ -1432,6 +1582,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Richie_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>trader's assistant</title>
         <titleShort>trader kid</titleShort>
         <baseDesc>[PAWN_nameDef] helped [PAWN_possessive] family run a small trading post, learning to deal with people and manage inventory from a young age.</baseDesc>
@@ -1451,6 +1603,8 @@
 
     <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Backstory_NCR_Thomas_Hildern_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>ambitious scholar</title>
         <titleShort>scholar</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in the NCR studying pre-war scientific texts with obsessive dedication. [PAWN_pronoun] was driven by an ambition to restore pre-war technology and scientific progress.</baseDesc>
@@ -1471,6 +1625,8 @@
 
     <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Backstory_NCR_Angela_Williams_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>scientist's daughter</title>
         <titleShort>scientist kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up learning about botany and agriculture from [PAWN_possessive] parents. [PAWN_pronoun] was fascinated by how pre-war agricultural science could help feed the growing NCR population.</baseDesc>
@@ -1488,6 +1644,8 @@
 
     <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Backstory_NCR_Doctor_Keely_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>vault dweller child</title>
         <titleShort>vault kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in a vault that emphasized scientific education and environmental studies. [PAWN_pronoun] was fascinated by biology and ecology from a young age.</baseDesc>
@@ -1506,8 +1664,10 @@
 
     <!-- Dr. Usanagi -->
 
-    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+    <BackstoryDef MayRequire="Rick.FCP.Followers">
         <defName>FCP_Backstory_Wastelander_Doctor_Usanagi_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>medical prodigy</title>
         <titleShort>prodigy</titleShort>
         <baseDesc>[PAWN_nameDef] showed exceptional aptitude for medicine from a young age, learning from doctors in the Followers of the Apocalypse.</baseDesc>
@@ -1525,6 +1685,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Sexton_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>settlement kid</title>
         <titleShort>settler</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in a stable NCR settlement, having a relatively normal childhood by wasteland standards.</baseDesc>
@@ -1541,6 +1703,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Gilbert_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>brahmin ranch kid</title>
         <titleShort>ranch kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up on a brahmin ranch, developing [PAWN_possessive] considerable strength through years of physical labor.</baseDesc>
@@ -1558,6 +1722,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Morales_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>border town youth</title>
         <titleShort>border youth</titleShort>
         <baseDesc>[PAWN_nameDef] grew up in a town on NCR's southern border, learning multiple languages and cultures from the diverse community.</baseDesc>
@@ -1574,6 +1740,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_10_of_Spades_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Camp Golf kid</title>
         <titleShort>golf kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up around Camp Golf, watching NCR soldiers train and dream of joining their ranks. [PAWN_pronoun] earned [PAWN_possessive] unique nickname from a card game incident as a youth.</baseDesc>
@@ -1591,6 +1759,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Poindexter_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>bookish youth</title>
         <titleShort>bookworm</titleShort>
         <baseDesc>[PAWN_nameDef] grew up as an intellectual among more physical peers. [PAWN_pronoun] read extensively and developed strong analytical skills, but struggled with social connections.</baseDesc>
@@ -1608,6 +1778,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_OHanrahan_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>jaded recruit</title>
         <titleShort>cynic</titleShort>
         <baseDesc>[PAWN_nameDef] grew up witnessing the harsh realities of wasteland life. [PAWN_pronoun] developed a bitter, cynical outlook that made [PAWN_objective] difficult to work with.</baseDesc>
@@ -1625,6 +1797,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Razz_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>slacker kid</title>
         <titleShort>slacker</titleShort>
         <baseDesc>[PAWN_nameDef] always did the bare minimum required, preferring leisure over work. [PAWN_pronoun] developed a reputation for laziness from an early age.</baseDesc>
@@ -1641,6 +1815,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Ackerman_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>fearful youth</title>
         <titleShort>scared kid</titleShort>
         <baseDesc>[PAWN_nameDef] was always the timid one, afraid of conflict and danger. [PAWN_pronoun] was pressured into military service despite [PAWN_possessive] cowardly nature.</baseDesc>
@@ -1657,6 +1833,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Reyes_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>dam worker's son</title>
         <titleShort>dam kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up near Hoover Dam, watching the massive structure provide power to the wasteland. [PAWN_pronoun] joined the military to help protect this vital asset.</baseDesc>
@@ -1674,6 +1852,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Stone_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>scavenger youth</title>
         <titleShort>scavenger</titleShort>
         <baseDesc>[PAWN_nameDef] grew up scavenging the wasteland for useful items and equipment. [PAWN_pronoun] learned to spot valuable salvage and developed a keen eye for details.</baseDesc>
@@ -1691,6 +1871,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Edwards_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>caravan guard's kid</title>
         <titleShort>caravan kid</titleShort>
         <baseDesc>[PAWN_nameDef] traveled with trading caravans as a child, learning about wasteland dangers and the importance of vigilance. [PAWN_pronoun] became comfortable with weapons early on.</baseDesc>
@@ -1710,6 +1892,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Crenshaw_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR recruit</title>
         <titleShort>recruit</titleShort>
         <baseDesc>[PAWN_nameDef] joined the NCR military to prove [PAWN_objective] and find a place to belong. [PAWN_pronoun] served with dedication despite [PAWN_possessive] young age.</baseDesc>
@@ -1727,6 +1911,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Hoover_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>drafted soldier</title>
         <titleShort>draftee</titleShort>
         <baseDesc>[PAWN_nameDef] was conscripted into NCR service during an expansion of the military. [PAWN_pronoun] served dutifully, though [PAWN_pronoun] hadn't originally planned on military life.</baseDesc>
@@ -1744,6 +1930,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Dustin_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR frontline soldier</title>
         <titleShort>soldier</titleShort>
         <baseDesc>[PAWN_nameDef] served on the front lines of NCR expansion, seeing combat against raiders and hostile factions. [PAWN_pronoun] earned a promotion to PFC for [PAWN_possessive] steady service.</baseDesc>
@@ -1761,6 +1949,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Richie_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR supply trooper</title>
         <titleShort>trooper</titleShort>
         <baseDesc>[PAWN_nameDef] worked in supply distribution while serving as an NCR trooper. [PAWN_possessive] organizational skills and people skills earned [PAWN_objective] a promotion to PFC.</baseDesc>
@@ -1779,6 +1969,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Sexton_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR trooper</title>
         <titleShort>trooper</titleShort>
         <baseDesc>[PAWN_nameDef] served as a standard NCR trooper, performing guard duty and patrols across the Mojave. [PAWN_pronoun] was reliable if unremarkable.</baseDesc>
@@ -1797,6 +1989,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Gilbert_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR heavy trooper</title>
         <titleShort>heavy</titleShort>
         <baseDesc>[PAWN_nameDef] used [PAWN_possessive] considerable strength to carry heavy weapons and equipment for [PAWN_possessive] squad. [PAWN_pronoun] proved valuable in combat situations.</baseDesc>
@@ -1815,6 +2009,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Morales_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>bilingual trooper</title>
         <titleShort>trooper</titleShort>
         <baseDesc>[PAWN_nameDef] served as an NCR trooper, [PAWN_possessive] language skills occasionally proving useful when dealing with wastelanders and traders from the south.</baseDesc>
@@ -1832,6 +2028,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_10_of_Spades_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR golf trooper</title>
         <titleShort>trooper</titleShort>
         <baseDesc>[PAWN_nameDef] earned promotion to Private First Class while stationed at Camp Golf. Known for [PAWN_possessive] card-playing skills and distinctive nickname, [PAWN_pronoun] proved reliable in combat despite [PAWN_possessive] laid-back demeanor.</baseDesc>
@@ -1850,6 +2048,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Stone_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Forlorn Hope trooper</title>
         <titleShort>trooper</titleShort>
         <baseDesc>[PAWN_nameDef] was assigned to Camp Forlorn Hope, one of the NCR's most dangerous postings. Despite the hardships and constant danger, [PAWN_pronoun] remained optimistic about the NCR's mission.</baseDesc>
@@ -1868,6 +2068,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Edwards_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>weary frontline soldier</title>
         <titleShort>soldier</titleShort>
         <baseDesc>[PAWN_nameDef] served at Camp Forlorn Hope, enduring constant Legion attacks and supply shortages. [PAWN_pronoun] remained dedicated to duty despite growing war-weariness.</baseDesc>
@@ -1885,6 +2087,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Poindexter_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Misfits squad leader</title>
         <titleShort>misfit</titleShort>
         <baseDesc>[PAWN_nameDef] was assigned to lead "The Misfits," a dysfunctional squad at Camp Golf. Despite [PAWN_possessive] intelligence, [PAWN_pronoun] struggled to motivate the unmotivated troops.</baseDesc>
@@ -1903,6 +2107,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_OHanrahan_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>bitter misfit veteran</title>
         <titleShort>misfit</titleShort>
         <baseDesc>[PAWN_nameDef] ended up in the Misfits squad after years of complaints and insubordination. [PAWN_pronoun] resented being stuck with the worst troops at Camp Golf.</baseDesc>
@@ -1920,6 +2126,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Razz_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>lazy misfit soldier</title>
         <titleShort>misfit</titleShort>
         <baseDesc>[PAWN_nameDef] was assigned to the Misfits for chronic laziness and poor performance. [PAWN_pronoun] preferred sleeping or gambling to actual military duties.</baseDesc>
@@ -1937,6 +2145,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Ackerman_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>cowardly misfit</title>
         <titleShort>misfit</titleShort>
         <baseDesc>[PAWN_nameDef] ended up in the Misfits after repeatedly showing cowardice in combat situations. [PAWN_pronoun] was terrified of any real fighting and tried to avoid danger.</baseDesc>
@@ -1954,6 +2164,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Private_Reyes_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Hoover Dam guard</title>
         <titleShort>dam guard</titleShort>
         <baseDesc>[PAWN_nameDef] was stationed at Hoover Dam, guarding one of the NCR's most vital assets. [PAWN_pronoun] took pride in protecting the facility that powered much of the region.</baseDesc>
@@ -1974,6 +2186,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Medical_Officer_Richards_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>doctor's apprentice</title>
         <titleShort>apprentice</titleShort>
         <baseDesc>[PAWN_nameDef] learned medicine from a skilled wasteland doctor, developing [PAWN_possessive] healing abilities from a young age. [PAWN_pronoun] felt called to help others.</baseDesc>
@@ -1991,6 +2205,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Doctor_Kilborn_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>clinic assistant</title>
         <titleShort>assistant</titleShort>
         <baseDesc>[PAWN_nameDef] grew up helping in a frontier clinic, learning medical techniques through hands-on experience. [PAWN_pronoun] witnessed countless preventable deaths that shaped [PAWN_possessive] dedication to medicine.</baseDesc>
@@ -2010,6 +2226,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Quartermaster_Mayes_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>supply depot kid</title>
         <titleShort>supply kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up around military supply depots, learning inventory management and logistics from an early age. [PAWN_pronoun] had a natural talent for organization.</baseDesc>
@@ -2029,6 +2247,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Medical_Officer_Richards_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>overworked field doctor</title>
         <titleShort>field doctor</titleShort>
         <baseDesc>[PAWN_nameDef] served as the chief medical officer at Camp Forlorn Hope, treating an endless stream of wounded soldiers with limited supplies. The constant casualties wore heavily on [PAWN_objective], but [PAWN_pronoun] refused to abandon [PAWN_possessive] post.</baseDesc>
@@ -2051,6 +2271,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Doctor_Kilborn_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Forlorn Hope doctor</title>
         <titleShort>field doctor</titleShort>
         <baseDesc>[PAWN_nameDef] served as the senior medical officer at Camp Forlorn Hope, working alongside Medical Officer Richards. Together they treated countless wounded soldiers with minimal resources, their skills constantly tested by the brutal frontier conditions.</baseDesc>
@@ -2075,6 +2297,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Quartermaster_Mayes_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Forlorn Hope quartermaster</title>
         <titleShort>quartermaster</titleShort>
         <baseDesc>[PAWN_nameDef] managed supplies at Camp Forlorn Hope, one of the most challenging logistics positions in the NCR. [PAWN_pronoun] struggled daily to stretch limited resources across troops that desperately needed more.</baseDesc>
@@ -2098,6 +2322,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Lenk_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>radio enthusiast</title>
         <titleShort>radio kid</titleShort>
         <baseDesc>[PAWN_nameDef] was fascinated by radio technology from a young age, tinkering with old equipment and learning how communications worked in the wasteland.</baseDesc>
@@ -2115,6 +2341,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Richards_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>signaler's apprentice</title>
         <titleShort>signaler</titleShort>
         <baseDesc>[PAWN_nameDef] learned signal communication from an NCR veteran, studying codes and radio procedures that would later serve [PAWN_objective] well.</baseDesc>
@@ -2132,6 +2360,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Pappas_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>tech scavenger</title>
         <titleShort>scavenger</titleShort>
         <baseDesc>[PAWN_nameDef] scavenged pre-war technology with [PAWN_possessive] family, learning how old communications equipment worked and how to repair it.</baseDesc>
@@ -2149,6 +2379,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Gaines_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR cadet student</title>
         <titleShort>cadet</titleShort>
         <baseDesc>[PAWN_nameDef] attended NCR military academy, showing aptitude for communications and coordination that set [PAWN_objective] apart from other students.</baseDesc>
@@ -2166,6 +2398,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Stone_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>telegraph operator's daughter</title>
         <titleShort>operator kid</titleShort>
         <baseDesc>[PAWN_nameDef] learned communications from [PAWN_possessive] parents, who operated telegraph and radio equipment for an NCR outpost. [PAWN_pronoun] grew up with the clicking of morse code.</baseDesc>
@@ -2182,6 +2416,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Grant_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>message runner</title>
         <titleShort>runner</titleShort>
         <baseDesc>[PAWN_nameDef] worked as a message runner between NCR settlements, learning the importance of clear and accurate communication.</baseDesc>
@@ -2199,6 +2435,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Stepinac_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>engineer's assistant</title>
         <titleShort>assistant</titleShort>
         <baseDesc>[PAWN_nameDef] helped [PAWN_possessive] guardian maintain NCR communications equipment, learning the technical side of radio operations.</baseDesc>
@@ -2216,6 +2454,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Traci_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>dispatcher's trainee</title>
         <titleShort>trainee</titleShort>
         <baseDesc>[PAWN_nameDef] trained as a dispatcher for NCR caravans, learning to coordinate movements and relay information effectively.</baseDesc>
@@ -2235,6 +2475,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Lenk_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR communications officer</title>
         <titleShort>comm officer</titleShort>
         <baseDesc>[PAWN_nameDef] managed communications for NCR forces in the Mojave, coordinating radio traffic and ensuring messages reached their destinations.</baseDesc>
@@ -2256,6 +2498,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Richards_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR signal specialist</title>
         <titleShort>signal officer</titleShort>
         <baseDesc>[PAWN_nameDef] specialized in signal operations for the NCR military, managing secure communications and encryption protocols.</baseDesc>
@@ -2277,6 +2521,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Pappas_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR radio technician</title>
         <titleShort>radio tech</titleShort>
         <baseDesc>[PAWN_nameDef] maintained and operated NCR radio equipment, ensuring communications stayed functional even in harsh wasteland conditions.</baseDesc>
@@ -2298,6 +2544,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Gaines_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR coordination officer</title>
         <titleShort>coord officer</titleShort>
         <baseDesc>[PAWN_nameDef] coordinated military communications for NCR operations in the Mojave, managing multiple channels and ensuring efficient information flow.</baseDesc>
@@ -2321,6 +2569,8 @@
 
     <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Backstory_NCR_Thomas_Hildern_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>OSI director</title>
         <titleShort>OSI director</titleShort>
         <baseDesc>[PAWN_nameDef] became the director of the NCR's Office of Science and Industry at Camp McCarran. [PAWN_pronoun] is obsessed with recovering agricultural data from Vault 22, willing to risk lives for scientific progress.</baseDesc>
@@ -2343,6 +2593,8 @@
 
     <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Backstory_NCR_Angela_Williams_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>OSI botanist</title>
         <titleShort>OSI botanist</titleShort>
         <baseDesc>[PAWN_nameDef] works as a botanist for the OSI, researching agricultural technologies to help feed the NCR's expanding population. [PAWN_pronoun] is passionate about the work but concerned about Hildern's reckless methods.</baseDesc>
@@ -2365,6 +2617,8 @@
 
     <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
         <defName>FCP_Backstory_NCR_Doctor_Keely_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>OSI field researcher</title>
         <titleShort>field researcher</titleShort>
         <baseDesc>[PAWN_nameDef] is an OSI researcher specializing in botany and ecology. [PAWN_pronoun] was sent to Vault 22 to recover agricultural data but became trapped by the vault's mutated plant life.</baseDesc>
@@ -2387,8 +2641,10 @@
 
     <!-- Dr. Usanagi -->
 
-    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
+    <BackstoryDef MayRequire="Rick.FCP.Followers">
         <defName>FCP_Backstory_Wastelander_Doctor_Usanagi_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>New Vegas doctor</title>
         <titleShort>doctor</titleShort>
         <baseDesc>[PAWN_nameDef] runs the New Vegas Medical Clinic, one of the most advanced medical facilities in the Mojave. [PAWN_pronoun] offers high-quality medical services including cybernetic implants to those who can afford them.</baseDesc>
@@ -2411,6 +2667,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Stone_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR dispatch supervisor</title>
         <titleShort>dispatcher</titleShort>
         <baseDesc>[PAWN_nameDef] supervised communications dispatch for NCR military units, managing emergency communications and coordinating rapid response.</baseDesc>
@@ -2432,6 +2690,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Grant_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR field communications officer</title>
         <titleShort>field comm</titleShort>
         <baseDesc>[PAWN_nameDef] managed field communications for NCR units, setting up mobile radio stations and maintaining contact with command during operations.</baseDesc>
@@ -2453,6 +2713,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Stepinac_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR comm maintenance officer</title>
         <titleShort>maintenance officer</titleShort>
         <baseDesc>[PAWN_nameDef] managed maintenance and repair of NCR communications equipment, ensuring the vital radio network stayed operational.</baseDesc>
@@ -2474,6 +2736,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Comm_Officer_Traci_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCR tactical comm officer</title>
         <titleShort>tactical comm</titleShort>
         <baseDesc>[PAWN_nameDef] specialized in tactical communications, coordinating real-time battlefield communications for NCR forces during combat operations.</baseDesc>

@@ -564,7 +564,7 @@
 
             <!-- NCR Medical Staff -->
 
-            <li Class="FCP.Core.GroupMakerWithCustomChar" MayRequire="Rick.FCP.Wastelanders">
+            <li Class="FCP.Core.GroupMakerWithCustomChar" MayRequire="Rick.FCP.Followers">
                 <!-- Civilian medical professionals -->
                 <kindDef>Peaceful</kindDef>
                 <options>

@@ -1730,7 +1730,7 @@
 
     <!-- Dr. Usanagi -->
 
-    <FCP.Core.CharacterDef MayRequire="Rick.FCP.Wastelanders">
+    <FCP.Core.CharacterDef MayRequire="Rick.FCP.Followers">
         <defName>FCP_Character_NCR_Doctor_Usanagi</defName>
         <pawnKind>FCP_Unique_Pawnkind_Doctor_Usanagi</pawnKind>
         <xenotype>Baseliner</xenotype>

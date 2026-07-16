@@ -1263,7 +1263,7 @@
 
     <!-- Dr. Usanagi - New Vegas Medical Clinic -->
 
-    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase" MayRequire="Rick.FCP.Wastelanders">
+    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase" MayRequire="Rick.FCP.Followers">
         <defName>FCP_Unique_Pawnkind_Doctor_Usanagi</defName>
         <label>Dr. Usanagi</label>
         <combatPower>50</combatPower>

@@ -1353,6 +1353,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Republic_Born</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>NCR_Republic_Born</identifier>
         <slot>Childhood</slot>
@@ -1378,6 +1380,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Republic_Migrant</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>NCR_Republic_Migrant</identifier>
         <slot>Childhood</slot>
@@ -1402,6 +1406,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Settled_Tribal</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>NCR_Settled_Tribal</identifier>
         <slot>Childhood</slot>
@@ -1426,6 +1432,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Officer_Offspring</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>NCR_Officer_Offspring</identifier>
         <slot>Childhood</slot>
@@ -1450,6 +1458,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Barracks_Baby</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>NCR_Barracks_Baby</identifier>
         <slot>Childhood</slot>
@@ -1477,6 +1487,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Migrant_Workers_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>NCR_Migrant_Workers_Child</identifier>
         <slot>Childhood</slot>
@@ -1503,6 +1515,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Plantation_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>NCR_Plantation_Child</identifier>
         <slot>Childhood</slot>
@@ -1532,6 +1546,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Raised_by_Followers</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Raised_by_Followers</identifier>
         <slot>Childhood</slot>
@@ -1556,6 +1572,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Ne_er_do_well</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Ne_er_do_well</identifier>
         <slot>Childhood</slot>
@@ -1578,6 +1596,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Rangers_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Rangers_Child</identifier>
         <slot>Childhood</slot>
@@ -1608,6 +1628,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Manufacturers_Apprentice</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Manufacturers_Apprentice</identifier>
         <slot>Childhood</slot>
@@ -1632,6 +1654,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Academics_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Academics_Child</identifier>
         <slot>Childhood</slot>
@@ -1658,6 +1682,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Enthusiastic_Recruit</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Enthusiastic_Recruit</identifier>
         <slot>Childhood</slot>
@@ -1685,6 +1711,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Khan_Survivor</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Khan_Survivor</identifier>
         <slot>Childhood</slot>
@@ -1710,6 +1738,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_NCR_Re_educated_Raider_Kid</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Re_educated_Raider_Kid</identifier>
         <slot>Childhood</slot>

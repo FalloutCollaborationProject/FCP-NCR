@@ -7,6 +7,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Samuel_Cooke_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Vault 19 gang leader</title>
         <titleShort>gang leader</titleShort>
         <slot>Adulthood</slot>
@@ -32,6 +34,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Eddie_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>NCRCF gang boss</title>
         <titleShort>gang boss</titleShort>
         <slot>Adulthood</slot>
@@ -59,6 +63,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Meyers_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>disgraced sheriff</title>
         <titleShort>ex-sheriff</titleShort>
         <slot>Adulthood</slot>
@@ -81,6 +87,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Joe_Cobb_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>powder ganger raider</title>
         <titleShort>raider</titleShort>
         <slot>Adulthood</slot>
@@ -105,6 +113,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Boxcars_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Legion-crippled ganger</title>
         <titleShort>crippled</titleShort>
         <slot>Adulthood</slot>
@@ -129,6 +139,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Philip_Lem_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Vault 19 lieutenant</title>
         <titleShort>lieutenant</titleShort>
         <slot>Adulthood</slot>
@@ -151,6 +163,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Carter_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>prison gate guard</title>
         <titleShort>gate guard</titleShort>
         <slot>Adulthood</slot>
@@ -172,6 +186,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Dawes_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>cell block guard</title>
         <titleShort>cell guard</titleShort>
         <slot>Adulthood</slot>
@@ -193,6 +209,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Scrambler_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>prison yard overseer</title>
         <titleShort>overseer</titleShort>
         <slot>Adulthood</slot>
@@ -215,6 +233,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Chavez_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Eddie's enforcer</title>
         <titleShort>enforcer</titleShort>
         <slot>Adulthood</slot>
@@ -242,6 +262,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_Hannigan_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Vault 19 technician</title>
         <titleShort>technician</titleShort>
         <slot>Adulthood</slot>
