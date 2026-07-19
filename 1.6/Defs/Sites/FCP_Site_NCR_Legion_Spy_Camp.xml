@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SitePartDef ParentName="Outpost">
+        <defName>FCP_Site_NCR_Legion_Spy_Camp</defName>
+        <label>Legion spy camp</label>
+        <description>A concealed camp where Legion Frumentarii operate inside NCR territory.</description>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Generic_Quest_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags Inherit="False">
+            <li>FCP_Site_NCR_Legion_Spy_Camp</li>
+        </tags>
+        <approachOrderString>Attack Legion spy camp</approachOrderString>
+        <approachingReportString>approaching Legion spy camp</approachingReportString>
+        <arrivedLetter>Your caravan arrived at the Legion spy camp.</arrivedLetter>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_NCR_Legion_Spy_Camp_Outpost</defName>
+        <linkWithSite>FCP_Site_NCR_Legion_Spy_Camp</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+</Defs>

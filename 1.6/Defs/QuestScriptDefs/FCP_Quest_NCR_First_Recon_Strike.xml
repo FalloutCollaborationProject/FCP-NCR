@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <QuestScriptDef>
-        <defName>FCP_Quest_NCR_Deserter_Elimination</defName>
-        <rootSelectionWeight>1.0</rootSelectionWeight>
-        <rootMinPoints>300</rootMinPoints>
-        <defaultChallengeRating>1</defaultChallengeRating>
+    <QuestScriptDef MayRequire="Rick.FCP.Legion">
+        <defName>FCP_Quest_NCR_First_Recon_Strike</defName>
+        <rootSelectionWeight>0.6</rootSelectionWeight>
+        <rootMinPoints>350</rootMinPoints>
+        <defaultChallengeRating>3</defaultChallengeRating>
         <canGiveRoyalFavor>true</canGiveRoyalFavor>
-        <expireDaysRange>5~10</expireDaysRange>
+        <expireDaysRange>6~12</expireDaysRange>
         <questNameRules>
             <rulesStrings>
-                <li>questName->deserter bounty</li>
-                <li>questName->AWOL elimination</li>
-                <li>questName->fugitive soldiers</li>
-                <li>questName->deserter extermination</li>
-                <li>questName->rogue trooper bounty</li>
+                <li>questName->First Recon's Ghost</li>
+                <li>questName->Eyes on the Vanguard</li>
+                <li>questName->Cut the Spear's Point</li>
+                <li>questName->The Scouting Party</li>
+                <li>questName->Silent Running</li>
             </rulesStrings>
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>requirements->Requirements: kill every deserter at the hideout. If they abandon the position or it's destroyed before you clear it, the bounty is forfeit.</li>
-                <li>questDescription->[asker_nameFull] reports NCR deserters fortified in a hideout. Command wants them eliminated. Bounty paid on-site once all hostiles are dead.\n\n[requirements]</li>
-                <li>questDescription->NCR deserters holed up in a hideout. [asker_nameFull] authorizes hostile engagement. Eliminate all targets for bounty payment.\n\n[requirements]</li>
-                <li>questDescription->[asker_nameFull]: "AWOL soldiers dug in near your position. Take them out, we'll pay bounty rates. Don't leave any alive."\n\n[requirements]</li>
-                <li>questDescription->Former NCR troops deserted and fortified a position. [asker_nameFull] offers bounty for their elimination. Kill them all for payment.\n\n[requirements]</li>
+                <li>requirements->Requirements: defeat the entire Legion vanguard at the site before they can report back. If they slip away or the site is abandoned first, the mission fails.</li>
+                <li>questDescription->1st Recon spotted a Legion vanguard - Primes and Veterans, not conscripts - scouting terrain ahead of a larger push. [asker_nameFull] wants them gone before they report back. Small group, hard fight, worth every cap of the bounty.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Colonel Moore's people found a Legion scouting party - the good ones, not fresh meat. If they get back to Caesar with a map of our positions, it costs us a lot more than this bounty. Handle it."\n\n[requirements]</li>
+                <li>questDescription->A small, elite Legion detachment is mapping NCR defenses. [asker_nameFull] doesn't have Rangers to spare for a job this quiet, but the fewer of them who make it back to report, the better for everyone.\n\n[requirements]</li>
+                <li>questDescription->1st Recon flagged a handful of Legion veterans moving with unusual discipline near NCR lines - a scouting element, not a raid. [asker_nameFull] wants it ended before it becomes something bigger.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
@@ -31,8 +31,8 @@
                 <li Class="QuestNode_SubScript">
                     <def>Util_RandomizePointsChallengeRating</def>
                     <parms>
-                        <pointsFactorTwoStar>1.4</pointsFactorTwoStar>
-                        <pointsFactorThreeStar>1.8</pointsFactorThreeStar>
+                        <pointsFactorTwoStar>1.3</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.6</pointsFactorThreeStar>
                     </parms>
                 </li>
                 <li Class="QuestNode_SubScript">
@@ -49,6 +49,12 @@
                     <storeAs>asker</storeAs>
                     <factionToUse>$askerFaction</factionToUse>
                 </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>enemyFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
+                    </factionDefs>
+                </li>
                 <li Class="QuestNode_GetSiteTile">
                     <storeAs>siteTile</storeAs>
                     <preferCloserTiles>true</preferCloserTiles>
@@ -57,36 +63,49 @@
                     <storeAs>sitePartDefs</storeAs>
                     <sitePartsTags>
                         <li>
-                            <tag>FCP_Site_NCR_Deserter_Hideout</tag>
+                            <tag>FCP_Site_NCR_Legion_ScoutParty</tag>
                         </li>
                     </sitePartsTags>
                 </li>
                 <li Class="QuestNode_GetDefaultSitePartsParams">
                     <tile>$siteTile</tile>
-                    <faction>FCP_Faction_NCR_Deserters</faction>
+                    <faction>FCP_Faction_Caesars_Legion</faction>
                     <sitePartDefs>$sitePartDefs</sitePartDefs>
                     <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
                 </li>
-                <li Class="QuestNode_GetSiteThreatPoints">
-                    <storeAs>sitePoints</storeAs>
-                    <sitePartsParams>$sitePartsParams</sitePartsParams>
-                </li>
                 <li Class="QuestNode_SubScript">
                     <def>Util_GetDefaultRewardValueFromPoints</def>
-                    <parms>
-                        <points>$sitePoints</points>
-                    </parms>
                 </li>
                 <li Class="QuestNode_Multiply">
                     <value1>$rewardValue</value1>
-                    <value2>1.5</value2>
+                    <value2>2.0</value2>
                     <storeAs>rewardValue</storeAs>
                 </li>
                 <li Class="QuestNode_SubScript">
                     <def>Util_GenerateSite</def>
                     <parms>
-                        <siteFaction>FCP_Faction_NCR_Deserters</siteFaction>
+                        <siteFaction>FCP_Faction_Caesars_Legion</siteFaction>
+                        <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
                     </parms>
+                </li>
+                <li Class="QuestNode_LoopCount">
+                    <loopCount>$(randInt(3,4))</loopCount>
+                    <node Class="QuestNode_GeneratePawn">
+                        <kindDef>FCP_Legion_Veteran</kindDef>
+                        <faction>$enemyFaction</faction>
+                        <addToList>legionaries</addToList>
+                    </node>
+                </li>
+                <li Class="QuestNode_GeneratePawn">
+                    <kindDef>FCP_Legion_Prime</kindDef>
+                    <faction>$enemyFaction</faction>
+                    <addToList>legionaries</addToList>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnRaiders">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <spawnOnEdge>false</spawnOnEdge>
+                    <pawns>$legionaries</pawns>
+                    <radius>16</radius>
                 </li>
                 <li Class="QuestNode_SpawnWorldObjects">
                     <worldObjects>$site</worldObjects>
@@ -101,7 +120,7 @@
                         <nodes>
                             <li Class="QuestNode_Letter">
                                 <label TKey="LetterLabelQuestExpired">quest expired: [resolvedQuestName]</label>
-                                <text TKey="LetterTextQuestExpired">Deserters abandoned their hideout. Quest [resolvedQuestName] expired.</text>
+                                <text TKey="LetterTextQuestExpired">The scouting party moved on before you found them. Whatever they saw, Caesar knows it now.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>
@@ -115,7 +134,7 @@
                         <nodes>
                             <li Class="QuestNode_Letter">
                                 <label TKey="LetterLabelQuestFailed">quest failed: [resolvedQuestName]</label>
-                                <text TKey="LetterTextQuestFailed">Deserters fled after discovery. Quest [resolvedQuestName] ended.</text>
+                                <text TKey="LetterTextQuestFailed">The scouting party broke camp before you arrived. Quest [resolvedQuestName] ended.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>
@@ -133,11 +152,11 @@
                             <li Class="QuestNode_GiveRewards">
                                 <parms>
                                     <allowGoodwill>true</allowGoodwill>
-                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                    <allowRoyalFavor>true</allowRoyalFavor>
                                 </parms>
                                 <addCampLootReward>true</addCampLootReward>
-                                <customLetterLabel>Deserters eliminated</customLetterLabel>
-                                <customLetterText>All deserters eliminated. The NCR has paid your bounty.\n\nCollect any dog tags from the bodies - NCR settlements will buy them.</customLetterText>
+                                <customLetterLabel>Vanguard eliminated</customLetterLabel>
+                                <customLetterText>The scouts are dead before they could report. 1st Recon sends its thanks - and NCR command sends a bounty to match the risk.</customLetterText>
                             </li>
                         </nodes>
                     </node>

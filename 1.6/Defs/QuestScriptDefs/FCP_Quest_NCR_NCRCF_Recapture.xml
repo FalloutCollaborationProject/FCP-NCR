@@ -19,9 +19,10 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->[asker_nameFull] reports deserter inmates seized [site_label]. Clear the facility for bounty payment.</li>
-                <li>questDescription->Hostile inmates control [site_label]. [asker_nameFull] offers bounty for elimination.</li>
-                <li>questDescription->[asker_nameFull]: "Deserters took [site_label]. Clear them out, bounty paid on confirmation."</li>
+                <li>requirements->Requirements: clear every hostile from [site_label] to secure it. If the inmates abandon the facility before you arrive, the bounty is forfeit.</li>
+                <li>questDescription->[asker_nameFull] reports deserter inmates seized [site_label]. Clear the facility for bounty payment.\n\n[requirements]</li>
+                <li>questDescription->Hostile inmates control [site_label]. [asker_nameFull] offers bounty for elimination.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Deserters took [site_label]. Clear them out, bounty paid on confirmation."\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">

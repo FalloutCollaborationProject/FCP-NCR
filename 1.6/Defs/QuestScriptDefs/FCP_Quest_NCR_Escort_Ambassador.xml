@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>FCP_Quest_NCR_Escort_Ambassador</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootMinPoints>30</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>true</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Escort the Ambassador</li>
+                <li>questName->Safe Passage</li>
+                <li>questName->Crocker's Detail</li>
+                <li>questName->Diplomatic Cover</li>
+                <li>questName->The Ambassador's Road</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>requirements->Requirements: escort Ambassador Crocker to the meeting site and keep him alive through it. If trouble shows up, protect him - if he dies, the mission fails.</li>
+                <li>questDescription->[asker_nameFull] needs Ambassador Dennis Crocker moved to a meeting outside NCR lines, and can't spare Rangers to do it quietly. Keep him alive and unnoticed, and the Republic pays well for discretion.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Crocker has a meeting that can't wait for an armed convoy - too much attention. Get him there and back in one piece. He's worth more to the Republic than most units twice his size."\n\n[requirements]</li>
+                <li>questDescription->Ambassador Crocker is traveling to broker terms with a settlement outside NCR territory. [asker_nameFull] wants outside guns for the job - official escorts would spook the people he's meeting.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] fears Crocker's last trip nearly ended in an ambush. This one can't. Escort him quietly, protect him if it comes to that, and see him home.\n\n[requirements]</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                    <parms>
+                        <pointsFactorTwoStar>1.2</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.5</pointsFactorThreeStar>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GenerateUniqueCharacterPawn">
+                    <characterDef>FCP_Character_NCR_Ambassador_Dennis_Crocker</characterDef>
+                    <addToList>crocker</addToList>
+                </li>
+                <li Class="QuestNode_SetAllApparelLocked">
+                    <pawns>$crocker</pawns>
+                </li>
+                <li Class="QuestNode_JoinPlayer">
+                    <pawns>$crocker</pawns>
+                    <joinPlayer>true</joinPlayer>
+                </li>
+                <li Class="QuestNode_ExtraFaction">
+                    <factionOf>$asker</factionOf>
+                    <pawns>$crocker</pawns>
+                    <factionType>HomeFaction</factionType>
+                    <inSignalsRemovePawn>
+                        <li>crocker.RanWild</li>
+                    </inSignalsRemovePawn>
+                </li>
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                </li>
+                <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <storeAs>sitePartDefs</storeAs>
+                    <sitePartsTags>
+                        <li>
+                            <tag>FCP_Site_NCR_Patrol</tag>
+                        </li>
+                    </sitePartsTags>
+                </li>
+                <li Class="QuestNode_GetDefaultSitePartsParams">
+                    <tile>$siteTile</tile>
+                    <sitePartDefs>$sitePartDefs</sitePartDefs>
+                    <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GenerateSite</def>
+                    <parms>
+                        <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+                    </parms>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnPawns">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <pawns>$crocker</pawns>
+                    <mapParent>$site</mapParent>
+                </li>
+                <li Class="QuestNode_LeaveOnCleanup">
+                    <pawns>$crocker</pawns>
+                    <sendStandardLetter>false</sendStandardLetter>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                    <defsToExcludeFromHyperlinks>Human</defsToExcludeFromHyperlinks>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_GetRandomInRangeFloat">
+                                <storeAs>chanceForAmbush</storeAs>
+                                <range>0~1</range>
+                            </li>
+                            <li Class="QuestNode_GreaterOrEqual">
+                                <value1>$chanceForAmbush</value1>
+                                <value2>0.7</value2>
+                                <node Class="QuestNode_Sequence">
+                                    <nodes>
+                                        <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                                            <storeAs>enemyFaction</storeAs>
+                                            <factionDefs>
+                                                <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
+                                                <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Raider</li>
+                                                <li>PirateWaster</li>
+                                            </factionDefs>
+                                        </li>
+                                        <li Class="QuestNode_Set">
+                                            <name>pointsForAmbush</name>
+                                            <value>$($points * 0.6)</value>
+                                        </li>
+                                        <li Class="FCP.Core.RadiantQuests.QuestNode_GeneratePawns">
+                                            <storeAs>ambushers</storeAs>
+                                            <faction>$enemyFaction</faction>
+                                            <pawnGroupKind>Combat</pawnGroupKind>
+                                            <pointsToUse>$pointsForAmbush</pointsToUse>
+                                        </li>
+                                        <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnRaiders">
+                                            <spawnOnEdge>true</spawnOnEdge>
+                                            <pawns>$ambushers</pawns>
+                                            <radius>20</radius>
+                                        </li>
+                                        <li Class="QuestNode_Letter">
+                                            <label>Ambush</label>
+                                            <text>Someone knew Crocker would be here. Protect him.</text>
+                                            <letterDef>ThreatBig</letterDef>
+                                            <lookTargets>$ambushers</lookTargets>
+                                            <filterDeadPawnsFromLookTargets>true</filterDeadPawnsFromLookTargets>
+                                        </li>
+                                    </nodes>
+                                </node>
+                            </li>
+                            <li Class="QuestNode_Delay">
+                                <delayTicks>$(randInt(6,12)*60000)</delayTicks>
+                                <isQuestTimeout>true</isQuestTimeout>
+                                <node Class="QuestNode_Sequence">
+                                    <nodes>
+                                        <li Class="QuestNode_AnyPawnAlive">
+                                            <pawns>$crocker</pawns>
+                                            <node Class="QuestNode_Sequence">
+                                                <nodes>
+                                                    <li Class="QuestNode_Letter">
+                                                        <letterDef>PositiveEvent</letterDef>
+                                                        <label>Meeting concluded</label>
+                                                        <text>Crocker finished his business and is ready to head home. The Republic is pleased.</text>
+                                                    </li>
+                                                    <li Class="QuestNode_GiveRewards">
+                                                        <parms>
+                                                            <allowGoodwill>true</allowGoodwill>
+                                                            <allowRoyalFavor>true</allowRoyalFavor>
+                                                        </parms>
+                                                        <addCampLootReward>false</addCampLootReward>
+                                                        <customLetterLabel>Payment from the NCR</customLetterLabel>
+                                                        <customLetterText>Payment for a job discreetly done, courtesy of Ambassador Crocker's office.</customLetterText>
+                                                    </li>
+                                                    <li Class="QuestNode_End">
+                                                        <outcome>Success</outcome>
+                                                    </li>
+                                                </nodes>
+                                            </node>
+                                        </li>
+                                        <li Class="QuestNode_Letter">
+                                            <label>Ambassador lost</label>
+                                            <letterDef>NegativeEvent</letterDef>
+                                            <text>Crocker didn't survive the trip. NCR command will not take this well.</text>
+                                        </li>
+                                        <li Class="QuestNode_End">
+                                            <outcome>Fail</outcome>
+                                            <goodwillChangeAmount>-10</goodwillChangeAmount>
+                                            <goodwillChangeFactionOf>$asker</goodwillChangeFactionOf>
+                                        </li>
+                                    </nodes>
+                                </node>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(15,25)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

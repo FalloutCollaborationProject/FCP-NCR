@@ -27,7 +27,7 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->[prisoner_nameDef] has been captured by enemy forces. It's up to you to rescue them.</li>
+                <li>questDescription->[prisoner_nameDef] has been captured by enemy forces. It's up to you to rescue them.\n\nRequirements: reach the site and free [prisoner_nameDef] from captivity. Defeating the guards alone isn't enough - you need to release them from their cell. Take too long and they may not be there to save.</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
@@ -175,7 +175,7 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->[prisoner_nameDef] has been captured by enemy forces. It's up to you to rescue them.</li>
+                <li>questDescription->[prisoner_nameDef] has been captured by enemy forces. It's up to you to rescue them.\n\nRequirements: reach the site and free [prisoner_nameDef] from captivity. Defeating the guards alone isn't enough - you need to release them from their cell. Take too long and they may not be there to save.</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">

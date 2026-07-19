@@ -1640,26 +1640,6 @@
         </skillGains>
     </BackstoryDef>
 
-    <!-- Dr. Keely -->
-
-    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
-        <defName>FCP_Backstory_NCR_Doctor_Keely_Child</defName>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <title>vault dweller child</title>
-        <titleShort>vault kid</titleShort>
-        <baseDesc>[PAWN_nameDef] grew up in a vault that emphasized scientific education and environmental studies. [PAWN_pronoun] was fascinated by biology and ecology from a young age.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Keely_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Plants>3</Plants>
-            <Intellectual>4</Intellectual>
-            <Medicine>2</Medicine>
-        </skillGains>
-    </BackstoryDef>
-
     <!--___ Civilians - Childhood ___-->
 
     <!-- Dr. Usanagi -->
@@ -2610,30 +2590,6 @@
         <workDisables>
             <li>ManualDumb</li>
             <li>Violent</li>
-        </workDisables>
-    </BackstoryDef>
-
-    <!-- Dr. Keely -->
-
-    <BackstoryDef MayRequire="Rick.FCP.Wastelanders">
-        <defName>FCP_Backstory_NCR_Doctor_Keely_Adult</defName>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <title>OSI field researcher</title>
-        <titleShort>field researcher</titleShort>
-        <baseDesc>[PAWN_nameDef] is an OSI researcher specializing in botany and ecology. [PAWN_pronoun] was sent to Vault 22 to recover agricultural data but became trapped by the vault's mutated plant life.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Doctor_Keely_Adult</li>
-        </spawnCategories>
-        <skillGains>
-            <Plants>9</Plants>
-            <Intellectual>8</Intellectual>
-            <Medicine>4</Medicine>
-            <Shooting>2</Shooting>
-        </skillGains>
-        <workDisables>
-            <li>ManualDumb</li>
         </workDisables>
     </BackstoryDef>
 

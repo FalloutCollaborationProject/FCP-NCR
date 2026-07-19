@@ -185,7 +185,7 @@
 
             <!-- NCR Army Heavy Squad -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <!-- Normal fights, heavy troopers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
@@ -196,6 +196,53 @@
                     <FCP_Pawnkind_NCR_Trooper_Heavy>10</FCP_Pawnkind_NCR_Trooper_Heavy>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Private_Gilbert</li>
+                </characterDefs>
+                <characterChance>0.35</characterChance>
+            </li>
+
+            <!-- NCR Camp Forlorn Hope Garrison -->
+
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
+                <!-- Frontline garrison holding Camp Forlorn Hope against the Legion -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_NCR_Trooper>8</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
+                </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Sergeant_Astor</li>
+                    <li>FCP_Character_NCR_Private_Stone</li>
+                    <li>FCP_Character_NCR_Private_Edwards</li>
+                </characterDefs>
+                <characterChance>0.40</characterChance>
+            </li>
+
+            <!-- NCR Frontline Infantry Squad -->
+
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
+                <!-- Regular line troopers drawn from across NCR postings -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_NCR_Trooper>10</FCP_Pawnkind_NCR_Trooper>
+                    <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
+                </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Private_Davey_Crenshaw</li>
+                    <li>FCP_Character_NCR_Private_Hoover</li>
+                    <li>FCP_Character_NCR_Private_First_Class_Dustin</li>
+                    <li>FCP_Character_NCR_Private_James_Sexton</li>
+                    <li>FCP_Character_NCR_Private_Reyes</li>
+                    <li>FCP_Character_NCR_Private_Christina_Morales</li>
+                </characterDefs>
+                <characterChance>0.45</characterChance>
             </li>
 
             <!-- NCR Ranger Volunteers -->
@@ -259,6 +306,7 @@
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                 </options>
                 <characterDefs>
+                    <li>FCP_Character_NCR_Corporal_April_Mags</li>
                     <li>FCP_Character_NCR_Private_Poindexter</li>
                     <li>FCP_Character_NCR_Private_OHanrahan</li>
                     <li>FCP_Character_NCR_Private_Razz</li>
@@ -557,7 +605,6 @@
                 <characterDefs>
                     <li>FCP_Character_NCR_Thomas_Hildern</li>
                     <li>FCP_Character_NCR_Angela_Williams</li>
-                    <li>FCP_Character_NCR_Doctor_Keely</li>
                 </characterDefs>
                 <characterChance>0.30</characterChance>
             </li>
@@ -613,6 +660,7 @@
                 <characterDefs>
                     <li>FCP_Character_NCR_Quartermaster_Mayes</li>
                     <li>FCP_Character_NCR_Sergeant_Contreras</li>
+                    <li>FCP_Character_NCR_Private_First_Class_Richie</li>
                 </characterDefs>
                 <characterChance>0.40</characterChance>
             </li>

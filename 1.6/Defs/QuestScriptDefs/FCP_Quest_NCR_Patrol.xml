@@ -19,11 +19,12 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->NCR command reports hostile activity along one of their patrol routes. [asker_nameFull] needs backup to sweep a known raider position. Standard combat pay, no questions asked.</li>
-                <li>questDescription->[asker_nameFull] sends: "Patrol went dark near a raider camp. Can't spare the men to investigate. Need someone to clear it out, confirm hostile elimination. Payment on completion."</li>
-                <li>questDescription->NCR dispatch from [asker_nameFull]: Raiders have fortified a position near the highway. Interfering with supply lines. Clear them out and the Republic pays standard rates.</li>
-                <li>questDescription->[asker_nameFull] reports increased hostile contacts near NCR territory. Need independent contractors to eliminate the threat. Simple extermination contract.</li>
-                <li>questDescription->Priority from NCR command: [asker_nameFull] requests combat assistance. Raiders threatening trade routes. Eliminate all hostiles, secure the area.</li>
+                <li>requirements->Requirements: defeat every hostile at the site. If they abandon the position before you arrive, the contract is void.</li>
+                <li>questDescription->NCR command reports hostile activity along one of their patrol routes. [asker_nameFull] needs backup to sweep a known raider position. Standard combat pay, no questions asked.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] sends: "Patrol went dark near a raider camp. Can't spare the men to investigate. Need someone to clear it out, confirm hostile elimination. Payment on completion."\n\n[requirements]</li>
+                <li>questDescription->NCR dispatch from [asker_nameFull]: Raiders have fortified a position near the highway. Interfering with supply lines. Clear them out and the Republic pays standard rates.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] reports increased hostile contacts near NCR territory. Need independent contractors to eliminate the threat. Simple extermination contract.\n\n[requirements]</li>
+                <li>questDescription->Priority from NCR command: [asker_nameFull] requests combat assistance. Raiders threatening trade routes. Eliminate all hostiles, secure the area.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">

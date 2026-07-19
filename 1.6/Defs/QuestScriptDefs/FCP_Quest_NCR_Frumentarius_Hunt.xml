@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <QuestScriptDef>
-        <defName>FCP_Quest_NCR_Deserter_Elimination</defName>
+    <QuestScriptDef MayRequire="Rick.FCP.Legion">
+        <defName>FCP_Quest_NCR_Frumentarius_Hunt</defName>
         <rootSelectionWeight>1.0</rootSelectionWeight>
-        <rootMinPoints>300</rootMinPoints>
-        <defaultChallengeRating>1</defaultChallengeRating>
+        <rootMinPoints>200</rootMinPoints>
+        <defaultChallengeRating>2</defaultChallengeRating>
         <canGiveRoyalFavor>true</canGiveRoyalFavor>
         <expireDaysRange>5~10</expireDaysRange>
         <questNameRules>
             <rulesStrings>
-                <li>questName->deserter bounty</li>
-                <li>questName->AWOL elimination</li>
-                <li>questName->fugitive soldiers</li>
-                <li>questName->deserter extermination</li>
-                <li>questName->rogue trooper bounty</li>
+                <li>questName->Frumentarius in the Wire</li>
+                <li>questName->Cutting Out the Spy</li>
+                <li>questName->Counterintelligence</li>
+                <li>questName->The Legion's Eyes</li>
+                <li>questName->Rooting Out the Frumentarii</li>
             </rulesStrings>
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>requirements->Requirements: kill every deserter at the hideout. If they abandon the position or it's destroyed before you clear it, the bounty is forfeit.</li>
-                <li>questDescription->[asker_nameFull] reports NCR deserters fortified in a hideout. Command wants them eliminated. Bounty paid on-site once all hostiles are dead.\n\n[requirements]</li>
-                <li>questDescription->NCR deserters holed up in a hideout. [asker_nameFull] authorizes hostile engagement. Eliminate all targets for bounty payment.\n\n[requirements]</li>
-                <li>questDescription->[asker_nameFull]: "AWOL soldiers dug in near your position. Take them out, we'll pay bounty rates. Don't leave any alive."\n\n[requirements]</li>
-                <li>questDescription->Former NCR troops deserted and fortified a position. [asker_nameFull] offers bounty for their elimination. Kill them all for payment.\n\n[requirements]</li>
+                <li>requirements->Requirements: defeat every Frumentarius at the camp. If they break camp and scatter before you find it, the mission fails.</li>
+                <li>questDescription->[asker_nameFull] has confirmation: Legion Frumentarii are operating a camp inside NCR territory, mapping patrol routes and turning informants. Command wants it burned out before Caesar knows what he's lost.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "We picked up chatter about a Legion cell working our side of the river. Frumentarii - Caesar's spies. Find their camp, make sure none of them report back."\n\n[requirements]</li>
+                <li>questDescription->Intelligence traced a string of ambushes back to a hidden Legion camp inside NCR lines. [asker_nameFull] wants it eliminated quietly - the fewer people who know how deep the Legion got in, the better.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] reports a Frumentarius cell has been feeding Caesar's Legion information on NCR troop movements. Command authorizes lethal force. No prisoners expected to talk.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
@@ -57,13 +57,13 @@
                     <storeAs>sitePartDefs</storeAs>
                     <sitePartsTags>
                         <li>
-                            <tag>FCP_Site_NCR_Deserter_Hideout</tag>
+                            <tag>FCP_Site_NCR_Legion_Spy_Camp</tag>
                         </li>
                     </sitePartsTags>
                 </li>
                 <li Class="QuestNode_GetDefaultSitePartsParams">
                     <tile>$siteTile</tile>
-                    <faction>FCP_Faction_NCR_Deserters</faction>
+                    <faction>FCP_Faction_Caesars_Legion</faction>
                     <sitePartDefs>$sitePartDefs</sitePartDefs>
                     <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
                 </li>
@@ -79,13 +79,13 @@
                 </li>
                 <li Class="QuestNode_Multiply">
                     <value1>$rewardValue</value1>
-                    <value2>1.5</value2>
+                    <value2>1.6</value2>
                     <storeAs>rewardValue</storeAs>
                 </li>
                 <li Class="QuestNode_SubScript">
                     <def>Util_GenerateSite</def>
                     <parms>
-                        <siteFaction>FCP_Faction_NCR_Deserters</siteFaction>
+                        <siteFaction>FCP_Faction_Caesars_Legion</siteFaction>
                     </parms>
                 </li>
                 <li Class="QuestNode_SpawnWorldObjects">
@@ -101,7 +101,7 @@
                         <nodes>
                             <li Class="QuestNode_Letter">
                                 <label TKey="LetterLabelQuestExpired">quest expired: [resolvedQuestName]</label>
-                                <text TKey="LetterTextQuestExpired">Deserters abandoned their hideout. Quest [resolvedQuestName] expired.</text>
+                                <text TKey="LetterTextQuestExpired">The Frumentarii broke camp and vanished before you found them. Quest [resolvedQuestName] expired.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>
@@ -115,7 +115,7 @@
                         <nodes>
                             <li Class="QuestNode_Letter">
                                 <label TKey="LetterLabelQuestFailed">quest failed: [resolvedQuestName]</label>
-                                <text TKey="LetterTextQuestFailed">Deserters fled after discovery. Quest [resolvedQuestName] ended.</text>
+                                <text TKey="LetterTextQuestFailed">The spy camp was abandoned before it could be cleared. Quest [resolvedQuestName] ended.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>
@@ -133,11 +133,11 @@
                             <li Class="QuestNode_GiveRewards">
                                 <parms>
                                     <allowGoodwill>true</allowGoodwill>
-                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                    <allowRoyalFavor>true</allowRoyalFavor>
                                 </parms>
                                 <addCampLootReward>true</addCampLootReward>
-                                <customLetterLabel>Deserters eliminated</customLetterLabel>
-                                <customLetterText>All deserters eliminated. The NCR has paid your bounty.\n\nCollect any dog tags from the bodies - NCR settlements will buy them.</customLetterText>
+                                <customLetterLabel>Cell eliminated</customLetterLabel>
+                                <customLetterText>The Frumentarius cell is dead and their reports with them. NCR command sends payment - and its thanks.</customLetterText>
                             </li>
                         </nodes>
                     </node>

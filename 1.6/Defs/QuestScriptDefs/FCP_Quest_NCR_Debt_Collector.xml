@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>FCP_Quest_NCR_Debt_Collector</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootMinPoints>30</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>true</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Debt Collector</li>
+                <li>questName->Knight's Ledger</li>
+                <li>questName->Collecting on Camp McCarran's Behalf</li>
+                <li>questName->Past Due</li>
+                <li>questName->The Caravan That Didn't Pay</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>requirements->Requirements: escort Major Knight to the debtor settlement and keep him alive through the collection. If trouble shows up, protect him - if he dies, the debt goes unpaid.</li>
+                <li>questDescription->Major Knight runs the books at Camp McCarran, and by his numbers a settlement under NCR protection is months behind on what it owes for that protection. He's sending someone to collect in person before it becomes a habit. [asker_nameFull] wants it handled quietly.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Major Knight says a settlement's stopped paying its dues. He wants to go collect himself before word gets around that NCR protection is free. Get him there and back in one piece."\n\n[requirements]</li>
+                <li>questDescription->A debtor settlement has stopped paying for the protection it's still getting. Major Knight intends to remind them of the arrangement personally - politely, if they're smart about it. Escort him there and back.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] admits Major Knight could have sent a letter, but he insisted on going himself. "People pay faster when the debt collector is standing in front of them," he says. Make sure he comes back with what's owed.\n\n[requirements]</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                    <parms>
+                        <pointsFactorTwoStar>1.2</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.5</pointsFactorThreeStar>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GenerateUniqueCharacterPawn">
+                    <characterDef>FCP_Character_NCR_Major_Thomas_Knight</characterDef>
+                    <addToList>knight</addToList>
+                </li>
+                <li Class="QuestNode_SetAllApparelLocked">
+                    <pawns>$knight</pawns>
+                </li>
+                <li Class="QuestNode_JoinPlayer">
+                    <pawns>$knight</pawns>
+                    <joinPlayer>true</joinPlayer>
+                </li>
+                <li Class="QuestNode_ExtraFaction">
+                    <factionOf>$asker</factionOf>
+                    <pawns>$knight</pawns>
+                    <factionType>HomeFaction</factionType>
+                    <inSignalsRemovePawn>
+                        <li>knight.RanWild</li>
+                    </inSignalsRemovePawn>
+                </li>
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                </li>
+                <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <storeAs>sitePartDefs</storeAs>
+                    <sitePartsTags>
+                        <li>
+                            <tag>FCP_Site_NCR_Debtor_Settlement</tag>
+                        </li>
+                    </sitePartsTags>
+                </li>
+                <li Class="QuestNode_GetDefaultSitePartsParams">
+                    <tile>$siteTile</tile>
+                    <sitePartDefs>$sitePartDefs</sitePartDefs>
+                    <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GenerateSite</def>
+                    <parms>
+                        <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+                    </parms>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnPawns">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <pawns>$knight</pawns>
+                    <mapParent>$site</mapParent>
+                </li>
+                <li Class="QuestNode_LeaveOnCleanup">
+                    <pawns>$knight</pawns>
+                    <sendStandardLetter>false</sendStandardLetter>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                    <defsToExcludeFromHyperlinks>Human</defsToExcludeFromHyperlinks>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_GetRandomInRangeFloat">
+                                <storeAs>chanceForTrouble</storeAs>
+                                <range>0~1</range>
+                            </li>
+                            <li Class="QuestNode_GreaterOrEqual">
+                                <value1>$chanceForTrouble</value1>
+                                <value2>0.65</value2>
+                                <node Class="QuestNode_Sequence">
+                                    <nodes>
+                                        <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                                            <storeAs>enemyFaction</storeAs>
+                                            <factionDefs>
+                                                <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Raider</li>
+                                                <li>PirateWaster</li>
+                                            </factionDefs>
+                                        </li>
+                                        <li Class="QuestNode_Set">
+                                            <name>pointsForTrouble</name>
+                                            <value>$($points * 0.6)</value>
+                                        </li>
+                                        <li Class="FCP.Core.RadiantQuests.QuestNode_GeneratePawns">
+                                            <storeAs>troublemakers</storeAs>
+                                            <faction>$enemyFaction</faction>
+                                            <pawnGroupKind>Combat</pawnGroupKind>
+                                            <pointsToUse>$pointsForTrouble</pointsToUse>
+                                        </li>
+                                        <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnRaiders">
+                                            <spawnOnEdge>true</spawnOnEdge>
+                                            <pawns>$troublemakers</pawns>
+                                            <radius>20</radius>
+                                        </li>
+                                        <li Class="QuestNode_Letter">
+                                            <label>The collection turns ugly</label>
+                                            <text>Someone doesn't want this debt paid. Protect Major Knight.</text>
+                                            <letterDef>ThreatBig</letterDef>
+                                            <lookTargets>$troublemakers</lookTargets>
+                                            <filterDeadPawnsFromLookTargets>true</filterDeadPawnsFromLookTargets>
+                                        </li>
+                                    </nodes>
+                                </node>
+                            </li>
+                            <li Class="QuestNode_Delay">
+                                <delayTicks>$(randInt(6,12)*60000)</delayTicks>
+                                <isQuestTimeout>true</isQuestTimeout>
+                                <node Class="QuestNode_Sequence">
+                                    <nodes>
+                                        <li Class="QuestNode_AnyPawnAlive">
+                                            <pawns>$knight</pawns>
+                                            <node Class="QuestNode_Sequence">
+                                                <nodes>
+                                                    <li Class="QuestNode_Letter">
+                                                        <letterDef>PositiveEvent</letterDef>
+                                                        <label>Debt collected</label>
+                                                        <text>Major Knight has the payment in hand and is ready to head back to Camp McCarran. The settlement's ledger is square again.</text>
+                                                    </li>
+                                                    <li Class="QuestNode_GiveRewards">
+                                                        <parms>
+                                                            <allowGoodwill>true</allowGoodwill>
+                                                            <allowRoyalFavor>true</allowRoyalFavor>
+                                                        </parms>
+                                                        <addCampLootReward>false</addCampLootReward>
+                                                        <customLetterLabel>Payment from the NCR</customLetterLabel>
+                                                        <customLetterText>NCR quartermasters send your cut of the collection, courtesy of Major Knight's ledger.</customLetterText>
+                                                    </li>
+                                                    <li Class="QuestNode_End">
+                                                        <outcome>Success</outcome>
+                                                    </li>
+                                                </nodes>
+                                            </node>
+                                        </li>
+                                        <li Class="QuestNode_Letter">
+                                            <label>Knight lost</label>
+                                            <letterDef>NegativeEvent</letterDef>
+                                            <text>Major Knight didn't survive the collection run. NCR command will want to know why one of their officers is dead and the debt still unpaid.</text>
+                                        </li>
+                                        <li Class="QuestNode_End">
+                                            <outcome>Fail</outcome>
+                                            <goodwillChangeAmount>-10</goodwillChangeAmount>
+                                            <goodwillChangeFactionOf>$asker</goodwillChangeFactionOf>
+                                        </li>
+                                    </nodes>
+                                </node>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(15,25)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

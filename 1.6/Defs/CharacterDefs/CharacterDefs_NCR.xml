@@ -1701,31 +1701,6 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Dr. Keely -->
-
-    <FCP.Core.CharacterDef MayRequire="Rick.FCP.Wastelanders">
-        <defName>FCP_Character_NCR_Doctor_Keely</defName>
-        <pawnKind>FCP_Unique_Pawnkind_Doctor_Keely</pawnKind>
-        <faction>FCP_Faction_NCR</faction>
-        <xenotype>Baseliner</xenotype>
-        <definitions>
-            <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Keely</firstName>
-                <lastName></lastName>
-                <gender>Female</gender>
-                <age>35</age>
-            </li>
-            <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(60, 50, 40)</hairColor>
-                <hairDef>FCP_Hair_No_Nonsense</hairDef>
-                <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(220, 200, 180)</skinColorOverride>
-                <headTypeDef>Female_AverageNormal</headTypeDef>
-                <bodyTypeDef>Thin</bodyTypeDef>
-            </li>
-        </definitions>
-    </FCP.Core.CharacterDef>
-
     <!--__________ Civilians __________-->
 
     <!-- Dr. Usanagi -->

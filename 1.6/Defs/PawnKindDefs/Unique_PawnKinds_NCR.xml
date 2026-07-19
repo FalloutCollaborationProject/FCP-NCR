@@ -1235,30 +1235,6 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
-    <!-- Dr. Keely - OSI Researcher -->
-
-    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase" MayRequire="Rick.FCP.Wastelanders">
-        <defName>FCP_Unique_Pawnkind_Doctor_Keely</defName>
-        <label>Dr. Keely</label>
-        <combatPower>50</combatPower>
-        <apparelRequired>
-            <li>FCP_Apparel_Lab_Coat_Capital</li>
-        </apparelRequired>
-        <apparelMoney>0</apparelMoney>
-        <weaponMoney>0</weaponMoney>
-        <requiredWorkTags/>
-        <backstoryFiltersOverride>
-            <li>
-                <categoriesChildhood>
-                    <li>FCP_Character_Backstory_Keely_Child</li>
-                </categoriesChildhood>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_NCR_Doctor_Keely_Adult</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
-    </PawnKindDef>
-
     <!--___ Civilians ___-->
 
     <!-- Dr. Usanagi - New Vegas Medical Clinic -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SitePartDef ParentName="Outpost">
+        <defName>FCP_Site_NCR_Legion_ScoutParty</defName>
+        <label>Legion scout party</label>
+        <description>An elite Legion detachment scouting NCR territory ahead of a larger advance.</description>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Generic_Quest_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags Inherit="False">
+            <li>FCP_Site_NCR_Legion_ScoutParty</li>
+        </tags>
+        <approachOrderString>Attack Legion scout party</approachOrderString>
+        <approachingReportString>approaching Legion scout party</approachingReportString>
+        <arrivedLetter>Your caravan arrived at the Legion scout party's camp.</arrivedLetter>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_NCR_Legion_ScoutParty_Outpost</defName>
+        <linkWithSite>FCP_Site_NCR_Legion_ScoutParty</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+</Defs>

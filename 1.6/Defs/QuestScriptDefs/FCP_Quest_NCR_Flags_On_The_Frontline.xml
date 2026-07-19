@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <QuestScriptDef>
-        <defName>FCP_Quest_NCR_Deserter_Elimination</defName>
-        <rootSelectionWeight>1.0</rootSelectionWeight>
-        <rootMinPoints>300</rootMinPoints>
+    <QuestScriptDef MayRequire="Rick.FCP.Legion">
+        <defName>FCP_Quest_NCR_Flags_On_The_Frontline</defName>
+        <rootSelectionWeight>0.7</rootSelectionWeight>
+        <rootMinPoints>80</rootMinPoints>
         <defaultChallengeRating>1</defaultChallengeRating>
         <canGiveRoyalFavor>true</canGiveRoyalFavor>
         <expireDaysRange>5~10</expireDaysRange>
         <questNameRules>
             <rulesStrings>
-                <li>questName->deserter bounty</li>
-                <li>questName->AWOL elimination</li>
-                <li>questName->fugitive soldiers</li>
-                <li>questName->deserter extermination</li>
-                <li>questName->rogue trooper bounty</li>
+                <li>questName->Flags on the Frontline</li>
+                <li>questName->Trophies for Forlorn Hope</li>
+                <li>questName->Dhatri's Morale Problem</li>
+                <li>questName->Something to Fly</li>
+                <li>questName->Captured Colors</li>
             </rulesStrings>
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>requirements->Requirements: kill every deserter at the hideout. If they abandon the position or it's destroyed before you clear it, the bounty is forfeit.</li>
-                <li>questDescription->[asker_nameFull] reports NCR deserters fortified in a hideout. Command wants them eliminated. Bounty paid on-site once all hostiles are dead.\n\n[requirements]</li>
-                <li>questDescription->NCR deserters holed up in a hideout. [asker_nameFull] authorizes hostile engagement. Eliminate all targets for bounty payment.\n\n[requirements]</li>
-                <li>questDescription->[asker_nameFull]: "AWOL soldiers dug in near your position. Take them out, we'll pay bounty rates. Don't leave any alive."\n\n[requirements]</li>
-                <li>questDescription->Former NCR troops deserted and fortified a position. [asker_nameFull] offers bounty for their elimination. Kill them all for payment.\n\n[requirements]</li>
+                <li>requirements->Requirements: defeat every Legion soldier at the position, including the standard-bearer, to bring back the banner. If they abandon the position first, there's nothing left to capture.</li>
+                <li>questDescription->Major Dhatri runs a frontier camp with troopers who haven't seen a win in months, and he thinks he knows why morale is on the floor: nothing to look at but empty sky where a flag should be. He wants Legion banners - captured, bloody, doesn't matter - to plant around camp. [asker_nameFull] signed off on it without asking too many questions.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Major Dhatri says his troopers need something to be proud of. A captured Legion banner or two, he says, would do more for morale than another supply drop. Strange request. Approved anyway."\n\n[requirements]</li>
+                <li>questDescription->A small Legion position is flying its colors nearby. Major Dhatri wants those banners taken down and brought back to camp - not for tactics, just for the look on his troopers' faces when they see them.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] admits this one is about morale, not strategy. Major Dhatri's frontier camp has been losing spirit for months. Bringing back a captured Legion banner won't win the war, but it might get his troopers through the winter.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
@@ -31,8 +31,8 @@
                 <li Class="QuestNode_SubScript">
                     <def>Util_RandomizePointsChallengeRating</def>
                     <parms>
-                        <pointsFactorTwoStar>1.4</pointsFactorTwoStar>
-                        <pointsFactorThreeStar>1.8</pointsFactorThreeStar>
+                        <pointsFactorTwoStar>1.2</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.5</pointsFactorThreeStar>
                     </parms>
                 </li>
                 <li Class="QuestNode_SubScript">
@@ -49,6 +49,12 @@
                     <storeAs>asker</storeAs>
                     <factionToUse>$askerFaction</factionToUse>
                 </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>enemyFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
+                    </factionDefs>
+                </li>
                 <li Class="QuestNode_GetSiteTile">
                     <storeAs>siteTile</storeAs>
                     <preferCloserTiles>true</preferCloserTiles>
@@ -57,36 +63,44 @@
                     <storeAs>sitePartDefs</storeAs>
                     <sitePartsTags>
                         <li>
-                            <tag>FCP_Site_NCR_Deserter_Hideout</tag>
+                            <tag>FCP_Site_NCR_Legion_ScoutParty</tag>
                         </li>
                     </sitePartsTags>
                 </li>
                 <li Class="QuestNode_GetDefaultSitePartsParams">
                     <tile>$siteTile</tile>
-                    <faction>FCP_Faction_NCR_Deserters</faction>
+                    <faction>FCP_Faction_Caesars_Legion</faction>
                     <sitePartDefs>$sitePartDefs</sitePartDefs>
                     <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
                 </li>
-                <li Class="QuestNode_GetSiteThreatPoints">
-                    <storeAs>sitePoints</storeAs>
-                    <sitePartsParams>$sitePartsParams</sitePartsParams>
-                </li>
                 <li Class="QuestNode_SubScript">
                     <def>Util_GetDefaultRewardValueFromPoints</def>
-                    <parms>
-                        <points>$sitePoints</points>
-                    </parms>
-                </li>
-                <li Class="QuestNode_Multiply">
-                    <value1>$rewardValue</value1>
-                    <value2>1.5</value2>
-                    <storeAs>rewardValue</storeAs>
                 </li>
                 <li Class="QuestNode_SubScript">
                     <def>Util_GenerateSite</def>
                     <parms>
-                        <siteFaction>FCP_Faction_NCR_Deserters</siteFaction>
+                        <siteFaction>FCP_Faction_Caesars_Legion</siteFaction>
+                        <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
                     </parms>
+                </li>
+                <li Class="QuestNode_LoopCount">
+                    <loopCount>$(randInt(2,3))</loopCount>
+                    <node Class="QuestNode_GeneratePawn">
+                        <kindDef>FCP_Legion_Recruit</kindDef>
+                        <faction>$enemyFaction</faction>
+                        <addToList>legionaries</addToList>
+                    </node>
+                </li>
+                <li Class="QuestNode_GeneratePawn">
+                    <kindDef>FCP_Legion_Vexillarius</kindDef>
+                    <faction>$enemyFaction</faction>
+                    <addToList>legionaries</addToList>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnRaiders">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <spawnOnEdge>false</spawnOnEdge>
+                    <pawns>$legionaries</pawns>
+                    <radius>16</radius>
                 </li>
                 <li Class="QuestNode_SpawnWorldObjects">
                     <worldObjects>$site</worldObjects>
@@ -94,14 +108,14 @@
                 <li Class="QuestNode_WorldObjectTimeout">
                     <worldObject>$site</worldObject>
                     <isQuestTimeout>true</isQuestTimeout>
-                    <delayTicks>$(randInt(12,24)*60000)</delayTicks>
+                    <delayTicks>$(randInt(12,20)*60000)</delayTicks>
                     <inSignalDisable>site.MapGenerated</inSignalDisable>
                     <destroyOnCleanup>true</destroyOnCleanup>
                     <node Class="QuestNode_Sequence">
                         <nodes>
                             <li Class="QuestNode_Letter">
                                 <label TKey="LetterLabelQuestExpired">quest expired: [resolvedQuestName]</label>
-                                <text TKey="LetterTextQuestExpired">Deserters abandoned their hideout. Quest [resolvedQuestName] expired.</text>
+                                <text TKey="LetterTextQuestExpired">The position was abandoned before you got there. No banners, no trophy - Dhatri's troopers stay exactly as gloomy as before.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>
@@ -115,7 +129,7 @@
                         <nodes>
                             <li Class="QuestNode_Letter">
                                 <label TKey="LetterLabelQuestFailed">quest failed: [resolvedQuestName]</label>
-                                <text TKey="LetterTextQuestFailed">Deserters fled after discovery. Quest [resolvedQuestName] ended.</text>
+                                <text TKey="LetterTextQuestFailed">The Legion position broke camp before you arrived. Quest [resolvedQuestName] ended.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>
@@ -130,14 +144,19 @@
                             <li Class="QuestNode_Notify_PlayerRaidedSomeone">
                                 <getRaidersFromMapParent>$site</getRaidersFromMapParent>
                             </li>
+                            <li Class="QuestNode_Letter">
+                                <letterDef>PositiveEvent</letterDef>
+                                <label>Colors captured</label>
+                                <text>The Legion banner is down, and the man who carried it isn't getting up. Major Dhatri will have something to hang at the gate.</text>
+                            </li>
                             <li Class="QuestNode_GiveRewards">
                                 <parms>
                                     <allowGoodwill>true</allowGoodwill>
-                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                    <allowRoyalFavor>true</allowRoyalFavor>
                                 </parms>
                                 <addCampLootReward>true</addCampLootReward>
-                                <customLetterLabel>Deserters eliminated</customLetterLabel>
-                                <customLetterText>All deserters eliminated. The NCR has paid your bounty.\n\nCollect any dog tags from the bodies - NCR settlements will buy them.</customLetterText>
+                                <customLetterLabel>Dhatri's thanks</customLetterLabel>
+                                <customLetterText>Word reaches Major Dhatri's camp before you do. NCR command sends payment, and by the sound of it, the troopers at the frontier finally have something to cheer about.</customLetterText>
                             </li>
                         </nodes>
                     </node>
