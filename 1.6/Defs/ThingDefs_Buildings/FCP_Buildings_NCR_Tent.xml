@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ NCR Tent __________-->
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>FCP_Building_NCR_Tent</defName>
+        <label>NCR Tent</label>
+        <description>A simple canvas tent pitched over a bedroll. Quick to pitch and just as quick to strike and carry to the next camp. Its canvas roof keeps the sleeper dry and off the open sky.</description>
+        <thingClass>Building_Bed</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Buildings/Tents/FCP_NCR_Tent</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(5,5)</drawSize>
+        </graphicData>
+        <size>(5,5)</size>
+        <researchPrerequisites>
+            <li>FCP_Research_NCR_Civilian_Outfitters</li>
+        </researchPrerequisites>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>42</pathCost>
+        <fillPercent>0.45</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.25</staticSunShadowHeight>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <selectable>true</selectable>
+        <useHitPoints>true</useHitPoints>
+        <canOverlapZones>false</canOverlapZones>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Furniture</designationCategory>
+        <uiOrder>2016</uiOrder>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToBuild>300</WorkToBuild>
+            <Mass>12</Mass>
+            <Flammability>1.0</Flammability>
+            <Comfort>0.65</Comfort>
+            <BedRestEffectiveness>0.9</BedRestEffectiveness>
+            <Beauty>1</Beauty>
+        </statBases>
+        <costList>
+            <Cloth>40</Cloth>
+            <WoodLog>15</WoodLog>
+        </costList>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <resourcesFractionWhenDeconstructed>0.75</resourcesFractionWhenDeconstructed>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+        </placeWorkers>
+        <building>
+            <bed_showSleeperBody>false</bed_showSleeperBody>
+            <bed_healPerDay>4</bed_healPerDay>
+            <uninstallWork>60</uninstallWork>
+            <destroySound>BuildingDestroyed_Soft_Medium</destroySound>
+            <destroyShakeAmount>0</destroyShakeAmount>
+            <buildingTags>
+                <li>Bed</li>
+            </buildingTags>
+        </building>
+        <comps>
+            <li Class="CompProperties_AssignableToPawn">
+                <drawAssignmentOverlay>false</drawAssignmentOverlay>
+                <compClass>CompAssignableToPawn_Bed</compClass>
+                <maxAssignedPawnsCount>3</maxAssignedPawnsCount>
+            </li>
+            <li Class="FCP.Core.Buildings.CompProperties_TentRoof" />
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>Campfire</li>
+                </linkableFacilities>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

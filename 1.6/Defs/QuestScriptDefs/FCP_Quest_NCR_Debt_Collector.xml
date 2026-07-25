@@ -72,8 +72,10 @@
                     <storeAs>siteTile</storeAs>
                     <preferCloserTiles>true</preferCloserTiles>
                 </li>
-                <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <factionToUse>$askerFaction</factionToUse>
                     <storeAs>sitePartDefs</storeAs>
+                    <storeFactionAs>siteFaction</storeFactionAs>
                     <sitePartsTags>
                         <li>
                             <tag>FCP_Site_NCR_Debtor_Settlement</tag>
@@ -82,6 +84,7 @@
                 </li>
                 <li Class="QuestNode_GetDefaultSitePartsParams">
                     <tile>$siteTile</tile>
+                    <faction>$siteFaction</faction>
                     <sitePartDefs>$sitePartDefs</sitePartDefs>
                     <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
                 </li>

@@ -190,4 +190,26 @@
 		</modExtensions>
 	</RoyalTitlePermitDef>
 
+	<!-- Call Reinforcements -->
+
+	<RoyalTitlePermitDef>
+		<defName>FCP_Permit_NCR_Call_Reinforcements</defName>
+		<label>NCR Reinforcements</label>
+		<workerClass>FCP.Enlist.RoyalTitlePermitWorker_CallReinforcements</workerClass>
+		<faction>FCP_Faction_NCR</faction>
+		<description>Call in NCR troopers to reinforce your settlement.</description>
+		<permitPointCost>2</permitPointCost>
+		<cooldownDays>20</cooldownDays>
+		<minTitle>FCP_Title_NCR_COL</minTitle>
+		<uiPosition>(3,1)</uiPosition>
+		<royalAid>
+			<favorCost>10</favorCost>
+		</royalAid>
+		<modExtensions>
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
+				<maxTitle>FCP_Title_NCR_Ranger_Veteran</maxTitle>
+			</li>
+		</modExtensions>
+	</RoyalTitlePermitDef>
+
 </Defs>

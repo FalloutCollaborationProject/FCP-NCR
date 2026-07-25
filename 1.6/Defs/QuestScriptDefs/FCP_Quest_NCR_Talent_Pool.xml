@@ -136,6 +136,12 @@
                     <customLetterLabel>The Misfits have arrived</customLetterLabel>
                     <customLetterText>$misfitsArrivalText</customLetterText>
                 </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_WatchPawnsSkillAtLeast">
+                    <pawns>$misfits</pawns>
+                    <skill>Shooting</skill>
+                    <level>10</level>
+                    <outSignalComplete>misfits.Graduated</outSignalComplete>
+                </li>
                 <li Class="QuestNode_Signal">
                     <inSignal>misfits.Destroyed</inSignal>
                     <node Class="QuestNode_Sequence">
@@ -153,37 +159,35 @@
                         </nodes>
                     </node>
                 </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>misfits.Graduated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <letterDef>PositiveEvent</letterDef>
+                                <label>Talent Pool: graduated</label>
+                                <text>Every one of the Misfits can shoot straight now. Corporal Mags salutes on her way out - Lieutenant Monroe won't recognize his own platoon. NCR command sends payment, and word of this will travel further than the bounty does.</text>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>true</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>false</addCampLootReward>
+                                <customLetterLabel>Payment from the NCR</customLetterLabel>
+                                <customLetterText>Payment for turning five hopeless cases into soldiers, courtesy of Lieutenant Monroe's office.</customLetterText>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
                 <li Class="QuestNode_Delay">
                     <delayTicks>$trainingDuration</delayTicks>
                     <isQuestTimeout>true</isQuestTimeout>
                     <node Class="QuestNode_Sequence">
                         <nodes>
-                            <li Class="FCP.Core.RadiantQuests.QuestNode_AllPawnsSkillAtLeast">
-                                <pawns>$misfits</pawns>
-                                <skill>Shooting</skill>
-                                <level>10</level>
-                                <node Class="QuestNode_Sequence">
-                                    <nodes>
-                                        <li Class="QuestNode_Letter">
-                                            <letterDef>PositiveEvent</letterDef>
-                                            <label>Talent Pool: graduated</label>
-                                            <text>Every one of the Misfits can shoot straight now. Corporal Mags salutes on her way out - Lieutenant Monroe won't recognize his own platoon. NCR command sends payment, and word of this will travel further than the bounty does.</text>
-                                        </li>
-                                        <li Class="QuestNode_GiveRewards">
-                                            <parms>
-                                                <allowGoodwill>true</allowGoodwill>
-                                                <allowRoyalFavor>true</allowRoyalFavor>
-                                            </parms>
-                                            <addCampLootReward>false</addCampLootReward>
-                                            <customLetterLabel>Payment from the NCR</customLetterLabel>
-                                            <customLetterText>Payment for turning five hopeless cases into soldiers, courtesy of Lieutenant Monroe's office.</customLetterText>
-                                        </li>
-                                        <li Class="QuestNode_End">
-                                            <outcome>Success</outcome>
-                                        </li>
-                                    </nodes>
-                                </node>
-                            </li>
                             <li Class="QuestNode_Letter">
                                 <label>Talent Pool: time's up</label>
                                 <letterDef>NegativeEvent</letterDef>

@@ -86,6 +86,25 @@
         </weaponTags>
     </PawnKindDef>
 
+    <!-- NCR Ghoul Citizen -->
+
+    <PawnKindDef ParentName="FCP_Pawnkind_NCR_Citizen" MayRequire="Rick.FCP.Ghouls">
+        <defName>FCP_Pawnkind_NCR_Ghoul_Citizen</defName>
+        <label>NCR ghoul citizen</label>
+        <xenotypeSet>
+            <xenotypeChances>
+                <FCP_Xenotype_Ghoul>1</FCP_Xenotype_Ghoul>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <minGenerationAge>80</minGenerationAge>
+        <maxGenerationAge>250</maxGenerationAge>
+        <allowOldAgeInjuries>false</allowOldAgeInjuries>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+    </PawnKindDef>
+
     <!-- NCRCF Inmate -->
     
     <PawnKindDef ParentName="FCP_NCRkindBase">
@@ -1164,7 +1183,7 @@
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_NCR_Ranger_Sequoia</li>
-            <li>FCP_NCR_Anti_Material_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Anti_Material_Rifle</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
@@ -1240,5 +1259,25 @@
             </subOptionsChooseOne>
         </inventoryOptions>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- NCR Ghoul Veteran Ranger -->
+
+    <PawnKindDef ParentName="FCP_Pawnkind_NCR_Ranger_Veteran" MayRequire="Rick.FCP.Ghouls">
+        <defName>FCP_Pawnkind_NCR_Ghoul_Ranger_Veteran</defName>
+        <label>NCR ghoul veteran ranger</label>
+        <xenotypeSet>
+            <xenotypeChances>
+                <FCP_Xenotype_Ghoul>1</FCP_Xenotype_Ghoul>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <minGenerationAge>80</minGenerationAge>
+        <maxGenerationAge>250</maxGenerationAge>
+        <allowOldAgeInjuries>false</allowOldAgeInjuries>
+        <disallowedTraits>
+            <li>Brawler</li>
+            <li>Nudist</li>
+        </disallowedTraits>
     </PawnKindDef>
 </Defs>

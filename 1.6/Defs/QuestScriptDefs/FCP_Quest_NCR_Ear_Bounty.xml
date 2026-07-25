@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef MayRequire="Rick.FCP.Legion">
+        <defName>FCP_Quest_NCR_Ear_Bounty</defName>
+        <rootSelectionWeight>0.5</rootSelectionWeight>
+        <rootMinPoints>15</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>true</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Ear Bounty</li>
+                <li>questName->Proof of the Kill</li>
+                <li>questName->Sexton's Ledger</li>
+                <li>questName->A Grim Tally</li>
+                <li>questName->Counting Legion Dead</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->Private Sexton keeps a private tally of Legion dead for NCR intelligence, and he's been known to pay out of his own pocket for the proof. [asker_nameFull] has agreed to route the bounty through official channels this time.\n\nRequirements: deliver [requiredEars] Legion ears to your stockpile within [bountyDuration_duration].</li>
+                <li>questDescription->[asker_nameFull]: "Private Sexton's been badgering command for a way to confirm his kill counts on Legion patrols. Bring him ears, he brings you caps. Cheaper than losing more troopers finding out the hard way where the Legion's moved."\n\nRequirements: deliver [requiredEars] Legion ears to your stockpile within [bountyDuration_duration].</li>
+                <li>questDescription->Every Legion soldier taken off the board is one less at the next border skirmish. Private Sexton is paying bounty on Legion ears - proof enough for NCR command that the numbers are real.\n\nRequirements: deliver [requiredEars] Legion ears to your stockpile within [bountyDuration_duration].</li>
+                <li>questDescription->[asker_nameFull] admits it's a grim business, but Private Sexton's bounty program works: the promise of caps for ears has NCR settlers reporting Legion movement faster than any patrol could. Bring him what you've collected.\n\nRequirements: deliver [requiredEars] Legion ears to your stockpile within [bountyDuration_duration].</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                    <parms>
+                        <pointsFactorTwoStar>1.2</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.5</pointsFactorThreeStar>
+                    </parms>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requiredEars</name>
+                    <value>$(randInt(6,10))</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>bountyDays</name>
+                    <value>20</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>bountyDuration</name>
+                    <value>$(bountyDays * 60000)</value>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_WatchItemCountOnMap">
+                    <map>$map</map>
+                    <itemDef>FCP_Item_Legion_Ear</itemDef>
+                    <requiredCount>$requiredEars</requiredCount>
+                    <outSignalComplete>ears.Delivered</outSignalComplete>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>ears.Delivered</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <letterDef>PositiveEvent</letterDef>
+                                <label>Ear Bounty: paid out</label>
+                                <text>Private Sexton counts the ears himself, one at a time, and doesn't ask where the rest of the bodies ended up. Payment comes through NCR channels, quiet as promised.</text>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>true</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>false</addCampLootReward>
+                                <customLetterLabel>Bounty payment</customLetterLabel>
+                                <customLetterText>Payment for [requiredEars] confirmed Legion kills, routed through Private Sexton's ledger.</customLetterText>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$bountyDuration</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label>Ear Bounty: offer withdrawn</label>
+                                <letterDef>NegativeEvent</letterDef>
+                                <text>Sexton's stopped waiting. The bounty offer is off the table - not enough ears turned up in time to make his case to command.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

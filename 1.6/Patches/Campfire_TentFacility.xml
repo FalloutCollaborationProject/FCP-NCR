@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Let a nearby Campfire link up to NCR tents as a cooking/warmth facility -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Campfire"]/comps</xpath>
+        <value>
+            <li Class="CompProperties_Facility">
+                <statOffsets>
+                    <Comfort>0.05</Comfort>
+                </statOffsets>
+                <maxSimultaneous>5</maxSimultaneous>
+                <maxDistance>6</maxDistance>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

@@ -46,6 +46,12 @@
                     <def>FCP_PlayerPawnsArriveInShuttle</def>
                 </li>
 
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_NCR</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_NCR</enlistOptionsDef>
+                </li>
+
                 <!-- Player pawns modifiers -->
                 <li Class="ScenPart_ForcedHediff">
                     <def>ForcedHediff</def>
@@ -100,6 +106,53 @@
                     <def>GameStartDialog</def>
                     <text>The enemy relentless. They came in the night, silent with blades and spears. They cut through the outpost, slashing and killing troopers as if they were killing for fun.\n\nOnly you and your squad escaped, having been sent to gather reinfrocements.\n\nAfter wandering the wastes going in what appears to be circles you find your next spot to make camp. Do you rest for the night, or stay and create a new home for yourselves?</text>
                     <closeSound>FCP_Sound_War_Never_Changes</closeSound>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+    <!-- NCR Auxiliaries -->
+
+    <ScenarioDef ParentName="ScenarioBase">
+        <defName>FCP_Scenario_NCR_Enlisted</defName>
+        <label>NCR Auxiliaries</label>
+        <description>You're not NCR citizens - not yet, anyway - but the Republic pays well for settlers willing to hold a forward position and keep the roads open. Sign the contract, take the retainer, and build something out here. The NCR will send its cut on schedule, so long as you hold up your end.</description>
+        <scenario>
+            <summary>A handful of settlers start already enlisted with the New California Republic.</summary>
+            <parts>
+
+                <!-- Config pages -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>3</pawnCount>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                </li>
+
+                <!-- Player starting stuff spawn method-->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                    <visible>false</visible>
+                </li>
+
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_NCR</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_NCR</enlistOptionsDef>
+                </li>
+
+                <!-- Player starting things -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                    <count>150</count>
+                </li>
+
+                <!-- Game start dialog -->
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>It is the year [FCP_Year]. The retainer clears before you've even broken ground - the New California Republic keeps its word, mostly. In exchange, they expect a friendly settlement out here on the edge of their reach, and someone to radio in if trouble comes down the road.\n\nYou're on the payroll now. Try not to get yourselves killed before the first shipment arrives.</text>
                 </li>
 
             </parts>
