@@ -48,7 +48,7 @@
 
     <!-- NCR Citizen -->
     
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    <PawnKindDef Name="FCP_Pawnkind_NCR_Citizen" ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Citizen</defName>
         <label>NCR Citizen</label>
         <combatPower>55</combatPower>
@@ -1167,7 +1167,7 @@
 
     <!-- NCR Veteran Ranger -->
     
-    <PawnKindDef ParentName="FCP_NCRkindBase">
+    <PawnKindDef Name="FCP_Pawnkind_NCR_Ranger_Veteran" ParentName="FCP_NCRkindBase">
         <defName>FCP_Pawnkind_NCR_Ranger_Veteran</defName>
         <label>NCR Veteran Ranger</label>
         <combatPower>85</combatPower>
