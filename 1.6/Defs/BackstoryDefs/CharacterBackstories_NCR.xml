@@ -2097,7 +2097,7 @@
             <li>FCP_Backstory_NCR_Private_OHanrahan_Adult</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>5</Shooting>
+            <Shooting>3</Shooting>
             <Melee>4</Melee>
         </skillGains>
     </BackstoryDef>

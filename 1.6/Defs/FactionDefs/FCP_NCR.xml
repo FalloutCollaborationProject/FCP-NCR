@@ -889,6 +889,7 @@
             </li> -->
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <maxSettlements>14</maxSettlements>
                 <allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_CentralValley</li>
                     <li MayRequire="FIP.Arktos">Arktos_Divide</li>
@@ -905,6 +906,216 @@
                 </allowedBiomes>
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
+                <namedSettlements>
+                    <!-- Shady Sands -->
+                    <li>
+                        <name>Shady Sands</name>
+                        <traders>
+                            <li>
+                                <traderName>Shady Sands Trading Post</traderName>
+                                <traderKind>FCP_Trader_ShadySands_TradingPost</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Capitol Armory</traderName>
+                                <traderKind>FCP_Trader_ShadySands_CapitolArmory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Republic Apothecary</traderName>
+                                <traderKind>FCP_Trader_ShadySands_RepublicApothecary</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- The Hub -->
+                    <li>
+                        <name>The Hub</name>
+                        <traders>
+                            <li>
+                                <traderName>Far Go Traders</traderName>
+                                <traderKind>FCP_Trader_Hub_FarGoTraders</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Crimson Caravan Depot</traderName>
+                                <traderKind>FCP_Trader_Hub_CrimsonCaravanDepot</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Water Merchants Exchange</traderName>
+                                <traderKind>FCP_Trader_Hub_WaterMerchantsExchange</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Junktown -->
+                    <li>
+                        <name>Junktown</name>
+                        <traders>
+                            <li>
+                                <traderName>Darkwater General Store</traderName>
+                                <traderKind>FCP_Trader_Junktown_DarkwaterGeneralStore</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Gizmo's Saloon</traderName>
+                                <traderKind>FCP_Trader_Junktown_GizmosSaloon</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Boneyard -->
+                    <li>
+                        <name>Boneyard</name>
+                        <traders>
+                            <li>
+                                <traderName>Adytum Armory</traderName>
+                                <traderKind>FCP_Trader_Boneyard_AdytumArmory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Boneyard Salvage Depot</traderName>
+                                <traderKind>FCP_Trader_Boneyard_SalvageDepot</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Redding -->
+                    <li>
+                        <name>Redding</name>
+                        <traders>
+                            <li>
+                                <traderName>Redding Mining Supply</traderName>
+                                <traderKind>FCP_Trader_Redding_MiningSupply</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Cat's Paw Saloon</traderName>
+                                <traderKind>FCP_Trader_Redding_CatsPawSaloon</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Primm -->
+                    <li>
+                        <name>Primm</name>
+                        <traders>
+                            <li>
+                                <traderName>Vikki and Vance Casino</traderName>
+                                <traderKind>FCP_Trader_Primm_VikkiAndVanceCasino</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Bison Steve Trading Post</traderName>
+                                <traderKind>FCP_Trader_Primm_BisonSteveTradingPost</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Mojave Express Office</traderName>
+                                <traderKind>FCP_Trader_Primm_MojaveExpressOffice</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Novac -->
+                    <li>
+                        <name>Novac</name>
+                        <traders>
+                            <li>
+                                <traderName>Dino Bite Gift Shop</traderName>
+                                <traderKind>FCP_Trader_Novac_DinoBiteGiftShop</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Novac Motel Supply</traderName>
+                                <traderKind>FCP_Trader_Novac_MotelSupply</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Sloan -->
+                    <li>
+                        <name>Sloan</name>
+                        <traders>
+                            <li>
+                                <traderName>Sloan Quarry Supply</traderName>
+                                <traderKind>FCP_Trader_Sloan_QuarrySupply</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Sloan Trading Post</traderName>
+                                <traderKind>FCP_Trader_Sloan_TradingPost</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Mojave Outpost -->
+                    <li>
+                        <name>Mojave Outpost</name>
+                        <traders>
+                            <li>
+                                <traderName>Nash's Trading Post</traderName>
+                                <traderKind>FCP_Trader_MojaveOutpost_NashsTradingPost</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Mojave Outpost Armory</traderName>
+                                <traderKind>FCP_Trader_MojaveOutpost_Armory</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Camp McCarran -->
+                    <li>
+                        <name>Camp McCarran</name>
+                        <traders>
+                            <li>
+                                <traderName>McCarran Quartermaster Depot</traderName>
+                                <traderKind>FCP_Trader_CampMcCarran_QuartermasterDepot</traderKind>
+                            </li>
+                            <li>
+                                <traderName>McCarran Motor Pool</traderName>
+                                <traderKind>FCP_Trader_CampMcCarran_MotorPool</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Camp Golf -->
+                    <li>
+                        <name>Camp Golf</name>
+                        <traders>
+                            <li>
+                                <traderName>Camp Golf Ranger Depot</traderName>
+                                <traderKind>FCP_Trader_CampGolf_RangerDepot</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Camp Golf Mess Hall</traderName>
+                                <traderKind>FCP_Trader_CampGolf_MessHall</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Camp Forlorn Hope -->
+                    <li>
+                        <name>Camp Forlorn Hope</name>
+                        <traders>
+                            <li>
+                                <traderName>Forlorn Hope Armory</traderName>
+                                <traderKind>FCP_Trader_CampForlornHope_Armory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Forlorn Hope Field Hospital</traderName>
+                                <traderKind>FCP_Trader_CampForlornHope_FieldHospital</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Camp Searchlight -->
+                    <li>
+                        <name>Camp Searchlight</name>
+                        <traders>
+                            <li>
+                                <traderName>Searchlight Hazmat Depot</traderName>
+                                <traderKind>FCP_Trader_CampSearchlight_HazmatDepot</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Searchlight Garrison Supply</traderName>
+                                <traderKind>FCP_Trader_CampSearchlight_GarrisonSupply</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Hoover Dam -->
+                    <li>
+                        <name>Hoover Dam</name>
+                        <traders>
+                            <li>
+                                <traderName>Hoover Dam Powerhouse Stores</traderName>
+                                <traderKind>FCP_Trader_HooverDam_PowerhouseStores</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Hoover Dam Garrison Armory</traderName>
+                                <traderKind>FCP_Trader_HooverDam_GarrisonArmory</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                </namedSettlements>
             </li>
         </modExtensions>
     </FactionDef>

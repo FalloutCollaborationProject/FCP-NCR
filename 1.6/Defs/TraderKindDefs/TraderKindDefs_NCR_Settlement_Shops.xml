@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ NCR Named Settlement Traders __________-->
+
+    <!--_____ Shady Sands _____-->
+
+    <!--___ Shady Sands Trading Post ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_ShadySands_TradingPost</defName>
+        <label>Shady Sands Trading Post</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>800~1800</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>150~400</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>WoodLog</thingDef>
+                <countRange>100~250</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Cloth</thingDef>
+                <countRange>80~200</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>50~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>50~150</countRange>
+            </li>
+
+            <!--__ Pre-War Food __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDefs>
+                    <li>FCP_Food_Cram</li>
+                    <li>FCP_Food_Sugar_Bombs</li>
+                    <li>FCP_Food_Pork_N_Beans</li>
+                    <li>FCP_Food_Potato_Crisps</li>
+                </thingDefs>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Foods</categoryDef>
+                <thingDefCountRange>3~5</thingDefCountRange>
+                <totalPriceRange>300~800</totalPriceRange>
+            </li>
+
+            <!--__ Wasteland Clothing __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDefs>
+                    <li>FCP_Apparel_Settler_Female_Outfit</li>
+                    <li>FCP_Apparel_Settler_Male_Outfit</li>
+                    <li>FCP_Apparel_Field_Hand_Female_Outfit</li>
+                    <li>FCP_Apparel_Field_Hand_Male_Outfit</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Apparel __-->
+
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>BasicClothing</tradeTag>
+                <countRange>4~8</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Capitol Armory ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_ShadySands_CapitolArmory</defName>
+        <label>Capitol Armory</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>1000~2200</countRange>
+            </li>
+
+            <!--__ NCR Armor and Apparel __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Fatigues</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Armor</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Vest</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Helmet</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Goggles_Helmet</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Ranger_Patrol_Armor</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_Service_Rifle</thingDef>
+                <countRange>3~7</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_NCR_Hunting_Rifle</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_10mm_Pistol</li>
+                    <li>FCP_Gun_Combat_Rifle_Standard</li>
+                    <li>FCP_Gun_Combat_Shotgun</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDefs>
+                    <li>FCP_Grenade_Fragmentation</li>
+                    <li>FCP_Grenade_Flashbang</li>
+                </thingDefs>
+                <countRange>3~8</countRange>
+            </li>
+
+            <!--__ Energy Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Laser_Pistol</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Unarmed Weapons __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.UnarmedWeapons">
+                <thingDefs>
+                    <li>FCP_Unarmed_Boxing_Glove</li>
+                    <li>FCP_Unarmed_Power_Fist</li>
+                </thingDefs>
+                <countRange>0~2</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Armor</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Republic Apothecary ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_ShadySands_RepublicApothecary</defName>
+        <label>Republic Apothecary</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>900~1800</countRange>
+            </li>
+
+            <!--__ Medicine __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <countRange>30~70</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Neutroamine</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!--__ Chems __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Stimpak</li>
+                    <li>FCP_Chem_Diluted_Stimpak</li>
+                    <li>FCP_Chem_MedX</li>
+                    <li>FCP_Chem_RadX</li>
+                    <li>FCP_Chem_Radaway</li>
+                    <li>FCP_Chem_Fixer</li>
+                    <li>FCP_Chem_Addictol</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Drugs __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Drugs</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <totalPriceRange>300~700</totalPriceRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Drugs</tag>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ The Hub _____-->
+
+    <!--___ Far Go Traders ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Hub_FarGoTraders</defName>
+        <label>Far Go Traders</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>800~1600</countRange>
+            </li>
+
+            <!--__ Building Materials __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>150~400</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>WoodLog</thingDef>
+                <countRange>100~250</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Plasteel</thingDef>
+                <countRange>40~100</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentSpacer</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>50~150</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+                <thingDefCountRange>3~5</thingDefCountRange>
+                <totalPriceRange>500~1200</totalPriceRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>400~900</totalPriceRange>
+            </li>
+
+            <!--__ Meat and Animal Products __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Animals">
+                <thingDefs>
+                    <li>FCP_Meat_Varmint</li>
+                    <li>FCP_Meat_Poultry</li>
+                    <li>FCP_Egg_Rad_Chicken_Unfertilized</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Wasteland Produce __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Plants">
+                <thingDefs>
+                    <li>FCP_Raw_Mutfruit</li>
+                    <li>FCP_Raw_Tato</li>
+                    <li>FCP_Raw_Melon</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Crimson Caravan Depot ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Hub_CrimsonCaravanDepot</defName>
+        <label>Crimson Caravan Depot</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>900~1800</countRange>
+            </li>
+
+            <!--__ Caravan Apparel __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDefs>
+                    <li>FCP_Apparel_Caravaneer_Outfit</li>
+                    <li>FCP_Apparel_Prospector_Outfit</li>
+                    <li>FCP_Apparel_Surveyor_Outfit</li>
+                    <li>FCP_Apparel_Wasteland_Wanderer_Outfit</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Apparel __-->
+
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>BasicClothing</tradeTag>
+                <countRange>4~8</countRange>
+            </li>
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>Clothing</tradeTag>
+                <countRange>3~5</countRange>
+            </li>
+
+            <!--__ Brahmin __-->
+
+            <li Class="StockGenerator_Animals" MayRequire="Rick.FCP.Animals">
+                <tradeTagsSell>
+                    <li>FCP_Animal_Farm_Brahmin</li>
+                </tradeTagsSell>
+                <tradeTagsBuy>
+                    <li>AnimalUncommon</li>
+                </tradeTagsBuy>
+                <countRange>2~4</countRange>
+                <createMatingPair>
+                    <li>FCP_Animal_Farm_Brahmin</li>
+                </createMatingPair>
+            </li>
+
+            <!--__ Caravan Guard Weapons __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_10mm_Pistol</li>
+                    <li>FCP_Gun_Chinese_Pistol</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDefs>
+                    <li>FCP_Melee_Rebar_Club</li>
+                    <li>FCP_Melee_Bat</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Textiles</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Water Merchants Exchange ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Hub_WaterMerchantsExchange</defName>
+        <label>Water Merchants Exchange</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>700~1500</countRange>
+            </li>
+
+            <!--__ Alcohol __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>25~70</countRange>
+            </li>
+
+            <!--__ Nuka-Cola __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDefs>
+                    <li>FCP_Nuka_Cola</li>
+                    <li>FCP_Nuka_Cola_Classic</li>
+                    <li>FCP_Nuka_Cola_Cherry</li>
+                </thingDefs>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!--__ Pre-War Food __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDefs>
+                    <li>FCP_Food_Cram</li>
+                    <li>FCP_Food_Insta_Mash</li>
+                    <li>FCP_Food_Pork_N_Beans</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Wasteland Produce __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Plants">
+                <thingDefs>
+                    <li>FCP_Raw_Mutfruit</li>
+                    <li>FCP_Raw_Tato</li>
+                    <li>FCP_Raw_Razorgrain</li>
+                    <li>FCP_Raw_Maize</li>
+                    <li>FCP_Raw_Carrot</li>
+                </thingDefs>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!--__ Meat and Animal Products __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Animals">
+                <thingDefs>
+                    <li>FCP_Meat_Herptile</li>
+                    <li>FCP_Meat_Crab</li>
+                    <li>FCP_Egg_Gecko_Unfertilized</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Wasteland Prepared Meals __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.WastelandFood">
+                <thingDefs>
+                    <li>FCP_Food_Brahmin_Pot_Pie</li>
+                    <li>FCP_Food_Prime_Meat_Steak</li>
+                    <li>FCP_Food_Noodle_Cup</li>
+                    <li>FCP_Food_Chicken_Noodle_Cup</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Foods</categoryDef>
+                <thingDefCountRange>3~5</thingDefCountRange>
+                <totalPriceRange>500~1100</totalPriceRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>FoodRaw</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>300~600</totalPriceRange>
+                <excludedCategories>
+                    <li>EggsFertilized</li>
+                </excludedCategories>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>FoodRaw</categoryDef>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>PlantMatter</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Junktown _____-->
+
+    <!--___ Darkwater General Store ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Junktown_DarkwaterGeneralStore</defName>
+        <label>Darkwater General Store</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>600~1400</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~300</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Cloth</thingDef>
+                <countRange>60~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineIndustrial</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Foods</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>300~700</totalPriceRange>
+            </li>
+
+            <!--__ Wasteland Clothing __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDefs>
+                    <li>FCP_Apparel_Settler_Male_Outfit</li>
+                    <li>FCP_Apparel_Settler_Female_Outfit</li>
+                    <li>FCP_Apparel_Leather_Coat</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Meat and Animal Products __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Animals">
+                <thingDefs>
+                    <li>FCP_Meat_Varmint</li>
+                    <li>FCP_Meat_Bug</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Wasteland Produce __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Plants">
+                <thingDefs>
+                    <li>FCP_Raw_Tato</li>
+                    <li>FCP_Raw_Prickly_Pear</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Gizmo's Saloon ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Junktown_GizmosSaloon</defName>
+        <label>Gizmo's Saloon</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>1000~2200</countRange>
+            </li>
+
+            <!--__ Alcohol __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>30~80</countRange>
+            </li>
+
+            <!--__ Nuka-Cola __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDefs>
+                    <li>FCP_Nuka_Cola</li>
+                    <li>FCP_Nuka_Cola_Classic</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Chems __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Jet</li>
+                    <li>FCP_Chem_Buffout</li>
+                    <li>FCP_Chem_Mentats</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Drugs __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Drugs</categoryDef>
+                <thingDefCountRange>3~5</thingDefCountRange>
+                <totalPriceRange>500~1200</totalPriceRange>
+            </li>
+
+            <!--__ Bar Snacks __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.WastelandFood">
+                <thingDefs>
+                    <li>FCP_Food_Meat_On_A_Stick</li>
+                    <li>FCP_Food_Sausages</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Unarmed Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.UnarmedWeapons">
+                <thingDef>FCP_Unarmed_Boxing_Glove</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Drugs</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Boneyard _____-->
+
+    <!--___ Adytum Armory ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Boneyard_AdytumArmory</defName>
+        <label>Adytum Armory</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>900~1900</countRange>
+            </li>
+
+            <!--__ Standard Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~250</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_10mm_Pistol</li>
+                    <li>FCP_Gun_Combat_Rifle_Standard</li>
+                    <li>FCP_Gun_SawnOff_Shotgun</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Melee Weapons __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDefs>
+                    <li>FCP_Melee_Sledgehammer</li>
+                    <li>FCP_Melee_Scrap_Machete</li>
+                    <li>FCP_Melee_Rebar_Club</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Energy Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Laser_Rifle</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Unarmed Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.UnarmedWeapons">
+                <thingDef>FCP_Unarmed_Zap_Glove</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Armor __-->
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Armor</tradeTag>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Armor</tag>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Boneyard Salvage Depot ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Boneyard_SalvageDepot</defName>
+        <label>Boneyard Salvage Depot</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>700~1500</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>150~400</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Plasteel</thingDef>
+                <countRange>40~100</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>50~150</countRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+                <thingDefCountRange>3~5</thingDefCountRange>
+                <totalPriceRange>400~900</totalPriceRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Redding _____-->
+
+    <!--___ Redding Mining Supply ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Redding_MiningSupply</defName>
+        <label>Redding Mining Supply</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>700~1600</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>150~400</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>50~150</countRange>
+            </li>
+
+            <!--__ Mining Charges __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Fragmentation</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+
+            <!--__ Mining Tools __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDefs>
+                    <li>FCP_Melee_Sledgehammer</li>
+                    <li>FCP_Melee_Rebar_Club</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>400~900</totalPriceRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Cat's Paw Saloon ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Redding_CatsPawSaloon</defName>
+        <label>Cat's Paw Saloon</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>900~1900</countRange>
+            </li>
+
+            <!--__ Alcohol __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>30~70</countRange>
+            </li>
+
+            <!--__ Chems __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Psycho</li>
+                    <li>FCP_Chem_Buffout</li>
+                    <li>FCP_Chem_Mentats</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>FoodMeals</categoryDef>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!--__ Bar Snacks __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.WastelandFood">
+                <thingDefs>
+                    <li>FCP_Food_Meat_On_A_Stick</li>
+                    <li>FCP_Food_Crispy_Wings</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Unarmed Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.UnarmedWeapons">
+                <thingDef>FCP_Unarmed_Power_Fist</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Drugs</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Primm _____-->
+
+    <!--___ Vikki and Vance Casino ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Primm_VikkiAndVanceCasino</defName>
+        <label>Vikki and Vance Casino</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>1200~2500</countRange>
+            </li>
+
+            <!--__ Alcohol __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>40~100</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chocolate</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <!--__ Nuka-Cola __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDefs>
+                    <li>FCP_Nuka_Cola</li>
+                    <li>FCP_Nuka_Cola_Cherry</li>
+                    <li>FCP_Nuka_Cola_Grape</li>
+                </thingDefs>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!--__ Chems __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Jet</li>
+                    <li>FCP_Chem_Ultrajet</li>
+                    <li>FCP_Chem_Mentats</li>
+                    <li>FCP_Chem_Party_Time_Mentats</li>
+                    <li>FCP_Chem_Cateye</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Drugs __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Drugs</categoryDef>
+                <thingDefCountRange>4~7</thingDefCountRange>
+                <totalPriceRange>800~1800</totalPriceRange>
+            </li>
+
+            <!--__ Casino Dining __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.WastelandFood">
+                <thingDefs>
+                    <li>FCP_Food_Prime_Meat_Steak_With_Corn_And_Tatos</li>
+                    <li>FCP_Food_Sweet_Rolls</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Unarmed Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.UnarmedWeapons">
+                <thingDef>FCP_Unarmed_Power_Fist</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Bison Steve Trading Post ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Primm_BisonSteveTradingPost</defName>
+        <label>Bison Steve Trading Post</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>700~1500</countRange>
+            </li>
+
+            <!--__ Wasteland Clothing __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDefs>
+                    <li>FCP_Apparel_Wasteland_Wanderer_Outfit</li>
+                    <li>FCP_Apparel_Merc_Adventurer_Outfit</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Foods</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>300~700</totalPriceRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <totalPriceRange>300~700</totalPriceRange>
+            </li>
+
+            <!--__ Meat and Animal Products __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Animals">
+                <thingDefs>
+                    <li>FCP_Meat_Poultry</li>
+                    <li>FCP_Egg_Rad_Chicken_Unfertilized</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Wasteland Produce __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Plants">
+                <thingDefs>
+                    <li>FCP_Raw_Prickly_Pear</li>
+                    <li>FCP_Raw_Cranberry</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Sidearm __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDef>FCP_Gun_10mm_Pistol</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Mojave Express Office ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Primm_MojaveExpressOffice</defName>
+        <label>Mojave Express Office</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>600~1300</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_10mm_Pistol</li>
+                    <li>FCP_Gun_32_Hunting_Rifle</li>
+                </thingDefs>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!--__ Route Protection __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Fragmentation</thingDef>
+                <countRange>1~4</countRange>
+            </li>
+
+            <!--__ Medicine __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!--__ NCR Dog Tags __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Item_NCR_DogTags</thingDef>
+                <countRange>0~5</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Novac _____-->
+
+    <!--___ Dino Bite Gift Shop ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Novac_DinoBiteGiftShop</defName>
+        <label>Dino Bite Gift Shop</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>500~1200</countRange>
+            </li>
+
+            <!--__ Nuka-Cola __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDefs>
+                    <li>FCP_Nuka_Cola</li>
+                    <li>FCP_Nuka_Cola_Classic</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Pre-War Snacks __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDefs>
+                    <li>FCP_Food_Fancy_Lad_Snack_Cakes</li>
+                    <li>FCP_Food_Dandy_Boy_Apples</li>
+                    <li>FCP_Food_Gum_Drops</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Roadside Snacks __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.WastelandFood">
+                <thingDefs>
+                    <li>FCP_Food_Meat_On_A_Stick</li>
+                    <li>FCP_Food_Sweet_Rolls</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Foods</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <totalPriceRange>200~500</totalPriceRange>
+            </li>
+
+            <!--__ NCR Dog Tags __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Item_NCR_DogTags</thingDef>
+                <countRange>0~3</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Novac Motel Supply ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Novac_MotelSupply</defName>
+        <label>Novac Motel Supply</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>500~1100</countRange>
+            </li>
+
+            <!--__ Medicine __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!--__ Chems __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Stimpak</li>
+                    <li>FCP_Chem_Radaway</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Under-the-Counter __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDef>FCP_Melee_Bat</thingDef>
+                <countRange>0~2</countRange>
+            </li>
+
+            <!--__ Textiles __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Textiles</categoryDef>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <totalPriceRange>150~400</totalPriceRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Sloan _____-->
+
+    <!--___ Sloan Quarry Supply ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Sloan_QuarrySupply</defName>
+        <label>Sloan Quarry Supply</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>500~1200</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~250</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!--__ Mining Charges __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Fragmentation</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Mining Tools __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDefs>
+                    <li>FCP_Melee_Sledgehammer</li>
+                    <li>FCP_Melee_Rebar_Club</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <totalPriceRange>300~600</totalPriceRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Sloan Trading Post ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Sloan_TradingPost</defName>
+        <label>Sloan Trading Post</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>500~1100</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Foods</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <totalPriceRange>200~500</totalPriceRange>
+            </li>
+
+            <!--__ Meat and Animal Products __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Animals">
+                <thingDefs>
+                    <li>FCP_Meat_Varmint</li>
+                    <li>FCP_Egg_Gecko_Unfertilized</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Wasteland Produce __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Plants">
+                <thingDefs>
+                    <li>FCP_Raw_Razorgrain</li>
+                    <li>FCP_Raw_Carrot</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Apparel __-->
+
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>BasicClothing</tradeTag>
+                <countRange>3~6</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Mojave Outpost _____-->
+
+    <!--___ Nash's Trading Post ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_MojaveOutpost_NashsTradingPost</defName>
+        <label>Nash's Trading Post</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>600~1400</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Foods</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>300~700</totalPriceRange>
+            </li>
+
+            <!--__ Wasteland Produce __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Plants">
+                <thingDefs>
+                    <li>FCP_Raw_Food_Banana_Yucca</li>
+                    <li>FCP_Raw_Prickly_Pear</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Trail Rations __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.WastelandFood">
+                <thingDefs>
+                    <li>FCP_Food_Meat_On_A_Stick</li>
+                    <li>FCP_Food_Noodle_Cup</li>
+                </thingDefs>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Brahmin __-->
+
+            <li Class="StockGenerator_Animals" MayRequire="Rick.FCP.Animals">
+                <tradeTagsSell>
+                    <li>FCP_Animal_Farm_Brahmin</li>
+                </tradeTagsSell>
+                <tradeTagsBuy>
+                    <li>AnimalUncommon</li>
+                </tradeTagsBuy>
+                <countRange>2~4</countRange>
+                <createMatingPair>
+                    <li>FCP_Animal_Farm_Brahmin</li>
+                </createMatingPair>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Mojave Outpost Armory ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_MojaveOutpost_Armory</defName>
+        <label>Mojave Outpost Armory</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>800~1700</countRange>
+            </li>
+
+            <!--__ NCR Armor __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Armor</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Helmet</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_Service_Rifle</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_NCR_Hunting_Rifle</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_10mm_Pistol</li>
+                    <li>FCP_Gun_32_Hunting_Rifle</li>
+                </thingDefs>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!--__ Energy Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Laser_Pistol</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Fragmentation</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Camp McCarran _____-->
+
+    <!--___ McCarran Quartermaster Depot ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CampMcCarran_QuartermasterDepot</defName>
+        <label>McCarran Quartermaster Depot</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>1000~2200</countRange>
+            </li>
+
+            <!--__ NCR Apparel and Armor __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Fatigues</thingDef>
+                <countRange>4~8</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Armor</thingDef>
+                <countRange>4~8</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Vest</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Helmet</thingDef>
+                <countRange>4~8</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_MP_Helmet</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_Service_Rifle</thingDef>
+                <countRange>5~10</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_10mm_Pistol</li>
+                    <li>FCP_Gun_Combat_Rifle_Standard</li>
+                    <li>FCP_Gun_10mm_SMG</li>
+                </thingDefs>
+                <countRange>3~6</countRange>
+            </li>
+
+            <!--__ Energy Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Laser_Pistol</thingDef>
+                <countRange>0~2</countRange>
+            </li>
+
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDefs>
+                    <li>FCP_Grenade_Fragmentation</li>
+                    <li>FCP_Grenade_Flashbang</li>
+                </thingDefs>
+                <countRange>3~8</countRange>
+            </li>
+
+            <!--__ Standard Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~250</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>40~120</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Armor</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ McCarran Motor Pool ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CampMcCarran_MotorPool</defName>
+        <label>McCarran Motor Pool</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>700~1600</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>150~400</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Plasteel</thingDef>
+                <countRange>40~100</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentSpacer</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>50~150</countRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+                <thingDefCountRange>3~5</thingDefCountRange>
+                <totalPriceRange>500~1100</totalPriceRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>400~900</totalPriceRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Camp Golf _____-->
+
+    <!--___ Camp Golf Ranger Depot ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CampGolf_RangerDepot</defName>
+        <label>Camp Golf Ranger Depot</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>900~1900</countRange>
+            </li>
+
+            <!--__ Ranger Apparel and Armor __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Ranger_Casual</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Ranger_Vest</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Ranger_Patrol_Armor</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Ranger_Hat_Patrol</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_NCR_Hunting_Rifle</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_10mm_Pistol</li>
+                    <li>FCP_Gun_Combat_Rifle_Standard</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Melee Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDef>FCP_Melee_Ripper</thingDef>
+                <countRange>0~2</countRange>
+            </li>
+
+            <!--__ Standard Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>60~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Armor</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Camp Golf Mess Hall ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CampGolf_MessHall</defName>
+        <label>Camp Golf Mess Hall</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>500~1100</countRange>
+            </li>
+
+            <!--__ Pre-War Food __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDefs>
+                    <li>FCP_Food_Pork_N_Beans</li>
+                    <li>FCP_Food_Salisbury_Steak</li>
+                    <li>FCP_Food_Insta_Mash</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Wasteland Prepared Meals __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.WastelandFood">
+                <thingDefs>
+                    <li>FCP_Food_Prime_Meat_Steak</li>
+                    <li>FCP_Food_Sausages</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>FoodMeals</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <countRange>20~45</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Camp Forlorn Hope _____-->
+
+    <!--___ Forlorn Hope Armory ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CampForlornHope_Armory</defName>
+        <label>Forlorn Hope Armory</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>1000~2000</countRange>
+            </li>
+
+            <!--__ NCR Armor __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Armor</thingDef>
+                <countRange>4~8</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Helmet</thingDef>
+                <countRange>4~8</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Vest</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_Service_Rifle</thingDef>
+                <countRange>4~9</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_Combat_Rifle_Standard</li>
+                    <li>FCP_Gun_Combat_Shotgun</li>
+                </thingDefs>
+                <countRange>3~6</countRange>
+            </li>
+
+            <!--__ Heavy Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_25MM_Grenade_Launcher</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDefs>
+                    <li>FCP_Grenade_Fragmentation</li>
+                    <li>FCP_Grenade_Pulse</li>
+                </thingDefs>
+                <countRange>3~8</countRange>
+            </li>
+
+            <!--__ Standard Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>60~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Armor</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Forlorn Hope Field Hospital ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CampForlornHope_FieldHospital</defName>
+        <label>Forlorn Hope Field Hospital</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>800~1600</countRange>
+            </li>
+
+            <!--__ Medicine __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <countRange>25~60</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Neutroamine</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!--__ Chems __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Stimpak</li>
+                    <li>FCP_Chem_MedX</li>
+                    <li>FCP_Chem_Healing_Powder</li>
+                    <li>FCP_Chem_Blood_Pack</li>
+                    <li>FCP_Chem_Doctors_Bag</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Drugs</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Camp Searchlight _____-->
+
+    <!--___ Searchlight Hazmat Depot ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CampSearchlight_HazmatDepot</defName>
+        <label>Searchlight Hazmat Depot</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>600~1300</countRange>
+            </li>
+
+            <!--__ Hazard Gear __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDefs>
+                    <li>FCP_Apparel_Radiation_Suit</li>
+                    <li>FCP_Apparel_Radiations_Suit_Helmet</li>
+                </thingDefs>
+                <countRange>2~4</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Wastelanders">
+                <thingDef>FCP_Apparel_Gasmask_Goggles</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!--__ Chems __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_RadX</li>
+                    <li>FCP_Chem_Radaway</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Standard Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>60~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>30~80</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Searchlight Garrison Supply ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CampSearchlight_GarrisonSupply</defName>
+        <label>Searchlight Garrison Supply</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>500~1100</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~250</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>30~80</countRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <totalPriceRange>300~600</totalPriceRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Hoover Dam _____-->
+
+    <!--___ Hoover Dam Powerhouse Stores ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_HooverDam_PowerhouseStores</defName>
+        <label>Hoover Dam Powerhouse Stores</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>900~1900</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>150~400</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Plasteel</thingDef>
+                <countRange>50~120</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentSpacer</thingDef>
+                <countRange>8~20</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Chemfuel</thingDef>
+                <countRange>60~150</countRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+                <thingDefCountRange>3~5</thingDefCountRange>
+                <totalPriceRange>500~1100</totalPriceRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Hoover Dam Garrison Armory ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_HooverDam_GarrisonArmory</defName>
+        <label>Hoover Dam Garrison Armory</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_NCR_Dollar</thingDef>
+                <countRange>1200~2400</countRange>
+            </li>
+
+            <!--__ NCR Armor __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Armor</thingDef>
+                <countRange>5~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Helmet</thingDef>
+                <countRange>5~10</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_NCR_Trooper_Vest</thingDef>
+                <countRange>4~7</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_Service_Rifle</thingDef>
+                <countRange>5~10</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_Combat_Rifle_Standard</li>
+                    <li>FCP_Gun_10mm_SMG</li>
+                </thingDefs>
+                <countRange>3~6</countRange>
+            </li>
+
+            <!--__ Energy Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Laser_Rifle</thingDef>
+                <countRange>0~2</countRange>
+            </li>
+
+            <!--__ Heavy Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Missile_Launcher</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Rockwell_Big_Bazooka</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Standard Resources __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~250</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Armor</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>
