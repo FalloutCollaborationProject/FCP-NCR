@@ -16,13 +16,18 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
             <researchPrerequisites>
                 <li>FCP_Research_NCR_Standard_Trooper_Corps</li>
+                <li>FCP_Research_Blueprint_ServiceRifle</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -97,14 +102,19 @@
         </graphicData>
         <uiIconScale>1.4</uiIconScale>
         <soundInteract>Interact_Revolver</soundInteract>
-        <recipeMaker>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
             <researchPrerequisites>
                 <li>FCP_Research_NCR_Ranger_Elite_Corps</li>
                 <li>FCP_Research_Advanced_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_RangerSequoia</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -181,13 +191,19 @@
             <li>LongShots</li>
             <li>RangedHeavy</li>
         </weaponClasses>
-        <recipeMaker>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
             <researchPrerequisites>
                 <li>FCP_Research_Advanced_Gunsmithing</li>
+                <li>FCP_Research_NCR_Ranger_Corps</li>
+                <li>FCP_Research_Blueprint_NCRHuntingRifle</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
