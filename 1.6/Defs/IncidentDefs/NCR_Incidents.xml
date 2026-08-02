@@ -31,7 +31,7 @@
 
     <IncidentDef>
         <defName>FCP_Incident_NCR_RangerOutpost</defName>
-        <label>NCR Ranger Outpost appears</label>
+        <label>Ranger Station Charlie appears</label>
         <category>Misc</category>
         <targetTags>
             <li>World</li>
@@ -39,21 +39,192 @@
         <workerClass>FCP.Factions.IncidentWorker_RandomFactionSite</workerClass>
         <baseChance>1.0</baseChance>
         <minRefireDays>20</minRefireDays>
-        <letterLabel>NCR Ranger Outpost Discovered</letterLabel>
-        <letterText>Your scouts have discovered an NCR Ranger outpost in the region.</letterText>
+        <letterLabel>Ranger Station Charlie Discovered</letterLabel>
+        <letterText>Your scouts have discovered Ranger Station Charlie, an isolated NCR Ranger outpost, in the region.</letterText>
         <letterDef>NeutralEvent</letterDef>
         <modExtensions>
             <li Class="FCP.Factions.RandomSiteIncidentExtension">
                 <targetFaction>FCP_Faction_NCR</targetFaction>
                 <sitePartDef>FCP_SitePart_NCR_RangerOutpost</sitePartDef>
                 <durationDays>15</durationDays>
-                <maxActiveSites>2</maxActiveSites>
+                <maxActiveSites>1</maxActiveSites>
                 <requiresPlayerVisible>true</requiresPlayerVisible>
-                <searchRadius>40</searchRadius>
+                <searchRadius>15</searchRadius>
                 <siteTemplate>
+                    <name>Ranger Station Charlie</name>
                     <guaranteedPawnKinds>
                         <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
                     </guaranteedPawnKinds>
+                    <traders>
+                        <li>
+                            <traderName>Station Charlie Veteran Armory</traderName>
+                            <traderKind>FCP_Trader_RangerStationCharlie_VeteranArmory</traderKind>
+                        </li>
+                    </traders>
+                    <allowedBiomes>
+                        <li>Desert</li>
+                        <li>AridShrubland</li>
+                    </allowedBiomes>
+                </siteTemplate>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>FCP_Incident_NCR_RangerOutpost_Alpha</defName>
+        <label>Ranger Station Alpha appears</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <workerClass>FCP.Factions.IncidentWorker_RandomFactionSite</workerClass>
+        <baseChance>1.0</baseChance>
+        <minRefireDays>20</minRefireDays>
+        <letterLabel>Ranger Station Alpha Discovered</letterLabel>
+        <letterText>Your scouts have discovered Ranger Station Alpha, an isolated NCR Ranger outpost, in the region.</letterText>
+        <letterDef>NeutralEvent</letterDef>
+        <modExtensions>
+            <li Class="FCP.Factions.RandomSiteIncidentExtension">
+                <targetFaction>FCP_Faction_NCR</targetFaction>
+                <sitePartDef>FCP_SitePart_NCR_RangerOutpost_Alpha</sitePartDef>
+                <durationDays>15</durationDays>
+                <maxActiveSites>1</maxActiveSites>
+                <requiresPlayerVisible>true</requiresPlayerVisible>
+                <searchRadius>15</searchRadius>
+                <siteTemplate>
+                    <name>Ranger Station Alpha</name>
+                    <guaranteedPawnKinds>
+                        <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
+                    </guaranteedPawnKinds>
+                    <traders>
+                        <li>
+                            <traderName>Station Alpha Veteran Armory</traderName>
+                            <traderKind>FCP_Trader_RangerStationAlpha_VeteranArmory</traderKind>
+                        </li>
+                    </traders>
+                    <allowedBiomes>
+                        <li>Desert</li>
+                        <li>AridShrubland</li>
+                    </allowedBiomes>
+                </siteTemplate>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>FCP_Incident_NCR_RangerOutpost_Bravo</defName>
+        <label>Ranger Station Bravo appears</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <workerClass>FCP.Factions.IncidentWorker_RandomFactionSite</workerClass>
+        <baseChance>1.0</baseChance>
+        <minRefireDays>20</minRefireDays>
+        <letterLabel>Ranger Station Bravo Discovered</letterLabel>
+        <letterText>Your scouts have discovered Ranger Station Bravo, an isolated NCR Ranger outpost, in the region.</letterText>
+        <letterDef>NeutralEvent</letterDef>
+        <modExtensions>
+            <li Class="FCP.Factions.RandomSiteIncidentExtension">
+                <targetFaction>FCP_Faction_NCR</targetFaction>
+                <sitePartDef>FCP_SitePart_NCR_RangerOutpost_Bravo</sitePartDef>
+                <durationDays>15</durationDays>
+                <maxActiveSites>1</maxActiveSites>
+                <requiresPlayerVisible>true</requiresPlayerVisible>
+                <searchRadius>15</searchRadius>
+                <siteTemplate>
+                    <name>Ranger Station Bravo</name>
+                    <guaranteedPawnKinds>
+                        <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
+                    </guaranteedPawnKinds>
+                    <traders>
+                        <li>
+                            <traderName>Station Bravo Veteran Armory</traderName>
+                            <traderKind>FCP_Trader_RangerStationBravo_VeteranArmory</traderKind>
+                        </li>
+                    </traders>
+                    <allowedBiomes>
+                        <li>Desert</li>
+                        <li>AridShrubland</li>
+                    </allowedBiomes>
+                </siteTemplate>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>FCP_Incident_NCR_RangerOutpost_Delta</defName>
+        <label>Ranger Station Delta appears</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <workerClass>FCP.Factions.IncidentWorker_RandomFactionSite</workerClass>
+        <baseChance>1.0</baseChance>
+        <minRefireDays>20</minRefireDays>
+        <letterLabel>Ranger Station Delta Discovered</letterLabel>
+        <letterText>Your scouts have discovered Ranger Station Delta, an isolated NCR Ranger outpost, in the region.</letterText>
+        <letterDef>NeutralEvent</letterDef>
+        <modExtensions>
+            <li Class="FCP.Factions.RandomSiteIncidentExtension">
+                <targetFaction>FCP_Faction_NCR</targetFaction>
+                <sitePartDef>FCP_SitePart_NCR_RangerOutpost_Delta</sitePartDef>
+                <durationDays>15</durationDays>
+                <maxActiveSites>1</maxActiveSites>
+                <requiresPlayerVisible>true</requiresPlayerVisible>
+                <searchRadius>15</searchRadius>
+                <siteTemplate>
+                    <name>Ranger Station Delta</name>
+                    <guaranteedPawnKinds>
+                        <FCP_Pawnkind_NCR_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ranger_Veteran>
+                    </guaranteedPawnKinds>
+                    <traders>
+                        <li>
+                            <traderName>Station Delta Veteran Armory</traderName>
+                            <traderKind>FCP_Trader_RangerStationDelta_VeteranArmory</traderKind>
+                        </li>
+                    </traders>
+                    <allowedBiomes>
+                        <li>Desert</li>
+                        <li>AridShrubland</li>
+                    </allowedBiomes>
+                </siteTemplate>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+    <IncidentDef MayRequire="Rick.FCP.Ghouls">
+        <defName>FCP_Incident_NCR_RangerOutpost_Echo</defName>
+        <label>Ranger Station Echo appears</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <workerClass>FCP.Factions.IncidentWorker_RandomFactionSite</workerClass>
+        <baseChance>1.0</baseChance>
+        <minRefireDays>20</minRefireDays>
+        <letterLabel>Ranger Station Echo Discovered</letterLabel>
+        <letterText>Your scouts have discovered Ranger Station Echo, an isolated NCR Ranger outpost garrisoned by ghoul veterans, in the region.</letterText>
+        <letterDef>NeutralEvent</letterDef>
+        <modExtensions>
+            <li Class="FCP.Factions.RandomSiteIncidentExtension">
+                <targetFaction>FCP_Faction_NCR</targetFaction>
+                <sitePartDef>FCP_SitePart_NCR_RangerOutpost_Echo</sitePartDef>
+                <durationDays>15</durationDays>
+                <maxActiveSites>1</maxActiveSites>
+                <requiresPlayerVisible>true</requiresPlayerVisible>
+                <searchRadius>15</searchRadius>
+                <siteTemplate>
+                    <name>Ranger Station Echo</name>
+                    <guaranteedPawnKinds>
+                        <FCP_Pawnkind_NCR_Ghoul_Ranger_Veteran>5</FCP_Pawnkind_NCR_Ghoul_Ranger_Veteran>
+                    </guaranteedPawnKinds>
+                    <traders>
+                        <li>
+                            <traderName>Station Echo Veteran Armory</traderName>
+                            <traderKind>FCP_Trader_RangerStationEcho_VeteranArmory</traderKind>
+                        </li>
+                    </traders>
                     <allowedBiomes>
                         <li>Desert</li>
                         <li>AridShrubland</li>

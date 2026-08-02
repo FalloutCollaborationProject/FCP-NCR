@@ -3,8 +3,56 @@
 
 	<SitePartDef>
 		<defName>FCP_SitePart_NCR_RangerOutpost</defName>
-		<label>NCR ranger outpost</label>
-		<description>An NCR ranger outpost.</description>
+		<label>Ranger Station Charlie</label>
+		<description>An isolated NCR Ranger outpost, garrisoned by veterans and holding the Rangers' finest equipment.</description>
+		<workerClass>FCP.Factions.SitePartWorker_FactionOutpost</workerClass>
+		<siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+		<expandingIconTexture>MapIcons/Sites/FCP_Camp_Site</expandingIconTexture>
+		<tags>
+			<li>FCP_NCR_RangerOutpost</li>
+		</tags>
+	</SitePartDef>
+
+	<SitePartDef>
+		<defName>FCP_SitePart_NCR_RangerOutpost_Alpha</defName>
+		<label>Ranger Station Alpha</label>
+		<description>An isolated NCR Ranger outpost, garrisoned by veterans and holding the Rangers' finest equipment.</description>
+		<workerClass>FCP.Factions.SitePartWorker_FactionOutpost</workerClass>
+		<siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+		<expandingIconTexture>MapIcons/Sites/FCP_Camp_Site</expandingIconTexture>
+		<tags>
+			<li>FCP_NCR_RangerOutpost</li>
+		</tags>
+	</SitePartDef>
+
+	<SitePartDef>
+		<defName>FCP_SitePart_NCR_RangerOutpost_Bravo</defName>
+		<label>Ranger Station Bravo</label>
+		<description>An isolated NCR Ranger outpost, garrisoned by veterans and holding the Rangers' finest equipment.</description>
+		<workerClass>FCP.Factions.SitePartWorker_FactionOutpost</workerClass>
+		<siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+		<expandingIconTexture>MapIcons/Sites/FCP_Camp_Site</expandingIconTexture>
+		<tags>
+			<li>FCP_NCR_RangerOutpost</li>
+		</tags>
+	</SitePartDef>
+
+	<SitePartDef>
+		<defName>FCP_SitePart_NCR_RangerOutpost_Delta</defName>
+		<label>Ranger Station Delta</label>
+		<description>An isolated NCR Ranger outpost, garrisoned by veterans and holding the Rangers' finest equipment.</description>
+		<workerClass>FCP.Factions.SitePartWorker_FactionOutpost</workerClass>
+		<siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+		<expandingIconTexture>MapIcons/Sites/FCP_Camp_Site</expandingIconTexture>
+		<tags>
+			<li>FCP_NCR_RangerOutpost</li>
+		</tags>
+	</SitePartDef>
+
+	<SitePartDef MayRequire="Rick.FCP.Ghouls">
+		<defName>FCP_SitePart_NCR_RangerOutpost_Echo</defName>
+		<label>Ranger Station Echo</label>
+		<description>An isolated NCR Ranger outpost garrisoned entirely by ghoul veterans, holding the Rangers' finest equipment.</description>
 		<workerClass>FCP.Factions.SitePartWorker_FactionOutpost</workerClass>
 		<siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
 		<expandingIconTexture>MapIcons/Sites/FCP_Camp_Site</expandingIconTexture>

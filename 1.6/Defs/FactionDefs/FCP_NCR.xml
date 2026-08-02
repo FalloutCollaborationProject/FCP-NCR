@@ -889,7 +889,7 @@
             </li> -->
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
-                <maxSettlements>14</maxSettlements>
+                <maxSettlements>17</maxSettlements>
                 <allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_CentralValley</li>
                     <li MayRequire="FIP.Arktos">Arktos_Divide</li>
@@ -1112,6 +1112,44 @@
                             <li>
                                 <traderName>Hoover Dam Garrison Armory</traderName>
                                 <traderKind>FCP_Trader_HooverDam_GarrisonArmory</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Aerotech Office Park -->
+                    <li>
+                        <name>Aerotech Office Park</name>
+                        <traders>
+                            <li>
+                                <traderName>Aerotech Salvage Yard</traderName>
+                                <traderKind>FCP_Trader_Aerotech_SalvageYard</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Aerotech Garrison Armory</traderName>
+                                <traderKind>FCP_Trader_Aerotech_GarrisonArmory</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Bitter Springs -->
+                    <li>
+                        <name>Bitter Springs</name>
+                        <traders>
+                            <li>
+                                <traderName>Bitter Springs Trading Post</traderName>
+                                <traderKind>FCP_Trader_BitterSprings_TradingPost</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Bitter Springs Quartermaster</traderName>
+                                <traderKind>FCP_Trader_BitterSprings_Quartermaster</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Dayglow -->
+                    <li>
+                        <name>Dayglow</name>
+                        <traders>
+                            <li>
+                                <traderName>Dayglow Farm Exchange</traderName>
+                                <traderKind>FCP_Trader_Dayglow_FarmExchange</traderKind>
                             </li>
                         </traders>
                     </li>
