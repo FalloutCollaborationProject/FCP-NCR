@@ -13,6 +13,13 @@
         <combatPower>120</combatPower>
         <gearHealthRange>2</gearHealthRange>
         <apparelMoney>1</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Ranger_Ricks_Helmet</li>
+            <li>FCP_Apparel_Ranger_Ricks_Duster</li>
+            <li>FCP_Apparel_Ranger_Ricks_Armor</li>
+            <li>FCP_Apparel_Ranger_Ricks_Uniform</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <weaponMoney>10000</weaponMoney>
         <weaponTags>
             <li>FCP_Ranger_Rick</li>
