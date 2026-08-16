@@ -228,10 +228,10 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_SniperRifle</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_308mm</defaultProjectile>
                 <warmupTime>3.5</warmupTime>
                 <range>47.9</range>
-                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCast>FCP_Sound_Shot_308mm_Hunting_Rifle</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>

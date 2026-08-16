@@ -688,12 +688,12 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
-    <!-- Corporal April Mags -->
+    <!-- Sergeant April Mags (commander, The Misfits) -->
 
     <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
         <defName>FCP_Unique_Pawnkind_Corporal_April_Mags</defName>
-        <label>Corporal Mags</label>
-        <combatPower>95</combatPower>
+        <label>Sergeant Mags</label>
+        <combatPower>100</combatPower>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
         </apparelTags>
@@ -1060,30 +1060,6 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
-    <!-- Private Ackerman (The Misfits) -->
-
-    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
-        <defName>FCP_Unique_Pawnkind_Private_Ackerman</defName>
-        <label>Private Ackerman</label>
-        <combatPower>95</combatPower>
-        <apparelTags>
-            <li>FCP_NCR_Trooper</li>
-        </apparelTags>
-        <weaponTags>
-            <li>FCP_NCR_Service_Rifle</li>
-        </weaponTags>
-        <backstoryFiltersOverride>
-            <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_NCR_Private_Ackerman_Child</li>
-                </categoriesChildhood>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_NCR_Private_Ackerman_Adult</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
-    </PawnKindDef>
-
     <!-- Private Reyes -->
 
     <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
@@ -1129,30 +1105,6 @@
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_NCR_Medical_Officer_Richards</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
-    </PawnKindDef>
-
-    <!-- Doctor Kilborn -->
-
-    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
-        <defName>FCP_Unique_Pawnkind_Doctor_Kilborn</defName>
-        <label>Doctor Kilborn</label>
-        <combatPower>80</combatPower>
-        <apparelTags>
-            <li>FCP_NCR_Trooper</li>
-        </apparelTags>
-        <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
-        </weaponTags>
-        <backstoryFiltersOverride>
-            <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_NCR_Doctor_Kilborn_Child</li>
-                </categoriesChildhood>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_NCR_Doctor_Kilborn_Adult</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1230,32 +1182,6 @@
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_NCR_Angela_Williams_Adult</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
-    </PawnKindDef>
-
-    <!--___ Civilians ___-->
-
-    <!-- Dr. Usanagi - New Vegas Medical Clinic -->
-
-    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase" MayRequire="Rick.FCP.Followers">
-        <defName>FCP_Unique_Pawnkind_Doctor_Usanagi</defName>
-        <label>Dr. Usanagi</label>
-        <combatPower>50</combatPower>
-        <apparelRequired>
-            <li>FCP_Apparel_Lab_Coat_Followers</li>
-        </apparelRequired>
-        <apparelMoney>0</apparelMoney>
-        <weaponMoney>0</weaponMoney>
-        <requiredWorkTags/>
-        <backstoryFiltersOverride>
-            <li>
-                <categoriesChildhood>
-                    <li>FCP_Character_Backstory_Usanagi_Child</li>
-                </categoriesChildhood>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_Wastelander_Doctor_Usanagi_Adult</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -1728,6 +1654,141 @@
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_NCR_Comm_Officer_Traci</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!--__________ 2026 Roster Additions __________-->
+
+    <!-- Sergeant McGee -->
+
+    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Sergeant_McGee</defName>
+        <label>Sergeant McGee</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Sergeant_McGee_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Sergeant_McGee_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Ranger Ericsen -->
+
+    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Ranger_Ericsen</defName>
+        <label>Ranger Ericsen</label>
+        <combatPower>115</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Ranger_Veteran</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Veteran_Ranger_Helmet</li>
+            <li>FCP_Apparel_NCR_Ranger_Veteran_Uniform</li>
+            <li>FCP_Apparel_NCR_Ranger_Veteran_Armor</li>
+            <li>FCP_Apparel_NCR_Ranger_Veteran_Duster</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Ranger_Ericsen_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Ranger_Ericsen_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Comm Officer Tilden -->
+
+    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Comm_Officer_Tilden</defName>
+        <label>Comm Officer Tilden</label>
+        <combatPower>80</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_10mm_Pistol</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Comm_Officer_Tilden_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Comm_Officer_Tilden_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Sergeant McCredie (commander, 9th Platoon "The Misfits") -->
+
+    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Sergeant_McCredie</defName>
+        <label>Sergeant McCredie</label>
+        <combatPower>110</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Trooper_Mantle_Armor</li>
+            <li>FCP_Apparel_NCR_Beret_1st_Recon</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Hunting_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Sergeant_McCredie_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Sergeant_McCredie_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Sergeant Kilborn (Mojave Outpost checkpoint sniper) -->
+
+    <PawnKindDef ParentName="FCP_NCR_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Sergeant_Kilborn</defName>
+        <label>Sergeant Kilborn</label>
+        <combatPower>95</combatPower>
+        <apparelTags>
+            <li>FCP_NCR_Trooper</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Beret</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_NCR_Service_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_NCR_Sergeant_Kilborn_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_NCR_Sergeant_Kilborn_Adult</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>

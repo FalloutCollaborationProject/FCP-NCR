@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ NCR Ranks __________-->
+
+    <!--_____ Trunk _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_Private</defName>
+        <label>Private</label>
+        <description>The lowest rank in the New California Republic's military. Privates are fresh recruits, still learning the drills and discipline of a professional army.</description>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_PVT</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_Corporal</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_Corporal</defName>
+        <label>Corporal</label>
+        <description>A trooper who has proven reliable enough to be given charge of a small fire team.</description>
+        <minDaysInRank>3</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_Corporal</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_Sergeant</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_Sergeant</defName>
+        <label>Sergeant</label>
+        <description>A proven soldier standing at the fork in the road every NCR trooper faces: continue up the chain of command, or answer the Rangers' invitation.</description>
+        <minDaysInRank>5</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_SGT</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_StaffSergeant</li>
+            <li>FCP_Rank_NCR_RangerVolunteer</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Army _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_StaffSergeant</defName>
+        <label>Staff Sergeant</label>
+        <description>Having chosen the path of the Army, a Staff Sergeant is trusted to run a squad's day to day discipline and training.</description>
+        <pathName>Path of the Army</pathName>
+        <minDaysInRank>7</minDaysInRank>
+        <skillRequirements>
+            <Shooting>6</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_NCR_Rank_StaffSergeant</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>600</Shooting>
+            <Melee>100</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_Patrol</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_StaffSergeant</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_Lieutenant</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_Lieutenant</defName>
+        <label>Lieutenant</label>
+        <description>The first rank within the NCR's commissioned officer corps, able to call in reinforcements and supplies with greater speed and quality.</description>
+        <minDaysInRank>10</minDaysInRank>
+        <skillRequirements>
+            <Shooting>9</Shooting>
+            <Social>4</Social>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_NCR_Rank_Lieutenant</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Melee>150</Melee>
+            <Social>50</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_Operation</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_LT</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_Captain</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_Captain</defName>
+        <label>Captain</label>
+        <description>A commissioned officer entrusted with independent command of a company-sized force and its supporting assets.</description>
+        <minDaysInRank>12</minDaysInRank>
+        <skillRequirements>
+            <Shooting>11</Shooting>
+            <Social>6</Social>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_NCR_Rank_Captain</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>800</Shooting>
+            <Melee>150</Melee>
+            <Social>75</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_SpecOps</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_Captain</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_Major</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_Major</defName>
+        <label>Major</label>
+        <description>A field-grade officer who coordinates multiple companies and answers directly to a Colonel.</description>
+        <minDaysInRank>15</minDaysInRank>
+        <skillRequirements>
+            <Shooting>13</Shooting>
+            <Social>8</Social>
+        </skillRequirements>
+        <minSquiresTrained>1</minSquiresTrained>
+        <grantHediff>FCP_Hediff_NCR_Rank_Major</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>900</Shooting>
+            <Melee>200</Melee>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_SpecOps</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_Major</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_Colonel</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_Colonel</defName>
+        <label>Colonel</label>
+        <description>The highest rank achievable in the New California Republic without a political ally, commanding at the company level and higher including special forces.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Shooting>15</Shooting>
+            <Social>10</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <grantHediff>FCP_Hediff_NCR_Rank_Colonel</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1000</Shooting>
+            <Melee>200</Melee>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_Vanguard</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_COL</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_General</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_General</defName>
+        <label>General</label>
+        <description>Overall command of the Republic's military forces across an entire theater of operations, the summit of the Army's chain of command.</description>
+        <minDaysInRank>25</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Social>12</Social>
+        </skillRequirements>
+        <minSquiresTrained>3</minSquiresTrained>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_NCR_Rank_General</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1100</Shooting>
+            <Melee>250</Melee>
+            <Social>125</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_Vanguard</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_General</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_NCR_General_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_NCR_General_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Rangers _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_RangerVolunteer</defName>
+        <label>Ranger Volunteer</label>
+        <description>Having answered the Rangers' invitation, a Volunteer trains alongside veterans to earn a place in the all-volunteer force drawn from the NCR's finest soldiers.</description>
+        <pathName>Path of the Rangers</pathName>
+        <minDaysInRank>7</minDaysInRank>
+        <skillRequirements>
+            <Shooting>8</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_NCR_Rank_RangerVolunteer</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Melee>100</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_Patrol</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_Ranger_Volunteer</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_RangerPatrolman</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_RangerPatrolman</defName>
+        <label>Ranger Patrolman</label>
+        <description>A full Ranger trusted to patrol the wasteland alone or in small teams, feared by friend and foe alike.</description>
+        <minDaysInRank>10</minDaysInRank>
+        <skillRequirements>
+            <Shooting>11</Shooting>
+            <Melee>5</Melee>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_NCR_Rank_RangerPatrolman</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>800</Shooting>
+            <Melee>150</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_Operation</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_Ranger_Patrolman</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_RangerVeteran</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_RangerVeteran</defName>
+        <label>Ranger Veteran</label>
+        <description>A distinguished Ranger who has survived enough campaigns to be called the best the Republic has to offer.</description>
+        <minDaysInRank>15</minDaysInRank>
+        <skillRequirements>
+            <Shooting>14</Shooting>
+            <Melee>8</Melee>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_NCR_Rank_RangerVeteran</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>900</Shooting>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_SpecOps</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_Ranger_Veteran</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Ranger</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_NCR_RangerCommander</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_NCR_RangerCommander</defName>
+        <label>Ranger Commander</label>
+        <description>A Ranger officer who leads a squad of Veteran Rangers, answering only to the Ranger command structure itself.</description>
+        <minDaysInRank>25</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Melee>10</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_NCR_Rank_RangerCommander</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1100</Shooting>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_NCR_Vanguard</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_NCR_Ranger_Commander</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_NCR_RangerCommander_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_NCR_RangerCommander_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>

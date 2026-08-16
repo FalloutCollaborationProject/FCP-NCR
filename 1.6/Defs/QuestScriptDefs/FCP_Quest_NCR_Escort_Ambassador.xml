@@ -121,7 +121,7 @@
                                             <storeAs>enemyFaction</storeAs>
                                             <factionDefs>
                                                 <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
-                                                <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Raider</li>
+                                                <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Jackals</li>
                                                 <li>PirateWaster</li>
                                             </factionDefs>
                                         </li>

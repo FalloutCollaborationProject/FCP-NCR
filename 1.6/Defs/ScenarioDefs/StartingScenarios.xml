@@ -17,6 +17,10 @@
             </playerFaction>
             <parts>
 
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
+
                 <!-- Config pages -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
@@ -102,9 +106,10 @@
                 </li> -->
 
                 <!-- Game start dialog -->
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
-                    <text>The enemy relentless. They came in the night, silent with blades and spears. They cut through the outpost, slashing and killing troopers as if they were killing for fun.\n\nOnly you and your squad escaped, having been sent to gather reinfrocements.\n\nAfter wandering the wastes going in what appears to be circles you find your next spot to make camp. Do you rest for the night, or stay and create a new home for yourselves?</text>
+                    <title>Radio Silence</title>
+                    <text>It is the year [FCP_Year]. The enemy was relentless. They came in the night, silent with blades and spears, and cut through the outpost before the troopers on watch could raise the alarm.\n\nYou and your squad were the only ones sent to find reinforcements, which is the only reason you're alive to remember it. Days of wandering the wastes in what felt like circles brought you here.\n\nThere's no outpost left to report back to. Rest for the night, or start building - either way, this is where you make your stand now.</text>
                     <closeSound>FCP_Sound_War_Never_Changes</closeSound>
                 </li>
 
@@ -121,6 +126,10 @@
         <scenario>
             <summary>A handful of settlers start already enlisted with the New California Republic.</summary>
             <parts>
+
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
 
                 <!-- Config pages -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
@@ -150,8 +159,9 @@
                 </li>
 
                 <!-- Game start dialog -->
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
+                    <title>Contract Terms</title>
                     <text>It is the year [FCP_Year]. The retainer clears before you've even broken ground - the New California Republic keeps its word, mostly. In exchange, they expect a friendly settlement out here on the edge of their reach, and someone to radio in if trouble comes down the road.\n\nYou're on the payroll now. Try not to get yourselves killed before the first shipment arrives.</text>
                 </li>
 

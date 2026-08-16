@@ -21,7 +21,8 @@
 	<FCP_NCR_Missions_Desc>Task descriptions</FCP_NCR_Missions_Desc>
 	<FCP_NCR_Menu_Missions_Desc>While leaving the HQ you ask around about any potential tasks that need doing.</FCP_NCR_Menu_Missions_Desc>
 	<FCP_NCR_Menu_Missions_Select_Quest>Select a Task: </FCP_NCR_Menu_Missions_Select_Quest>
-	<FCP_NCR_Menu_Missions_Start_Quest>Start Task ({0})</FCP_NCR_Menu_Missions_Start_Quest>
+	<FCP_NCR_Menu_Missions_Start_Quest>Accept Task</FCP_NCR_Menu_Missions_Start_Quest>
+	<FCP_NCR_Menu_Missions_Collect_Bounty>Collect Reward</FCP_NCR_Menu_Missions_Collect_Bounty>
 	<FCP_Cancel>Cancel</FCP_Cancel>
 	<FCP_NCR_Not_Enough_Money>Not enough money</FCP_NCR_Not_Enough_Money>
 
@@ -33,10 +34,10 @@
 	<!-- Provision Options -->
 
 	<FCP_NCR_Provisions_Label>Provisions</FCP_NCR_Provisions_Label>
-	<FCP_NCR_Provisions_Desc>Provisions will given your caravan inventory the following every 10 days:\n\n- 6 NCR Food Crate \n- ×1 NCR Field Medic Crate</FCP_NCR_Provisions_Desc>
+	<FCP_NCR_Provisions_Desc>Provisions will given your caravan inventory the following every 10 days:\n\n- 6 NCR Food Crate \n- ï¿½1 NCR Field Medic Crate</FCP_NCR_Provisions_Desc>
 
 	<FCP_NCR_Provisions_Label_Standard_Issue>Standard Issue</FCP_NCR_Provisions_Label_Standard_Issue>
-	<FCP_NCR_Provisions_Desc_Standard_Issue>NCR standard Issue gear will arrive via your caravan inventory every 30 days:\n\n- ×2 NCR Army Weapon Crate \n- ×2 NCR Army Uniform Crate</FCP_NCR_Provisions_Desc_Standard_Issue>
+	<FCP_NCR_Provisions_Desc_Standard_Issue>NCR standard Issue gear will arrive via your caravan inventory every 30 days:\n\n- ï¿½2 NCR Army Weapon Crate \n- ï¿½2 NCR Army Uniform Crate</FCP_NCR_Provisions_Desc_Standard_Issue>
 
 	<!-- Storage Options -->
 

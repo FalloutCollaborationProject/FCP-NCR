@@ -19,10 +19,10 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->Lieutenant Monroe has a problem: five troopers so bad with a rifle that command nicknamed them "the Misfits" and shipped them off rather than deal with them. [asker_nameFull] wants you to take them for a stretch and get every one of them shooting like real soldiers.\n\nRequirements: all five must reach Shooting skill 10 within 60 days (two months). If any of them dies, the quest ends immediately in failure.</li>
-                <li>questDescription->[asker_nameFull]: "This batch from the 9th Platoon can't hit a barn from inside it. Monroe's tried everything. Take them, drill them, get their Guns skill to 10. NCR pays for miracles."\n\nRequirements: all five must reach Shooting skill 10 within 60 days (two months). If any of them dies, the quest ends immediately in failure.</li>
-                <li>questDescription->The 9th Platoon's "Misfits" are a running joke up and down the line - five troopers command can't get to shoot straight. [asker_nameFull] is out of patience and options, and is offering good pay to whoever can turn them into soldiers.\n\nRequirements: all five must reach Shooting skill 10 within 60 days (two months). If any of them dies, the quest ends immediately in failure.</li>
-                <li>questDescription->[asker_nameFull] admits this is a strange request: house five NCR troopers, train them until every one can shoot with real skill, and NCR will pay for the privilege. Lieutenant Monroe has simply run out of ideas of his own.\n\nRequirements: all five must reach Shooting skill 10 within 60 days (two months). If any of them dies, the quest ends immediately in failure.</li>
+                <li>questDescription->Lieutenant Monroe has a problem: four troopers so bad with a rifle that command nicknamed them "the Misfits" and shipped them off rather than deal with them. [asker_nameFull] wants you to take them for a stretch and get every one of them shooting like real soldiers.\n\nRequirements: all four must reach Shooting skill 10 within 60 days (two months). If any of them dies, the quest ends immediately in failure.</li>
+                <li>questDescription->[asker_nameFull]: "This batch from the 9th Platoon can't hit a barn from inside it. Monroe's tried everything. Take them, drill them, get their Guns skill to 10. NCR pays for miracles."\n\nRequirements: all four must reach Shooting skill 10 within 60 days (two months). If any of them dies, the quest ends immediately in failure.</li>
+                <li>questDescription->The 9th Platoon's "Misfits" are a running joke up and down the line - four troopers command can't get to shoot straight. [asker_nameFull] is out of patience and options, and is offering good pay to whoever can turn them into soldiers.\n\nRequirements: all four must reach Shooting skill 10 within 60 days (two months). If any of them dies, the quest ends immediately in failure.</li>
+                <li>questDescription->[asker_nameFull] admits this is a strange request: house four NCR troopers, train them until every one can shoot with real skill, and NCR will pay for the privilege. Lieutenant Monroe has simply run out of ideas of his own.\n\nRequirements: all four must reach Shooting skill 10 within 60 days (two months). If any of them dies, the quest ends immediately in failure.</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
@@ -55,7 +55,7 @@
                 </li>
 
                 <!-- First time this quest ever produces the Misfits, use the actual named squad.
-                     Every time after, Corporal Mags's record already exists, so a fresh generic batch is used instead. -->
+                     Every time after, Sergeant Mags's record already exists, so a fresh generic batch is used instead. -->
                 <li Class="FCP.Core.RadiantQuests.QuestNode_CharacterHasSpawned">
                     <characterDef>FCP_Character_NCR_Corporal_April_Mags</characterDef>
                     <elseNode Class="QuestNode_Sequence">
@@ -76,20 +76,16 @@
                                 <characterDef>FCP_Character_NCR_Private_Razz</characterDef>
                                 <addToList>misfits</addToList>
                             </li>
-                            <li Class="FCP.Core.RadiantQuests.QuestNode_GenerateUniqueCharacterPawn">
-                                <characterDef>FCP_Character_NCR_Private_Ackerman</characterDef>
-                                <addToList>misfits</addToList>
-                            </li>
                             <li Class="QuestNode_Set">
                                 <name>misfitsArrivalText</name>
-                                <value>Corporal Mags and Privates Poindexter, O'Hanrahan, Razz, and Ackerman have marched in on foot - and every one of them shoots like it's their first day holding a rifle.\n\nRequirements: get all five to Shooting skill 10 within [trainingDuration_duration]. Put them on hunting duty, draft them for target practice, or throw them into a fight - however they get there, they need to get there together.\n\nIf any of them dies, the deal is off immediately. Lieutenant Monroe is not expecting a miracle. Prove him wrong.</value>
+                                <value>Sergeant Mags and Privates Poindexter, O'Hanrahan, and Razz have marched in on foot - and every one of them shoots like it's their first day holding a rifle.\n\nRequirements: get all four to Shooting skill 10 within [trainingDuration_duration]. Put them on hunting duty, draft them for target practice, or throw them into a fight - however they get there, they need to get there together.\n\nIf any of them dies, the deal is off immediately. Lieutenant Monroe is not expecting a miracle. Prove him wrong.</value>
                             </li>
                         </nodes>
                     </elseNode>
                     <node Class="QuestNode_Sequence">
                         <nodes>
                             <li Class="QuestNode_LoopCount">
-                                <loopCount>5</loopCount>
+                                <loopCount>4</loopCount>
                                 <node Class="QuestNode_GeneratePawn">
                                     <kindDef>FCP_Pawnkind_NCR_Trooper</kindDef>
                                     <faction>$askerFaction</faction>
@@ -101,7 +97,7 @@
                             </li>
                             <li Class="QuestNode_Set">
                                 <name>misfitsArrivalText</name>
-                                <value>Another five troopers have marched in off Monroe's list of problem cases - and every one of them shoots like it's their first day holding a rifle.\n\nRequirements: get all five to Shooting skill 10 within [trainingDuration_duration]. Put them on hunting duty, draft them for target practice, or throw them into a fight - however they get there, they need to get there together.\n\nIf any of them dies, the deal is off immediately. Lieutenant Monroe is not expecting a miracle. Prove him wrong.</value>
+                                <value>Another four troopers have marched in off Monroe's list of problem cases - and every one of them shoots like it's their first day holding a rifle.\n\nRequirements: get all four to Shooting skill 10 within [trainingDuration_duration]. Put them on hunting duty, draft them for target practice, or throw them into a fight - however they get there, they need to get there together.\n\nIf any of them dies, the deal is off immediately. Lieutenant Monroe is not expecting a miracle. Prove him wrong.</value>
                             </li>
                         </nodes>
                     </node>
@@ -149,7 +145,7 @@
                             <li Class="QuestNode_Letter">
                                 <label>Talent Pool: Misfit lost</label>
                                 <letterDef>NegativeEvent</letterDef>
-                                <text>One of the Misfits is dead. The deal was five soldiers back on their feet, not four in a grave - Monroe pulls the rest and the deal is off.</text>
+                                <text>One of the Misfits is dead. The deal was four soldiers back on their feet, not three in a grave - Monroe pulls the rest and the deal is off.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>
@@ -166,7 +162,7 @@
                             <li Class="QuestNode_Letter">
                                 <letterDef>PositiveEvent</letterDef>
                                 <label>Talent Pool: graduated</label>
-                                <text>Every one of the Misfits can shoot straight now. Corporal Mags salutes on her way out - Lieutenant Monroe won't recognize his own platoon. NCR command sends payment, and word of this will travel further than the bounty does.</text>
+                                <text>Every one of the Misfits can shoot straight now. Sergeant Mags salutes on her way out - Lieutenant Monroe won't recognize his own platoon. NCR command sends payment, and word of this will travel further than the bounty does.</text>
                             </li>
                             <li Class="QuestNode_GiveRewards">
                                 <parms>
@@ -191,7 +187,7 @@
                             <li Class="QuestNode_Letter">
                                 <label>Talent Pool: time's up</label>
                                 <letterDef>NegativeEvent</letterDef>
-                                <text>Time's up. Not every Misfit made the mark - Corporal Mags and the others head back to Monroe's platoon much as they arrived. NCR command is disappointed, but not surprised.</text>
+                                <text>Time's up. Not every Misfit made the mark - Sergeant Mags and the others head back to Monroe's platoon much as they arrived. NCR command is disappointed, but not surprised.</text>
                             </li>
                             <li Class="QuestNode_End">
                                 <outcome>Fail</outcome>

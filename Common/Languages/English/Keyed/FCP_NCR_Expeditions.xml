@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Expedition Return Flavor Text __________-->
+
+	<!-- Patrol -->
+
+	<FCP_Rank_Expedition_NCR_Patrol_1>{PAWN} walked the border line, logged a quiet patrol, and turned back a couple of Legion scouts before they got too close.</FCP_Rank_Expedition_NCR_Patrol_1>
+	<FCP_Rank_Expedition_NCR_Patrol_2>{PAWN} swept an old ranch for squatters, found none, and marked the water source as safe for the next caravan through.</FCP_Rank_Expedition_NCR_Patrol_2>
+	<FCP_Rank_Expedition_NCR_Patrol_3>{PAWN} escorted a supply run without incident, dust in every crease of the uniform by the time camp came back into view.</FCP_Rank_Expedition_NCR_Patrol_3>
+	<FCP_Rank_Expedition_NCR_Patrol_4>{PAWN} chased off a small band of raiders testing the perimeter and radioed in their last known heading.</FCP_Rank_Expedition_NCR_Patrol_4>
+
+	<!-- Field Operation -->
+
+	<FCP_Rank_Expedition_NCR_Operation_1>{PAWN} cleared a raider camp squatting on a supply route and left a squad to hold the ground.</FCP_Rank_Expedition_NCR_Operation_1>
+	<FCP_Rank_Expedition_NCR_Operation_2>{PAWN} tracked down a missing patrol, found the wreckage, and brought back what could be salvaged along with a full report.</FCP_Rank_Expedition_NCR_Operation_2>
+	<FCP_Rank_Expedition_NCR_Operation_3>{PAWN} spent the operation mapping a stretch of contested highway, marking safe routes for the quartermaster's convoys.</FCP_Rank_Expedition_NCR_Operation_3>
+	<FCP_Rank_Expedition_NCR_Operation_4>{PAWN} came back with a busted rifle sling and a Legion banner as proof the outpost held.</FCP_Rank_Expedition_NCR_Operation_4>
+
+	<!-- Special Operation -->
+
+	<FCP_Rank_Expedition_NCR_SpecOps_1>{PAWN} slipped past enemy lines alone where a squad would have drawn too much attention, and got the job done without a shot fired.</FCP_Rank_Expedition_NCR_SpecOps_1>
+	<FCP_Rank_Expedition_NCR_SpecOps_2>{PAWN} ran the operation exactly to plan: in, secure the objective, out before anything organized a response.</FCP_Rank_Expedition_NCR_SpecOps_2>
+	<FCP_Rank_Expedition_NCR_SpecOps_3>{PAWN} spent the better part of two weeks behind contested lines and came back with intel Camp McCarran will want to hear.</FCP_Rank_Expedition_NCR_SpecOps_3>
+	<FCP_Rank_Expedition_NCR_SpecOps_4>{PAWN} didn't say much about what happened out there, just filed the report and asked for a debrief later.</FCP_Rank_Expedition_NCR_SpecOps_4>
+
+	<!-- Vanguard Operation -->
+
+	<FCP_Rank_Expedition_NCR_Vanguard_1>{PAWN} pushed past the edge of any map the Republic has, charting ground for the survey teams to follow.</FCP_Rank_Expedition_NCR_Vanguard_1>
+	<FCP_Rank_Expedition_NCR_Vanguard_2>{PAWN} came back from beyond the frontier with a full report and coordinates worth sending an outpost to hold.</FCP_Rank_Expedition_NCR_Vanguard_2>
+	<FCP_Rank_Expedition_NCR_Vanguard_3>{PAWN} spent nearly two weeks out of contact and returned with word of something out there the President will want briefed.</FCP_Rank_Expedition_NCR_Vanguard_3>
+	<FCP_Rank_Expedition_NCR_Vanguard_4>{PAWN} walked back into camp looking like the wasteland itself, carrying proof of what was found past the edge of the map.</FCP_Rank_Expedition_NCR_Vanguard_4>
+
+</LanguageData>

@@ -24,6 +24,24 @@
         <permitPointsAwarded>1</permitPointsAwarded>
     </RoyalTitleDef>
 
+    <!-- NCR Corporal -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_NCR_Corporal</defName>
+        <label>NCR Army Corporal</label>
+        <description>A trooper who has proven reliable enough to be given charge of a small fire team. The first rung on the ladder toward the NCR's non commissioned officer corps.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>50</seniority>
+        <favorCost>3</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
     <!-- NCR Sergeant -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
@@ -35,6 +53,24 @@
         </tags>
         <seniority>100</seniority>
         <favorCost>6</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- NCR Staff Sergeant -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_NCR_StaffSergeant</defName>
+        <label>NCR Army Staff Sergeant</label>
+        <description>A senior non commissioned officer trusted to run a squad's day to day discipline and training in an officer's stead.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>200</seniority>
+        <favorCost>8</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>1</commonality>
         <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
@@ -98,6 +134,93 @@
             </li>
         </requiredApparel>
         <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- NCR Captain -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_NCR_Captain</defName>
+        <label>NCR Army Captain</label>
+        <description>A commissioned officer entrusted with independent command of a company-sized force and its supporting assets.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>400</seniority>
+        <favorCost>11</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Trooper_Officer</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- NCR Major -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_NCR_Major</defName>
+        <label>NCR Army Major</label>
+        <description>A field-grade officer who coordinates multiple companies and answers directly to a Colonel.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>500</seniority>
+        <favorCost>11</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Trooper_Officer</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- NCR General -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_NCR_General</defName>
+        <label>NCR Army General</label>
+        <description>Overall command of the Republic's military forces across an entire theater of operations.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>16</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Trooper_Officer</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>5</permitPointsAwarded>
     </RoyalTitleDef>
 
     <!--___ NCR Ranger Titles ___-->
@@ -194,6 +317,43 @@
             </li>
         </requiredApparel>
         <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- NCR Ranger Commander -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_NCR_Ranger_Commander</defName>
+        <label>NCR Ranger Commander</label>
+        <description>A Ranger officer who leads a squad of Veteran Rangers, answering only to the Ranger command structure itself.</description>
+        <tags>
+            <li>FCP_Title_NCR</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>16</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Ranger_Veteran</li>
+                </requiredTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_NCR_Ranger_Veteran</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>5</permitPointsAwarded>
     </RoyalTitleDef>
 
 </Defs>

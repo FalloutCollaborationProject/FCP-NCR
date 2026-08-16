@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Rank Expeditions __________-->
+
+    <!-- Loot -->
+
+    <ThingSetMakerDef>
+        <defName>FCP_NCRExpeditionLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Currency_NCR_Dollar</li>
+                        <li>Steel</li>
+                        <li>ComponentIndustrial</li>
+                        <li>MedicineIndustrial</li>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+    <!-- Patrol -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_NCR_Patrol</defName>
+        <label>border patrol</label>
+        <description>A short patrol along the Republic's border to scout for raiders and Legion scouts.</description>
+        <durationDays>3~5</durationDays>
+        <xpReward>
+            <Shooting>200</Shooting>
+        </xpReward>
+        <lootMaker>FCP_NCRExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>50~150</lootMarketValueRange>
+        <siteRevealChance>0.15</siteRevealChance>
+        <failureChance>0.12</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_NCR_Patrol_1</li>
+            <li>FCP_Rank_Expedition_NCR_Patrol_2</li>
+            <li>FCP_Rank_Expedition_NCR_Patrol_3</li>
+            <li>FCP_Rank_Expedition_NCR_Patrol_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Field Operation -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_NCR_Operation</defName>
+        <label>field operation</label>
+        <description>A tasked operation into contested ground, securing supply lines or rooting out a raider camp.</description>
+        <durationDays>6~8</durationDays>
+        <xpReward>
+            <Shooting>400</Shooting>
+            <Social>100</Social>
+        </xpReward>
+        <lootMaker>FCP_NCRExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>150~350</lootMarketValueRange>
+        <siteRevealChance>0.25</siteRevealChance>
+        <failureChance>0.1</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_NCR_Operation_1</li>
+            <li>FCP_Rank_Expedition_NCR_Operation_2</li>
+            <li>FCP_Rank_Expedition_NCR_Operation_3</li>
+            <li>FCP_Rank_Expedition_NCR_Operation_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Special Operation -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_NCR_SpecOps</defName>
+        <label>special operation</label>
+        <description>A dangerous operation deep in contested territory, the kind only a proven officer or Ranger is trusted to run.</description>
+        <durationDays>8~10</durationDays>
+        <xpReward>
+            <Shooting>600</Shooting>
+            <Melee>150</Melee>
+        </xpReward>
+        <lootMaker>FCP_NCRExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>300~600</lootMarketValueRange>
+        <siteRevealChance>0.35</siteRevealChance>
+        <failureChance>0.08</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_NCR_SpecOps_1</li>
+            <li>FCP_Rank_Expedition_NCR_SpecOps_2</li>
+            <li>FCP_Rank_Expedition_NCR_SpecOps_3</li>
+            <li>FCP_Rank_Expedition_NCR_SpecOps_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Vanguard Operation -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_NCR_Vanguard</defName>
+        <label>vanguard operation</label>
+        <description>A long-range operation at the edge of the Republic's reach, the kind of mission that decides whether new ground is worth claiming.</description>
+        <durationDays>10~14</durationDays>
+        <xpReward>
+            <Shooting>800</Shooting>
+            <Social>200</Social>
+        </xpReward>
+        <lootMaker>FCP_NCRExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>500~900</lootMarketValueRange>
+        <siteRevealChance>0.5</siteRevealChance>
+        <failureChance>0.05</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_NCR_Vanguard_1</li>
+            <li>FCP_Rank_Expedition_NCR_Vanguard_2</li>
+            <li>FCP_Rank_Expedition_NCR_Vanguard_3</li>
+            <li>FCP_Rank_Expedition_NCR_Vanguard_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+</Defs>

@@ -1640,27 +1640,6 @@
         </skillGains>
     </BackstoryDef>
 
-    <!--___ Civilians - Childhood ___-->
-
-    <!-- Dr. Usanagi -->
-
-    <BackstoryDef MayRequire="Rick.FCP.Followers">
-        <defName>FCP_Backstory_Wastelander_Doctor_Usanagi_Child</defName>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <title>medical prodigy</title>
-        <titleShort>prodigy</titleShort>
-        <baseDesc>[PAWN_nameDef] showed exceptional aptitude for medicine from a young age, learning from doctors in the Followers of the Apocalypse.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Character_Backstory_Usanagi_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Medicine>6</Medicine>
-            <Intellectual>3</Intellectual>
-        </skillGains>
-    </BackstoryDef>
-
     <!-- Private James Sexton -->
 
     <BackstoryDef>
@@ -1787,21 +1766,6 @@
         <skillGains>
             <Social>2</Social>
         </skillGains>
-    </BackstoryDef>
-
-    <!-- Private Ackerman (The Misfits) -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Ackerman_Child</defName>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <title>fearful youth</title>
-        <titleShort>scared kid</titleShort>
-        <baseDesc>[PAWN_nameDef] was always the timid one, afraid of conflict and danger. [PAWN_pronoun] was pressured into military service despite [PAWN_possessive] cowardly nature.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Private_Ackerman_Child</li>
-        </spawnCategories>
     </BackstoryDef>
 
     <!-- Private Reyes -->
@@ -2113,24 +2077,6 @@
         </skillGains>
     </BackstoryDef>
 
-    <!-- Private Ackerman (The Misfits) -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Private_Ackerman_Adult</defName>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <title>cowardly misfit</title>
-        <titleShort>misfit</titleShort>
-        <baseDesc>[PAWN_nameDef] ended up in the Misfits after repeatedly showing cowardice in combat situations. [PAWN_pronoun] was terrified of any real fighting and tried to avoid danger.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Private_Ackerman_Adult</li>
-        </spawnCategories>
-        <skillGains>
-            <Melee>2</Melee>
-        </skillGains>
-    </BackstoryDef>
-
     <!-- Private Reyes -->
 
     <BackstoryDef>
@@ -2165,25 +2111,6 @@
         <slot>Childhood</slot>
         <spawnCategories>
             <li>FCP_Character_Backstory_Medical_Richards_Child</li>
-        </spawnCategories>
-        <skillGains>
-            <Medicine>3</Medicine>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-    </BackstoryDef>
-
-    <!-- Doctor Kilborn -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Doctor_Kilborn_Child</defName>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <title>clinic assistant</title>
-        <titleShort>assistant</titleShort>
-        <baseDesc>[PAWN_nameDef] grew up helping in a frontier clinic, learning medical techniques through hands-on experience. [PAWN_pronoun] witnessed countless preventable deaths that shaped [PAWN_possessive] dedication to medicine.</baseDesc>
-        <slot>Childhood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Doctor_Kilborn_Child</li>
         </spawnCategories>
         <skillGains>
             <Medicine>3</Medicine>
@@ -2231,30 +2158,6 @@
             <Medicine>9</Medicine>
             <Intellectual>6</Intellectual>
             <Social>3</Social>
-        </skillGains>
-        <workDisables>
-            <li>ManualDumb</li>
-            <li>Violent</li>
-        </workDisables>
-    </BackstoryDef>
-
-    <!-- Doctor Kilborn -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_NCR_Doctor_Kilborn_Adult</defName>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <title>Forlorn Hope doctor</title>
-        <titleShort>field doctor</titleShort>
-        <baseDesc>[PAWN_nameDef] served as the senior medical officer at Camp Forlorn Hope, working alongside Medical Officer Richards. Together they treated countless wounded soldiers with minimal resources, their skills constantly tested by the brutal frontier conditions.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_NCR_Doctor_Kilborn_Adult</li>
-        </spawnCategories>
-        <skillGains>
-            <Medicine>8</Medicine>
-            <Intellectual>6</Intellectual>
-            <Social>4</Social>
         </skillGains>
         <workDisables>
             <li>ManualDumb</li>
@@ -2584,32 +2487,6 @@
         </workDisables>
     </BackstoryDef>
 
-    <!--___ Civilians - Adulthood ___-->
-
-    <!-- Dr. Usanagi -->
-
-    <BackstoryDef MayRequire="Rick.FCP.Followers">
-        <defName>FCP_Backstory_Wastelander_Doctor_Usanagi_Adult</defName>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <title>New Vegas doctor</title>
-        <titleShort>doctor</titleShort>
-        <baseDesc>[PAWN_nameDef] runs the New Vegas Medical Clinic, one of the most advanced medical facilities in the Mojave. [PAWN_pronoun] offers high-quality medical services including cybernetic implants to those who can afford them.</baseDesc>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>FCP_Backstory_Wastelander_Doctor_Usanagi_Adult</li>
-        </spawnCategories>
-        <skillGains>
-            <Medicine>12</Medicine>
-            <Intellectual>8</Intellectual>
-            <Crafting>4</Crafting>
-        </skillGains>
-        <workDisables>
-            <li>ManualDumb</li>
-            <li>Violent</li>
-        </workDisables>
-    </BackstoryDef>
-
     <!-- Comm Officer Stone -->
 
     <BackstoryDef>
@@ -2700,6 +2577,193 @@
         <workDisables>
             <li>ManualDumb</li>
         </workDisables>
+    </BackstoryDef>
+
+    <!--__________ 2026 Roster Additions __________-->
+
+    <!-- Sergeant McGee -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_McGee_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Hub trade yard kid</title>
+        <titleShort>Hub kid</titleShort>
+        <baseDesc>[PAWN_nameDef] was born and raised in the Hub's trade yards, signing on with the NCR Army the day [PAWN_pronoun] was old enough to enlist.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_McGee_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Social>1</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_McGee_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>5th Battalion NCO</title>
+        <titleShort>battalion sergeant</titleShort>
+        <baseDesc>[PAWN_nameDef] is on a second tour with the 5th Battalion's 1st Company, serving under Lieutenant Hayes out of Primm before command reassigned [PAWN_objective] to shore up the line at Camp Forlorn Hope. [PAWN_pronoun] follows orders without asking why - it's kept [PAWN_objective] alive this long.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_McGee_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+            <Social>1</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Ranger Ericsen -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Ericsen_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>caravan tracker</title>
+        <titleShort>tracker</titleShort>
+        <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] youth guiding caravans along the Colorado, learning to read a Legion patrol's dust trail from a mile off.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Ericsen_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Ranger_Ericsen_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Ranger Station Bravo CO</title>
+        <titleShort>station commander</titleShort>
+        <baseDesc>[PAWN_nameDef] commands Ranger Station Bravo, the last eyes on the Narrows before the river bends toward Cottonwood Cove. Every Legion raft that slips past the patrols is [PAWN_possessive] failure to answer for.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Ranger_Ericsen_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Comm Officer Tilden -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Tilden_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>ham radio kid</title>
+        <titleShort>radio kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up patching together salvaged radio sets in a Shady Sands garage, chasing signals that weren't there yet.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Tilden_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Comm_Officer_Tilden_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Station Bravo signaler</title>
+        <titleShort>signaler</titleShort>
+        <baseDesc>[PAWN_nameDef] mans the radio at Ranger Station Bravo, relaying Ericsen's sightings back down the line before the Legion can act on what they've seen.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Comm_Officer_Tilden_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>2</Social>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <!-- Sergeant McCredie -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_McCredie_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Shady Sands recruit</title>
+        <titleShort>recruit</titleShort>
+        <baseDesc>[PAWN_nameDef] enlisted straight out of Shady Sands, unremarkable on paper but steady under pressure - the kind of trait nobody notices until it matters.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_McCredie_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>1</Social>
+            <Melee>1</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_McCredie_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>9th Platoon commander</title>
+        <titleShort>platoon CO</titleShort>
+        <baseDesc>[PAWN_nameDef] took command of the 9th Platoon at Camp Golf after its reputation as "the Misfits" had already stuck. [PAWN_pronoun] never bothered fixing the name, just the platoon.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_McCredie_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>4</Social>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!-- Sergeant Kilborn -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_Kilborn_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Outpost kid</title>
+        <titleShort>outpost kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up in the shadow of the Mojave Outpost's walls, watching the checkpoint watch the highway long before [PAWN_pronoun] ever stood post there [PAWN_objective]self.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_Kilborn_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_NCR_Sergeant_Kilborn_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Outpost head of the watch</title>
+        <titleShort>head of the watch</titleShort>
+        <baseDesc>[PAWN_nameDef] runs the watch at the Mojave Outpost checkpoint, logging every cart and courier off the road from Nipton. [PAWN_pronoun] has seen enough war and politics to be cynical about both, and the boredom of the gate does nothing to help.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_NCR_Sergeant_Kilborn_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>9</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
     </BackstoryDef>
 
 </Defs>

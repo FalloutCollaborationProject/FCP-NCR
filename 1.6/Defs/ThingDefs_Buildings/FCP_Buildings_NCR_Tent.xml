@@ -6,16 +6,16 @@
     <ThingDef ParentName="BuildingBase">
         <defName>FCP_Building_NCR_Tent</defName>
         <label>NCR Tent</label>
-        <description>A simple canvas tent pitched over a bedroll. Quick to pitch and just as quick to strike and carry to the next camp. Its canvas roof keeps the sleeper dry and off the open sky.</description>
+        <description>Standard issue military tent, can house your troops or civillians.</description>
         <thingClass>Building_Bed</thingClass>
         <category>Building</category>
         <graphicData>
             <texPath>Buildings/Tents/FCP_NCR_Tent</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-            <drawSize>(5,5)</drawSize>
+            <drawSize>(6,6)</drawSize>
         </graphicData>
-        <size>(5,5)</size>
+        <size>(6,6)</size>
         <researchPrerequisites>
             <li>FCP_Research_NCR_Civilian_Outfitters</li>
         </researchPrerequisites>

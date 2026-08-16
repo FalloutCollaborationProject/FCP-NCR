@@ -218,6 +218,7 @@
                     <li>FCP_Character_NCR_Sergeant_Astor</li>
                     <li>FCP_Character_NCR_Private_Stone</li>
                     <li>FCP_Character_NCR_Private_Edwards</li>
+                    <li>FCP_Character_NCR_Sergeant_McGee</li>
                 </characterDefs>
                 <characterChance>0.40</characterChance>
             </li>
@@ -241,6 +242,7 @@
                     <li>FCP_Character_NCR_Private_James_Sexton</li>
                     <li>FCP_Character_NCR_Private_Reyes</li>
                     <li>FCP_Character_NCR_Private_Christina_Morales</li>
+                    <li>FCP_Character_NCR_Sergeant_Kilborn</li>
                 </characterDefs>
                 <characterChance>0.45</characterChance>
             </li>
@@ -306,11 +308,11 @@
                     <FCP_Pawnkind_NCR_Officer>1</FCP_Pawnkind_NCR_Officer>
                 </options>
                 <characterDefs>
+                    <li>FCP_Character_NCR_Sergeant_McCredie</li>
                     <li>FCP_Character_NCR_Corporal_April_Mags</li>
                     <li>FCP_Character_NCR_Private_Poindexter</li>
                     <li>FCP_Character_NCR_Private_OHanrahan</li>
                     <li>FCP_Character_NCR_Private_Razz</li>
-                    <li>FCP_Character_NCR_Private_Ackerman</li>
                 </characterDefs>
                 <characterChance>1.0</characterChance>
             </li>
@@ -390,6 +392,8 @@
                 <characterDefs>
                     <li>FCP_Character_NCR_Chief_Hanlon</li>
                     <li>FCP_Character_NCR_Patrol_Ranger_Anders</li>
+                    <li>FCP_Character_NCR_Ranger_Ericsen</li>
+                    <li>FCP_Character_NCR_Comm_Officer_Tilden</li>
                 </characterDefs>
                 <characterChance>0.35</characterChance>
             </li>
@@ -495,7 +499,6 @@
                 </options>
                 <characterDefs>
                     <li>FCP_Character_NCR_Medical_Officer_Richards</li>
-                    <li>FCP_Character_NCR_Doctor_Kilborn</li>
                 </characterDefs>
                 <characterChance>0.40</characterChance>
             </li>
@@ -619,7 +622,7 @@
                     <FCP_Pawnkind_NCR_Trooper>2</FCP_Pawnkind_NCR_Trooper>
                 </options>
                 <characterDefs>
-                    <li>FCP_Character_NCR_Doctor_Usanagi</li>
+                    <li>FCP_Character_Followers_Doctor_Usanagi</li>
                 </characterDefs>
                 <characterChance>0.25</characterChance>
             </li>
@@ -786,7 +789,6 @@
                     <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
                     <li MayRequire="altushka.boscompendium">DRK_BoS</li>
                     <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS</li>
-                    <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS_Outcast_Remnants</li>
                     <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS_Lost_Hills</li>
                     <li MayRequire="altushka.boscompendium">DRK_Enclave</li>
                     <li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
@@ -834,6 +836,12 @@
                     <li>FCP_Enlistment_NCR</li>
                 </enlistOptionsDefs>
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+            </li>
+            <!-- Rank track -->
+            <li Class="FCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>FCP_RankTrack_NCR</li>
+                </rankTracks>
             </li>
             <!-- Shuttles -->
             <li Class="FCP.Core.Shuttles.FactionModExtension">

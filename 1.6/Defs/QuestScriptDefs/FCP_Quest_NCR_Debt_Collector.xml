@@ -123,7 +123,7 @@
                                         <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                                             <storeAs>enemyFaction</storeAs>
                                             <factionDefs>
-                                                <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Raider</li>
+                                                <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Jackals</li>
                                                 <li>PirateWaster</li>
                                             </factionDefs>
                                         </li>

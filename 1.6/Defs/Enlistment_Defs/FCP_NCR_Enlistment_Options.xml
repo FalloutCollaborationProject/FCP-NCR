@@ -10,6 +10,7 @@
         <currencyDef>FCP_Currency_NCR_Dollar</currencyDef>
         <minGoodwillRequrementToEnlist>10</minGoodwillRequrementToEnlist>
         <enlistGoodwillGain>5</enlistGoodwillGain>
+        <minGoodwillUponEnlist>75</minGoodwillUponEnlist>
 
         <!-- Enlistment Options -->
 
@@ -34,8 +35,8 @@
         <missionsMenuDescriptionKey>FCP_NCR_Menu_Missions_Desc</missionsMenuDescriptionKey>
         <missionsMenuSelectQuestKey>FCP_NCR_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
         <missionsMenuStartQuestKey>FCP_NCR_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
-        <missionsQuestCost>50</missionsQuestCost>
-        <missionsMenuStartQuestNoEnoughMoneyKey>FCP_NCR_Not_Enough_Money</missionsMenuStartQuestNoEnoughMoneyKey>
+        <missionsBountyRewardRange>30~80</missionsBountyRewardRange>
+        <missionsMenuCollectBountyKey>FCP_NCR_Menu_Missions_Collect_Bounty</missionsMenuCollectBountyKey>
 
         <!-- Salary Options -->
 

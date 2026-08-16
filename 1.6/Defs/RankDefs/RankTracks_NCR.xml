@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FCP.Ranks.RankTrackDef>
+        <defName>FCP_RankTrack_NCR</defName>
+        <label>NCR Ranks</label>
+        <iconPath>World_Icon/NCR_Icon/FCP_NCR_World_Icon</iconPath>
+        <rootTier>FCP_Rank_NCR_Private</rootTier>
+        <owningFaction>FCP_Faction_NCR</owningFaction>
+        <collectiveNoun>the Republic</collectiveNoun>
+        <drillLabel>Drill with...</drillLabel>
+        <drillDesc>Drill with any colonist. Both stop, stand apart, and draw their weapons for the session. Both gain skill XP. Once per day.</drillDesc>
+        <inspectLabel>Kit Inspection...</inspectLabel>
+        <inspectDesc>Inspect a lower-ranked soldier's weapon and armor condition. A clean kit earns a commendation, a dirty one earns a reprimand.</inspectDesc>
+        <punishLabel>Assign Latrine Duty...</punishLabel>
+        <punishDesc>Assign a lower-ranked soldier a stretch of latrine duty for a discipline lapse, souring their mood. Once per day per soldier.</punishDesc>
+        <rallyLabel>Rally the Troops</rallyLabel>
+        <rallyDesc>Rally every combat-ranked member of {0} on this map with a burst of speed and combat effectiveness. Once every few days.</rallyDesc>
+        <fallInLabel>Fall In</fallInLabel>
+        <fallInDesc>Order {0} to fall in behind you in ranks, up to four deep, interrupting whatever they're doing. They'll hold formation until dismissed.</fallInDesc>
+        <dismissLabel>Dismiss</dismissLabel>
+        <dismissDesc>Dismiss {0} from formation, letting them return to duty.</dismissDesc>
+    </FCP.Ranks.RankTrackDef>
+
+</Defs>

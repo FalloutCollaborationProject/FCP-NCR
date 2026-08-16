@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Rank Perks __________-->
+
+    <HediffDef Name="FCP_Hediff_NCR_RankBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+    </HediffDef>
+
+    <!--_____ Path of the Army _____-->
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_StaffSergeant</defName>
+        <label>Staff Sergeant training</label>
+        <description>Squad discipline and drilling have sharpened this pawn's aim.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_Lieutenant</defName>
+        <label>Lieutenant training</label>
+        <description>Commissioned officer training in tactics and small-unit leadership.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+                    <SocialImpact>0.03</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_Captain</defName>
+        <label>Captain training</label>
+        <description>Independent command of a company-sized force.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <SocialImpact>0.05</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_Major</defName>
+        <label>Major training</label>
+        <description>Coordination of multiple companies under field-grade command.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+                    <SocialImpact>0.08</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_Colonel</defName>
+        <label>Colonel training</label>
+        <description>Command experience over company-level forces and special forces attachments.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>7</ShootingAccuracyPawn>
+                    <SocialImpact>0.1</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_General</defName>
+        <label>General training</label>
+        <description>Overall command of the Republic's military forces across an entire theater.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
+                    <SocialImpact>0.12</SocialImpact>
+                    <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Path of the Rangers _____-->
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_RangerVolunteer</defName>
+        <label>Ranger Volunteer training</label>
+        <description>Early marksmanship and close-quarters drilling under veteran Rangers.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+                    <MeleeHitChance>2</MeleeHitChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_RangerPatrolman</defName>
+        <label>Ranger Patrolman training</label>
+        <description>Full marksman training earned patrolling the wasteland alone or in small teams.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+                    <MeleeHitChance>4</MeleeHitChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_RangerVeteran</defName>
+        <label>Ranger Veteran training</label>
+        <description>The marksmanship and survival instincts of a Ranger who has survived enough campaigns to be feared by friend and foe alike.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
+                    <MeleeHitChance>6</MeleeHitChance>
+                    <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_NCR_RankBase">
+        <defName>FCP_Hediff_NCR_Rank_RangerCommander</defName>
+        <label>Ranger Commander training</label>
+        <description>Command of a squad of Veteran Rangers, answering only to the Ranger command structure itself.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+                    <MeleeHitChance>8</MeleeHitChance>
+                    <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Command Auras and Rallies _____-->
+
+    <!-- General Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_NCR_General_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>the General's presence</label>
+        <description>The General commands the field. Nearby Army troops fight with steadier hands.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- General Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_NCR_General_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>rallied</label>
+        <description>The General has called the Army to arms. A surge of speed and morale answers the call.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Ranger Commander Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_NCR_RangerCommander_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>the Commander's presence</label>
+        <description>The Ranger Commander leads from the field. Nearby Rangers move and shoot with steadier nerve.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Ranger Commander Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_NCR_RangerCommander_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>rallied</label>
+        <description>The Ranger Commander has called the Rangers to arms. A surge of speed and morale answers the call.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

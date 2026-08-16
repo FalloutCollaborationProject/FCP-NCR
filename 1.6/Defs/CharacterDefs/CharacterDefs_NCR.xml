@@ -75,6 +75,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_General</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Lee</firstName>
                 <lastName>Oliver</lastName>
@@ -101,6 +105,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Colonel</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>James</firstName>
                 <lastName>Hsu</lastName>
@@ -127,6 +135,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Colonel</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Cassandra</firstName>
                 <lastName>Moore</lastName>
@@ -155,6 +167,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Major</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Guy</firstName>
                 <lastName>Dhatri</lastName>
@@ -181,6 +197,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Major</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Thomas</firstName>
                 <lastName>Knight</lastName>
@@ -207,6 +227,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Major</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Elizabeth</firstName>
                 <lastName>Kieran</lastName>
@@ -233,6 +257,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Major</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Joseph</firstName>
                 <lastName>Polatli</lastName>
@@ -261,6 +289,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Captain</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Kyle</firstName>
                 <lastName>Parker</lastName>
@@ -287,6 +319,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Captain</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>April</firstName>
                 <lastName>Gilles</lastName>
@@ -313,6 +349,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Captain</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Ronald</firstName>
                 <lastName>Curtis</lastName>
@@ -339,6 +379,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Captain</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Rodriguez</firstName>
                 <nickname>Capt. Rodriguez</nickname>
@@ -366,6 +410,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Lieutenant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Liam</firstName>
                 <lastName>Gorobets</lastName>
@@ -392,6 +440,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Lieutenant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Jesse</firstName>
                 <lastName>Hayes</lastName>
@@ -418,6 +470,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Lieutenant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Carrie</firstName>
                 <lastName>Boyd</lastName>
@@ -444,6 +500,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Lieutenant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Monroe</firstName>
                 <lastName></lastName>
@@ -470,6 +530,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Lieutenant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Markland</firstName>
                 <nickname>Lt. Markland</nickname>
@@ -497,6 +561,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Sergeant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Jesse</firstName>
                 <lastName>Bitter-Root</lastName>
@@ -523,6 +591,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Sergeant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Astor</firstName>
                 <lastName></lastName>
@@ -549,6 +621,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Sergeant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Contreras</firstName>
                 <lastName></lastName>
@@ -577,8 +653,12 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Corporal</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Cindy</firstName>
+                <firstName></firstName>
                 <lastName>Betsy</lastName>
                 <nickname>Cpl. Betsy</nickname>
                 <gender>Female</gender>
@@ -603,6 +683,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Corporal</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Emerson</firstName>
                 <lastName>Sterling</lastName>
@@ -621,7 +705,7 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Corporal April Mags -->
+    <!-- Sergeant April Mags (commander, The Misfits) -->
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_NCR_Corporal_April_Mags</defName>
@@ -629,10 +713,14 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Sergeant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>April</firstName>
                 <lastName>Mags</lastName>
-                <nickname>Cpl. Mags</nickname>
+                <nickname>Sgt. Mags</nickname>
                 <gender>Female</gender>
                 <age>25</age>
             </li>
@@ -655,6 +743,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Corporal</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Walter</firstName>
                 <lastName>Hornsby</lastName>
@@ -683,6 +775,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Davey</firstName>
                 <lastName>Crenshaw</lastName>
@@ -709,6 +805,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Hoover</firstName>
                 <lastName></lastName>
@@ -735,6 +835,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Dustin</firstName>
                 <lastName></lastName>
@@ -761,6 +865,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Richie</firstName>
                 <lastName></lastName>
@@ -787,6 +895,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>James</firstName>
                 <lastName>Sexton</lastName>
@@ -813,6 +925,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Gilbert</firstName>
                 <lastName></lastName>
@@ -839,6 +955,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Christina</firstName>
                 <lastName>Morales</lastName>
@@ -865,6 +985,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>10 of Spades</firstName>
                 <lastName></lastName>
@@ -891,6 +1015,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Stone</firstName>
                 <lastName></lastName>
@@ -917,6 +1045,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Edwards</firstName>
                 <lastName></lastName>
@@ -943,6 +1075,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Poindexter</firstName>
                 <lastName></lastName>
@@ -969,6 +1105,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>O'Hanrahan</firstName>
                 <lastName></lastName>
@@ -995,6 +1135,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Razz</firstName>
                 <lastName></lastName>
@@ -1013,32 +1157,6 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Private Ackerman (The Misfits) -->
-
-    <FCP.Core.CharacterDef>
-        <defName>FCP_Character_NCR_Private_Ackerman</defName>
-        <pawnKind>FCP_Unique_Pawnkind_Private_Ackerman</pawnKind>
-        <faction>FCP_Faction_NCR</faction>
-        <xenotype>Baseliner</xenotype>
-        <definitions>
-            <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Ackerman</firstName>
-                <lastName></lastName>
-                <nickname>Pvt. Ackerman</nickname>
-                <gender>Male</gender>
-                <age>19</age>
-            </li>
-            <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(55, 45, 35)</hairColor>
-                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
-                <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(215, 190, 170)</skinColorOverride>
-                <headTypeDef>Male_AverageNormal</headTypeDef>
-                <bodyTypeDef>Male</bodyTypeDef>
-            </li>
-        </definitions>
-    </FCP.Core.CharacterDef>
-
     <!-- Private Reyes -->
 
     <FCP.Core.CharacterDef>
@@ -1047,6 +1165,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Reyes</firstName>
                 <lastName></lastName>
@@ -1075,6 +1197,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Corporal</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Alex</firstName>
                 <lastName>Richards</lastName>
@@ -1093,32 +1219,6 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Doctor Kilborn -->
-
-    <FCP.Core.CharacterDef>
-        <defName>FCP_Character_NCR_Doctor_Kilborn</defName>
-        <pawnKind>FCP_Unique_Pawnkind_Doctor_Kilborn</pawnKind>
-        <faction>FCP_Faction_NCR</faction>
-        <xenotype>Baseliner</xenotype>
-        <definitions>
-            <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Kilborn</firstName>
-                <lastName></lastName>
-                <nickname>Dr. Kilborn</nickname>
-                <gender>Male</gender>
-                <age>44</age>
-            </li>
-            <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(80, 70, 60)</hairColor>
-                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
-                <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(210, 185, 165)</skinColorOverride>
-                <headTypeDef>Male_AverageNormal</headTypeDef>
-                <bodyTypeDef>Male</bodyTypeDef>
-            </li>
-        </definitions>
-    </FCP.Core.CharacterDef>
-
     <!--___ Quartermaster ___-->
 
     <!-- Quartermaster Mayes -->
@@ -1129,6 +1229,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Corporal</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Mayes</firstName>
                 <lastName></lastName>
@@ -1157,6 +1261,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerVeteran</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Biff</firstName>
                 <nickname>Ranger Biff</nickname>
@@ -1187,6 +1295,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerCommander</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Hanlon</firstName>
                 <lastName></lastName>
@@ -1213,6 +1325,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerPatrolman</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Anders</firstName>
                 <lastName></lastName>
@@ -1239,6 +1355,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerVeteran</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Ghost</firstName>
                 <lastName></lastName>
@@ -1265,6 +1385,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerVeteran</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Jackson</firstName>
                 <lastName></lastName>
@@ -1291,6 +1415,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerVeteran</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Milo</firstName>
                 <lastName></lastName>
@@ -1317,6 +1445,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerVeteran</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Andy</firstName>
                 <lastName></lastName>
@@ -1343,6 +1475,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerVeteran</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Stella</firstName>
                 <lastName></lastName>
@@ -1369,6 +1505,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerVeteran</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Erasmus</firstName>
                 <lastName></lastName>
@@ -1397,6 +1537,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Lenk</firstName>
                 <lastName></lastName>
@@ -1423,6 +1567,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Alex</firstName>
                 <lastName>Richards</lastName>
@@ -1449,6 +1597,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>David</firstName>
                 <lastName>Pappas</lastName>
@@ -1475,6 +1627,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Christopher</firstName>
                 <lastName>Gaines</lastName>
@@ -1501,6 +1657,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Catherine</firstName>
                 <lastName>Stone</lastName>
@@ -1527,6 +1687,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Grant</firstName>
                 <lastName></lastName>
@@ -1553,6 +1717,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Stepinac</firstName>
                 <lastName></lastName>
@@ -1579,6 +1747,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Traci</firstName>
                 <lastName></lastName>
@@ -1607,6 +1779,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_StaffSergeant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Daniel</firstName>
                 <lastName>Asher</lastName>
@@ -1632,6 +1808,10 @@
         <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerVeteran</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Grant</firstName>
                 <lastName></lastName>
@@ -1701,28 +1881,154 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!--__________ Civilians __________-->
+    <!--__________ 2026 Roster Additions __________-->
 
-    <!-- Dr. Usanagi -->
+    <!-- Sergeant McGee -->
 
-    <FCP.Core.CharacterDef MayRequire="Rick.FCP.Followers">
-        <defName>FCP_Character_NCR_Doctor_Usanagi</defName>
-        <pawnKind>FCP_Unique_Pawnkind_Doctor_Usanagi</pawnKind>
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Sergeant_McGee</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Sergeant_McGee</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Sergeant</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Usanagi</firstName>
+                <firstName>McGee</firstName>
                 <lastName></lastName>
-                <gender>Female</gender>
-                <age>42</age>
+                <nickname>Sgt. McGee</nickname>
+                <gender>Male</gender>
+                <age>34</age>
             </li>
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(20, 15, 10)</hairColor>
-                <hairDef>FCP_Hair_Prim_N_Proper</hairDef>
+                <hairColor>(65, 50, 35)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(235, 215, 195)</skinColorOverride>
-                <headTypeDef>Female_AverageNormal</headTypeDef>
-                <bodyTypeDef>Female</bodyTypeDef>
+                <skinColorOverride>(200, 175, 155)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Ranger Ericsen -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Ranger_Ericsen</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Ranger_Ericsen</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_RangerCommander</tier>
+            </li>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Ericsen</firstName>
+                <lastName></lastName>
+                <nickname>Ranger Ericsen</nickname>
+                <gender>Male</gender>
+                <age>44</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 80, 70)</hairColor>
+                <hairDef>FCP_Hair_Ranger_Rick</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(195, 170, 150)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Comm Officer Tilden -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Comm_Officer_Tilden</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Comm_Officer_Tilden</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Private</tier>
+            </li>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Tilden</firstName>
+                <lastName></lastName>
+                <nickname>Comm. Tilden</nickname>
+                <gender>Male</gender>
+                <age>33</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(55, 42, 30)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(215, 190, 170)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Sergeant McCredie (commander, 9th Platoon "The Misfits") -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Sergeant_McCredie</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Sergeant_McCredie</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_StaffSergeant</tier>
+            </li>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>McCredie</firstName>
+                <lastName></lastName>
+                <nickname>Sgt. McCredie</nickname>
+                <gender>Male</gender>
+                <age>41</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 38, 28)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>Moustache</beardDef>
+                <skinColorOverride>(190, 165, 145)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Sergeant Kilborn (Mojave Outpost checkpoint sniper) -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_NCR_Sergeant_Kilborn</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Sergeant_Kilborn</pawnKind>
+        <faction>FCP_Faction_NCR</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_NCR_Sergeant</tier>
+            </li>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Kilborn</firstName>
+                <lastName></lastName>
+                <nickname>Sgt. Kilborn</nickname>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(35, 28, 20)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(205, 180, 160)</skinColorOverride>
+                <headTypeDef>Male_AveragePointy</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>
