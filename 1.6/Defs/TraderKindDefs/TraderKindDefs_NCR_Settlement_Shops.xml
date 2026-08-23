@@ -267,10 +267,10 @@
                     <li>FCP_Chem_MedX</li>
                     <li>FCP_Chem_RadX</li>
                     <li>FCP_Chem_Radaway</li>
-                    <li>FCP_Chem_Fixer</li>
-                    <li>FCP_Chem_Addictol</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Fixer</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Addictol</li>
                     <li>FCP_Chem_Doctors_Bag</li>
-                    <li>FCP_Chem_Healing_Powder</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Healing_Powder</li>
                 </thingDefs>
                 <countRange>15~35</countRange>
             </li>
@@ -406,7 +406,7 @@
                 <thingDefs>
                     <li>FCP_Chem_Stimpak</li>
                     <li>FCP_Chem_Buffout</li>
-                    <li>FCP_Chem_Mentats</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Mentats</li>
                 </thingDefs>
                 <countRange>8~20</countRange>
             </li>
@@ -767,9 +767,9 @@
                 <thingDefs>
                     <li>FCP_Chem_Jet</li>
                     <li>FCP_Chem_Buffout</li>
-                    <li>FCP_Chem_Mentats</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Mentats</li>
                     <li>FCP_Chem_Psycho</li>
-                    <li>FCP_Chem_Cateye</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Cateye</li>
                 </thingDefs>
                 <countRange>15~35</countRange>
             </li>
@@ -1078,7 +1078,7 @@
                 <thingDefs>
                     <li>FCP_Chem_Psycho</li>
                     <li>FCP_Chem_Buffout</li>
-                    <li>FCP_Chem_Mentats</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Mentats</li>
                     <li>FCP_Chem_Slasher</li>
                     <li>FCP_Chem_Turbo</li>
                 </thingDefs>
@@ -1188,10 +1188,10 @@
                 <thingDefs>
                     <li>FCP_Chem_Jet</li>
                     <li>FCP_Chem_Ultrajet</li>
-                    <li>FCP_Chem_Mentats</li>
-                    <li>FCP_Chem_Party_Time_Mentats</li>
-                    <li>FCP_Chem_Cateye</li>
-                    <li>FCP_Chem_Rebound</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Mentats</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Party_Time_Mentats</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Cateye</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Rebound</li>
                     <li>FCP_Chem_Day_Tripper</li>
                 </thingDefs>
                 <countRange>15~35</countRange>
@@ -2311,7 +2311,7 @@
                 <thingDefs>
                     <li>FCP_Chem_Stimpak</li>
                     <li>FCP_Chem_MedX</li>
-                    <li>FCP_Chem_Healing_Powder</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Healing_Powder</li>
                     <li>FCP_Chem_Blood_Pack</li>
                     <li>FCP_Chem_Doctors_Bag</li>
                     <li>FCP_Chem_RadX</li>

@@ -116,6 +116,7 @@
                     <FCP_Pawnkind_NCR_Deserter_Trooper>10</FCP_Pawnkind_NCR_Deserter_Trooper>
                     <FCP_Pawnkind_NCR_Deserter_Officer>2</FCP_Pawnkind_NCR_Deserter_Officer>
                     <FCP_Pawnkind_NCR_Deserter_Colonel>1</FCP_Pawnkind_NCR_Deserter_Colonel>
+                    <FCP_Pawnkind_NCR_Deserter_NCRCF_Quest>4</FCP_Pawnkind_NCR_Deserter_NCRCF_Quest>
                 </options>
             </li>
             <!-- Deserter Officer Squad -->

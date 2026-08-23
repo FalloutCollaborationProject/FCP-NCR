@@ -72,6 +72,9 @@
         <label>Eddie</label>
         <factionLeader>true</factionLeader>
         <combatPower>90</combatPower>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
         </apparelRequired>
@@ -153,6 +156,9 @@
         <defName>FCP_Unique_Pawnkind_Joe_Cobb</defName>
         <label>Joe Cobb</label>
         <combatPower>70</combatPower>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_Powder_Ganger_Simple_Outfit</li>
         </apparelRequired>
@@ -317,6 +323,9 @@
         <defName>FCP_Unique_Pawnkind_Carter</defName>
         <label>Carter</label>
         <combatPower>65</combatPower>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
             <li>FCP_Apparel_NCRCF_Guard_Vest</li>
@@ -358,6 +367,9 @@
         <defName>FCP_Unique_Pawnkind_Dawes</defName>
         <label>Dawes</label>
         <combatPower>65</combatPower>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
             <li>FCP_Apparel_NCRCF_Guard_Vest</li>
@@ -399,6 +411,9 @@
         <defName>FCP_Unique_Pawnkind_Scrambler</defName>
         <label>Scrambler</label>
         <combatPower>70</combatPower>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
             <li>FCP_Apparel_NCRCF_Guard_Vest</li>
@@ -440,6 +455,9 @@
         <defName>FCP_Unique_Pawnkind_Chavez</defName>
         <label>Chavez</label>
         <combatPower>75</combatPower>
+        <apparelTags>
+            <li>FCP_NCRCF_Inmate</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_NCRCF_Inmate_Uniform</li>
         </apparelRequired>

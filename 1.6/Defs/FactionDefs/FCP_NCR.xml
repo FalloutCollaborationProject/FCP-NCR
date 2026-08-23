@@ -150,7 +150,7 @@
 
             <!-- NCR Army Squad -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <!-- Normal fights, standard troopers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
@@ -164,11 +164,16 @@
                     <FCP_Unique_Pawnkind_Lieutenant_Jesse_Hayes>1</FCP_Unique_Pawnkind_Lieutenant_Jesse_Hayes>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Captain_Kyle_Parker</li>
+                    <li>FCP_Character_NCR_Lieutenant_Jesse_Hayes</li>
+                </characterDefs>
+                <characterChance>0.20</characterChance>
             </li>
 
             <!-- NCR Recon Squad -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <!-- Distance fights, scout recon troopers -->
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
@@ -181,6 +186,10 @@
                     <FCP_Unique_Pawnkind_Captain_April_Gilles>1</FCP_Unique_Pawnkind_Captain_April_Gilles>
                     <FCP_Pawnkind_NCR_General>1</FCP_Pawnkind_NCR_General>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_NCR_Captain_April_Gilles</li>
+                </characterDefs>
+                <characterChance>0.20</characterChance>
             </li>
 
             <!-- NCR Army Heavy Squad -->
@@ -237,8 +246,6 @@
                 </options>
                 <characterDefs>
                     <li>FCP_Character_NCR_Private_Davey_Crenshaw</li>
-                    <li>FCP_Character_NCR_Private_Hoover</li>
-                    <li>FCP_Character_NCR_Private_First_Class_Dustin</li>
                     <li>FCP_Character_NCR_Private_James_Sexton</li>
                     <li>FCP_Character_NCR_Private_Reyes</li>
                     <li>FCP_Character_NCR_Private_Christina_Morales</li>
@@ -330,7 +337,6 @@
                 </options>
                 <characterDefs>
                     <li>FCP_Character_NCR_Lieutenant_Liam_Gorobets</li>
-                    <li>FCP_Character_NCR_First_Sergeant_Daniel_Asher</li>
                     <li>FCP_Character_NCR_Sergeant_Jesse_Bitter_Root</li>
                     <li>FCP_Character_NCR_Corporal_Cindy_Betsy</li>
                     <li>FCP_Character_NCR_Private_10_of_Spades</li>
@@ -474,13 +480,7 @@
                 </options>
                 <characterDefs>
                     <li>FCP_Character_NCR_Comm_Officer_Lenk</li>
-                    <li>FCP_Character_NCR_Comm_Officer_Alex_Richards</li>
-                    <li>FCP_Character_NCR_Comm_Officer_David_Pappas</li>
-                    <li>FCP_Character_NCR_Comm_Officer_Christopher_Gaines</li>
-                    <li>FCP_Character_NCR_Comm_Officer_Catherine_Stone</li>
-                    <li>FCP_Character_NCR_Comm_Officer_Grant</li>
                     <li>FCP_Character_NCR_Comm_Officer_Stepinac</li>
-                    <li>FCP_Character_NCR_Comm_Officer_Traci</li>
                 </characterDefs>
                 <characterChance>0.50</characterChance>
             </li>
@@ -665,7 +665,6 @@
                 <characterDefs>
                     <li>FCP_Character_NCR_Quartermaster_Mayes</li>
                     <li>FCP_Character_NCR_Sergeant_Contreras</li>
-                    <li>FCP_Character_NCR_Private_First_Class_Richie</li>
                 </characterDefs>
                 <characterChance>0.40</characterChance>
             </li>
@@ -792,7 +791,7 @@
                     <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS_Lost_Hills</li>
                     <li MayRequire="altushka.boscompendium">DRK_Enclave</li>
                     <li MayRequire="Rick.FCP.Enclave">FCP_Faction_Enclave</li>
-                    <li MayRequire="Rick.FCP.Khans">FCP_Faction_GreatKhans</li>
+                    <li MayRequire="Rick.FCP.GreatKhans">FCP_Faction_GreatKhans</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->

@@ -8,4 +8,32 @@
 		<genStep Class="FCP.Factions.GenStep_FactionOutpost" />
 	</GenStepDef>
 
+	<GenStepDef>
+		<defName>FCP_GenStep_NCR_RangerOutpost_Alpha</defName>
+		<linkWithSite>FCP_SitePart_NCR_RangerOutpost_Alpha</linkWithSite>
+		<order>450</order>
+		<genStep Class="FCP.Factions.GenStep_FactionOutpost" />
+	</GenStepDef>
+
+	<GenStepDef>
+		<defName>FCP_GenStep_NCR_RangerOutpost_Bravo</defName>
+		<linkWithSite>FCP_SitePart_NCR_RangerOutpost_Bravo</linkWithSite>
+		<order>450</order>
+		<genStep Class="FCP.Factions.GenStep_FactionOutpost" />
+	</GenStepDef>
+
+	<GenStepDef>
+		<defName>FCP_GenStep_NCR_RangerOutpost_Delta</defName>
+		<linkWithSite>FCP_SitePart_NCR_RangerOutpost_Delta</linkWithSite>
+		<order>450</order>
+		<genStep Class="FCP.Factions.GenStep_FactionOutpost" />
+	</GenStepDef>
+
+	<GenStepDef MayRequire="Rick.FCP.Ghouls">
+		<defName>FCP_GenStep_NCR_RangerOutpost_Echo</defName>
+		<linkWithSite>FCP_SitePart_NCR_RangerOutpost_Echo</linkWithSite>
+		<order>450</order>
+		<genStep Class="FCP.Factions.GenStep_FactionOutpost" />
+	</GenStepDef>
+
 </Defs>
