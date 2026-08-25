@@ -17,7 +17,6 @@
         <invFoodDef>MealSurvivalPack</invFoodDef>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
-            <li>FCP_NCR_Deserter</li>
         </apparelTags>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
@@ -78,7 +77,6 @@
         <invFoodDef>MealSurvivalPack</invFoodDef>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
-            <li>FCP_NCR_Deserter</li>
         </apparelTags>
         <weaponTags>
             <li>FCP_NCR_Service_Rifle</li>
@@ -144,7 +142,6 @@
         <invFoodDef>MealSurvivalPack</invFoodDef>
         <apparelTags>
             <li>FCP_NCR_Trooper</li>
-            <li>FCP_NCR_Deserter</li>
         </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_NCR_Beret</li>

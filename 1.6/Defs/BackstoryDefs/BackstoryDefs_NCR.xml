@@ -803,7 +803,7 @@
         <slot>Adulthood</slot>
         <title>NCR Trooper</title>
         <titleShort>Trooper</titleShort>
-        <description>The first time [PAWN_nameDef] saw an NCR soldier, [PAWN_pronoun] thought [PAWN_pronoun] was about to die. Instead, they cut [PAWN_pronoun] free. Born into Legion slavery, [PAWN_possessive] entire life had been toil and punishment. The idea of freedom was as foreign as the land beyond [PAWN_possessive] camp. When the NCR offered a new life in the army, [PAWN_pronoun] accepted—partly out of gratitude, partly because [PAWN_pronoun] didn’t know how to live any other way.</description>
+        <description>The first time [PAWN_nameDef] saw an NCR soldier, [PAWN_pronoun] thought [PAWN_pronoun] was about to die. Instead, they cut [PAWN_pronoun] free. Born into Legion slavery, [PAWN_possessive] entire life had been toil and punishment. The idea of freedom was as foreign as the land beyond [PAWN_possessive] camp. When the NCR offered a new life in the army, [PAWN_pronoun] took it, partly out of gratitude, partly because [PAWN_pronoun] didn’t know how to live any other way.</description>
         <skillGains>
             <Melee>4</Melee>
             <Construction>5</Construction>
@@ -997,7 +997,7 @@
         <slot>Adulthood</slot>
         <title>NCR Officer</title>
         <titleShort>Officer</titleShort>
-        <description>[PAWN_nameDef] never wanted to be an officer. In the early days of [PAWN_possessive] enlistment, [PAWN_pronoun] was just another grunt in the trenches, dodging bullets and barely surviving Legion ambushes. But when [PAWN_possessive] commanding officer fell, [PAWN_pronoun] took charge out of necessity. The Republic rewarded [PAWN_pronoun] with a battlefield commission, and ever since, [PAWN_pronoun] has been leading from the front—whether [PAWN_pronoun] likes it or not.</description>
+        <description>[PAWN_nameDef] never wanted to be an officer. In the early days of [PAWN_possessive] enlistment, [PAWN_pronoun] was just another grunt in the trenches, dodging bullets and barely surviving Legion ambushes. But when [PAWN_possessive] commanding officer fell, [PAWN_pronoun] took charge out of necessity. The Republic rewarded [PAWN_pronoun] with a battlefield commission, and [PAWN_pronoun]'s been leading from the front ever since, like it or not.</description>
         <skillGains>
             <Shooting>4</Shooting>
             <Social>4</Social>
