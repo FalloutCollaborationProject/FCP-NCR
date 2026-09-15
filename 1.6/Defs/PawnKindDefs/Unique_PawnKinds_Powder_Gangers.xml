@@ -246,8 +246,8 @@
             <li>FCP_NCRCF_Inmate</li>
         </apparelTags>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Service_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Hunting_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li>FCP_NCR_Service_Rifle</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>

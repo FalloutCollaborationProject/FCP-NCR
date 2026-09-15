@@ -284,8 +284,7 @@
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Hunting_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Service_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
             <li>FCP_NCR_Service_Rifle</li>
         </weaponTags>
         <techHediffsMoney>50~50</techHediffsMoney>

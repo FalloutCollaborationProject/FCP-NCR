@@ -230,7 +230,7 @@
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
         <defName>FCP_Title_NCR_Ranger_Volunteer</defName>
         <label>NCR Ranger Volunteer</label>
-        <description>.</description>
+        <description>A recent recruit to the Rangers, sworn in but still earning the trust that comes with the badge. Assigned light patrol duty while more senior Rangers judge whether they're built for the work.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
@@ -250,7 +250,7 @@
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
         <defName>FCP_Title_NCR_Ranger_Patrolman</defName>
         <label>NCR Ranger Patrolman</label>
-        <description>.</description>
+        <description>A full Ranger trusted to patrol the wastes alone, handling raiders, wildlife, and whatever else the frontier throws at them without waiting on backup.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>
@@ -287,7 +287,7 @@
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
         <defName>FCP_Title_NCR_Ranger_Veteran</defName>
         <label>NCR Ranger Veteran</label>
-        <description>.</description>
+        <description>A Ranger who has survived enough tours to be trusted with the corps' best equipment and its worst assignments. Few in the NCR command more respect in the field.</description>
         <tags>
             <li>FCP_Title_NCR</li>
         </tags>

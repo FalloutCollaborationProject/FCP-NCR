@@ -1149,6 +1149,12 @@
 			<li Class="FCP.Core.CompProperties_LabelColored">
 				<rarity>Rare</rarity>
 			</li>
+			<li Class="FCP.Core.PowerArmor.CompProperties_RepairableAtStation">
+				<repairResourcesPerHP>
+					<Plasteel>1.5</Plasteel>
+					<ComponentIndustrial>0.08</ComponentIndustrial>
+				</repairResourcesPerHP>
+			</li>
 		</comps>
 		<tradeTags>
 			<li>FCP_Trade_Tag_NCR_Apparel</li>

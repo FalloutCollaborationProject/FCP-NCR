@@ -1492,8 +1492,8 @@
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>NCR_Migrant_Workers_Child</identifier>
         <slot>Childhood</slot>
-        <title>Migrant Worker’s Child</title>
-        <titleShort>Migrant Worker’s Child</titleShort>
+        <title>Migrant Worker's Child</title>
+        <titleShort>Migrant Worker's Child</titleShort>
         <description>As a fledgling nation, the NCR’s infrastructure was still largely underdeveloped. The many construction sites offered employment to countless migrant workers, moving from one place and project to another. [PAWN_nameDef] was born into this lifestyle. While [PAWN_pronoun] received little formal education, [PAWN_possessive] hardy upbringing meant [PAWN_pronoun] was better prepared for the life full of privations the wasteland offered than most other children.</description>
         <skillGains>
             <Construction>3</Construction>
@@ -1601,8 +1601,8 @@
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Rangers_Child</identifier>
         <slot>Childhood</slot>
-        <title>Ranger’s Child</title>
-        <titleShort>Ranger’s Child</titleShort>
+        <title>Ranger's Child</title>
+        <titleShort>Ranger's Child</titleShort>
         <description>[PAWN_nameDef] was born as a child of an NCR ranger. [PAWN_pronoun] spent most of [PAWN_possessive] childhood within a remote ranger outpost somewhere in the hinterlands of the NCR territory. [PAWN_nameDef] was a skilled survivalist indeed, but never got used to large crowds of people due to the isolated location of [PAWN_possessive] birthplace.</description>
         <skillGains>
             <Shooting>3</Shooting>
@@ -1633,8 +1633,8 @@
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Manufacturers_Apprentice</identifier>
         <slot>Childhood</slot>
-        <title>Manufacturer’s Apprentice</title>
-        <titleShort>Manufacturer’s Apprentice</titleShort>
+        <title>Manufacturer's Apprentice</title>
+        <titleShort>Manufacturer's Apprentice</titleShort>
         <description>The many conflicts along the borders of the NCR led to a constant need for new equipment and gear for the Republic’s Army. The manufactory in which [PAWN_nameDef] was raised profited immensely from this near constant state of war. Thus, [PAWN_possessive] parents were wealthy enough to afford a high standard of living, by post-apocalyptic standards.</description>
         <skillGains>
             <Construction>2</Construction>
@@ -1659,8 +1659,8 @@
         <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
         <identifier>FCP_Backstory_NCR_Academics_Child</identifier>
         <slot>Childhood</slot>
-        <title>Academic’s Child</title>
-        <titleShort>Academic’s Child</titleShort>
+        <title>Academic's Child</title>
+        <titleShort>Academic's Child</titleShort>
         <description>[PAWN_nameDef]’s parents were scientists working for the Office of Science and Industry, OSI for short. Accordingly, they thought much of higher education and ensured that their offspring was instructed in many scientific fields. While [PAWN_pronoun] was a gifted student, [PAWN_pronoun] never was much of an artist.</description>
         <skillGains>
             <Shooting>-2</Shooting>

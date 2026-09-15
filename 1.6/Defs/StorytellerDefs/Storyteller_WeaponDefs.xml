@@ -7,7 +7,7 @@
     <defName>FCP_Gun_Ranger_Ricks_Big_Iron_Revolver</defName>
     <useHitPoints>false</useHitPoints>
     <label>"Big Iron"</label>
-    <description>.</description>
+    <description>A finely balanced revolver, the kind of gun a lone Ranger might have carried into a showdown on a dusty street somewhere out west. Every notch on the grip tells a story, if you believe the ballads.</description>
     <graphicData>
       <texPath>Weapons/Custom/Ranger_Rick/FCP_Ranger_Ricks_Revolver_Big_Iron</texPath>
       <graphicClass>Graphic_Single</graphicClass>

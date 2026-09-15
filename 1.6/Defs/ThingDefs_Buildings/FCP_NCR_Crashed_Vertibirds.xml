@@ -91,10 +91,6 @@
                         <thingDef>MedicineIndustrial</thingDef>
                         <countRange>0~5</countRange>
                     </li>
-                    <li MayRequire="Rick.FCP.Wasteland.Food">
-                        <thingDef>FCP_Food_NCR_Ration</thingDef>
-                        <countRange>0~8</countRange>
-                    </li>
                     <li>
                         <thingDef>MealSurvivalPack</thingDef>
                         <countRange>0~5</countRange>
@@ -226,10 +222,6 @@
                         <weight>0.5</weight>
                     </li>
                     <!-- Food and Supplies -->
-                    <li MayRequire="Rick.FCP.Wasteland.Food">
-                        <thingDef>FCP_Food_NCR_Ration</thingDef>
-                        <countRange>5~10</countRange>
-                    </li>
                     <li>
                         <thingDef>MealSurvivalPack</thingDef>
                         <countRange>3~7</countRange>

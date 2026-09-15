@@ -341,7 +341,7 @@
 
     <ThingDef ParentName="HatBase">
         <defName>FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet</defName>
-        <label>Trooper Helmet</label>
+        <label>NCR Salvaged Power Armor Helmet</label>
         <description>A T-45 power armor helmet usually worn paired with the NCR's salvaged power armors. Despite its salvaged nature, it offers excellent protection and, in contrast to the armor itself, has no major drawbacks compared to a regular power armor.</description>
         <techLevel>Industrial</techLevel>
         <smeltable>false</smeltable>
@@ -378,6 +378,12 @@
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.PowerArmor.CompProperties_RepairableAtStation">
+                <repairResourcesPerHP>
+                    <Steel>2.5</Steel>
+                    <ComponentIndustrial>0.05</ComponentIndustrial>
+                </repairResourcesPerHP>
             </li>
         </comps>
         <tradeTags>
