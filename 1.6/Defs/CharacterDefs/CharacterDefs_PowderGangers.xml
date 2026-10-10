@@ -23,7 +23,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(40, 30, 20)</hairColor>
                 <hairDef>Mohawk</hairDef>
-                <beardDef>Goatee</beardDef>
+                <beardDef>FCP_Beard_Survivalist</beardDef>
                 <skinColorOverride>(190, 160, 135)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -75,7 +75,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(80, 75, 70)</hairColor>
                 <hairDef>Flowy</hairDef>
-                <beardDef>Full</beardDef>
+                <beardDef>FCP_Beard_Rough_Beard</beardDef>
                 <skinColorOverride>(195, 170, 145)</skinColorOverride>
                 <headTypeDef>Male_AverageWide</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -103,7 +103,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(45, 35, 25)</hairColor>
                 <hairDef>Topdog</hairDef>
-                <beardDef>Goatee</beardDef>
+                <beardDef>FCP_Beard_Chin_Scruff</beardDef>
                 <skinColorOverride>(175, 145, 120)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -211,7 +211,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(50, 40, 30)</hairColor>
                 <hairDef>Topdog</hairDef>
-                <beardDef>NoBeard</beardDef>
+                <beardDef>FCP_Beard_Machiavellian</beardDef>
                 <skinColorOverride>(180, 155, 130)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -289,7 +289,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(30, 25, 20)</hairColor>
                 <hairDef>Shaved</hairDef>
-                <beardDef>NoBeard</beardDef>
+                <beardDef>FCP_Beard_Swashbuckler</beardDef>
                 <skinColorOverride>(165, 135, 110)</skinColorOverride>
                 <headTypeDef>Male_AverageWide</headTypeDef>
                 <bodyTypeDef>Hulk</bodyTypeDef>
