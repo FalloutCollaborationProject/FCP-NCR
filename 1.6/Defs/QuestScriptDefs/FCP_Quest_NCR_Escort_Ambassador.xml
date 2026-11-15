@@ -119,6 +119,7 @@
                                     <nodes>
                                         <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                                             <storeAs>enemyFaction</storeAs>
+                                            <mustBeNonHostile>false</mustBeNonHostile>
                                             <factionDefs>
                                                 <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
                                                 <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Jackals</li>
