@@ -2,7 +2,7 @@
 <Defs>
 
     <QuestScriptDef>
-        <defName>FCP_Quest_NCR_Escort_Ambassador</defName>
+        <defName>FCP_Quest_NCR_Debt_Collector</defName>
         <rootSelectionWeight>1.0</rootSelectionWeight>
         <rootMinPoints>30</rootMinPoints>
         <defaultChallengeRating>1</defaultChallengeRating>
@@ -10,20 +10,20 @@
         <expireDaysRange>5~10</expireDaysRange>
         <questNameRules>
             <rulesStrings>
-                <li>questName->Escort the Ambassador</li>
-                <li>questName->Safe Passage</li>
-                <li>questName->Crocker's Detail</li>
-                <li>questName->Diplomatic Cover</li>
-                <li>questName->The Ambassador's Road</li>
+                <li>questName->Debt Collector</li>
+                <li>questName->Knight's Ledger</li>
+                <li>questName->Collecting on Camp McCarran's Behalf</li>
+                <li>questName->Past Due</li>
+                <li>questName->The Caravan That Didn't Pay</li>
             </rulesStrings>
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>requirements->Requirements: escort Ambassador Crocker to the meeting site and keep him alive through it. If trouble shows up, protect him - if he dies, the mission fails.</li>
-                <li>questDescription->[asker_nameFull] needs Ambassador Dennis Crocker moved to a meeting outside NCR lines, and can't spare Rangers to do it quietly. Keep him alive and unnoticed, and the Republic pays well for discretion.\n\n[requirements]</li>
-                <li>questDescription->[asker_nameFull]: "Crocker has a meeting that can't wait for an armed convoy - too much attention. Get him there and back in one piece. He's worth more to the Republic than most units twice his size."\n\n[requirements]</li>
-                <li>questDescription->Ambassador Crocker is traveling to broker terms with a settlement outside NCR territory. [asker_nameFull] wants outside guns for the job - official escorts would spook the people he's meeting.\n\n[requirements]</li>
-                <li>questDescription->[asker_nameFull] fears Crocker's last trip nearly ended in an ambush. This one can't. Escort him quietly, protect him if it comes to that, and see him home.\n\n[requirements]</li>
+                <li>requirements->Requirements: escort Major Knight to the debtor settlement and keep him alive through the collection. If trouble shows up, protect him - if he dies, the debt goes unpaid.</li>
+                <li>questDescription->Major Knight runs the books at Camp McCarran, and by his numbers a settlement under NCR protection is months behind on what it owes for that protection. He's sending someone to collect in person before it becomes a habit. [asker_nameFull] wants it handled quietly.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Major Knight says a settlement's stopped paying its dues. He wants to go collect himself before word gets around that NCR protection is free. Get him there and back in one piece."\n\n[requirements]</li>
+                <li>questDescription->A debtor settlement has stopped paying for the protection it's still getting. Major Knight intends to remind them of the arrangement personally - politely, if they're smart about it. Escort him there and back.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] admits Major Knight could have sent a letter, but he insisted on going himself. "People pay faster when the debt collector is standing in front of them," he says. Make sure he comes back with what's owed.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
@@ -50,38 +50,41 @@
                     <factionToUse>$askerFaction</factionToUse>
                 </li>
                 <li Class="FCP.Core.RadiantQuests.QuestNode_GenerateUniqueCharacterPawn">
-                    <characterDef>FCP_Character_NCR_Ambassador_Dennis_Crocker</characterDef>
-                    <addToList>crocker</addToList>
+                    <characterDef>FCP_Character_NCR_Major_Thomas_Knight</characterDef>
+                    <addToList>knight</addToList>
                 </li>
                 <li Class="QuestNode_SetAllApparelLocked">
-                    <pawns>$crocker</pawns>
+                    <pawns>$knight</pawns>
                 </li>
                 <li Class="QuestNode_JoinPlayer">
-                    <pawns>$crocker</pawns>
+                    <pawns>$knight</pawns>
                     <joinPlayer>true</joinPlayer>
                 </li>
                 <li Class="QuestNode_ExtraFaction">
                     <factionOf>$asker</factionOf>
-                    <pawns>$crocker</pawns>
+                    <pawns>$knight</pawns>
                     <factionType>HomeFaction</factionType>
                     <inSignalsRemovePawn>
-                        <li>crocker.RanWild</li>
+                        <li>knight.RanWild</li>
                     </inSignalsRemovePawn>
                 </li>
                 <li Class="QuestNode_GetSiteTile">
                     <storeAs>siteTile</storeAs>
                     <preferCloserTiles>true</preferCloserTiles>
                 </li>
-                <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <factionToUse>$askerFaction</factionToUse>
                     <storeAs>sitePartDefs</storeAs>
+                    <storeFactionAs>siteFaction</storeFactionAs>
                     <sitePartsTags>
                         <li>
-                            <tag>FCP_Site_NCR_Patrol</tag>
+                            <tag>FCP_Site_NCR_Debtor_Settlement</tag>
                         </li>
                     </sitePartsTags>
                 </li>
                 <li Class="QuestNode_GetDefaultSitePartsParams">
                     <tile>$siteTile</tile>
+                    <faction>$siteFaction</faction>
                     <sitePartDefs>$sitePartDefs</sitePartDefs>
                     <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
                 </li>
@@ -93,11 +96,11 @@
                 </li>
                 <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnPawns">
                     <inSignal>site.MapGenerated</inSignal>
-                    <pawns>$crocker</pawns>
+                    <pawns>$knight</pawns>
                     <mapParent>$site</mapParent>
                 </li>
                 <li Class="QuestNode_LeaveOnCleanup">
-                    <pawns>$crocker</pawns>
+                    <pawns>$knight</pawns>
                     <sendStandardLetter>false</sendStandardLetter>
                 </li>
                 <li Class="QuestNode_SpawnWorldObjects">
@@ -109,43 +112,42 @@
                     <node Class="QuestNode_Sequence">
                         <nodes>
                             <li Class="QuestNode_GetRandomInRangeFloat">
-                                <storeAs>chanceForAmbush</storeAs>
+                                <storeAs>chanceForTrouble</storeAs>
                                 <range>0~1</range>
                             </li>
                             <li Class="QuestNode_GreaterOrEqual">
-                                <value1>$chanceForAmbush</value1>
-                                <value2>0.7</value2>
+                                <value1>$chanceForTrouble</value1>
+                                <value2>0.65</value2>
                                 <node Class="QuestNode_Sequence">
                                     <nodes>
                                         <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                                             <storeAs>enemyFaction</storeAs>
                                             <mustBeNonHostile>false</mustBeNonHostile>
                                             <factionDefs>
-                                                <li MayRequire="Rick.FCP.Legion">FCP_Faction_Caesars_Legion</li>
-                                                <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Jackals</li>
+                                                <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Raider</li>
                                                 <li>PirateWaster</li>
                                             </factionDefs>
                                         </li>
                                         <li Class="QuestNode_Set">
-                                            <name>pointsForAmbush</name>
+                                            <name>pointsForTrouble</name>
                                             <value>$($points * 0.6)</value>
                                         </li>
                                         <li Class="FCP.Core.RadiantQuests.QuestNode_GeneratePawns">
-                                            <storeAs>ambushers</storeAs>
+                                            <storeAs>troublemakers</storeAs>
                                             <faction>$enemyFaction</faction>
                                             <pawnGroupKind>Combat</pawnGroupKind>
-                                            <pointsToUse>$pointsForAmbush</pointsToUse>
+                                            <pointsToUse>$pointsForTrouble</pointsToUse>
                                         </li>
                                         <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnRaiders">
                                             <spawnOnEdge>true</spawnOnEdge>
-                                            <pawns>$ambushers</pawns>
+                                            <pawns>$troublemakers</pawns>
                                             <radius>20</radius>
                                         </li>
                                         <li Class="QuestNode_Letter">
-                                            <label>Ambush</label>
-                                            <text>Someone knew Crocker would be here. Protect him.</text>
+                                            <label>The collection turns ugly</label>
+                                            <text>Someone doesn't want this debt paid. Protect Major Knight.</text>
                                             <letterDef>ThreatBig</letterDef>
-                                            <lookTargets>$ambushers</lookTargets>
+                                            <lookTargets>$troublemakers</lookTargets>
                                             <filterDeadPawnsFromLookTargets>true</filterDeadPawnsFromLookTargets>
                                         </li>
                                     </nodes>
@@ -157,13 +159,13 @@
                                 <node Class="QuestNode_Sequence">
                                     <nodes>
                                         <li Class="QuestNode_AnyPawnAlive">
-                                            <pawns>$crocker</pawns>
+                                            <pawns>$knight</pawns>
                                             <node Class="QuestNode_Sequence">
                                                 <nodes>
                                                     <li Class="QuestNode_Letter">
                                                         <letterDef>PositiveEvent</letterDef>
-                                                        <label>Meeting concluded</label>
-                                                        <text>Crocker finished his business and is ready to head home. The Republic is pleased.</text>
+                                                        <label>Debt collected</label>
+                                                        <text>Major Knight has the payment in hand and is ready to head back to Camp McCarran. The settlement's ledger is square again.</text>
                                                     </li>
                                                     <li Class="QuestNode_GiveRewards">
                                                         <parms>
@@ -172,7 +174,7 @@
                                                         </parms>
                                                         <addCampLootReward>false</addCampLootReward>
                                                         <customLetterLabel>Payment from the NCR</customLetterLabel>
-                                                        <customLetterText>Payment for a job discreetly done, courtesy of Ambassador Crocker's office.</customLetterText>
+                                                        <customLetterText>NCR quartermasters send your cut of the collection, courtesy of Major Knight's ledger.</customLetterText>
                                                     </li>
                                                     <li Class="QuestNode_End">
                                                         <outcome>Success</outcome>
@@ -181,9 +183,9 @@
                                             </node>
                                         </li>
                                         <li Class="QuestNode_Letter">
-                                            <label>Ambassador lost</label>
+                                            <label>Knight lost</label>
                                             <letterDef>NegativeEvent</letterDef>
-                                            <text>Crocker didn't survive the trip. NCR command will not take this well.</text>
+                                            <text>Major Knight didn't survive the collection run. NCR command will want to know why one of their officers is dead and the debt still unpaid.</text>
                                         </li>
                                         <li Class="QuestNode_End">
                                             <outcome>Fail</outcome>
